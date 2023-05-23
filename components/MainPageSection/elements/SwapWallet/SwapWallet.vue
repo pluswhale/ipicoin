@@ -12,17 +12,17 @@
 
                 <!--inputs-->
                 <div class="flex flex-col">
-                    <div  class="flex items-center justify-between pl-[5px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px] mb-[10px]">
+                    <div  class="flex items-center justify-between pl-[10px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px] mb-[10px]">
                         <div class="flex items-center">
                             <span class="text-white font-[500] text-[16px] mr-[10px]">From</span>
                             <span class="text-[#749DCA] font-[500] text-[24px] uppercase font-['Quicksand sans-serif']">ipicoin</span>
                         </div>
                         <span class="text-white font-[500] text-[24px] font-['Quicksand sans-serif']">1000</span>
                     </div>
-                    <div class="flex items-center justify-between pl-[5px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px]">
+                    <div class="flex items-center justify-between pl-[10px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px]">
                         <div class="flex items-center">
                             <span class="text-white font-[500] text-[16px] mr-[10px]">To</span>
-                            <span class="text-[#749DCA] font-[500] font-['Quicksand sans-serif'] text-[24px] uppercase">usd</span>
+                            <span class="text-[#749DCA] font-[500] font-['Quicksand sans-serif'] ml-[20px] text-[24px] uppercase">usd</span>
                         </div>
                         <span class="text-white font-[500] text-[24px] font-['Quicksand sans-serif']">324,5</span>
                     </div>
