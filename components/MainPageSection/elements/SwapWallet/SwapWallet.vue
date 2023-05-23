@@ -1,0 +1,81 @@
+<template>
+    <div class="flex flex-col">
+        <!--swap card-->
+        <div class="h-[349px] px-[50px] ml-[20px] mt-[260px] py-[40px] w-[471px]  bg-white/10 backdrop-blur-sm  rounded-[20px]">
+            <div class="flex flex-col w-full">
+                <!--header-->
+                <div class="flex justify-center items-center gap-[10px] mb-[20px]">
+                    <span class="text-[29px]  text-[#749DCA] uppercase font-quicksand font-[700] "> swap</span>
+                    <img src="~/assets/icons/swap_header_icon.svg"/>
+                </div>
+                <!--header-->
+
+                <!--inputs-->
+                <div class="flex flex-col">
+                    <div  class="flex items-center justify-between pl-[5px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px] mb-[10px]">
+                        <div class="flex items-center">
+                            <span class="text-white font-[500] text-[16px] mr-[10px]">From</span>
+                            <span class="text-[#749DCA] font-[700] text-[24px] uppercase">ipicoin</span>
+                        </div>
+                        <span class="text-white font-[700] text-[24px]">1000</span>
+                    </div>
+                    <div class="flex items-center justify-between pl-[5px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px]">
+                        <div class="flex items-center">
+                            <span class="text-white font-[500] text-[16px] mr-[10px]">To</span>
+                            <span class="text-[#749DCA] font-[700] text-[24px] uppercase">usd</span>
+                        </div>
+                        <span class="text-white font-[700] text-[24px]">324,5</span>
+                    </div>
+                </div> 
+                <!--inputs-->
+
+                <!--button connect-->
+                <button class="rounded-[20px] h-[46px] justify-center items-center bg-[#EC474E] text-white uppercase mt-[20px]">connect wallet</button>
+                <!--button connect-->
+
+                <!--wallets icon -->
+
+                <div class="flex flex-row w-full items-center justify-between mt-[20px]">
+                    <img src="~/assets/icons/swap_wallet_binance_icon.svg"/>
+                    <img src="~/assets/icons/swap_wallet_google_icon.svg"/>
+                    <img src="~/assets/icons/swap_wallet_apple_icon.svg"/>
+                    <img src="~/assets/icons/swap_wallet_visa_icon.svg"/>
+                    <img src="~/assets/icons/swap_wallet_mc_icon.svg"/>
+                </div>
+
+                <!--wallets icon -->
+
+            </div>
+        </div>
+        <!--swap card-->
+
+        <!--link line-->
+        <div class="flex items-center gap-[10px] mt-[50px]">
+            <div class="flex items-center">
+                <span class="font-[600] text-white uppercase text-[14px] whitespace-nowrap">ipi scanner</span>
+                <img src="~/assets/icons/arrow-right.svg"/>
+            </div>
+            <div class="flex items-center">
+                <span class="font-[600] text-white uppercase text-[14px] whitespace-nowrap">ipi scanner</span>
+                <img src="~/assets/icons/arrow-right.svg"/>
+            </div>
+            <div class="flex items-center">
+                <span class="font-[600] text-white uppercase text-[14px] whitespace-nowrap">ipi scanner</span>
+                <img src="~/assets/icons/arrow-right.svg"/>
+            </div>
+            <div class="flex items-center">
+                <span class="font-[600] text-white uppercase text-[14px] whitespace-nowrap">ipi scanner</span>
+                <img src="~/assets/icons/arrow-right.svg"/>
+            </div>
+        </div>
+
+    </div>
+</template>
+
+<script setup>
+
+</script>
+
+<style lang="scss" scoped>
+
+</style>
