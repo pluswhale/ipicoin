@@ -1,11 +1,12 @@
 <template>
     <div>
         <MainPageSection/>
+        <Advantages/>
     </div>
 </template>
 
 <script setup>
-
+import Advantages from '~/components/MainPageSection/Advantages/Advantages.vue';
 </script>
 
 <style lang="scss" scoped>
