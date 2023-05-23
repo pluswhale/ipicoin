@@ -5,7 +5,7 @@
             <div class="flex flex-col w-full">
                 <!--header-->
                 <div class="flex justify-center items-center gap-[10px] mb-[20px]">
-                    <span class="text-[29px]  text-[#749DCA] uppercase font-quicksand font-[700] "> swap</span>
+                    <span class="text-[29px]  text-[#749DCA] uppercase font-[500] font-['Quicksand sans-serif']  "> swap</span>
                     <img src="~/assets/icons/swap_header_icon.svg"/>
                 </div>
                 <!--header-->
@@ -15,22 +15,22 @@
                     <div  class="flex items-center justify-between pl-[5px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px] mb-[10px]">
                         <div class="flex items-center">
                             <span class="text-white font-[500] text-[16px] mr-[10px]">From</span>
-                            <span class="text-[#749DCA] font-[700] text-[24px] uppercase">ipicoin</span>
+                            <span class="text-[#749DCA] font-[500] text-[24px] uppercase font-['Quicksand sans-serif']">ipicoin</span>
                         </div>
-                        <span class="text-white font-[700] text-[24px]">1000</span>
+                        <span class="text-white font-[500] text-[24px] font-['Quicksand sans-serif']">1000</span>
                     </div>
                     <div class="flex items-center justify-between pl-[5px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px]">
                         <div class="flex items-center">
                             <span class="text-white font-[500] text-[16px] mr-[10px]">To</span>
-                            <span class="text-[#749DCA] font-[700] text-[24px] uppercase">usd</span>
+                            <span class="text-[#749DCA] font-[500] font-['Quicksand sans-serif'] text-[24px] uppercase">usd</span>
                         </div>
-                        <span class="text-white font-[700] text-[24px]">324,5</span>
+                        <span class="text-white font-[500] text-[24px] font-['Quicksand sans-serif']">324,5</span>
                     </div>
                 </div> 
                 <!--inputs-->
 
                 <!--button connect-->
-                <button class="rounded-[20px] h-[46px] justify-center items-center bg-[#EC474E] text-white uppercase mt-[20px]">connect wallet</button>
+                <button class="rounded-[20px] h-[46px] justify-center items-center bg-[#EC474E] text-white uppercase mt-[20px] font-['Barlow sans-serif']">connect wallet</button>
                 <!--button connect-->
 
                 <!--wallets icon -->
@@ -77,5 +77,9 @@
 </script>
 
 <style lang="scss" scoped>
+
+.quicksand {
+    font-family: 'Quicksand' sans-serif;
+}
 
 </style>
