@@ -25,15 +25,15 @@ setTimeout(() => {
             <div class="flex flex-col h-[417px]">
                 <div v-if="state.block.includes(0) " class="flex items-center">
                     <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">I</span>
-                    <span class="text-[60px] font-[500]  text-white uppercase mt-[12px] typing_without_caret ">ndependent</span>
+                    <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">ndependent</span>
                 </div>
                 <div v-if="state.block.includes(1)" class="flex items-center">
                     <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">P</span>
-                    <span class="text-[60px] font-[500] text-white uppercase  mt-[12px] typing_without_caret ">rotocol</span>
+                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_without_caret ">rotocol</span>
                 </div>
                 <div v-if="state.block.includes(2)" class="flex items-center">
                     <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">I</span>
-                    <span class="text-[60px] font-[500] text-white uppercase  mt-[12px] typing_with_caret">nfrastru</span>
+                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret">nfrastru</span>
                 </div>
                 <span v-if="state.block.includes(3)" class="text-[#EC474E] font-[500] text-[43px]" >coin</span>
             </div>
@@ -51,7 +51,7 @@ setTimeout(() => {
                     </div>
                 </div>
 
-                <div class="flex flex-row items-center w-[217px] h-[65px] border-[2px] border-[#EC474E] rounded-[20px]">
+                <div class="flex flex-row items-center w-[217px] h-[65px]  border-[2px] border-[#EC474E] rounded-[20px]">
                     <div class="flex pl-[10px] gap-[20px]">
                         <img src="~/assets/icons/playmarket_icon.svg"/>
                         <div class="flex flex-col">
@@ -82,7 +82,7 @@ setTimeout(() => {
   color: #fff;
   font-family: 'Quicksand', sans-serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgb(255, 255, 255); /* The typwriter cursor */
+  border-right: 3px solid rgb(255, 255, 255); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
 }
 

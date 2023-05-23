@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col">
         <!--swap card-->
-        <div class="h-[349px] px-[50px] ml-[20px] mt-[260px] py-[40px] w-[471px]  bg-white/10 backdrop-blur-sm  rounded-[20px]">
+        <div class="h-[349px] px-[50px] ml-[20px] mt-[200px] py-[40px] w-[471px]  bg-white/10 backdrop-blur-sm  rounded-[20px]">
             <div class="flex flex-col w-full">
                 <!--header-->
                 <div class="flex justify-center items-center gap-[10px] mb-[20px]">
@@ -50,21 +50,21 @@
         <!--swap card-->
 
         <!--link line-->
-        <div class="flex items-center gap-[10px] mt-[50px]">
+        <div class="flex items-center gap-[5px] mt-[50px] ml-[20px]">
             <div class="flex items-center">
-                <span class="font-[600] text-white uppercase text-[14px] whitespace-nowrap">ipi scanner</span>
+                <span class="font-[500] text-white uppercase text-[12px] whitespace-nowrap">ipi scanner</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
             <div class="flex items-center">
-                <span class="font-[600] text-white uppercase text-[14px] whitespace-nowrap">ipi scanner</span>
+                <span class="font-[500] text-white uppercase text-[12px] whitespace-nowrap">ipi scanner</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
             <div class="flex items-center">
-                <span class="font-[600] text-white uppercase text-[14px] whitespace-nowrap">ipi scanner</span>
+                <span class="font-[500] text-white uppercase text-[12px] whitespace-nowrap">ipi scanner</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
             <div class="flex items-center">
-                <span class="font-[600] text-white uppercase text-[14px] whitespace-nowrap">ipi scanner</span>
+                <span class="font-[500] text-white uppercase text-[12px] whitespace-nowrap">ipi scanner</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
         </div>
