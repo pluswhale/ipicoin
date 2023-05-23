@@ -30,7 +30,7 @@ const setActiveButton = (button) => {
     justify-content: center;
     height: 50px;
     text-transform: uppercase;
-    font-family: 'Barlow';
+    font-family: 'Barlow' sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;

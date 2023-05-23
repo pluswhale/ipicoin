@@ -3,12 +3,14 @@
         <MainPageSection/>
         <Advantages/>
         <OurAdvantagesChart/>
+        <Ecosystem/>
     </div>
 </template>
 
 <script setup>
 import Advantages from '~/components/Advantages/Advantages.vue';
 import OurAdvantagesChart from '~/components/OurAdvantagesChart/OurAdvantagesChart.vue'
+import Ecosystem from '~/components/Ecosystem/Ecosystem.vue';
 </script>
 
 <style lang="scss" scoped>

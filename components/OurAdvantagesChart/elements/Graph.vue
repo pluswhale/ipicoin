@@ -5,37 +5,37 @@
             <div class="flex flex-col w-[65.5%] self-end items-center mr-[54px]" >
                 <div class="flex flex-row mt-[27px] w-[95.5%] justify-between">
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope sans-serif']">IPI</span>
+                        <span class=" text-white text-[18px] font-[500] font-['Manrope sans-serif']">IPI</span>
                         <img src="~/assets/icons/out_advantages/ipi_coin.svg"/>
                     </div>
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope sans-serif']">BNB</span>
+                        <span class=" text-white text-[18px] font-[500] font-['Manrope sans-serif']">BNB</span>
                         <img src="~/assets/icons/out_advantages/binance_icon.svg"/>
                     </div>
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope sans-serif']">ADA</span>
+                        <span class=" text-white text-[18px] font-[500] font-['Manrope sans-serif']">ADA</span>
                         <img src="~/assets/icons/out_advantages/ada_icon.svg"/>
 
                     </div>
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope sans-serif']">Cosmos</span>
+                        <span class=" text-white text-[18px] font-[500] font-['Manrope sans-serif']">Cosmos</span>
                         <img src="~/assets/icons/out_advantages/cosmos_icon.svg"/>
 
                     </div>
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope sans-serif']">ETH</span>
+                        <span class=" text-white text-[18px] font-[500] font-['Manrope sans-serif']">ETH</span>
                         <img src="~/assets/icons/out_advantages/eth_icon.svg"/>
                     </div>
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope sans-serif']">MKR</span>
+                        <span class=" text-white text-[18px] font-[500] font-['Manrope sans-serif']">MKR</span>
                         <img src="~/assets/icons/out_advantages/mkr_icon.svg"/>
                     </div>
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope sans-serif']">DOT</span>
+                        <span class=" text-white text-[18px] font-[500] font-['Manrope sans-serif']">DOT</span>
                         <img src="~/assets/icons/out_advantages/dot_icon.svg"/>
                     </div>
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope sans-serif']">SOL</span>
+                        <span class=" text-white text-[18px] font-[500] font-['Manrope sans-serif']">SOL</span>
                         <img src="~/assets/icons/out_advantages/sol_icon.svg"/>
                     </div>
 

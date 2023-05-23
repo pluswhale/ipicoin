@@ -11,7 +11,7 @@
                         <li class="list-none"><NuxtLink class="text-sm text-white font-['Barlow sans-serif']" to="/">Contacts</NuxtLink></li>
                     </ul>
                 </nav>
-                <button class="flex pl-[20px] pb-[10px] pt-[10px] pr-[10px] h-[44px] items-center justify-center border-[2px] border-[#EC474E] rounded-[20px]">
+                <button class="flex pl-[20px] pb-[10px] pt-[10px] pr-[10px] h-[44px] items-center justify-center  transition-all border-[2px] border-[#EC474E] rounded-[20px] font-['Barlow sans-serif'] hover:bg-[#EC474E]">
                     <span class="text-[16px] font-[700] uppercase text-white font-['Barlow sans-serif']">Follow the ipicoin</span>
                     <img class="pb-[5px]" src="~/assets/icons/arrow-right.svg"/>
                 </button>

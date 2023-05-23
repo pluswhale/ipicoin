@@ -52,7 +52,20 @@
                 adv_text="we provide the ability to create your own contracts and easy access to our protocol, as well as easy entry into the creation of your dApps with any commands. We are also exploring the use of artificial intelligence in our protocol."/>
             </div>
             <!--second row-->
-
+        </div>
+        <div class="flex gap-[64px] mt-[43px]">
+            <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] bg-[#EC474E] transition-all rounded-[20px] hover:bg-transparent hover:border-[2px] hover:border-[#EC474E]">
+                <span class="text-[16px] font-[700] uppercase text-white font-['Barlow sans-serif']">Wallet</span>
+                <img class="pb-[5px]" src="~/assets/icons/arrow_right_white.svg"/>
+            </button>
+            <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] border-[2px] border-[#EC474E] transition-all rounded-[20px] hover:bg-[#EC474E]">
+                <span class="text-[16px] font-[700] uppercase text-white font-['Barlow sans-serif']">Buy coin</span>
+                <img class="pb-[5px]" src="~/assets/icons/arrow_right_white.svg"/>
+            </button>
+            <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] border-[2px] border-[#EC474E] transition-all rounded-[20px] hover:bg-[#EC474E]">
+                <span class="text-[16px] font-[700] uppercase text-white font-['Barlow sans-serif']">scanner</span>
+                <img class="pb-[5px]" src="~/assets/icons/arrow_right_white.svg"/>
+            </button>
         </div>
     </div>
 </template>
