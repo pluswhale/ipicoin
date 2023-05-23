@@ -2,7 +2,7 @@
     <div class=" min-h-screen bg-[url('~/assets/images/BG1.png')] bg-no-repeat bg-cover brightness-100">
         <Header/>
         <!--output the page content-->
-        <div class="w-[1347px] main_content">
+        <div class="w-[1400px] main_content">
             <slot/>
         </div>
     </div>

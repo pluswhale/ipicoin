@@ -2,11 +2,13 @@
     <div>
         <MainPageSection/>
         <Advantages/>
+        <OurAdvantagesChart/>
     </div>
 </template>
 
 <script setup>
-import Advantages from '~/components/MainPageSection/Advantages/Advantages.vue';
+import Advantages from '~/components/Advantages/Advantages.vue';
+import OurAdvantagesChart from '~/components/OurAdvantagesChart/OurAdvantagesChart.vue'
 </script>
 
 <style lang="scss" scoped>

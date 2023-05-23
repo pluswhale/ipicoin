@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col items-center w-full mt-[152px]" >
-        <h2 class="text-white uppercase font-[40px] font-['Quicksand sans-serif'] mb-[70px]">Perhaps the best project in web 3.0</h2>
+        <h2 class="text-white uppercase text-[40px] font-['Quicksand sans-serif'] mb-[70px]">Perhaps the best project in web 3.0</h2>
         <div class="flex flex-col flex-wrap w-full gap-[15px]">
 
             <!--first row-->
