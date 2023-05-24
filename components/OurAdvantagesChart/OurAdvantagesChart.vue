@@ -19,8 +19,6 @@ const setActiveButton = (button) => {
     state.active_button = button;
 }
 
-
-
 </script>
 
 <style lang="scss" scoped>

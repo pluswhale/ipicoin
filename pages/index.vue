@@ -4,6 +4,9 @@
         <Advantages/>
         <OurAdvantagesChart/>
         <Ecosystem/>
+
+        <!--help-->
+        <StatisticLine/>
     </div>
 </template>
 
