@@ -4,6 +4,7 @@
         <Advantages/>
         <OurAdvantagesChart/>
         <Ecosystem/>
+        <Platform/>
     </div>
 </template>
 
