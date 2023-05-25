@@ -1,9 +1,9 @@
 <template>
     <div class="flex flex-col items-center w-full mt-[136px]">
-        <h2 class="text-white uppercase text-[40px] font-['Quicksand sans-serif']">FAQS</h2>
+        <h2 class="text-white uppercase font-[700] text-[40px] font-['Quicksand']">FAQS</h2>
         <span class="text-[#97AFD5] text-[16px] font-['Roboto sans-serif'] text-center max-w-[500px] mt-[24px] mb-[46.7px]">Below we’ve provided a FAQ of IPICOIN and few others. If you have any other questions, please get in touch.</span>
 
-        <div class="flex w-[994px] border-b-[2px] border-b-[#749DCA] h-[50px] justify-center mb-[61px]">
+        <div class="flex w-[994px] border-b-[2px] border-b-[#749DCA] h-[100px] justify-center mb-[61px]">
             <button @click="setActiveButton(1)" :class="state.active_button === 1 ? 'button_active' : 'button_unactive'" >General Questions</button>
             <button @click="setActiveButton(2)" :class="state.active_button === 2 ? 'button_active' : 'button_unactive'">Coin Sales</button>
             <button @click="setActiveButton(3)" :class="state.active_button === 3 ? 'button_active' : 'button_unactive'">Development</button>
@@ -32,7 +32,7 @@ import GeneralQuestions from './elements/GeneralQuestions.vue';
 .button_unactive {
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 100px;
     text-transform: uppercase;
     font-family: 'Barlow' sans-serif;
     font-style: normal;
@@ -46,7 +46,7 @@ import GeneralQuestions from './elements/GeneralQuestions.vue';
 
 .button_active {
     color: #EC474E;
-        border-bottom: 2px solid #EC474E;
+        border-bottom: 4px solid #EC474E;
 }
 
 .button_unactive {
