@@ -11,6 +11,7 @@
         <StatisticLine/>
         <Trusted/>
         <ContactUs/>
+        <UserCard/>
     </div>
 </template>
 
