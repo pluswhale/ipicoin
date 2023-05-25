@@ -102,10 +102,10 @@
         </div>
 
         <div class=" flex items-center mb-[200px]">
-            <div class="rounded-[100%] h-[24px] w-[24px] border-[1px] border-[#97AFD5]/10 mr-[12px] cursor-pointer"></div>
-            <div class="rounded-[100%] h-[24px] w-[24px] border-[1px] border-[#97AFD5]/10 mr-[12px] cursor-pointer"></div>
-            <div class="rounded-[100%] h-[24px] w-[24px] border-[1px] border-[#97AFD5]/10 mr-[12px] cursor-pointer"></div>
-            <div class="rounded-[100%] h-[24px] w-[24px] border-[3px] border-[#97AFD5] cursor-pointer"></div>
+            <div class="rounded-[100%] h-[24px] w-[24px] border-[1px] border-[#97AFD5] mr-[12px] cursor-pointer"></div>
+            <div class="rounded-[100%] h-[24px] w-[24px] border-[1px] border-[#97AFD5] mr-[12px] cursor-pointer"></div>
+            <div class="rounded-[100%] h-[24px] w-[24px] border-[1px] border-[#97AFD5] mr-[12px] cursor-pointer"></div>
+            <div class="rounded-[100%] h-[24px] w-[24px] border-[2.5px] border-[#97AFD5] cursor-pointer"></div>
         </div>
 
     </div>
