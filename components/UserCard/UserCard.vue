@@ -16,7 +16,7 @@
                     <a href="/" class="font-400 text-[12px] font-['Gilroy-Light, sans-serif'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
                     <img class="ml-[17px]" src="../../assets/icons/CardUser/heart.svg" alt="ico">
                 </div>
-            </div>
+            </div> 
 
             <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 mx-[20px]">
                 <div class="flex items-center mb-[18px]">
