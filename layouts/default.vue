@@ -7,28 +7,13 @@
         </div>
         <Footer/>
     </div>
-
-
 </template>
-
 
 <script setup>
 
 </script>
 
 <style lang="scss" scoped>
-
-
-
-    // .global_wrapper {
-    //     background: url('../assets/images/main_bg.png') no-repeat;
-    //     object-fit:cover;
-    //     min-width: 100vh;
-    //     min-height: 100vh;
-    //     background-size: 100% 100%;
-
-    // }
-
     .main_content {
         margin: 0 auto;
         max-width: 1347px;
