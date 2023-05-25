@@ -5,6 +5,7 @@
         <OurAdvantagesChart/>
         <Ecosystem/>
         <Platform/>
+        <IncrisingTrust/>
         <Faqs/>
 
         <!--help-->
