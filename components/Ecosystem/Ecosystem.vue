@@ -93,7 +93,22 @@
                         <!--second card -->
 
                         <!--third card -->
-                        <div class=" flex flex-col translate-y-[60px] bg-[#FFFFFF33] rounded-[20px] w-full h-[272px]"></div>
+                        <div class=" flex flex-col translate-y-[60px] items-center bg-[#FFFFFF33] rounded-[20px] w-full h-[272px]">
+                            <div class="flex flex-row mt-[23px] ml-[29px] gap-[44px]">
+                                <div class="flex flex-col gap-[26px]">
+                                    <span class="flex items-center w-[432px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[40px]">iOff - offchain prover</span>
+                                    <span class="flex items-center w-[432px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[40px]">iwait - Triggers platform</span>
+                                    <span class="flex items-center w-[432px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[40px]">iPrize - prize based defered execution</span>
+                                </div>
+
+                                <div class="flex flex-col gap-[26px]">
+                                    <span class="flex items-center w-[432px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[40px]">iRemote - provable remote chain reader</span>
+                                    <span class="flex items-center w-[432px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[40px]">iLater - Continuations system</span>
+                                    <span class="flex items-center w-[432px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[40px]">iLink - Provable Web Link</span>
+                                </div>
+                            </div>
+                            <span class="text-[#EC474E] text-[20px] text-[400] font-['Quicksand sans-serif'] mt-[34px] mb-[23px]">iEnv -Basic Smart Contract Building blocks </span>
+                        </div>
                         <!--third card -->
 
                         <!--fourth card -->
@@ -101,13 +116,35 @@
                             <div class="flex w-[187px] items-center justify-center bg-[#FFFFFF33] rounded-[20px] h-full text-white text-[20px] font-[500] font-['Quicksand sans-serif'] text-center ">
                                 Low level and transpiled contracts
                             </div>
-                            <div class="flex flex-col w-[758px] bg-[#FFFFFF33] rounded-[20px] h-full text-white text-[20px] font-[500] font-['Quicksand sans-serif'] ">
+                            <div class="flex flex-col w-[758px] items-center bg-[#FFFFFF33] rounded-[20px] h-full text-white text-[20px] font-[500] font-['Quicksand sans-serif'] ">
+                                <div class="flex items-center gap-[22px] mt-[12px]">
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[200px] h-[40px]">Asyncify</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[200px] h-[40px]">Optimizer</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[296px]  pl-[20px] pr-[20px] h-[40px]">iRPC definitions extraction</span>
+                                </div> 
+                                 <span class="text-[#EC474E] text-[20px] text-[400] font-['Quicksand sans-serif'] mt-[24px] mb-[24px]">iEnv -Basic Smart Contract Building blocks </span>
                             </div>
                         </div>
                         <!--fourth card -->
 
                         <!--five card -->
-                        <div class=" flex flex-col translate-y-[120px] bg-[#FFFFFF33] rounded-[20px] w-full h-[307px]"></div>
+                        <div class=" flex flex-col translate-y-[120px] items-center bg-[#FFFFFF33] rounded-[20px] w-full h-[307px]">
+                            <span class="text-[#EC474E] text-[20px] text-[400] font-['Quicksand sans-serif'] mt-[24px] mb-[24px]">iVM</span>
+                            <div class="flex bg-white/20  rounded-[20px] h-[65px] w-[929px] justify-center items-center mb-[15px]">
+                                <span class="text-[20px] text-white font-['Quicksand sans-serif'] font-[500] mr-[92px]">iWASM Transpiler</span>
+                                <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[169px] mr-[30px] h-[40px]">Gas Metering</span>
+                                <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[132px] mr-[30px] h-[40px]">SoftFloat</span>
+                                <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[199px] h-[40px]">SoftFloat</span>
+                            </div>
+                            <div class="flex bg-white/20  rounded-[20px] h-[55px] w-[929px] justify-center items-center mb-[3px]">
+                                <span class="text-[20px] text-white font-['Quicksand sans-serif'] font-[500] mr-[92px]">WAVM -Fastest WebAssembly Virtual Machine</span>
+                            </div>
+
+                            <div class="flex bg-white/20  rounded-[20px] h-[55px] w-[929px] justify-center items-center">
+                                <span class="text-[20px] text-white font-['Quicksand sans-serif'] font-[500] mr-[92px]">Contract linking and communitation layer</span>
+                            </div>
+                            
+                        </div>
                         <!--five card -->
                     </div>
                 </div>
