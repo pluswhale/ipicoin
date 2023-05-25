@@ -7,6 +7,8 @@
 
         <!--help-->
         <StatisticLine/>
+        <Trusted/>
+        <ContactUs/>
     </div>
 </template>
 
