@@ -12,6 +12,7 @@
         <Trusted/>
         <ContactUs/>
         <UserCard/>
+
     </div>
 </template>
 

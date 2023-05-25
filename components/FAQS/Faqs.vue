@@ -9,11 +9,16 @@
             <button @click="setActiveButton(3)" :class="state.active_button === 3 ? 'button_active' : 'button_unactive'">Development</button>
             <button @click="setActiveButton(4)" :class="state.active_button === 4 ? 'button_active' : 'button_unactive'">Team & Legal</button>
         </div>
+        <div class="flex w-[994px] min-h-[358px]">
+            <GeneralQuestions v-if="state.active_button === 1"/>
+            <!--TODO: недостающие динамические блоки-->
+        </div>
 
     </div>
 </template>
 
 <script setup>
+import GeneralQuestions from './elements/GeneralQuestions.vue';
 
     const state = reactive({ active_button: 1 })
     const setActiveButton = (button) => {
