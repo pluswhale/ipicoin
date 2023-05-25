@@ -35,7 +35,7 @@ setTimeout(() => {
                     <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">I</span>
                     <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret">nfrastru</span>
                 </div>
-                <span v-if="state.block.includes(3)" class="text-[#EC474E] font-[500] text-[43px]" >coin</span>
+                <span v-if="state.block.includes(3)" class="text-[#EC474E] font-[500] font-['Quicksand'] text-[43px]" >coin</span>
             </div>
 
 
@@ -45,8 +45,8 @@ setTimeout(() => {
                     <div class="flex pl-[10px] gap-[20px]">
                         <img src="~/assets/icons/apple_icon.svg"/>
                         <div class="flex flex-col">
-                            <span class="text-white whitespace-nowrap font-[400] text-[12px] ">Download on the</span>
-                            <span class="text-white whitespace-nowrap font-[500] text-[24px] ">App Store</span>
+                            <span class="text-white whitespace-nowrap font-[400] font-['Quicksand'] text-[14px] ">Download on the</span>
+                            <span class="text-white whitespace-nowrap font-[500] font-['Quicksand'] text-[22px] ">App Store</span>
                         </div>
                     </div>
                 </div>
@@ -55,8 +55,8 @@ setTimeout(() => {
                     <div class="flex pl-[10px] gap-[20px]">
                         <img src="~/assets/icons/playmarket_icon.svg"/>
                         <div class="flex flex-col">
-                            <span  class="text-white whitespace-nowrap font-[400] text-[12px] ">Download on the</span>
-                            <span class="text-white whitespace-nowrap font-[500] text-[24px] ">Google Play</span>
+                            <span  class="text-white whitespace-nowrap font-[400] font-['Quicksand'] text-[14px] ">Download on the</span>
+                            <span class="text-white whitespace-nowrap font-[500] font-['Quicksand'] text-[22px] ">Google Play</span>
                         </div>
                     </div>
                 </div>

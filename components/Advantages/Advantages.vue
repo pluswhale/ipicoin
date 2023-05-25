@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col items-center w-full mt-[152px]" >
-        <h2 class="text-white uppercase text-[40px] font-['Quicksand sans-serif'] mb-[70px]">Perhaps the best project in web 3.0</h2>
+        <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[70px]">Perhaps the best project in web 3.0</h2>
         <div class="flex flex-col flex-wrap w-full gap-[15px]">
 
             <!--first row-->
@@ -13,8 +13,8 @@
                  growth potential."/> -->
                 <div class="flex flex-col items-center">
                     <img src="~/assets/icons/advantages/home_icon.svg"/>
-                    <span class="text-[16px] font-[500] text-white mt-[10px]">Growth Potential</span>
-                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">Our mission is to create a next -
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow']">Growth Potential</span>
+                    <span class="text-[15px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto']  max-w-[250px] mt-[9px]">Our mission is to create a next -
                  generation cryptocurrency with high
                  growth potential.</span>  
                 </div>
@@ -26,8 +26,8 @@
 
                 <div class="flex flex-col items-center">
                     <img src="~/assets/icons/advantages/drum_icon.svg"/>
-                    <span class="text-[16px] font-[500] text-white mt-[10px]">Limited Edition Coins</span>
-                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">we offer a limited edition of 100 million coins and no more.</span>  
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow']">Limited Edition Coins</span>
+                    <span class="text-[15px] font-[400] leading-[22px] text-[#749DCA] font-['Roboto'] text-center  max-w-[250px] mt-[9px]">we offer a limited edition of 100 million coins and no more.</span>  
                 </div>
 
                 <!-- <Card 
@@ -37,8 +37,8 @@
                 
                 <div class="flex flex-col items-center">
                     <img src="~/assets/icons/advantages/settings_icon.svg"/>
-                    <span class="text-[16px] font-[500] text-white mt-[10px]">Developers</span>
-                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">we provide fast smart contracts with the best virtual machine and consensus. We also provide oracle and Chainlink services, as well as an easy way to create your own dApps and contracts</span>  
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow']">Developers</span>
+                    <span class="text-[15px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto']  max-w-[300px] mt-[9px]">we provide fast smart contracts with the best virtual machine and consensus. We also provide oracle and Chainlink services, as well as an easy way to create your own dApps and contracts</span>  
                 </div>
 
                 <!-- <Card 
@@ -48,8 +48,8 @@
 
                 <div class="flex flex-col items-center">
                     <img src="~/assets/icons/advantages/piramyd_icon.svg"/>
-                    <span class="text-[16px] font-[500] text-white mt-[10px]">Financial indicators</span>
-                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">we strive to ensure the sustainability and development of the ecosystem for new projects.</span>  
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow']">Financial indicators</span>
+                    <span class="text-[15px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto']  max-w-[300px] mt-[9px]">we strive to ensure the sustainability and development of the ecosystem for new projects.</span>  
                 </div>
             </div>
             <!--first row-->
@@ -62,8 +62,8 @@
                 adv_text="Our blockchain with smart contracts is so easy to program that creating a backend on our blockchain and off the blockchain will be easier than using cloud services or any other technology."/> -->
                 <div class="flex flex-col items-center">
                     <img src="~/assets/icons/advantages/quad_icon.svg"/>
-                    <span class="text-[16px] font-[500] text-white mt-[10px]">Ease of programming</span>
-                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">Our blockchain with smart contracts is so easy to program that creating a backend on our blockchain and off the blockchain will be easier than using cloud services or any other technology.</span>  
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow']">Ease of programming</span>
+                    <span class="text-[15px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto']  max-w-[250px] mt-[9px]">Our blockchain with smart contracts is so easy to program that creating a backend on our blockchain and off the blockchain will be easier than using cloud services or any other technology.</span>  
                 </div>
 
                 <!-- <Card 
@@ -73,8 +73,8 @@
 
                 <div class="flex flex-col items-center">
                     <img src="~/assets/icons/advantages/lock_icon.svg"/>
-                    <span class="text-[16px] font-[500] text-white mt-[10px]">Speed and security</span>
-                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">our system provides speed and security, preventing fraud of participants among themselves, especially for gambling projects.</span>  
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow']">Speed and security</span>
+                    <span class="text-[15px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto']  max-w-[250px] mt-[9px]">our system provides speed and security, preventing fraud of participants among themselves, especially for gambling projects.</span>  
                 </div>
 
                 <!-- <Card 
@@ -84,8 +84,8 @@
 
                 <div class="flex flex-col items-center">
                     <img src="~/assets/icons/advantages/qrcode_icon.svg"/>
-                    <span class="text-[16px] font-[500] text-white mt-[10px]">Scanning system</span>
-                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">We offer a system with our own scanner that anyone can predict and get data for any period of time.</span>  
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow']">Scanning system</span>
+                    <span class="text-[15px] font-[400] leading-[22px] text-[#749DCA] text-center  font-['Roboto']  max-w-[300px] mt-[9px]">We offer a system with our own scanner that anyone can predict and get data for any period of time.</span>  
                 </div>
 
                 <!-- <Card 
@@ -95,23 +95,23 @@
                 
                 <div class="flex flex-col items-center">
                     <img src="~/assets/icons/advantages/code_icon.svg"/>
-                    <span class="text-[16px] font-[500] text-white mt-[10px]">Programming in programming languages</span>
-                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">we provide the ability to create your own contracts and easy access to our protocol, as well as easy entry into the creation of your dApps with any commands. We are also exploring the use of artificial intelligence in our protocol.</span>  
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow']">Programming in programming languages</span>
+                    <span class="text-[15px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto']  max-w-[300px] mt-[9px]">we provide the ability to create your own contracts and easy access to our protocol, as well as easy entry into the creation of your dApps with any commands. We are also exploring the use of artificial intelligence in our protocol.</span>  
                 </div>                
             </div>
             <!--second row-->
         </div>
         <div class="flex gap-[64px] mt-[43px]">
             <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] bg-[#EC474E] transition-all rounded-[20px] hover:bg-transparent hover:border-[2px] hover:border-[#EC474E]">
-                <span class="text-[16px] font-[700] uppercase text-white font-['Barlow sans-serif']">Wallet</span>
+                <span class="text-[16px] font-[500] uppercase text-white font-['Barlow]">Wallet</span>
                 <img class="pb-[5px]" src="~/assets/icons/arrow_right_white.svg"/>
             </button>
             <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] border-[2px] border-[#EC474E] transition-all rounded-[20px] hover:bg-[#EC474E]">
-                <span class="text-[16px] font-[700] uppercase text-white font-['Barlow sans-serif']">Buy coin</span>
+                <span class="text-[16px] font-[500] uppercase text-white font-['Barlow']">Buy coin</span>
                 <img class="pb-[5px]" src="~/assets/icons/arrow_right_white.svg"/>
             </button>
             <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] border-[2px] border-[#EC474E] transition-all rounded-[20px] hover:bg-[#EC474E]">
-                <span class="text-[16px] font-[700] uppercase text-white font-['Barlow sans-serif']">scanner</span>
+                <span class="text-[16px] font-[500] uppercase text-white font-['Barlow']">scanner</span>
                 <img class="pb-[5px]" src="~/assets/icons/arrow_right_white.svg"/>
             </button>
         </div>
