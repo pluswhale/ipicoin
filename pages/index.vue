@@ -4,6 +4,8 @@
         <Advantages/>
         <OurAdvantagesChart/>
         <Ecosystem/>
+        <Platform/>
+        <Faqs/>
 
         <!--help-->
         <StatisticLine/>

@@ -5,51 +5,99 @@
 
             <!--first row-->
             <div class="flex flex-row justify-between w-full">
-                <Card 
+                <!-- <Card 
                 image="/_nuxt/assets/icons/advantages/home_icon.svg" 
                 title="Growth Potential" 
                 adv_text="Our mission is to create a next -
                  generation cryptocurrency with high
-                 growth potential."/>
+                 growth potential."/> -->
+                <div class="flex flex-col items-center">
+                    <img src="~/assets/icons/advantages/home_icon.svg"/>
+                    <span class="text-[16px] font-[500] text-white mt-[10px]">Growth Potential</span>
+                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">Our mission is to create a next -
+                 generation cryptocurrency with high
+                 growth potential.</span>  
+                </div>
 
-                <Card 
+                <!-- <Card 
                 image="/_nuxt/assets/icons/advantages/drum_icon.svg" 
                 title="Limited Edition Coins" 
-                adv_text="we offer a limited edition of 100 million coins and no more."/>
+                adv_text="we offer a limited edition of 100 million coins and no more."/> -->
 
-                <Card 
+                <div class="flex flex-col items-center">
+                    <img src="~/assets/icons/advantages/drum_icon.svg"/>
+                    <span class="text-[16px] font-[500] text-white mt-[10px]">Limited Edition Coins</span>
+                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">we offer a limited edition of 100 million coins and no more.</span>  
+                </div>
+
+                <!-- <Card 
                 image="/_nuxt/assets/icons/advantages/settings_icon.svg" 
                 title="Developers" 
-                adv_text="we provide fast smart contracts with the best virtual machine and consensus. We also provide oracle and Chainlink services, as well as an easy way to create your own dApps and contracts"/>
+                adv_text="we provide fast smart contracts with the best virtual machine and consensus. We also provide oracle and Chainlink services, as well as an easy way to create your own dApps and contracts"/> -->
+                
+                <div class="flex flex-col items-center">
+                    <img src="~/assets/icons/advantages/settings_icon.svg"/>
+                    <span class="text-[16px] font-[500] text-white mt-[10px]">Developers</span>
+                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">we provide fast smart contracts with the best virtual machine and consensus. We also provide oracle and Chainlink services, as well as an easy way to create your own dApps and contracts</span>  
+                </div>
 
-                <Card 
+                <!-- <Card 
                 image="/_nuxt/assets/icons/advantages/piramyd_icon.svg" 
                 title="Financial indicators" 
-                adv_text="we strive to ensure the sustainability and development of the ecosystem for new projects."/>
+                adv_text="we strive to ensure the sustainability and development of the ecosystem for new projects."/> -->
+
+                <div class="flex flex-col items-center">
+                    <img src="~/assets/icons/advantages/piramyd_icon.svg"/>
+                    <span class="text-[16px] font-[500] text-white mt-[10px]">Financial indicators</span>
+                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">we strive to ensure the sustainability and development of the ecosystem for new projects.</span>  
+                </div>
             </div>
             <!--first row-->
 
             <!--second row-->
             <div class="flex flex-row justify-between">
-                <Card 
+                <!-- <Card 
                 image="/_nuxt/assets/icons/advantages/quad_icon.svg" 
                 title="Ease of programming" 
-                adv_text="Our blockchain with smart contracts is so easy to program that creating a backend on our blockchain and off the blockchain will be easier than using cloud services or any other technology."/>
+                adv_text="Our blockchain with smart contracts is so easy to program that creating a backend on our blockchain and off the blockchain will be easier than using cloud services or any other technology."/> -->
+                <div class="flex flex-col items-center">
+                    <img src="~/assets/icons/advantages/quad_icon.svg"/>
+                    <span class="text-[16px] font-[500] text-white mt-[10px]">Ease of programming</span>
+                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">Our blockchain with smart contracts is so easy to program that creating a backend on our blockchain and off the blockchain will be easier than using cloud services or any other technology.</span>  
+                </div>
 
-                <Card 
+                <!-- <Card 
                 image="/_nuxt/assets/icons/advantages/lock_icon.svg" 
                 title="Speed and security" 
-                adv_text="our system provides speed and security, preventing fraud of participants among themselves, especially for gambling projects."/>
+                adv_text="our system provides speed and security, preventing fraud of participants among themselves, especially for gambling projects."/> -->
 
-                <Card 
+                <div class="flex flex-col items-center">
+                    <img src="~/assets/icons/advantages/lock_icon.svg"/>
+                    <span class="text-[16px] font-[500] text-white mt-[10px]">Speed and security</span>
+                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">our system provides speed and security, preventing fraud of participants among themselves, especially for gambling projects.</span>  
+                </div>
+
+                <!-- <Card 
                 image="/_nuxt/assets/icons/advantages/qrcode_icon.svg" 
                 title="Scanning system" 
-                adv_text="We offer a system with our own scanner that anyone can predict and get data for any period of time."/>
+                adv_text="We offer a system with our own scanner that anyone can predict and get data for any period of time."/> -->
 
-                <Card 
+                <div class="flex flex-col items-center">
+                    <img src="~/assets/icons/advantages/qrcode_icon.svg"/>
+                    <span class="text-[16px] font-[500] text-white mt-[10px]">Scanning system</span>
+                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">We offer a system with our own scanner that anyone can predict and get data for any period of time.</span>  
+                </div>
+
+                <!-- <Card 
                 image="/_nuxt/assets/icons/advantages/code_icon.svg" 
                 title="Programming in programming languages" 
-                adv_text="we provide the ability to create your own contracts and easy access to our protocol, as well as easy entry into the creation of your dApps with any commands. We are also exploring the use of artificial intelligence in our protocol."/>
+                adv_text="we provide the ability to create your own contracts and easy access to our protocol, as well as easy entry into the creation of your dApps with any commands. We are also exploring the use of artificial intelligence in our protocol."/> -->
+                
+                <div class="flex flex-col items-center">
+                    <img src="~/assets/icons/advantages/code_icon.svg"/>
+                    <span class="text-[16px] font-[500] text-white mt-[10px]">Programming in programming languages</span>
+                    <span class="text-[14px] font-[400] text-[#749DCA] text-center  max-w-[382px] mt-[9px]">we provide the ability to create your own contracts and easy access to our protocol, as well as easy entry into the creation of your dApps with any commands. We are also exploring the use of artificial intelligence in our protocol.</span>  
+                </div>                
             </div>
             <!--second row-->
         </div>
