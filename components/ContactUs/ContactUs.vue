@@ -1,32 +1,32 @@
 <template>
     <div class="flex flex-col items-center mt-[200px] justify-center">
-        <h2 class="text-white uppercase text-[40px] font-['Quicksand'] mb-[9px]">Contact Us</h2>
+        <h2 class="text-white uppercase text-[40px] font-['Quicksand sans-serif'] mb-[9px]">Contact Us</h2>
 
         <div class="max-w-[534px] mb-[38px]">
-            <p class="text-[#97AFD5] text-[16px] font-[400] font-['Roboto']">We are always open and we welcome and questions you have for our team. If you wish to get in touch, please fill out the form below. Someone from our team will get back to you shortly.</p>
+            <p class="text-[#97AFD5] text-[16px] font-[400] font-['Roboto'] leading-[26px]">We are always open and we welcome and questions you have for our team. If you wish to get in touch, please fill out the form below. Someone from our team will get back to you shortly.</p>
         </div>
 
         <div class="flex flex-col items-center w-[100%] mb-[84px]">
             <div class="flex w-[534px] items-center justify-between mb-[30px]" >
 
-                <div class="flex flex-col <!-- mr-[40px] -->">
-                    <p class="text-[#97AFD5] uppercase text-[12px] font-['Roboto'] mb-[10px]">Your Name</p>
-                    <input type="text" placeholder="Introduce yourself" class="bg-[#FFFFFF]/10 font-[400] text=[14.4px] font-['Roboto sans-serif']  rounded-[6px] py-[12px] px-[15px] outline-none text-white">
+                <div class="flex flex-col ">
+                    <p class="text-[#97AFD5] font-[700] leading-[26px] uppercase text-[12px] font-['Roboto'] mb-[10px]">Your Name</p>
+                    <input type="text" placeholder="Introduce yourself" class="placeholder:text-white placeholder:font-['Roboto'] placeholder:font-[400] bg-[#FFFFFF]/10 rounded-[6px] py-[12px] px-[15px] outline-none text-white font-['Roboto'] font-[400] w-[255px]">
                 </div>
 
-                <div class="flex flex-col ml-[5px]">
-                    <p class="text-[#97AFD5] uppercase text-[12px] font-['Roboto'] mb-[10px]">Your Email</p>
-                    <input type="text" placeholder="Who do we replay to" class="bg-[#FFFFFF]/10 rounded-[6px] py-[12px] px-[15px] outline-none text-white">
+                <div class="flex flex-col ">
+                    <p class="text-[#97AFD5] font-[700] leading-[26px] uppercase text-[12px] font-['Roboto'] mb-[10px]">Your Email</p>
+                    <input type="text" placeholder="Who do we replay to" class="placeholder:text-white placeholder:font-['Roboto'] placeholder:font-[400] bg-[#FFFFFF]/10 rounded-[6px] py-[12px] px-[15px] outline-none text-white font-['Roboto'] font-[400] w-[255px]">
                 </div>
             </div>
 
             <div class="flex flex-col w-[534px] mb-[41px]">
-                    <p class="text-[#97AFD5] uppercase text-[12px] font-['Roboto'] mb-[10px]">Your Message</p>
-                    <textarea placeholder="Leave your question or comment here" class="w-[100%] h-[105px] bg-[#FFFFFF]/10 rounded-[6px] py-[10px] px-[15px] outline-none text-white resize-none"></textarea>
+                    <p class="text-[#97AFD5] font-[700] leading-[26px] uppercase text-[12px] font-['Roboto'] mb-[10px]">Your Message</p>
+                    <textarea placeholder="Leave your question or comment here" class=" placeholder:text-white placeholder:font-['Roboto'] placeholder:font-[400]  w-[100%] h-[105px] bg-[#FFFFFF]/10 rounded-[6px] py-[10px] px-[15px] outline-none text-white font-['Roboto'] font-[400] resize-none"></textarea>
             </div>
 
-            <div class="flex items-center rounded-[20px] py-[14px] px-[40px] bg-[#EC474E] cursor-pointer">
-                <button class="text-white uppercase text-[16px] font-['Barlow'] mr-[2px]">send message</button>
+            <div class="flex items-center text-center rounded-[20px] py-[14px] px-[15px] bg-[#EC474E] w-[211px] cursor-pointer">
+                <button class="text-white uppercase text-[16px] font-['Barlow'] font-[700] leading-[26px] mr-[2px] ml-[20px]">send message</button>
                 <img src="../../assets/icons/Contact/arrow-right.png" alt="">
             </div>
 

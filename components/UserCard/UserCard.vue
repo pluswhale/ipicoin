@@ -13,12 +13,12 @@
                 </div>
                 <p class="font-400 text-[15px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
-                    <a href="/" class="font-400 text-[12px] font-['Gilroy-Light, sans-serif'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
+                    <a href="/" class="font-400 text-[12px] font-['Gilroy-Light'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
                     <img class="ml-[17px]" src="../../assets/icons/CardUser/heart.svg" alt="ico">
                 </div>
             </div> 
 
-            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 mx-[20px]">
+            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 mx-[20px] relative">
                 <div class="flex items-center mb-[18px]">
                     <img src="../../assets/icons/CardUser/User-2.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
@@ -29,12 +29,12 @@
                 </div>
                 <p class="font-400 text-[15px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
-                    <a href="/" class="font-400 text-[12px] font-['Gilroy-Light, sans-serif'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
+                    <a href="/" class="font-400 text-[12px] font-['Gilroy-Light'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
                     <img class="ml-[17px]" src="../../assets/icons/CardUser/heart.svg" alt="ico">
                 </div>
             </div>
 
-            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5">
+            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative">
                 <div class="flex items-center mb-[18px]">
                     <img src="../../assets/icons/CardUser/User-3.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
@@ -45,14 +45,14 @@
                 </div>
                 <p class="font-400 text-[15px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
-                    <a href="/" class="font-400 text-[12px] font-['Gilroy-Light, sans-serif'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
+                    <a href="/" class="font-400 text-[12px] font-['Gilroy-Light'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
                     <img class="ml-[17px]" src="../../assets/icons/CardUser/heart.svg" alt="ico">
                 </div>
             </div>
         </div>
 
         <div class="flex items-center w-[100%] mb-[40px]">
-            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5">
+            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative">
                 <div class="flex items-center mb-[18px]">
                     <img src="../../assets/icons/CardUser/User-4.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
@@ -63,12 +63,12 @@
                 </div>
                 <p class="font-400 text-[15px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
-                    <a href="/" class="font-400 text-[12px] font-['Gilroy-Light, sans-serif'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
+                    <a href="/" class="font-400 text-[12px] font-['Gilroy-Light'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
                     <img class="ml-[17px]" src="../../assets/icons/CardUser/heart.svg" alt="ico">
                 </div>
             </div>
 
-            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 mx-[20px]">
+            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 mx-[20px] relative">
                 <div class="flex items-center mb-[18px]">
                     <img src="../../assets/icons/CardUser/User-5.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
@@ -79,12 +79,12 @@
                 </div>
                 <p class="font-400 text-[15px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
-                    <a href="/" class="font-400 text-[12px] font-['Gilroy-Light, sans-serif'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
+                    <a href="/" class="font-400 text-[12px] font-['Gilroy-Light'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
                     <img class="ml-[17px]" src="../../assets/icons/CardUser/heart.svg" alt="ico">
                 </div>
             </div>
 
-            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5">
+            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative">
                 <div class="flex items-center mb-[18px]">
                     <img src="../../assets/icons/CardUser/User-6.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
@@ -95,7 +95,7 @@
                 </div>
                 <p class="font-400 text-[15px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
-                    <a href="/" class="font-400 text-[12px] font-['Gilroy-Light, sans-serif'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
+                    <a href="/" class="font-400 text-[12px] font-['Gilroy-Light'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
                     <img class="ml-[17px]" src="../../assets/icons/CardUser/heart.svg" alt="ico">
                 </div>
             </div>
