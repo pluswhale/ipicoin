@@ -4,7 +4,8 @@
         <!--output the page content-->
         <div class="w-[1400px] main_content">
             <slot/>
-        </div> 
+        </div>
+        <Footer/>
     </div>
 </template>
 
