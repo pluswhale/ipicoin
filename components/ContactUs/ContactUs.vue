@@ -1,5 +1,6 @@
 <template>
-    <div class="flex flex-col items-center mt-[200px] justify-center">
+    <div class="flex flex-col items-center mt-[200px] justify-center max-w-[1360px] mx-auto my-0">
+
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[9px]">Contact Us</h2>
 
         <div class="max-w-[534px] mb-[38px]">

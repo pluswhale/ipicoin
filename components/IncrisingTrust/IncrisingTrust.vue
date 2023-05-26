@@ -1,5 +1,5 @@
 <template>
-    <div class="flex translate-x-[-520px] justify-center items-center w-screen mt-[174px] mb-[189px] self-start bg-white/10 h-[179px]">
+    <div class="flex  justify-center items-center w-screen self-start bg-white/10 h-[179px] absolute left-[0] top-[750px] ">
         <div class="flex w-[1219px] justify-between">
             <div class="flex flex-col justify-center">
                 <img class="mb-[8px]" src="~/assets/images/incrisingline/40k.svg"/>

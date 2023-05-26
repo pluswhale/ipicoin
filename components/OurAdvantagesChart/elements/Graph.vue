@@ -5,37 +5,37 @@
             <div class="flex flex-col w-[65.5%] self-end items-center mr-[54px]" >
                 <div class="flex flex-row mt-[27px] w-[95.5%] justify-between">
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope']">IPI</span>
+                        <span class=" text-white text-[18px] font-[700] font-['Manrope'] h-[36px]">IPI</span>
                         <img src="~/assets/icons/out_advantages/ipi_coin.svg"/>
                     </div>
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope']">BNB</span>
+                        <span class=" text-white text-[18px] font-[700] font-['Manrope'] h-[36px]">BNB</span>
                         <img src="~/assets/icons/out_advantages/binance_icon.svg"/>
                     </div>
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope']">ADA</span>
+                        <span class=" text-white text-[18px] font-[700] font-['Manrope'] h-[36px]">ADA</span>
                         <img src="~/assets/icons/out_advantages/ada_icon.svg"/>
 
                     </div>
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope']">Cosmos</span>
+                        <span class=" text-white text-[18px] font-[700] font-['Manrope'] h-[36px]">Cosmos</span>
                         <img src="~/assets/icons/out_advantages/cosmos_icon.svg"/>
 
                     </div>
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope']">ETH</span>
+                        <span class=" text-white text-[18px] font-[700] font-['Manrope'] h-[36px]">ETH</span>
                         <img src="~/assets/icons/out_advantages/eth_icon.svg"/>
                     </div>
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope']">MKR</span>
+                        <span class=" text-white text-[18px] font-[700] font-['Manrope'] h-[36px]">MKR</span>
                         <img src="~/assets/icons/out_advantages/mkr_icon.svg"/>
                     </div>
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope']">DOT</span>
+                        <span class=" text-white text-[18px] font-[700] font-['Manrope'] h-[36px]">DOT</span>
                         <img src="~/assets/icons/out_advantages/dot_icon.svg"/>
                     </div>
                     <div class="flex flex-col items-center">
-                        <span class=" text-white text-[18px] font-[700] font-['Manrope']">SOL</span>
+                        <span class=" text-white text-[18px] font-[700] font-['Manrope'] h-[36px]">SOL</span>
                         <img src="~/assets/icons/out_advantages/sol_icon.svg"/>
                     </div>
 
@@ -49,7 +49,7 @@
 
                 <!--uncolor row-->
                 <div class="flex pl-[40px] h-[84px] ">
-                    <div class="flex w-[29%] text-white  items-center text-[16px] font-[500] font-['Barlow']">
+                    <div class="flex w-[29%] text-white items-center text-[16px] font-[500] font-['Barlow']">
                         Customer support
                     </div>
                     <div class="w-[71%] flex items-center justify-between pr-[48px]">
@@ -66,7 +66,7 @@
                 <!--uncolor row-->
 
                 <!--color row-->
-                <div class="flex pl-[40px] bg-white/20 h-[84px]  ">
+                <div class="flex pl-[40px] bg-white/20 h-[84px] pt-[5px] pb-[7px]  ">
                     <div class="flex w-[29%] text-white items-center text-[16px] font-[500] font-['Barlow sans-serif']">
                         Marketing strategy
                     </div>

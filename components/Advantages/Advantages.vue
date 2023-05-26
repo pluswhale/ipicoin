@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-center w-full mt-[152px]" >
+    <div class="flex flex-col items-center w-full mt-[152px] max-w-[1360px] mx-auto my-0" >
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[77px]">Perhaps the best project in web 3.0</h2>
         <div class="flex flex-col flex-wrap w-full gap-[38px]">
 
@@ -109,18 +109,18 @@
             </div>
             <!--second row-->
         </div>
-        <div class="flex gap-[64px] mt-[43px]">
+        <div class="flex gap-[64px] mt-[60px]">
             <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] bg-[#EC474E] transition-all rounded-[20px] hover:bg-transparent hover:border-[2px] hover:border-[#EC474E]">
                 <span class="text-[16px] font-[500] uppercase text-white font-['Barlow]">Wallet</span>
-                <img class="pb-[5px]" src="~/assets/icons/arrow_right_white.svg"/>
+                <img class="pt-[0] ml-[15px]" src="~/assets/icons/arrow_right_white.svg"/>
             </button>
             <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] border-[2px] border-[#EC474E] transition-all rounded-[20px] hover:bg-[#EC474E]">
                 <span class="text-[16px] font-[500] uppercase text-white font-['Barlow']">Buy coin</span>
-                <img class="pb-[5px]" src="~/assets/icons/arrow_right_white.svg"/>
+                <img class="pt-[0] ml-[15px]" src="~/assets/icons/arrow_right_white.svg"/>
             </button>
             <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] border-[2px] border-[#EC474E] transition-all rounded-[20px] hover:bg-[#EC474E]">
                 <span class="text-[16px] font-[500] uppercase text-white font-['Barlow']">scanner</span>
-                <img class="pb-[5px]" src="~/assets/icons/arrow_right_white.svg"/>
+                <img class="pt-[0] ml-[15px]" src="~/assets/icons/arrow_right_white.svg"/>
             </button>
         </div>
     </div>

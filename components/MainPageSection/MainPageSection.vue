@@ -1,6 +1,5 @@
 <template>
-    <div class="inline-flex relative z-[2]">
-        <img class="absolute top-0 right-0 z-[1]" src="~/assets/images/Planet.svg"/> 
+    <div class="flex max-w-[1400px] mx-auto my-0 ">
         <TitleAndAppsDownload/>
         <DiagramBlock/>
         <SwapWallet/>

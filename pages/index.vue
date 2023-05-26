@@ -5,11 +5,9 @@
         <OurAdvantagesChart/>
         <Ecosystem/>
         <Platform/>
-        <IncrisingTrust/>
         <Faqs/>
 
         <!--help-->
-        <StatisticLine/>
         <Trusted/>
         <ContactUs/>
         <UserCard/>
