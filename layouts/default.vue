@@ -1,5 +1,5 @@
 <template>
-    <div class=" min-h-screen bg-[url('~/assets/images/bg_without_planet.png')] bg-no-repeat bg-cover brightness-100 truncate">
+    <div class=" min-h-screen bg-[url('~/assets/images/bg_without_planet.png')] bg-no-repeat bg-cover brightness-100 overflow-hidden">
         <Header/>
         <!--output the page content-->
         <div class="w-screen main_content">
