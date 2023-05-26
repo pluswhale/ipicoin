@@ -4,8 +4,8 @@
         <div class="h-[349px] px-[50px] ml-[20px] mt-[200px] py-[28px] w-[471px]  bg-white/10 backdrop-blur-sm  rounded-[20px]">
             <div class="flex flex-col w-full">
                 <!--header-->
-                <div class="flex justify-center items-center gap-[10px] mb-[20px]">
-                    <span class="text-[29px]  text-[#749DCA] uppercase font-[700] font-['Quicksand']  "> swap</span>
+                <div class="flex justify-center items-center gap-[10px] mb-[22px]">
+                    <span class="text-[29px]  text-[#749DCA] uppercase font-[700] font-['Quicksand']"> swap</span>
                     <img src="~/assets/icons/swap_header_icon.svg"/>
                 </div>
                 <!--header-->
@@ -14,14 +14,14 @@
                 <div class="flex flex-col">
                     <div  class="flex items-center justify-between pl-[10px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px] mb-[10px]">
                         <div class="flex items-center">
-                            <span class="text-white font-[500] text-[16px] mr-[10px]">From</span>
+                            <span class="text-white font-[500] text-[16px] mr-[10px] mt-[5px] font-['Quicksand']">From</span>
                             <span class="text-[#749DCA] font-[700] text-[24px] uppercase font-['Quicksand']">ipicoin</span>
                         </div>
                         <span class="text-white font-[700] text-[24px] font-['Quicksand']">1 000</span>
                     </div>
                     <div class="flex items-center justify-between pl-[10px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px]">
                         <div class="flex items-center">
-                            <span class="text-white font-[500] text-[16px] mr-[10px]">To</span>
+                            <span class="text-white font-[500] text-[16px] mr-[10px] mt-[5px] font-['Quicksand']">To</span>
                             <span class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] text-[24px] uppercase">usd</span>
                         </div>
                         <span class="text-white font-[700] text-[24px] font-['Quicksand']">324,5</span>
@@ -30,12 +30,12 @@
                 <!--inputs-->
 
                 <!--button connect-->
-                <button class="rounded-[20px] h-[46px] justify-center items-center bg-[#EC474E] text-white uppercase mt-[20px] font-['Barlow']">connect wallet</button>
+                <button class="rounded-[20px] h-[46px] justify-center items-center bg-[#EC474E] text-white uppercase mt-[22px] font-['Barlow'] text-[21px] font-[700] leading-[27px]">connect wallet</button>
                 <!--button connect-->
 
                 <!--wallets icon -->
 
-                <div class="flex flex-row w-full items-center justify-between mt-[20px]">
+                <div class="flex flex-row w-full items-center justify-between mt-[35px]">
                     <img src="~/assets/icons/swap_wallet_binance_icon.svg"/>
                     <img src="~/assets/icons/swap_wallet_google_icon.svg"/>
                     <img src="~/assets/icons/swap_wallet_apple_icon.svg"/>

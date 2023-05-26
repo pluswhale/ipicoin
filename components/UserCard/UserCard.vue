@@ -14,7 +14,7 @@
                 <p class="font-400 text-[15px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
                     <a href="/" class="font-400 text-[12px] font-['Gilroy-Light'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
-                    <img class="ml-[17px]" src="../../assets/icons/CardUser/heart.svg" alt="ico">
+                    <img class="ml-[17px] cursor-pointer" src="../../assets/icons/CardUser/heart.svg" alt="ico">
                 </div>
             </div> 
 
@@ -30,7 +30,7 @@
                 <p class="font-400 text-[15px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
                     <a href="/" class="font-400 text-[12px] font-['Gilroy-Light'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
-                    <img class="ml-[17px]" src="../../assets/icons/CardUser/heart.svg" alt="ico">
+                    <img class="ml-[17px] cursor-pointer" src="../../assets/icons/CardUser/heart.svg" alt="ico">
                 </div>
             </div>
 
@@ -46,7 +46,7 @@
                 <p class="font-400 text-[15px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
                     <a href="/" class="font-400 text-[12px] font-['Gilroy-Light'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
-                    <img class="ml-[17px]" src="../../assets/icons/CardUser/heart.svg" alt="ico">
+                    <img class="ml-[17px] cursor-pointer" src="../../assets/icons/CardUser/heart.svg" alt="ico">
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@
                 <p class="font-400 text-[15px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
                     <a href="/" class="font-400 text-[12px] font-['Gilroy-Light'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
-                    <img class="ml-[17px]" src="../../assets/icons/CardUser/heart.svg" alt="ico">
+                    <img class="ml-[17px] cursor-pointer" src="../../assets/icons/CardUser/heart.svg" alt="ico">
                 </div>
             </div>
 
@@ -80,7 +80,7 @@
                 <p class="font-400 text-[15px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
                     <a href="/" class="font-400 text-[12px] font-['Gilroy-Light'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
-                    <img class="ml-[17px]" src="../../assets/icons/CardUser/heart.svg" alt="ico">
+                    <img class="ml-[17px] cursor-pointer" src="../../assets/icons/CardUser/heart.svg" alt="ico">
                 </div>
             </div>
 
@@ -96,7 +96,7 @@
                 <p class="font-400 text-[15px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
                     <a href="/" class="font-400 text-[12px] font-['Gilroy-Light'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
-                    <img class="ml-[17px]" src="../../assets/icons/CardUser/heart.svg" alt="ico">
+                    <img class="ml-[17px] cursor-pointer" src="../../assets/icons/CardUser/heart.svg" alt="ico">
                 </div>
             </div>
         </div>
