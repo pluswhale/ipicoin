@@ -37,11 +37,11 @@
                 </div>
                 <div class="flex items-center mx-[20px] cursor-pointer">
                     <img src="../../assets/icons/Contact/mail-logo.png" alt="">
-                    <p class="text-[#97AFD5] text-[15px] font-['Roboto'] ml-[15px]">In progress...</p>
+                    <p class="text-[#97AFD5] text-[15px] font-['Roboto'] ml-[15px]">hello@ipicoin.com</p>
                 </div>
                 <div class="flex items-center cursor-pointer">
                     <img src="../../assets/icons/Contact/telegram-logo.png" alt="">
-                    <p class="text-[#97AFD5] text-[15px] font-['Roboto'] ml-[15px]">In progress...</p>
+                    <p class="text-[#97AFD5] text-[15px] font-['Roboto'] ml-[15px]">@ipicoin</p>
                 </div>
 
             </div>
