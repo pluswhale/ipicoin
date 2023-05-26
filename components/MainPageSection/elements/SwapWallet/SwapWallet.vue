@@ -1,11 +1,11 @@
 <template>
     <div class="flex flex-col">
         <!--swap card-->
-        <div class="h-[349px] px-[50px] ml-[20px] mt-[200px] py-[40px] w-[471px]  bg-white/10 backdrop-blur-sm  rounded-[20px]">
+        <div class="h-[349px] px-[50px] ml-[20px] mt-[200px] py-[28px] w-[471px]  bg-white/10 backdrop-blur-sm  rounded-[20px]">
             <div class="flex flex-col w-full">
                 <!--header-->
                 <div class="flex justify-center items-center gap-[10px] mb-[20px]">
-                    <span class="text-[29px]  text-[#749DCA] uppercase font-[500] font-['Quicksand sans-serif']  "> swap</span>
+                    <span class="text-[29px]  text-[#749DCA] uppercase font-[700] font-['Quicksand']  "> swap</span>
                     <img src="~/assets/icons/swap_header_icon.svg"/>
                 </div>
                 <!--header-->
@@ -15,22 +15,22 @@
                     <div  class="flex items-center justify-between pl-[10px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px] mb-[10px]">
                         <div class="flex items-center">
                             <span class="text-white font-[500] text-[16px] mr-[10px]">From</span>
-                            <span class="text-[#749DCA] font-[500] text-[24px] uppercase font-['Quicksand sans-serif']">ipicoin</span>
+                            <span class="text-[#749DCA] font-[700] text-[24px] uppercase font-['Quicksand']">ipicoin</span>
                         </div>
-                        <span class="text-white font-[500] text-[24px] font-['Quicksand sans-serif']">1000</span>
+                        <span class="text-white font-[700] text-[24px] font-['Quicksand']">1 000</span>
                     </div>
                     <div class="flex items-center justify-between pl-[10px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px]">
                         <div class="flex items-center">
                             <span class="text-white font-[500] text-[16px] mr-[10px]">To</span>
-                            <span class="text-[#749DCA] font-[500] font-['Quicksand sans-serif'] ml-[20px] text-[24px] uppercase">usd</span>
+                            <span class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] text-[24px] uppercase">usd</span>
                         </div>
-                        <span class="text-white font-[500] text-[24px] font-['Quicksand sans-serif']">324,5</span>
+                        <span class="text-white font-[700] text-[24px] font-['Quicksand']">324,5</span>
                     </div>
                 </div> 
                 <!--inputs-->
 
                 <!--button connect-->
-                <button class="rounded-[20px] h-[46px] justify-center items-center bg-[#EC474E] text-white uppercase mt-[20px] font-['Barlow sans-serif']">connect wallet</button>
+                <button class="rounded-[20px] h-[46px] justify-center items-center bg-[#EC474E] text-white uppercase mt-[20px] font-['Barlow']">connect wallet</button>
                 <!--button connect-->
 
                 <!--wallets icon -->
@@ -52,19 +52,19 @@
         <!--link line-->
         <div class="flex items-center gap-[5px] mt-[50px] ml-[20px]">
             <div class="flex items-center">
-                <span class="font-[500] text-white uppercase text-[12px] whitespace-nowrap">ipi scanner</span>
+                <span class="font-[600] text-white font-['SF_Pro_Text'] uppercase text-[14.5px] whitespace-nowrap">ipi scaner</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
             <div class="flex items-center">
-                <span class="font-[500] text-white uppercase text-[12px] whitespace-nowrap">ipi scanner</span>
+                <span class="font-[600] text-white font-['SF_Pro_Text'] uppercase text-[14.5px] whitespace-nowrap">ipi scaner</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
             <div class="flex items-center">
-                <span class="font-[500] text-white uppercase text-[12px] whitespace-nowrap">ipi scanner</span>
+                <span class="font-[600] text-white font-['SF_Pro_Text'] uppercase text-[14.5px] whitespace-nowrap">ipi scaner</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
             <div class="flex items-center">
-                <span class="font-[500] text-white uppercase text-[12px] whitespace-nowrap">ipi scanner</span>
+                <span class="font-[600] text-white uppercase font-['SF_Pro_Text'] text-[14.5px] whitespace-nowrap">ipi scaner</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
         </div>

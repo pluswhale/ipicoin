@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col items-center w-full mt-[152px] ">
-        <h2 class="text-white uppercase text-[40px] font-['Quicksand sans-serif'] mb-[70px]">our advantages</h2>
-        <div class="flex w-[789px] border-b-[2px] border-b-[#749DCA] h-[50px] justify-center mb-[61px]">
+        <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[70px]">our advantages</h2>
+        <div class="flex w-[789px] border-b-[2px] border-b-[#749DCA] h-[100px] justify-center mb-[61px]">
             <button @click="setActiveButton(1)" :class="state.active_button === 1 ? 'button_active' : 'button_unactive'" >investors Comparison </button>
             <button @click="setActiveButton(2)" :class="state.active_button === 2 ? 'button_active' : 'button_unactive'">developers Comparison  </button>
         </div>
@@ -26,7 +26,7 @@ const setActiveButton = (button) => {
 .button_unactive {
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 100px;
     text-transform: uppercase;
     font-family: 'Barlow' sans-serif;
     font-style: normal;
@@ -40,7 +40,7 @@ const setActiveButton = (button) => {
 
 .button_active {
     color: #EC474E;
-        border-bottom: 2px solid #EC474E;
+        border-bottom: 5px solid #EC474E;
 }
 
 .button_unactive {
