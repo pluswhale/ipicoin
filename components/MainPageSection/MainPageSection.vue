@@ -1,5 +1,5 @@
 <template>
-    <div class="flex max-w-[1400px] mx-auto my-0 ">
+    <div class="flex max-w-[1360px] mx-auto my-0 ">
         <TitleAndAppsDownload/>
         <DiagramBlock/>
         <SwapWallet/>
