@@ -40,7 +40,7 @@ setTimeout(() => {
 
 
             <!-- download apps block-->
-            <div class="flex items-center mt-[100px] gap-[20px]">
+            <div class="flex items-center mt-[77px] gap-[20px]">
                 <div class="flex flex-row items-center w-[217px] h-[65px] border-[2px] border-[#EC474E] rounded-[20px]">
                     <div class="flex pl-[10px] gap-[20px]">
                         <img src="~/assets/icons/apple_icon.svg"/>
