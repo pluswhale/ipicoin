@@ -204,13 +204,13 @@
                         <div class=" min-w-[50px] text-white text-[14px] font-[500] font-['Barlow sans-serif'] text-left translate-x-[-13px]">Strong</div>
                         <div class=" text-white text-[14px] max-w-[100px] font-[500] font-['Barlow sans-serif'] text-left translate-x-[-18px]">Strong</div>
                         <div class=" text-white text-[14px] font-[500] max-w-[89px] font-['Barlow sans-serif'] text-left translate-x-[-18px]">Strong</div>
-                        <div class=" min-w-[50px] text-white text-[14px] font-[500] font-['Barlow sans-serif'] text-left translate-x-[-15px]">Strong</div>
+                        <div class=" min-w-[50px] text-white text-[14px] font-[500] font-['Barlow sans-serif'] text-left translate-x-[-16px]">Strong</div>
                     </div>
                 </div>
                 <!--uncolor row-->
 
             </div>
-            <!--table of advantages-->
+    
         </div>
     </div>
 </template>
