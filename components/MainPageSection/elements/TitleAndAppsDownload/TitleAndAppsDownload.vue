@@ -19,12 +19,12 @@ setTimeout(() => {
 </script>
 
 <template>
-    <div>
-        <div class="flex mt-[100px] flex-col">
+    <div class="flex flex-wrap ml-[0]">
+        <div class="flex mt-[72px] flex-col">
             <!-- main title block-->
-            <div class="flex flex-col h-[417px]">
+            <div class="flex flex-col h-[414px]">
                 <div v-if="state.block.includes(0) " class="flex items-center">
-                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">I</span>
+                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] ">I</span>
                     <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">ndependent</span>
                 </div>
                 <div v-if="state.block.includes(1)" class="flex items-center">
@@ -33,7 +33,7 @@ setTimeout(() => {
                 </div>
                 <div v-if="state.block.includes(2)" class="flex items-center">
                     <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">I</span>
-                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret">nfrastru</span>
+                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret">nfrastructure</span>
                 </div>
                 <span v-if="state.block.includes(3)" class="text-[#EC474E] font-[500] font-['Quicksand'] text-[43px]" >coin</span>
             </div>
