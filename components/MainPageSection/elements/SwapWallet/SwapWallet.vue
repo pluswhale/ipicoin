@@ -17,14 +17,14 @@
                             <span class="text-white font-[500] text-[16px] mr-[10px] mt-[5px] font-['Quicksand']">From</span>
                             <span class="text-[#749DCA] font-[700] text-[24px] uppercase font-['Quicksand']">ipicoin</span>
                         </div>
-                        <span class="text-white font-[700] text-[24px] font-['Quicksand']">1 000</span>
+                       <input type="text" maxlength="10"  placeholder="0" class="outline-none bg-[transparent] text-white font-[700] text-[24px] font-['Quicksand'] w-[150px] placeholder:text-[24px] text-right">
                     </div>
                     <div class="flex items-center justify-between pl-[10px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px]">
                         <div class="flex items-center">
                             <span class="text-white font-[500] text-[16px] mr-[10px] mt-[5px] font-['Quicksand']">To</span>
                             <span class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] text-[24px] uppercase">usd</span>
                         </div>
-                        <span class="text-white font-[700] text-[24px] font-['Quicksand']">324,5</span>
+                        <input type="text" maxlength="10" placeholder="0" class="outline-none bg-[transparent] text-white font-[700] text-[24px] font-['Quicksand'] w-[150px] placeholder:text-[24px] text-right">
                     </div>
                 </div> 
                 <!--inputs-->
@@ -80,6 +80,12 @@
 
 .quicksand {
     font-family: 'Quicksand' sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
 }
 
 </style>

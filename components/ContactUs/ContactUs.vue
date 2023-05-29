@@ -17,7 +17,7 @@
 
                 <div class="flex flex-col ">
                     <p class="text-[#97AFD5] font-[700] leading-[26px] uppercase text-[12px] font-['Roboto'] mb-[10px]">Your Email</p>
-                    <input type="text" placeholder="Who do we replay to" class="placeholder:text-white placeholder:font-['Roboto'] placeholder:font-[400] bg-[#FFFFFF]/10 rounded-[6px] py-[12px] px-[15px] outline-none text-white font-['Roboto'] font-[400] w-[255px]">
+                    <input type="text" placeholder="Who do we replay to" class=" placeholder:text-white placeholder:font-['Roboto'] placeholder:font-[400] bg-[#FFFFFF]/10 rounded-[6px] py-[12px] px-[15px] outline-none text-white font-['Roboto'] font-[400] w-[255px]">
                 </div>
             </div>
 
