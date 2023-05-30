@@ -22,7 +22,8 @@
                     <div class="flex items-center justify-between pl-[10px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px]">
                         <div class="flex items-center relative">
                             <span class="text-white font-[500] text-[16px] mr-[10px] mt-[5px] font-['Quicksand']">To</span>
-                            <span @click="handleOpenToDialog" class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] text-[24px] uppercase cursor-pointer">usd</span>
+                            <span class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] text-[24px] uppercase">usd</span>
+                            <span class="ml-[15px] cursor-pointer"><img @click="handleOpenToDialog"  src="../../../../assets/icons/chevron-down.png" alt=""></span>
                             <div v-if="state.toDialogOpen" class="absolute w-[371px] left-[-10px] top-[40px] bg-white/10 border-[1px] border-[white] backdrop-blur-sm  rounded-[8px]">
                                 <span class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] text-[24px] uppercase">USD</span>
                             </div>
