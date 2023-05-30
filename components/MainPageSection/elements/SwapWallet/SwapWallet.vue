@@ -20,10 +20,12 @@
                        <input type="text" maxlength="10"  placeholder="0" class="outline-none bg-[transparent] text-white font-[700] text-[24px] font-['Quicksand'] w-[150px] placeholder:text-[24px] text-right">
                     </div>
                     <div class="flex items-center justify-between pl-[10px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px]">
-                        <div class="flex items-center">
+                        <div class="flex items-center relative">
                             <span class="text-white font-[500] text-[16px] mr-[10px] mt-[5px] font-['Quicksand']">To</span>
-                            <span class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] text-[24px] uppercase">usd</span>
-                            <button class="ml-[15px]"><img src="../../../../assets/icons/chevron-down.png" alt=""></button>
+                            <span @click="handleOpenToDialog" class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] text-[24px] uppercase cursor-pointer">usd</span>
+                            <div v-if="state.toDialogOpen" class="absolute w-[371px] left-[-10px] top-[40px] bg-white/10 border-[1px] border-[white] backdrop-blur-sm  rounded-[8px]">
+                                <span class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] text-[24px] uppercase">USD</span>
+                            </div>
                         </div>
                         <input type="text" maxlength="10" placeholder="0" class="outline-none bg-[transparent] text-white font-[700] text-[24px] font-['Quicksand'] w-[150px] placeholder:text-[24px] text-right">
                     </div>
@@ -74,6 +76,14 @@
 </template>
 
 <script setup>
+
+const state = reactive({ toDialogOpen: false })
+
+console.log("state open", state.toDialogOpen);
+
+const handleOpenToDialog = () => {
+  state.toDialogOpen = !state.toDialogOpen
+}
 
 </script>
 
