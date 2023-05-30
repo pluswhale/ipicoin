@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col">
         <!--swap card-->
-        <div class="h-[349px] px-[50px] ml-[20px] mt-[200px] py-[28px] w-[471px]  bg-white/10 backdrop-blur-sm  rounded-[20px]">
+        <div class="h-[349px] px-[50px] ml-[20px] mt-[119px] py-[28px] w-[471px]  bg-white/10 backdrop-blur-sm  rounded-[20px]">
             <div class="flex flex-col w-full">
                 <!--header-->
                 <div class="flex justify-center items-center gap-[10px] mb-[22px]">
@@ -23,6 +23,7 @@
                         <div class="flex items-center">
                             <span class="text-white font-[500] text-[16px] mr-[10px] mt-[5px] font-['Quicksand']">To</span>
                             <span class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] text-[24px] uppercase">usd</span>
+                            <button class="ml-[15px]"><img src="../../../../assets/icons/chevron-down.png" alt=""></button>
                         </div>
                         <input type="text" maxlength="10" placeholder="0" class="outline-none bg-[transparent] text-white font-[700] text-[24px] font-['Quicksand'] w-[150px] placeholder:text-[24px] text-right">
                     </div>

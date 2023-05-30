@@ -1,6 +1,6 @@
 <template>
-    <div class="flex flex-col items-center w-full mt-[152px] max-w-[1360px] mx-auto my-0" >
-        <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[77px]">Perhaps the best project in web 3.0</h2>
+    <div class="flex flex-col items-center w-full mt-[152px] max-w-[1456px] mx-auto my-0" >
+        <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[77px] translate-y-[2px] translate-x-[-5px]">Perhaps the best project in web 3.0</h2>
         <div class="flex flex-col flex-wrap w-full gap-[38px]">
 
             <!--first row-->
@@ -17,7 +17,7 @@
                     <span class="text-[14px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto']  max-w-[250px] mt-[9px]">Our mission is to create a next -
                  generation cryptocurrency with high
                  growth potential.</span>  
-                 <img src="../../assets/icons/advantages/line_1.png" alt="" class="absolute top-[23px] left-[165px]">
+                 <img src="../../assets/icons/advantages/line_1.png" alt="" class="absolute top-[25px] left-[180px]">
                 </div>
 
                 
@@ -31,7 +31,7 @@
                     <img src="~/assets/icons/advantages/drum_icon.svg"/>
                     <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow']">Limited Edition Coins</span>
                     <span class="text-[14px] font-[400] leading-[22px] text-[#749DCA] font-['Roboto'] text-center  max-w-[250px] mt-[9px]">we offer a limited edition of 100 million coins and no more.</span>  
-                    <img src="../../assets/icons/advantages/line_2.png" alt="" class="absolute top-[23px] left-[185px]">
+                    <img src="../../assets/icons/advantages/line_2.png" alt="" class="absolute top-[25px] left-[200px]">
                 </div>
 
                 <!-- <Card 
@@ -43,7 +43,7 @@
                     <img src="~/assets/icons/advantages/settings_icon.svg"/>
                     <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow']">Developers</span>
                     <span class="text-[14px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto']  max-w-[375px] mt-[9px]">we provide fast smart contracts with the best virtual machine and consensus. We also provide oracle and Chainlink services, as well as an easy way to create your own dApps and contracts</span>  
-                    <img src="../../assets/icons/advantages/line_3.png" alt="" class="absolute top-[23px] left-[235px]">
+                    <img src="../../assets/icons/advantages/line_3.png" alt="" class="absolute top-[25px] left-[260px]">
                 </div>
 
                 <!-- <Card 
@@ -109,7 +109,7 @@
             </div>
             <!--second row-->
         </div>
-        <div class="flex gap-[64px] mt-[60px]">
+        <div class="flex gap-[64px] mt-[11px]">
             <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] bg-[#EC474E] transition-all rounded-[20px] hover:bg-transparent hover:border-[2px] hover:border-[#EC474E]">
                 <span class="text-[16px] font-[500] uppercase text-white font-['Barlow]">Wallet</span>
                 <img class="pt-[0] ml-[15px]" src="~/assets/icons/arrow_right_white.svg"/>

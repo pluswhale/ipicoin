@@ -27,20 +27,20 @@ setTimeout(() => {
                     <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] ">I</span>
                     <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">ndependent</span>
                 </div>
-                <div v-if="state.block.includes(1)" class="flex items-center">
+                <div v-if="state.block.includes(1)" class="flex items-center translate-y-[-41px]">
                     <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">P</span>
                     <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_without_caret ">rotocol</span>
                 </div>
-                <div v-if="state.block.includes(2)" class="flex items-center">
+                <div v-if="state.block.includes(2)" class="flex items-center translate-y-[-81px]">
                     <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">I</span>
                     <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret">nfrastructure</span>
                 </div>
-                <span v-if="state.block.includes(3)" class="text-[#EC474E] font-[500] font-['Quicksand'] text-[43px]" >coin</span>
+                <span v-if="state.block.includes(3)" class="text-[#EC474E] font-[500] font-['Quicksand'] text-[43px] translate-y-[-100px]" >coin</span>
             </div>
 
 
             <!-- download apps block-->
-            <div class="flex items-center mt-[77px] gap-[20px]">
+            <div class="flex items-center mt-[77px] gap-[20px] translate-y-[-50px] translate-x-[-5px]">
                 <div class="flex flex-row items-center w-[217px] h-[65px] border-[2px] border-[#EC474E] rounded-[20px]">
                     <div class="flex pl-[10px] gap-[20px]">
                         <img src="~/assets/icons/apple_icon.svg"/>
@@ -51,7 +51,7 @@ setTimeout(() => {
                     </div>
                 </div>
 
-                <div class="flex flex-row items-center w-[217px] h-[65px]  border-[2px] border-[#EC474E] rounded-[20px]">
+                <div class="flex flex-row items-center w-[217px] h-[65px] border-[2px] border-[#EC474E] rounded-[20px]">
                     <div class="flex pl-[10px] gap-[20px]">
                         <img src="~/assets/icons/playmarket_icon.svg"/>
                         <div class="flex flex-col">
@@ -96,9 +96,7 @@ setTimeout(() => {
     typing 1s steps(30, end),
     blink-caret_off_end 1s step-end;
     border-color: transparent;
-
 }
-
 
 /* The typing effect */
 @keyframes typing {

@@ -1,6 +1,6 @@
 <template>
-    <div class="flex flex-col items-center w-full mt-[136px] max-w-[1360px] mx-auto my-0" >
-        <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[57px]">ecosystem</h2>
+    <div class="flex flex-col items-center w-full mt-[140px] max-w-[1400px] mx-auto my-0 translate-x-[-10px]" >
+        <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[74px]">ecosystem</h2>
         <div class="flex flex-col max-w-[1240px] justify-between">
             <!--top part-->
             <div class="flex flex-row max-w-[1240px] justify-between">
