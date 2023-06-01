@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="flex h-full flex-col justify-end translate-y-[0px]">
+        <div class="flex h-full flex-col justify-end translate-y-[0px] translate-x-[-50px]">
             <img src="~/assets/images/diagram_main_page.png" class=""/>
         </div>
     </div>

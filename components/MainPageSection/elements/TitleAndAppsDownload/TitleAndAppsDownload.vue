@@ -41,7 +41,10 @@ setTimeout(() => {
 
             <!-- download apps block-->
             <div class="flex items-center mt-[77px] gap-[20px] translate-y-[-50px] translate-x-[-5px]">
-                <div class="flex flex-row items-center w-[217px] h-[65px] border-[2px] border-[#EC474E] rounded-[20px]">
+
+                <img src="../../../../assets/images/mainpage/test_bg_2.png" alt="">
+                <img src="../../../../assets/images/mainpage/Button_Gplay.png" alt="">
+              <!--   <div class="flex flex-row items-center w-[217px] h-[65px] border-[2px] border-[#EC474E] rounded-[20px]">
                     <div class="flex pl-[10px] gap-[20px]">
                         <img src="~/assets/icons/apple_icon.svg"/>
                         <div class="flex flex-col">
@@ -59,8 +62,8 @@ setTimeout(() => {
                             <span class="text-white whitespace-nowrap font-[500] font-['Quicksand'] text-[22px] ">Google Play</span>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div> -->
+            </div> 
             <!-- download apps block-->
         </div>
     </div>
