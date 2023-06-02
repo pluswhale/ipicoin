@@ -1,5 +1,5 @@
 <template>
-    <div class="flex  justify-center items-center w-screen self-start bg-white/10 h-[179px] absolute left-[0] top-[880px] ">
+    <div class="flex  justify-center items-center w-screen self-start bg-white/10 h-[179px] absolute left-[0] top-[-300px]  ">
         <div class="flex w-[1219px] justify-between">
             <div class="flex flex-col justify-center">
                 <span class="font-[500] font-['Quicksand'] text-[68px] text-[#749DCA] text-center textLine">40 k +</span>

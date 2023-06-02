@@ -1,6 +1,6 @@
 <template>
     <div class="flex items-start justify-start">
-        <div class="flex flex-col gap-[10px] max-w-[1000px]">
+        <div class="flex flex-col gap-[10px] max-w-[1000px] h-[800px]">
             <div class="flex items-center">
                 <img class="mr-[26px]" src="~/assets/icons/arrow-right.svg"/>
                 <span class="text-[#97AFD5] text-[16px] font-[400] font-['Roboto sans-serif']">Improved virtual machine and consensus for faster smart contracts.</span>
