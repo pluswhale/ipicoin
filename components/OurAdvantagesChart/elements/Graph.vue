@@ -1,8 +1,15 @@
 <template>
-    <div class="w-full h-[934px]  bg-white/10 backdrop-blur-sm  rounded-[20px]">
-
-            <div class="flex flex-col">
-          
+    <div 
+        class=" graph_wrap " 
+        ref="cardRef"
+        @mousemove="handleMouseMove"
+        @mouseenter="handleMouseEnter"
+        @mouseleave="handleMouseLeave"
+    >
+            <div
+                class="flex flex-col bg-white/10  backdrop-blur-sm  rounded-[20px] graph"
+                :style="cardStyle"
+             >
                 <div class="flex flex-col w-[65.5%] self-end items-center mr-[54px]" >
                     <div class="flex flex-row mt-[27px] w-[95.5%] justify-between">
                         <div class="flex flex-col items-center">
@@ -218,14 +225,89 @@
 
 <script setup>
 
-const state = reactive({width: 0, height: 0,  })
+const parallaxState = reactive({ width: 0, height: 0, mouseX: 1, mouseY: 1, mouseLeaveDelay: null });
+const cardRef = ref(null);
 
+onMounted(() => {
+    console.log("cardRef", cardRef);
+    parallaxState.width = cardRef?.value?.offsetWidth;
+    parallaxState.height = cardRef?.value?.offsetHeight;
+});
 
+const mousePX = computed(() => {
+    return parallaxState.mouseX / parallaxState.width;
+});
+
+const mousePY = computed(() => {
+    return parallaxState.mouseY / parallaxState.height;
+});
+
+const cardStyle = computed(() => {
+    const rX = mousePX.value * 30;
+    const rY = mousePY.value * -30;
+    return {
+        transform: `rotateY(${rX}deg) rotateX(${rY}deg)`
+    };
+});
+
+const cardBgTransform = computed(() => {
+    const tX = mousePX.value * -40;
+    const tY = mousePY.value * -40;
+    return {
+        transform: `translateX(${tX}px) translateY(${tY}px)`
+    }
+});
+
+const handleMouseMove = (e) => {
+    parallaxState.mouseX = e.pageX - cardRef.value.offsetLeft - parallaxState.width / 2;
+    parallaxState.mouseY = e.pageY - cardRef.value.offsetTop - parallaxState.height / 2;
+};
+
+const handleMouseEnter = () => {
+    clearTimeout(parallaxState.mouseLeaveDelay);
+};
+
+const handleMouseLeave = () => {
+    parallaxState.mouseLeaveDelay = setTimeout(() => {
+        parallaxState.mouseX = 0;
+        parallaxState.mouseY = 0;
+    }, 1000);
+};
     
-
-
 </script>
 
 <style lang="scss" scoped>
+$returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+$hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
+
+.graph_wrap {
+  transform: perspective(800px);
+  transform-style: preserve-3d;
+  cursor: pointer;
+
+    &:hover {
+
+        .graph {
+        transition: 0.6s $hoverEasing,
+            box-shadow 2s $hoverEasing;
+            box-shadow:
+                rgba(white, 0.2) 0 0 40px 5px,
+                rgba(white, 1) 0 0 0 1px,
+                rgba(black, 0.66) 0 30px 60px 0,
+                inset #333 0 0 0 5px,
+                inset white 0 0 0 6px;
+        }
+    }
+
+    .graph {
+        width: 1120px;
+        height: 994px;
+        transition: 1s $returnEasing;
+        flex: 0 0 1120px;
+        overflow: hidden;
+
+
+    }
+}
 
 </style>

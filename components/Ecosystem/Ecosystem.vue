@@ -75,13 +75,25 @@
                         <!-- main block wrapper-->
                         <div class="flex flex-col w-[628px] h-[747px] translate-x-[285px] translate-y-[-5px]">
                             <!--first card -->
-                            <div class=" flex flex-col bg-[#FFFFFF33] items-center justify-center rounded-[20px] w-full min-h-[83px] mb-[15px]">
-                                <span class="text-[#EC474E] text-[700] font-['Quicksand'] mb-[10px] text-[14px] font-[700] mt-[10px]">Web application</span>
-                                <div class="flex items-center gap-[10px] mb-[12px]">
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[16px] pr-[16px] h-[33px] text-[14px] font-[500] 
-                                   ">iView - real-time view</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[373px] h-[33px] text-[14px] font-[500]">iAPI - frontend application programming interface</span>
+                            <div 
+                                class="card_wrap"
+                                ref="cardRef"
+                                @mousemove="handleMouseMove"
+                                @mouseenter="handleMouseEnter"
+                                @mouseleave="handleMouseLeave"
+                            >
+                                <div
+                                     class="flex flex-col bg-[#FFFFFF33]  items-center justify-center rounded-[20px] card"
+                                     :style="cardStyle"
+                                >
+                                    <span class="text-[#EC474E] text-[700] font-['Quicksand'] mb-[10px] text-[14px] font-[700] mt-[10px]">Web application</span>
+                                    <div class="flex items-center gap-[10px] mb-[12px]">
+                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[16px] pr-[16px] h-[33px] text-[14px] font-[500] 
+                                    ">iView - real-time view</span>
+                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[373px] h-[33px] text-[14px] font-[500]">iAPI - frontend application programming interface</span>
+                                    </div>
                                 </div>
+
                             </div>
                             <!--first card -->
 
@@ -206,8 +218,89 @@
 
 <script setup>
 
+const parallaxState = reactive({ width: 0, height: 0, mouseX: 1, mouseY: 1, mouseLeaveDelay: null });
+const cardRef = ref(null);
+
+onMounted(() => {
+    console.log("cardRef", cardRef);
+    parallaxState.width = cardRef?.value?.offsetWidth;
+    parallaxState.height = cardRef?.value?.offsetHeight;
+});
+
+const mousePX = computed(() => {
+    return parallaxState.mouseX / parallaxState.width;
+});
+
+const mousePY = computed(() => {
+    return parallaxState.mouseY / parallaxState.height / 100;
+});
+
+const cardStyle = computed(() => {
+    const rX = mousePX.value * 30;
+    const rY = mousePY.value * -30;
+    return {
+        transform: `rotateY(${rX}deg) rotateX(${rY}deg)`
+    };
+});
+
+const cardBgTransform = computed(() => {
+    const tX = mousePX.value * -40;
+    const tY = mousePY.value * -40;
+    return {
+        transform: `translateX(${tX}px) translateY(${tY}px)`
+    }
+});
+
+const handleMouseMove = (e) => {
+    parallaxState.mouseX = e.pageX - cardRef.value.offsetLeft - parallaxState.width / 2;
+    parallaxState.mouseY = e.pageY - cardRef.value.offsetTop - parallaxState.height / 2;
+};
+
+const handleMouseEnter = () => {
+    clearTimeout(parallaxState.mouseLeaveDelay);
+};
+
+const handleMouseLeave = () => {
+    parallaxState.mouseLeaveDelay = setTimeout(() => {
+        parallaxState.mouseX = 0;
+        parallaxState.mouseY = 0;
+    }, 1000);
+};
+    
 </script>
 
 <style lang="scss" scoped>
+$returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+$hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
+
+.card_wrap {
+  transform: perspective(1200px);
+  transform-style: preserve-3d;
+  cursor: pointer;
+  margin-bottom: 15px;
+    &:hover {
+
+        .card {
+        transition: 0.6s $hoverEasing,
+            box-shadow 2s $hoverEasing;
+            box-shadow:
+                rgba(white, 0.2) 0 0 40px 5px,
+                rgba(white, 1) 0 0 0 1px,
+                rgba(black, 0.66) 0 30px 60px 0,
+                inset #333 0 0 0 5px,
+                inset white 0 0 0 6px;
+        }
+    }
+
+    .card {
+        width: 624px;
+        height: 83px;
+        transition: 1s $returnEasing;
+        flex: 0 0 624px;
+        overflow: hidden;
+
+
+    }
+}
 
 </style>
