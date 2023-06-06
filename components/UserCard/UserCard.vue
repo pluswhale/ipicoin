@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col items-center max-w-[1360px] mx-auto my-0">
+    <div v-motion-slide-visible-top class="flex flex-col items-center max-w-[1360px] mx-auto my-0">
     <!--block 1-->
     <div v-if="state.block === 1" class="flex flex-col items-center max-w-[1360px] mx-auto my-0">
         <div class="flex items-center w-[100%] mb-[40px]">

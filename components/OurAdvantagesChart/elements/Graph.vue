@@ -293,9 +293,6 @@ $hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
             box-shadow:
                 rgba(white, 0.2) 0 0 40px 5px,
                 rgba(white, 1) 0 0 0 1px,
-                rgba(black, 0.66) 0 30px 60px 0,
-                inset #333 0 0 0 5px,
-                inset white 0 0 0 6px;
         }
     }
 
