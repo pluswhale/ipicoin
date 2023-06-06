@@ -222,7 +222,11 @@ export default {
     KinesisElement
   }
 }
+
+console.log("01298390-382");
 </script>
+
+
 
 <style lang="scss" scoped>
 
