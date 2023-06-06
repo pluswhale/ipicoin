@@ -1,5 +1,5 @@
 <template>
-   <div class="flex flex-col items-center mt-[144px] max-w-[1360px] mx-auto my-0">
+   <div v-motion-slide-visible-top class="flex flex-col items-center mt-[144px] max-w-[1360px] mx-auto my-0">
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[50px]">trusted by the best</h2>
         <div class="flex flex-col items-center flex-wrap w-[100%] mb-[50px]">
             <div class="flex justify-center items-center w-[100%] mb-[30px]" >

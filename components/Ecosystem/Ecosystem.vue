@@ -1,5 +1,7 @@
 <template>
-    <div class="flex flex-col items-center w-full mt-[140px] max-w-[1400px] mx-auto my-0 translate-x-[-10px]" >
+    <div 
+    v-motion-slide-visible-top    
+     class="flex flex-col items-center w-full mt-[140px] max-w-[1400px] mx-auto my-0 translate-x-[-10px]" >
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[42px]">ecosystem</h2>
         <div class="flex flex-col max-w-[1068px] justify-between">
             <!--top part-->
