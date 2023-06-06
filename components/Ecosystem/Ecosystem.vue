@@ -75,34 +75,44 @@
                         <!-- main block wrapper-->
                         <div class="flex flex-col w-[628px] h-[747px] translate-x-[285px] translate-y-[-5px]">
                             <!--first card -->
-                            <div class="mb-[15px]">
-                                <div class="flex flex-col bg-[#FFFFFF33]  items-center justify-center rounded-[20px]">
-                                    <span class="text-[#EC474E] text-[700] font-['Quicksand'] mb-[10px] text-[14px] font-[700] mt-[10px]">Web application</span>
-                                    <div class="flex items-center gap-[10px] mb-[12px]">
-                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[16px] pr-[16px] h-[33px] text-[14px] font-[500] 
-                                    ">iView - real-time view</span>
-                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[373px] h-[33px] text-[14px] font-[500]">iAPI - frontend application programming interface</span>
-                                    </div>
-                                </div>
 
-                            </div>
+                            <KinesisContainer>
+                                <KinesisElement :strength="15" type="depth">
+                                    <div class="mb-[15px]">
+                                        <div class="flex flex-col bg-[#FFFFFF33]  items-center justify-center rounded-[20px]">
+                                            <span class="text-[#EC474E] text-[700] font-['Quicksand'] mb-[10px] text-[14px] font-[700] mt-[10px]">Web application</span>
+                                            <div class="flex items-center gap-[10px] mb-[12px]">
+                                                <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[16px] pr-[16px] h-[33px] text-[14px] font-[500] 
+                                            ">iView - real-time view</span>
+                                                <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[373px] h-[33px] text-[14px] font-[500]">iAPI - frontend application programming interface</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </KinesisElement>
+                            </KinesisContainer>
+
                             <!--first card -->
 
                             <!--second card -->
-                            <div class=" flex flex-col bg-[#FFFFFF33] items-center justify-center rounded-[20px] w-full h-[87px] mb-[15px] relative">
-                                <span class="text-[#EC474E] text-[14px] font-['Quicksand'] mb-[10px] font-[700]">Web3 Protocols</span>
-                                <div class="flex items-center gap-[8px]">
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iSwap</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iPeg</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iNFT</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iLoan</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iGamble</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iFund</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iDAO</span>
-                                    
-                                    <img src="../../assets/images/platform/arrow9(1).svg" class="translate-y-[75px] translate-x-[27px] right-0 absolute" alt="">
-                                </div>                            
-                            </div>
+
+                            <kinesis-container>
+                                <kinesis-element type="rotate">
+                                    <div class=" flex flex-col bg-[#FFFFFF33] items-center justify-center rounded-[20px] w-full h-[87px] mb-[15px] relative">
+                                        <span class="text-[#EC474E] text-[14px] font-['Quicksand'] mb-[10px] font-[700]">Web3 Protocols</span>
+                                        <div class="flex items-center gap-[8px]">
+                                            <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iSwap</span>
+                                            <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iPeg</span>
+                                            <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iNFT</span>
+                                            <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iLoan</span>
+                                            <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iGamble</span>
+                                            <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iFund</span>
+                                            <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iDAO</span>
+                                            
+                                            <img src="../../assets/images/platform/arrow9(1).svg" class="translate-y-[75px] translate-x-[27px] right-0 absolute" alt="">
+                                        </div>                            
+                                    </div>
+                                </kinesis-element>
+                            </kinesis-container>
                             <!--second card -->
 
                             <!--third card -->
@@ -207,9 +217,15 @@
     </div>
 </template>
 
-<script setup>
+<script>
+import { KinesisContainer, KinesisElement } from 'vue-kinesis'
 
-    
+export default {
+  components: {
+    KinesisContainer,
+    KinesisElement
+  }
+}
 </script>
 
 <style lang="scss" scoped>
