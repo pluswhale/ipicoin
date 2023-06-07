@@ -40,7 +40,7 @@
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[50px]">our mission</h2>
 
         <div class="flex items-center flex-wrap w-[100%] mb-[50px] h-[100%] ">
-            <div class="flex justify-start max-w-[690px]" >
+           <!--  <div class="flex justify-start max-w-[690px]" >
                 <img src="~/assets/images/mainpage/Graph/x-info.png" class="relative translate-y-[104px] translate-x-[-42px]" />
                 <img src="~/assets/images/mainpage/Graph/bg.png" class="absolute top-0 w-[673px] translate-y-[63px] translate-x-[-26px]"/>
                 <img src="~/assets/images/mainpage/Graph/white-line.png" class="absolute left-0 translate-x-[282px] w-[365px] translate-y-[-194px]">
@@ -55,7 +55,14 @@
                         <p class="font-['Barlow'] font-[300] text-[33px] color-[#464255]">current price</p>
                     </div>
                 </div>
-            </div> 
+            </div>  -->
+           
+            <div>
+                <apexchart width="500" type="bar" :options="chartOptions" :series="series"></apexchart>
+            </div>
+
+
+
 
             <div class="flex flex-col ml-[74px]">
                 <div class="flex items-center max-w-[527px] mb-[20px]">
@@ -89,6 +96,10 @@
  </template>
 
 <script setup>
+
+
+
+
 
 </script>
 
