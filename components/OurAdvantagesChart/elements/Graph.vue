@@ -292,7 +292,7 @@ $hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
             box-shadow 2s $hoverEasing;
             box-shadow:
                 rgba(white, 0.2) 0 0 40px 5px,
-                rgba(white, 1) 0 0 0 1px,
+                rgba(white, 0.3 ) 0 0 0 1px,
         }
     }
 
