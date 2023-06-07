@@ -1,20 +1,40 @@
     <template>
         <div 
          class="w-100% "
-            v-motion
-            :initial="{
-                y: 100,
-                opacity: 0,
-            }"
-            :enter="{
-                y: 0,
-                opacity: 1,
-                transition: {
-                duration: 1500,
+        v-motion
+        :initial="{
+            opacity: 0,
+            y: 100,
+            duration: 1000,
+            type: 'keyframes',
+            ease: 'easeIn',
+        }"
+        :enter="{
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1000,
                 type: 'keyframes',
                 ease: 'easeIn',
-                },
-            }"
+            },
+        }"
+        :visible="{
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1000,
+                type: 'keyframes',
+                ease: 'easeIn',
+
+            },
+        }"
+        :leave="{
+        y: -100,
+            opacity: 0,
+            transition: {
+                delay: 1000,
+            },
+        }"   
          >
             <div class="flex flex-col items-center w-full mt-[30px] max-h-[1040px]  max-w-[1400px] mx-auto my-0">
                 <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[15px]">platform</h2>

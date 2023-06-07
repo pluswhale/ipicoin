@@ -3,18 +3,38 @@
     class="w-[100%] relative"
     v-motion
     :initial="{
-        y: 100,
         opacity: 0,
-    }"
-    :enter="{
-        y: 0,
-        opacity: 1,
-        transition: {
-        duration: 1500,
+        y: 100,
+        duration: 1000,
         type: 'keyframes',
         ease: 'easeIn',
+    }"
+    :enter="{
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1000,
+            type: 'keyframes',
+            ease: 'easeIn',
         },
     }"
+    :visible="{
+        opacity: 1,
+        y: 0,
+        transition: {
+            duration: 1000,
+            type: 'keyframes',
+            ease: 'easeIn',
+
+        },
+    }"
+    :leave="{
+    y: -100,
+        opacity: 0,
+        transition: {
+            delay: 1000,
+        },
+    }"   
   >
     <div class="flex flex-col items-center h-[950px] w-full mt-[136px] max-w-[1360px] mx-auto my-0">
         <h2 class="text-white uppercase font-[700] text-[40px] font-['Quicksand']">FAQS</h2>

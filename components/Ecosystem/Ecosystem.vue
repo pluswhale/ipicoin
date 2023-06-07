@@ -1,7 +1,83 @@
+<script setup language="ts">
+import {ref, computed} from 'vue';
+import { useMouseInElement } from "@vueuse/core";
+const firstTopCard = ref(null);
+const secondTopCard = ref(null);
+
+const { elementX: firstTopCardX,
+    elementY: firstTopCardY,
+    isOutside: isOutsideFirstCard,
+    elementHeight: firstTopCardHeight,
+    elementWidth: firstTopCardWeight } = useMouseInElement(firstTopCard);
+
+const { elementX: secondTopCardX,
+    elementY: secondTopCardY,
+    isOutside: isOutsideSecondCard,
+    elementHeight: secondTopCardHeight,
+    elementWidth: secondTopCardWeight } = useMouseInElement(secondTopCard);
+
+const cardTransformFirstTop = computed(() => {
+    const MAX_ROTATION = 6;
+
+        const rX = (MAX_ROTATION / 2 - (firstTopCardY.value / firstTopCardHeight.value) * MAX_ROTATION).toFixed(2); //handle x-Axis
+        const rY = ((firstTopCardX.value / firstTopCardWeight.value) * MAX_ROTATION - MAX_ROTATION / 2).toFixed(2); //handle y-Axis
+
+        return isOutsideFirstCard.value
+            ? ""
+            : `perspective(${firstTopCardWeight.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`;  
+});
+
+const cardTransformSecondTop = computed(() => {
+    const MAX_ROTATION = 6;
+
+    const rX = (MAX_ROTATION / 2 - (secondTopCardY.value / secondTopCardHeight.value) * MAX_ROTATION).toFixed(2); //handle x-Axis
+    const rY = ((secondTopCardX.value / secondTopCardWeight.value) * MAX_ROTATION - MAX_ROTATION / 2).toFixed(2); //handle y-Axis
+
+    return isOutsideSecondCard.value
+        ? ""
+        : `perspective(${secondTopCardWeight.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`
+});
+
+</script>
+
 <template>
     <div 
-    v-motion-slide-visible-top    
-     class="flex flex-col items-center w-full mt-[140px] max-w-[1400px] mx-auto my-0 translate-x-[-10px]" >
+        v-motion
+        :initial="{
+            opacity: 0,
+            y: 100,
+            duration: 1000,
+            type: 'keyframes',
+            ease: 'easeIn',
+        }"
+        :enter="{
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1000,
+                type: 'keyframes',
+                ease: 'easeIn',
+            },
+        }"
+        :visible="{
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1000,
+                type: 'keyframes',
+                ease: 'easeIn',
+
+            },
+        }"
+        :leave="{
+        y: -100,
+            opacity: 0,
+            transition: {
+                delay: 1000,
+            },
+        }"   
+        class="flex flex-col items-center w-full mt-[140px] max-w-[1400px] mx-auto my-0 translate-x-[-10px]" 
+    >
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[42px]">ecosystem</h2>
         <div class="flex flex-col max-w-[1068px] justify-between">
             <!--top part-->
@@ -77,40 +153,47 @@
                         <!-- main block wrapper-->
                         <div class="flex flex-col w-[628px] h-[747px] translate-x-[285px] translate-y-[-5px]">
                             <!--first card -->
-
-                        
-                                    <div class="mb-[15px] transition ">
-                                        <div class="flex flex-col bg-[#FFFFFF33]  items-center justify-center rounded-[20px]">
-                                            <span class="text-[#EC474E] text-[700] font-['Quicksand'] mb-[10px] text-[14px] font-[700] mt-[10px]">Web application</span>
-                                            <div class="flex items-center gap-[10px] mb-[12px]">
-                                                <span class="flex items-center justify-center pointer text-white bg-[#749CC799]/60 rounded-[20px] pl-[16px] pr-[16px] h-[33px] text-[14px] font-[500] transition hover:scale-105
-                                            ">iView - real-time view</span>
-                                                <span class="flex items-center justify-center cursor- text-white bg-[#749CC799]/60 rounded-[20px] w-[373px] h-[33px] text-[14px] font-[500] transition hover:scale-105">iAPI - frontend application programming interface</span>
-                                            </div>
-                                        </div>
+                            <div
+                                ref="firstTopCard"
+                                :style="{
+                                    transform: cardTransformFirstTop,
+                                    transition: 'transform 0.25s ease-out'
+                                }" 
+                                class="mb-[15px] flex flex-col bg-[#FFFFFF33]  items-center justify-center rounded-[20px] blockHover"
+                            >
+                            <div class="flex flex-col  items-center justify-center rounded-[20px]">
+                                    <span class="text-[#EC474E] text-[700] font-['Quicksand'] mb-[10px] text-[14px] font-[700] mt-[10px]">Web application</span>
+                                    <div class="flex items-center gap-[10px] mb-[12px]">
+                                        <span class="flex items-center justify-center cursor-pointer text-white bg-[#749CC799]/60 rounded-[20px] pl-[16px] pr-[16px] h-[33px] text-[14px] font-[500] transition duration-300 hover:scale-[1.03]
+                                    ">iView - real-time view</span>
+                                        <span class="flex items-center justify-center cursor-pointer text-white bg-[#749CC799]/60 rounded-[20px] w-[373px] h-[33px] text-[14px] font-[500] transition duration-300 hover:scale-[1.03]">iAPI - frontend application programming interface</span>
                                     </div>
-                  
-
+                                </div>
+                            </div>
                             <!--first card -->
 
                             <!--second card -->
-
-                          
-                                    <div class=" flex flex-col bg-[#FFFFFF33] items-center justify-center rounded-[20px] w-full h-[87px] mb-[15px] relative">
-                                        <span class="text-[#EC474E] text-[14px] font-['Quicksand'] mb-[10px] font-[700]">Web3 Protocols</span>
-                                        <div class="flex items-center gap-[8px]">
-                                            <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iSwap</span>
-                                            <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iPeg</span>
-                                            <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iNFT</span>
-                                            <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iLoan</span>
-                                            <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iGamble</span>
-                                            <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iFund</span>
-                                            <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px]">iDAO</span>
-                                            
-                                            <img src="../../assets/images/platform/arrow9(1).svg" class="translate-y-[75px] translate-x-[27px] right-0 absolute" alt="">
-                                        </div>                            
-                                    </div>
-                          
+                            <div
+                                ref="secondTopCard"
+                                :style="{
+                                    transform: cardTransformSecondTop,
+                                    transition: 'transform 0.25s ease-out'
+                                }"                                 
+                                class=" flex flex-col bg-[#FFFFFF33] items-center justify-center rounded-[20px] w-full h-[87px] mb-[15px] relative blockHover"
+                                >
+                                <span class="text-[#EC474E] text-[14px] font-['Quicksand'] mb-[10px] font-[700]">Web3 Protocols</span>
+                                <div class="flex items-center gap-[8px]">
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iSwap</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iPeg</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iNFT</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iLoan</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iGamble</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iFund</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iDAO</span>
+                                    
+                                    <img src="../../assets/images/platform/arrow9(1).svg" class="translate-y-[75px] translate-x-[27px] right-0 absolute" alt="">
+                                </div>                            
+                            </div>
                             <!--second card -->
 
                             <!--third card -->
@@ -215,21 +298,18 @@
     </div>
 </template>
 
-<script>
-import { KinesisContainer, KinesisElement } from 'vue-kinesis'
-
-export default {
-  components: {
-    KinesisContainer,
-    KinesisElement
-  }
-}
-
-console.log("01298390-382");
-</script>
-
-
 
 <style lang="scss" scoped>
 
+$hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
+
+.blockHover {
+    &:hover {
+        transition: 0.6s $hoverEasing,
+            box-shadow 2s $hoverEasing;
+            box-shadow:
+                rgba(white, 0.2) 0 0 40px 5px,
+                rgba(white, 0.3 ) 0 0 0 1px,
+        }
+    }
 </style>

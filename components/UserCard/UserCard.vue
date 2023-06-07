@@ -1,5 +1,41 @@
 <template>
-    <div v-motion-slide-visible-top class="flex flex-col items-center max-w-[1360px] mx-auto my-0">
+    <div
+        v-motion
+        :initial="{
+            opacity: 0,
+            y: 100,
+            duration: 1000,
+            type: 'keyframes',
+            ease: 'easeIn',
+        }"
+        :enter="{
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1000,
+                type: 'keyframes',
+                ease: 'easeIn',
+            },
+        }"
+        :visible="{
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1000,
+                type: 'keyframes',
+                ease: 'easeIn',
+
+            },
+        }"
+        :leave="{
+        y: -100,
+            opacity: 0,
+            transition: {
+                delay: 1000,
+            },
+        }"    
+        class="flex flex-col items-center max-w-[1360px] mx-auto my-0"
+     >
     <!--block 1-->
     <div v-if="state.block === 1" class="flex flex-col items-center max-w-[1360px] mx-auto my-0">
         <div class="flex items-center w-[100%] mb-[40px]">

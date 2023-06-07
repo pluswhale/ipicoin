@@ -20,6 +20,7 @@
 import Advantages from '~/components/Advantages/Advantages.vue';
 import OurAdvantagesChart from '~/components/OurAdvantagesChart/OurAdvantagesChart.vue'
 import Ecosystem from '~/components/Ecosystem/Ecosystem.vue';
+import 'vue3-marquee/dist/style.css'
 
 
 </script>

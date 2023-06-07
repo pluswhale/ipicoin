@@ -1,6 +1,20 @@
 <template>
-    <div         
-            class="flex max-w-[1424px] h-[582px] mx-auto my-0"
+    <div
+        v-motion
+            :initial="{
+                y: 100,
+                opacity: 0,
+            }"
+            :enter="{
+                y: 0,
+                opacity: 1,
+                transition: {
+                duration: 1500,
+                type: 'keyframes',
+                ease: 'easeIn',
+                },
+        }"        
+        class="flex max-w-[1424px] h-[582px] mx-auto my-0"
         >
         <TitleAndAppsDownload/>
         <DiagramBlock/>

@@ -1,19 +1,5 @@
 <template>
     <div 
-        v-motion
-            :initial="{
-                y: 100,
-                opacity: 0,
-            }"
-            :enter="{
-                y: 0,
-                opacity: 1,
-                transition: {
-                duration: 1500,
-                type: 'keyframes',
-                ease: 'easeIn',
-                },
-        }"
         class="flex flex-col items-center w-full mt-[107px] max-w-[1400px] mx-auto my-0"
      >
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[15px] translate-x-[-14px]">our advantages</h2>

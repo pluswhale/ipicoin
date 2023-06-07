@@ -2,16 +2,36 @@
     <div 
         v-motion
         :initial="{
-            y: 100,
             opacity: 0,
-        }"
-        :enter="{
-            y: 0,
-            opacity: 1,
-            transition: {
-            duration: 1500,
+            y: 100,
+            duration: 1000,
             type: 'keyframes',
             ease: 'easeIn',
+        }"
+        :enter="{
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1000,
+                type: 'keyframes',
+                ease: 'easeIn',
+            },
+        }"
+        :visible="{
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1000,
+                type: 'keyframes',
+                ease: 'easeIn',
+
+            },
+        }"
+        :leave="{
+           y: -100,
+            opacity: 0,
+             transition: {
+                delay: 1000,
             },
         }"
         class="flex flex-col items-center w-full mt-[130px] max-w-[1456px] mx-auto my-0"   
