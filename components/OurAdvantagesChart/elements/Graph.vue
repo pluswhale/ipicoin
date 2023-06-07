@@ -61,14 +61,14 @@
                             Customer support
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[48px]">
-                            <div class=" text-white text-[18px] font-[400] font-['Barlow']">Available</div>
-                            <div class=" text-white text-[18px] font-[400] font-['Barlow']">Available</div>
-                            <div class=" text-white text-[18px] font-[400] font-['Barlow']">Available</div>
-                            <div class=" text-white text-[18px] font-[400] font-['Barlow']">Available</div>
-                            <div class=" text-white text-[18px] font-[400] font-['Barlow']">Available</div>
-                            <div class=" text-white text-[18px] font-[400] font-['Barlow']">Available</div>
-                            <div class=" text-white text-[18px] font-[400] font-['Barlow']">Available</div>
-                            <div class=" text-white text-[18px] font-[400] font-['Barlow']">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
                         </div>
                     </div>
                     <!--uncolor row-->

@@ -1,5 +1,8 @@
 <template>
-    <div v-motion-slide-visible-top class="flex max-w-[1424px] h-[582px] mx-auto my-0 ">
+    <div         
+
+            class="flex max-w-[1424px] h-[582px] mx-auto my-0"
+        >
         <TitleAndAppsDownload/>
         <DiagramBlock/>
         <SwapWallet/>
