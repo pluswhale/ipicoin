@@ -22,7 +22,7 @@ setTimeout(() => {
     <div class="flex flex-wrap ml-[0]">
         <div class="flex mt-[72px] flex-col">
             <!-- main title block-->
-            <div class="flex flex-col h-[414px] w-[530px]">
+            <div class="flex flex-col h-[414px] w-[970px]">
                 <div v-if="state.block.includes(0) " class="flex items-center">
                     <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] ">I</span>
                     <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">ndependent</span>

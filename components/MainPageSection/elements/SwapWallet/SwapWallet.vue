@@ -55,23 +55,23 @@
         <!--swap card-->
 
         <!--link line-->
-        <div class="flex items-center gap-[5px] mt-[50px] ml-[20px]">
+        <div class="flex items-center justify-center w-full gap-[30px] mt-[50px] ml-[20px]">
             <div class="flex items-center">
-                <span class="font-[600] text-white font-['SF_Pro_Text'] uppercase text-[14.5px] whitespace-nowrap">ipi scaner</span>
+                <span class="font-[600] text-white font-['SF_Pro_Text'] uppercase text-[14.5px] whitespace-nowrap">IPI SCANER</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
             <div class="flex items-center">
-                <span class="font-[600] text-white font-['SF_Pro_Text'] uppercase text-[14.5px] whitespace-nowrap">ipi scaner</span>
+                <span class="font-[600] text-white font-['SF_Pro_Text'] uppercase text-[14.5px] whitespace-nowrap">IPI WALLET</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
-            <div class="flex items-center">
+         <!--    <div class="flex items-center">
                 <span class="font-[600] text-white font-['SF_Pro_Text'] uppercase text-[14.5px] whitespace-nowrap">ipi scaner</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
             <div class="flex items-center">
                 <span class="font-[600] text-white uppercase font-['SF_Pro_Text'] text-[14.5px] whitespace-nowrap">ipi scaner</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
-            </div>
+            </div> -->
         </div>
 
     </div>

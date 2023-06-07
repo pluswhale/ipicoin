@@ -1,6 +1,7 @@
 <template>
     <div>
         <MainPageSection/>
+        <OurMission/>
         <Advantages/>
         <OurAdvantagesChart/>
         <Ecosystem/>

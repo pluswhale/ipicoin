@@ -14,7 +14,7 @@
             ease: 'easeIn',
             },
         }"
-        class="flex flex-col items-center w-full mt-[200px] max-w-[1456px] mx-auto my-0"   
+        class="flex flex-col items-center w-full mt-[130px] max-w-[1456px] mx-auto my-0"   
      >
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[77px] translate-y-[2px] translate-x-[-5px]">Perhaps the best project in web 3.0</h2>
         <div class="flex flex-col flex-wrap w-full gap-[38px]">

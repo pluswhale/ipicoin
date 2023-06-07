@@ -1,5 +1,5 @@
 <template>
-    <div>
+ <!--    <div>
         <div class="flex h-full flex-col justify-end translate-y-[0px] translate-x-[-50px]">
             <img src="~/assets/images/mainpage/Graph/x-info.png" class="relative"/>
             <img src="~/assets/images/mainpage/Graph/bg.png" class="absolute bottom-[18px] w-[380px] right-0 translate-x-[-16px] "/>
@@ -15,7 +15,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </template>
 
 <script setup>
