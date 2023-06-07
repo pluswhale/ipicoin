@@ -1,7 +1,41 @@
 <template>
     <div 
-    v-motion-slide-visible-top    
-     class="flex flex-col items-center w-full mt-[140px] max-w-[1400px] mx-auto my-0 translate-x-[-10px]" >
+            v-motion
+            :initial="{
+                opacity: 0,
+                y: 100,
+                duration: 1000,
+                type: 'keyframes',
+                ease: 'easeIn',
+            }"
+            :enter="{
+                opacity: 1,
+                y: 0,
+                transition: {
+                    duration: 1000,
+                    type: 'keyframes',
+                    ease: 'easeIn',
+                },
+            }"
+            :visible="{
+                opacity: 1,
+                y: 0,
+                transition: {
+                    duration: 1000,
+                    type: 'keyframes',
+                    ease: 'easeIn',
+
+                },
+            }"
+            :leave="{
+            y: -100,
+                opacity: 0,
+                transition: {
+                    delay: 1000,
+                },
+            }"   
+            class="flex flex-col items-center w-full mt-[140px] max-w-[1400px] mx-auto my-0 translate-x-[-10px]" 
+        >
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[42px]">ecosystem</h2>
         <div class="flex flex-col max-w-[1068px] justify-between">
             <!--top part-->

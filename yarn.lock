@@ -2000,7 +2000,7 @@
   "resolved" "https://registry.npmjs.org/@vue/shared/-/shared-3.3.4.tgz"
   "version" "3.3.4"
 
-"@vueuse/core@^10.1.2":
+"@vueuse/core@^10.1.2", "@vueuse/core@10.1.2":
   "integrity" "sha512-roNn8WuerI56A5uiTyF/TEYX0Y+VKlhZAF94unUfdhbDUI+NfwQMn4FUnUscIRUhv3344qvAghopU4bzLPNFlA=="
   "resolved" "https://registry.npmjs.org/@vueuse/core/-/core-10.1.2.tgz"
   "version" "10.1.2"
@@ -2028,6 +2028,18 @@
     "style-value-types" "^5.1.2"
   optionalDependencies:
     "@nuxt/kit" "^3.5.1"
+
+"@vueuse/nuxt@^10.1.2":
+  "integrity" "sha512-X9o5WCmNs1+6XztP1Uh9+H7/jGeIjwSRNQdwCWRKCDkxPlbgi9iLnDRYnKDY++JPY3nbB6jTDOVgZDrpaAU5kg=="
+  "resolved" "https://registry.npmjs.org/@vueuse/nuxt/-/nuxt-10.1.2.tgz"
+  "version" "10.1.2"
+  dependencies:
+    "@nuxt/kit" "^3.4.3"
+    "@vueuse/core" "10.1.2"
+    "@vueuse/metadata" "10.1.2"
+    "local-pkg" "^0.4.3"
+    "nuxt" "^3.4.3"
+    "vue-demi" ">=0.14.0"
 
 "@vueuse/shared@^10.1.2", "@vueuse/shared@10.1.2":
   "integrity" "sha512-1uoUTPBlgyscK9v6ScGeVYDDzlPSFXBlxuK7SfrDGyUTBiznb3mNceqhwvZHjtDRELZEN79V5uWPTF1VDV8svA=="
@@ -4859,7 +4871,7 @@
   optionalDependencies:
     "fsevents" "~2.3.2"
 
-"nuxt@^3.5.1":
+"nuxt@^3.4.3", "nuxt@^3.5.1":
   "integrity" "sha512-MAooC2oqmc4d61MW+rRIbCKmdrIfYj32ilWcG1Se4pZyPTl4H56ELVqy6Wm2MgdKbWHLxH6K0nR13RcLLzLouw=="
   "resolved" "https://registry.npmjs.org/nuxt/-/nuxt-3.5.1.tgz"
   "version" "3.5.1"
@@ -6898,7 +6910,7 @@
   dependencies:
     "@vue/devtools-api" "^6.5.0"
 
-"vue@^2.6.11", "vue@^2.7.0 || ^3.2.25", "vue@^3.0.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.3.4", "vue@>=2.7 || >=3", "vue@>=3.0.0", "vue@3.3.4":
+"vue@^2.6.11", "vue@^2.7.0 || ^3.2.25", "vue@^3.0.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.2", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.3.4", "vue@>=2.7 || >=3", "vue@>=3.0.0", "vue@3.3.4":
   "integrity" "sha512-VTyEYn3yvIeY1Py0WaYGZsXnz3y5UnGi62GjVEqvEGPl6nxbOrCXbVOTQWBEJUqAyTUk2uJ5JLVnYJ6ZzGbrSw=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.3.4.tgz"
   "version" "3.3.4"
@@ -6916,6 +6928,11 @@
   dependencies:
     "@vue/compiler-sfc" "2.7.14"
     "csstype" "^3.1.0"
+
+"vue3-marquee@^3.1.2":
+  "integrity" "sha512-qorZUAakbQqxHmgFBpunQ4WNcdgclG8XRTWjA9Rg+LSLIBWUFYL8LP7Ozf/CQPiZrFxP3PK2GtfN1uCDA/FoiA=="
+  "resolved" "https://registry.npmjs.org/vue3-marquee/-/vue3-marquee-3.1.2.tgz"
+  "version" "3.1.2"
 
 "watchpack@^2.4.0":
   "integrity" "sha512-Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg=="
