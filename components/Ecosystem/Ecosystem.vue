@@ -1,8 +1,114 @@
 <script setup language="ts">
 import {ref, computed} from 'vue';
 import { useMouseInElement } from "@vueuse/core";
+
+// ---------------- top left ----------------------------
+const firstTopLeftCard = ref(null);
+const secondTopLeftCard = ref(null);
+const thirdTopLeftCard = ref(null);
+const fourthTopLeftCard = ref(null);
+const fifthTopLeftCard = ref(null);
+
+
+const { elementX: firstTopLeftCardX,
+    elementY: firstTopLeftCardY,
+    isOutside: isOutsideFirstTopLeftCard,
+    elementHeight: firstTopLeftCardHeight,
+    elementWidth: firstTopLeftCardWeight } = useMouseInElement(firstTopLeftCard);
+
+const { elementX: secondTopLeftCardX,
+    elementY: secondTopLeftCardY,
+    isOutside: isOutsideSecondTopLeftCard,
+    elementHeight: secondTopLeftCardHeight,
+    elementWidth: secondTopLeftCardWeight } = useMouseInElement(secondTopLeftCard);
+
+const { elementX: thirdTopLeftCardX,
+    elementY: thirdTopLeftCardY,
+    isOutside: isOutsideThirdTopLeftCard,
+    elementHeight: thirdTopLeftCardHeight,
+    elementWidth: thirdTopLeftCardWeight } = useMouseInElement(thirdTopLeftCard);
+
+const { elementX: fourthTopLeftCardX,
+    elementY: fourthTopLeftCardY,
+    isOutside: isOutsideFourthTopLeftCard,
+    elementHeight: fourthTopLeftCardHeight,
+    elementWidth: fourthTopLeftCardWeight } = useMouseInElement(fourthTopLeftCard);
+
+const { elementX: fifthTopLeftCardX,
+    elementY: fifthTopLeftCardY,
+    isOutside: isOutsideFifthTopLeftCard,
+    elementHeight: fifthTopLeftCardHeight,
+    elementWidth: fifthTopLeftCardWeight } = useMouseInElement(fifthTopLeftCard);
+
+const cardTransformFirstLeftTop = computed(() => {
+    const MAX_ROTATION = 6;
+
+    const rX = (MAX_ROTATION / 2 - (firstTopLeftCardY.value / firstTopLeftCardHeight.value) * MAX_ROTATION).toFixed(2); //handle x-Axis
+    const rY = ((firstTopLeftCardX.value / firstTopLeftCardWeight.value) * MAX_ROTATION - MAX_ROTATION / 2).toFixed(2); //handle y-Axis
+
+    return isOutsideFirstTopLeftCard.value
+        ? ""
+        : `perspective(${firstTopLeftCardWeight.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`;  
+});
+
+const cardTransformSecondLeftTop = computed(() => {
+    const MAX_ROTATION = 6;
+
+    const rX = (MAX_ROTATION / 2 - (secondTopLeftCardY.value / secondTopLeftCardHeight.value) * MAX_ROTATION).toFixed(2); //handle x-Axis
+    const rY = ((secondTopLeftCardX.value / secondTopLeftCardWeight.value) * MAX_ROTATION - MAX_ROTATION / 2).toFixed(2); //handle y-Axis
+
+    return isOutsideSecondTopLeftCard.value
+        ? ""
+        : `perspective(${secondTopLeftCardWeight.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`;  
+});
+
+const cardTransformThirdLeftTop = computed(() => {
+    const MAX_ROTATION = 6;
+
+    const rX = (MAX_ROTATION / 2 - (thirdTopLeftCardY.value / thirdTopLeftCardHeight.value) * MAX_ROTATION).toFixed(2); //handle x-Axis
+    const rY = ((thirdTopLeftCardX.value / thirdTopLeftCardWeight.value) * MAX_ROTATION - MAX_ROTATION / 2).toFixed(2); //handle y-Axis
+
+    return isOutsideThirdTopLeftCard.value
+        ? ""
+        : `perspective(${thirdTopLeftCardWeight.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`;  
+});
+
+const cardTransformFourthLeftTop = computed(() => {
+    const MAX_ROTATION = 6;
+
+    const rX = (MAX_ROTATION / 2 - (fourthTopLeftCardY.value / fourthTopLeftCardHeight.value) * MAX_ROTATION).toFixed(2); //handle x-Axis
+    const rY = ((fourthTopLeftCardX.value / fourthTopLeftCardWeight.value) * MAX_ROTATION - MAX_ROTATION / 2).toFixed(2); //handle y-Axis
+
+    return isOutsideFourthTopLeftCard.value
+        ? ""
+        : `perspective(${fourthTopLeftCardWeight.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`;  
+});
+
+const cardTransformFifthLeftTop = computed(() => {
+    const MAX_ROTATION = 6;
+
+    const rX = (MAX_ROTATION / 2 - (fifthTopLeftCardY.value / fifthTopLeftCardHeight.value) * MAX_ROTATION).toFixed(2); //handle x-Axis
+    const rY = ((fifthTopLeftCardX.value / fifthTopLeftCardWeight.value) * MAX_ROTATION - MAX_ROTATION / 2).toFixed(2); //handle y-Axis
+
+    return isOutsideFifthTopLeftCard.value
+        ? ""
+        : `perspective(${fifthTopLeftCardWeight.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`;  
+});
+
+
+
+// ---------------- top left ----------------------------
+
+
+//  ---------------- --- ------- top right
+
 const firstTopCard = ref(null);
 const secondTopCard = ref(null);
+const thirdTopCard = ref(null);
+const fourthLeftTopCard = ref(null);
+const fourthRightTopCard = ref(null);
+const fifthTopCard = ref(null);
+
 
 const { elementX: firstTopCardX,
     elementY: firstTopCardY,
@@ -16,15 +122,39 @@ const { elementX: secondTopCardX,
     elementHeight: secondTopCardHeight,
     elementWidth: secondTopCardWeight } = useMouseInElement(secondTopCard);
 
+const { elementX: thirdTopCardX,
+    elementY: thirdTopCardY,
+    isOutside: isOutsideThirdCard,
+    elementHeight: thirdTopCardHeight,
+    elementWidth: thirdTopCardWeight } = useMouseInElement(thirdTopCard);
+
+const { elementX: fourthLeftTopCardX,
+    elementY: fourthLeftTopCardY,
+    isOutside: isOutsideFourthLeftCard,
+    elementHeight: fourthLeftTopCardHeight,
+    elementWidth: fourthLeftTopCardWeight } = useMouseInElement(thirdTopCard);
+
+const { elementX: fourthRightTopCardX,
+    elementY: fourthRightTopCardY,
+    isOutside: isOutsideFourthRightCard,
+    elementHeight: fourthRightTopCardHeight,
+    elementWidth: fourthRightTopCardWeight } = useMouseInElement(thirdTopCard);
+
+const { elementX: fifthTopCardX,
+    elementY: fifthTopCardY,
+    isOutside: isOutsideFifthCard,
+    elementHeight: fifthTopCardHeight,
+    elementWidth: fifthTopCardWeight } = useMouseInElement(fifthTopCard);
+
 const cardTransformFirstTop = computed(() => {
     const MAX_ROTATION = 6;
 
-        const rX = (MAX_ROTATION / 2 - (firstTopCardY.value / firstTopCardHeight.value) * MAX_ROTATION).toFixed(2); //handle x-Axis
-        const rY = ((firstTopCardX.value / firstTopCardWeight.value) * MAX_ROTATION - MAX_ROTATION / 2).toFixed(2); //handle y-Axis
+    const rX = (MAX_ROTATION / 2 - (firstTopCardY.value / firstTopCardHeight.value) * MAX_ROTATION).toFixed(2); //handle x-Axis
+    const rY = ((firstTopCardX.value / firstTopCardWeight.value) * MAX_ROTATION - MAX_ROTATION / 2).toFixed(2); //handle y-Axis
 
-        return isOutsideFirstCard.value
-            ? ""
-            : `perspective(${firstTopCardWeight.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`;  
+    return isOutsideFirstCard.value
+        ? ""
+        : `perspective(${firstTopCardWeight.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`;  
 });
 
 const cardTransformSecondTop = computed(() => {
@@ -37,6 +167,51 @@ const cardTransformSecondTop = computed(() => {
         ? ""
         : `perspective(${secondTopCardWeight.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`
 });
+
+const cardTransformThirdTop = computed(() => {
+    const MAX_ROTATION = 6;
+
+    const rX = (MAX_ROTATION / 2 - (thirdTopCardY.value / thirdTopCardHeight.value) * MAX_ROTATION).toFixed(2); //handle x-Axis
+    const rY = ((thirdTopCardX.value / thirdTopCardWeight.value) * MAX_ROTATION - MAX_ROTATION / 2).toFixed(2); //handle y-Axis
+
+    return isOutsideThirdCard.value
+        ? ""
+        : `perspective(${thirdTopCardWeight.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`
+});
+const cardTransformFifthTop = computed(() => {
+    const MAX_ROTATION = 6;
+
+    const rX = (MAX_ROTATION / 2 - (fifthTopCardY.value / fifthTopCardHeight.value) * MAX_ROTATION).toFixed(2); //handle x-Axis
+    const rY = ((fifthTopCardX.value / fifthTopCardWeight.value) * MAX_ROTATION - MAX_ROTATION / 2).toFixed(2); //handle y-Axis
+
+    return isOutsideFifthCard.value
+        ? ""
+        : `perspective(${fifthTopCardWeight.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`
+});
+
+const cardTransformFourthLeftTopRight = computed(() => {
+    const MAX_ROTATION = 6;
+
+    const rX = (MAX_ROTATION / 2 - (fourthLeftTopCardY.value / fourthLeftTopCardHeight.value) * MAX_ROTATION).toFixed(2); //handle x-Axis
+    const rY = ((fourthLeftTopCardX.value / fourthLeftTopCardWeight.value) * MAX_ROTATION - MAX_ROTATION / 2).toFixed(2); //handle y-Axis
+
+    return isOutsideFourthLeftCard.value
+        ? ""
+        : `perspective(${fourthLeftTopCardWeight.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`
+});
+const cardTransformFourthRightTop = computed(() => {
+    const MAX_ROTATION = 6;
+
+    const rX = (MAX_ROTATION / 2 - (fourthRightTopCardY.value / fourthRightTopCardHeight.value) * MAX_ROTATION).toFixed(2); //handle x-Axis
+    const rY = ((fourthRightTopCardX.value / fourthRightTopCardWeight.value) * MAX_ROTATION - MAX_ROTATION / 2).toFixed(2); //handle y-Axis
+
+    return isOutsideFourthRightCard.value
+        ? ""
+        : `perspective(${fourthRightTopCardWeight.value}px) rotateX(${rX}deg) rotateY(${rY}deg)`
+});
+
+
+//  ---------------- --- ------- top right
 
 </script>
 
@@ -84,64 +259,90 @@ const cardTransformSecondTop = computed(() => {
             <div class="flex flex-row max-w-[1068px] justify-between translate-x-[-65px]">
                 <!--first arrows-->
                 <div class="flex flex-col gap-[33px]">
-                    <img class="translate-y-[20px] translate-x-[257px] absolute w-[214px]" src="../../assets/images/platform/arrow1.svg" alt=""/>
+                    <img class="translate-y-[40px] translate-x-[257px] absolute w-[180px]" src="../../assets/images/platform/arrow1.svg" alt=""/>
                     <img class="translate-y-[20px] translate-x-[70px] h-[220px] absolute" src="../../assets/images/platform/arrow2.svg" alt=""/>
+                    <img src="../../assets/images/platform/arrow3.svg" class="translate-y-[250px] translate-x-[70px] h-[480px]  absolute" alt="">
+                    <img src="../../assets/images/platform/arrow4.svg" class="left-[180px] bottom-[80px]  absolute" alt="">
                 </div>
                 <!--first arrows-->
 
                 <!--top block-->
                 <div class="flex flex-row">
                     <!--first left block-->
-                    <div class="flex flex-col justify-start translate-x-[100px]">
+                    <div class="flex flex-col justify-start translate-x-[100px] relative">
                         <!--first 4 card and arrows-->
                         <div class="flex flex-row">
                             <div class="flex flex-col">
                                 <!-- little card-->
-                                <div class="flex bg-[#9B51E01A]/10 w-[154px] h-[50px] translate-y-[0] justify-center items-center rounded-[20px]" >
+                                <div
+                                    ref="firstTopLeftCard"
+                                    :style="{
+                                        transform: cardTransformFirstLeftTop,
+                                        transition: 'transform 0.25s ease-out'
+                                    }"  
+                                    class="flex bg-[#9B51E01A]/10 w-[154px] h-[50px] translate-y-[0] justify-center cursor-pointer items-center rounded-[20px] blockHover"
+                                  >
                                     <span class="font-['Quicksand'] text-[16px] font-[500] text-white text-center relative">iScan</span>
                                 </div>
                                 <!-- little card-->
 
                                 <!-- little card-->
-                                <div class="flex bg-[#9B51E01A]/10 w-[154px] h-[50px] translate-y-[43px] justify-center items-center rounded-[20px]" >
+                                <div 
+                                    ref="secondTopLeftCard"
+                                    :style="{
+                                        transform: cardTransformSecondLeftTop,
+                                        transition: 'transform 0.25s ease-out'
+                                    }"  
+                                    class="flex bg-[#9B51E01A]/10 w-[154px] h-[50px] cursor-pointer mt-[43px] justify-center items-center rounded-[20px] blockHover" 
+                                >
                                     <span class="font-['Quicksand'] text-[14px] font-[500] text-white text-center ">iWallet</span>
                                 </div>
                                 <!-- little card-->
 
                                 <!-- little card-->
-                                <div class="flex bg-[#9B51E01A]/10 w-[154px] h-[70px] translate-y-[93px] justify-center items-center rounded-[20px]" >
+                                <div
+                                    ref="thirdTopLeftCard"
+                                    :style="{
+                                        transform: cardTransformThirdLeftTop,
+                                        transition: 'transform 0.25s ease-out'
+                                    }" 
+                                    class="flex bg-[#9B51E01A]/10 w-[154px] h-[70px] cursor-pointer mt-[58px] justify-center items-center rounded-[20px] blockHover" 
+                                >
                                     <span class="font-['Quicksand'] text-[14px] font-[500] text-white  text-center">index Real-time Indexer</span>
                                 </div>
                                 <!-- little card-->
 
                                 <!-- little card-->
-                                <div class="flex bg-[#9B51E01A]/10 w-[154px] h-[70px] justify-center translate-y-[117px] items-center rounded-[20px]" >
+                                <div
+                                     class="flex bg-[#9B51E01A]/10 w-[154px] h-[70px] cursor-pointer justify-center mt-[117px] items-center rounded-[20px] blockHover" 
+                                     ref="fourthTopLeftCard"
+                                        :style="{
+                                            transform: cardTransformFourthLeftTop,
+                                            transition: 'transform 0.25s ease-out'
+                                        }" 
+                                >
                                     <span class="font-['Quicksand'] text-[14px] font-[500] text-white max-w-[179px] text-center">Solidity<br> to iVM Transpiler</span>
                                 </div>
                                 <!-- little card-->
                             </div>
 
-
-                            <!-- second arrow right first block-->
-                            <div class="relative">
-                                <!--<img class="translate-y-[40px] translate-x-[5px] absolute " src="../../assets/images/platform/arrow1.png" alt=""/> -->
-                                <!--<img class="translate-y-[-130px] h-[170px] translate-x-[-180px] absolute" src="../../assets/images/platform/arrow.svg" alt=""/> -->
-                                <!-- <img class="translate-y-[-35px] translate-x-[-190px] absolute" src="../../assets/images/platform/arrow.svg" alt=""/> -->
-                            </div>
-
                         </div>
                         <!--first 4 card and arrows-->
-
                         <!-- big card-->
-                        <div class="flex flex-col bg-[#9B51E01A]/10 w-[190px] h-[157px] translate-y-[236px] justify-center items-center rounded-[20px] relative" >
+                        <div
+                            ref="fifthTopLeftCard"
+                            :style="{
+                                transform: cardTransformFifthLeftTop,
+                                transition: 'transform 0.25s ease-out'
+                            }" 
+                            class="flex flex-col bg-[#9B51E01A]/10 w-[190px] h-[157px] cursor-pointer justify-center items-center rounded-[20px] absolute bottom-[110px] left-0 blockHover"
+                          >
                             <span class="font-['Quicksand'] text-[14px] font-[700] text-white text-center translate-y-[-7px]">Simple Transactions</span>
                             <div class="flex flex-col gap-[9px] mt-[7px]">
-                                <span class="flex items-center justify-center w-[149px] h-[28px] bg-[#749CC799]/60 rounded-[20px] text-white text-['Quicksand'] text-[14px] font-[500]">Transfer</span>
-                                <span class="flex items-center justify-center w-[149px] h-[28px] bg-[#749CC799]/60 rounded-[20px] text-white text-['Quicksand'] text-[14px] font-[500]">Creat Asset</span>
-                                <span class="flex items-center justify-center w-[149px] h-[28px] bg-[#749CC799]/60 rounded-[20px] text-white text-['Quicksand'] text-[14px] font-[500]">Create Contract</span>
+                                <span class="flex items-center justify-center w-[149px] h-[28px] bg-[#749CC799]/60 rounded-[20px] text-white text-['Quicksand'] text-[14px] font-[500] cursor-pointer transition duration-300 hover:scale-[1.03]">Transfer</span>
+                                <span class="flex items-center justify-center w-[149px] h-[28px] bg-[#749CC799]/60 rounded-[20px] text-white text-['Quicksand'] text-[14px] font-[500] cursor-pointer transition duration-300 hover:scale-[1.03]">Creat Asset</span>
+                                <span class="flex items-center justify-center w-[149px] h-[28px] bg-[#749CC799]/60 rounded-[20px] text-white text-['Quicksand'] text-[14px] font-[500] cursor-pointer transition duration-300 hover:scale-[1.03]">Create Contract</span>
                             </div>
-                            <img src="../../assets/images/platform/arrow3.svg" class="translate-y-[-30px] translate-x-[-113px] absolute" alt="">
-                            <img src="../../assets/images/platform/arrow4.svg" class="translate-y-[96px] translate-x-[0px] absolute" alt="">
                         </div>
                         <!-- big card-->
                     </div>
@@ -197,18 +398,25 @@ const cardTransformSecondTop = computed(() => {
                             <!--second card -->
 
                             <!--third card -->
-                            <div class=" flex flex-col items-center bg-[#FFFFFF33] rounded-[20px] w-full h-[176px] mb-[15px]">
+                            <div
+                                ref="thirdTopCard"
+                                :style="{
+                                    transform: cardTransformThirdTop,
+                                    transition: 'transform 0.25s ease-out'
+                                }"  
+                                class=" flex flex-col items-center bg-[#FFFFFF33] rounded-[20px] w-full h-[176px] mb-[15px] blockHover"
+                             >
                                 <div class="flex flex-row mt-[20px] gap-[36px]">
                                     <div class="flex flex-col gap-[9px]">
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px]">iOff - offchain prover</span>
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px]">iwait - Triggers platform</span>
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px]">iPrize - prize based defered execution</span>
+                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iOff - offchain prover</span>
+                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iwait - Triggers platform</span>
+                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iPrize - prize based defered execution</span>
                                     </div>
 
                                     <div class="flex flex-col gap-[9px]">
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px]">iRemote - provable remote chain reader</span>
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px]">iLater - Continuations system</span>
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px]">iLink - Provable Web Link</span>
+                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iRemote - provable remote chain reader</span>
+                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iLater - Continuations system</span>
+                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iLink - Provable Web Link</span>
                                     </div>
                                 </div>
                                 <span class="text-[#EC474E] text-[400] font-['Quicksand'] mt-[10px] mb-[9px] font-[700] text-[14px]">iEnv -Basic Smart Contract Building blocks </span>
@@ -216,11 +424,27 @@ const cardTransformSecondTop = computed(() => {
                             <!--third card -->
 
                             <!--fourth card -->
-                            <div class=" flex gap-[6px] mb-[15px] w-full h-[73px]">
-                                <div class="flex w-[148px] items-center justify-center bg-[#FFFFFF33] rounded-[20px] h-full text-white text-center ">
+                            <div
+                                class=" flex gap-[6px] mb-[15px] w-full h-[73px] "
+                             >
+                                <div 
+                                    class="flex w-[148px] items-center justify-center bg-[#FFFFFF33] rounded-[20px] h-full text-white text-center blockHover "
+                                    ref="fourthLeftTopCard"
+                                    :style="{
+                                        transform: cardTransformFourthLeftTopRight,
+                                        transition: 'transform 0.25s ease-out'
+                                    }"  
+                                >
                                    <p class="text-white text-[14px] font-[500] font-['Quicksand'] leading-[20px] w-[100%]">Low level and transpiled contracts</p> 
                                 </div>
-                                <div class="flex flex-col w-[475px] items-center bg-[#FFFFFF33] rounded-[20px] h-full text-white text-[14px] font-[500] font-['Quicksand'] ">
+                                <div 
+                                    class="flex flex-col w-[475px] items-center bg-[#FFFFFF33] rounded-[20px] h-full text-white text-[14px] font-[500] font-['Quicksand'] blockHover "
+                                    ref="fourthRightTopCard"
+                                    :style="{
+                                        transform: cardTransformFourthRightTop,
+                                        transition: 'transform 0.25s ease-out'
+                                    }" 
+                                >
                                     <div class="flex items-center gap-[15px] mt-[10px]">
                                         <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[111px] h-[33px] text-[14px] font-[500] font-['Quicksand'] pb-[3px]">Asyncify</span>
                                         <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[111px] h-[33px] text-[14px] font-[500] font-['Quicksand'] pb-[3px]">Optimizer</span>
@@ -232,7 +456,14 @@ const cardTransformSecondTop = computed(() => {
                             <!--fourth card -->
 
                             <!--five card -->
-                            <div class=" flex flex-col mb-[15px] items-center bg-[#FFFFFF33] rounded-[20px] w-full h-[151px] relative">
+                            <div
+                                ref="fifthTopCard"
+                                :style="{
+                                    transform: cardTransformFifthTop,
+                                    transition: 'transform 0.25s ease-out'
+                                }"  
+                                class=" flex flex-col mb-[15px] items-center bg-[#FFFFFF33] rounded-[20px] w-full h-[151px] relative blockHover"
+                             >
                                 <span class="text-[#EC474E] text-[14px] font-[700] font-['Quicksand'] mt-[6px] mb-[8px]">iVM</span>
                                 <div class="flex bg-white/20 rounded-[20px] h-[44px] w-[559px] justify-center items-center mb-[5px] px-[20px]">
                                     <span class="text-[14px] text-center text-white font-['Quicksand'] font-[500] w-[100px] leading-[15px] my-[10px]">iWASM Transpiler</span>
@@ -309,7 +540,7 @@ $hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
             box-shadow 2s $hoverEasing;
             box-shadow:
                 rgba(white, 0.2) 0 0 40px 5px,
-                rgba(white, 0.3 ) 0 0 0 1px,
+                rgba(white, 0.2 ) 0 0 0 1px,
         }
     }
 </style>
