@@ -1,5 +1,21 @@
 <template>
-<div v-motion-slide-visible-top  class="w-[100%] relative">
+<div 
+    class="w-[100%] relative"
+    v-motion
+    :initial="{
+        y: 100,
+        opacity: 0,
+    }"
+    :enter="{
+        y: 0,
+        opacity: 1,
+        transition: {
+        duration: 1500,
+        type: 'keyframes',
+        ease: 'easeIn',
+        },
+    }"
+  >
     <div class="flex flex-col items-center h-[950px] w-full mt-[136px] max-w-[1360px] mx-auto my-0">
         <h2 class="text-white uppercase font-[700] text-[40px] font-['Quicksand']">FAQS</h2>
         <span class="text-[#97AFD5] text-[16px] font-['Roboto sans-serif'] text-center max-w-[500px] mt-[24px] mb-[46.7px]">Below we’ve provided a FAQ of IPICOIN and few others. If you have any other questions, please get in touch.</span>

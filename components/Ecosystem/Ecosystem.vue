@@ -79,13 +79,13 @@
                             <!--first card -->
 
                         
-                                    <div class="mb-[15px]">
+                                    <div class="mb-[15px] transition ">
                                         <div class="flex flex-col bg-[#FFFFFF33]  items-center justify-center rounded-[20px]">
                                             <span class="text-[#EC474E] text-[700] font-['Quicksand'] mb-[10px] text-[14px] font-[700] mt-[10px]">Web application</span>
                                             <div class="flex items-center gap-[10px] mb-[12px]">
-                                                <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[16px] pr-[16px] h-[33px] text-[14px] font-[500] 
+                                                <span class="flex items-center justify-center pointer text-white bg-[#749CC799]/60 rounded-[20px] pl-[16px] pr-[16px] h-[33px] text-[14px] font-[500] transition hover:scale-105
                                             ">iView - real-time view</span>
-                                                <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[373px] h-[33px] text-[14px] font-[500]">iAPI - frontend application programming interface</span>
+                                                <span class="flex items-center justify-center cursor- text-white bg-[#749CC799]/60 rounded-[20px] w-[373px] h-[33px] text-[14px] font-[500] transition hover:scale-105">iAPI - frontend application programming interface</span>
                                             </div>
                                         </div>
                                     </div>

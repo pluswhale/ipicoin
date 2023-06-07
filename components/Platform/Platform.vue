@@ -1,5 +1,21 @@
     <template>
-        <div v-motion-slide-visible-top  class="w-100% ">
+        <div 
+         class="w-100% "
+            v-motion
+            :initial="{
+                y: 100,
+                opacity: 0,
+            }"
+            :enter="{
+                y: 0,
+                opacity: 1,
+                transition: {
+                duration: 1500,
+                type: 'keyframes',
+                ease: 'easeIn',
+                },
+            }"
+         >
             <div class="flex flex-col items-center w-full mt-[30px] max-h-[1040px]  max-w-[1400px] mx-auto my-0">
                 <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[15px]">platform</h2>
                 <div class="flex w-[994px] border-b-[3px] border-b-[#749DCA] h-[100px] justify-center mb-[61px]">
