@@ -41,7 +41,7 @@
 
 
         <!-- Searc block -->
-        <div class="flex w-full items-center h-[48px] bg-white/10 rounded-[10px] px-[20px] justify-between mb-[10px]" >
+        <div class="flex w-full items-center h-[48px] bg-white/10 rounded-[10px] px-[20px] justify-between mb-[20px]" >
 
             <div class="flex gap-[5px]">
                <img src="../../assets/images/Ipi scan/search.png" alt="" class="mr-[17px]">  
@@ -61,27 +61,27 @@
          <div class="flex items-center w-full mb-[60px]"><!-- Trending Searc -->
             <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] mr-[10px]">Trending Search：</p>
 
-            <div class="flex items-center mr-[20px]">
+            <div class="flex items-center mr-[20px] gap-[2px]">
                 <img src="../../assets/images/Ipi scan/trending/logo-1.png" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BNB</p>
             </div>
 
-            <div class="flex items-center mr-[20px]">
+            <div class="flex items-center mr-[20px] gap-[2px]">
                 <img src="../../assets/images/Ipi scan/trending/logo-2.png" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BNB</p>
             </div>
 
-            <div class="flex items-cente mr-[20px]">
+            <div class="flex items-cente mr-[20px] gap-[2px]">
                 <img src="../../assets/images/Ipi scan/trending/logo-3.png" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BNB</p>
             </div>
 
-            <div class="flex items-center mr-[20px]">
+            <div class="flex items-center mr-[20px] gap-[2px]">
                 <img src="../../assets/images/Ipi scan/trending/logo-4.png" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BTC</p>
             </div>
 
-            <div class="flex items-center mr-[20px]">
+            <div class="flex items-center mr-[20px] gap-[2px]">
                 <img src="../../assets/images/Ipi scan/trending/logo-5.png" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BTC</p>
             </div>
@@ -90,8 +90,6 @@
 
 
          </div> <!-- /Trending Search -->
-
-
 
          <!-- Index block -->
             <div class="flex w-full items-center justify-between">

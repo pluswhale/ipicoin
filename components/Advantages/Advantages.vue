@@ -164,10 +164,10 @@ const handleSetVisibleBlock = (block) => {
                 
                 <div @mouseover="handleSetVisibleBlock(8)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center max-w-[350px] min-w-[350px]">
                     <img src="~/assets/icons/advantages/code_icon.svg"/>
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow']">Programming in programming languages</span>
                     <Transition>
-                        <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow']">Programming in programming languages</span>
+                        <span v-show="visibleBlockState.block === 8" class="text-[13px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto']   mt-[9px]">we provide the ability to create your own contracts and easy access to our protocol, as well as easy entry into the creation of your dApps with any commands. We are also exploring the use of artificial intelligence in our protocol.</span>  
                     </Transition>
-                    <span v-show="visibleBlockState.block === 8" class="text-[13px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto']   mt-[9px]">we provide the ability to create your own contracts and easy access to our protocol, as well as easy entry into the creation of your dApps with any commands. We are also exploring the use of artificial intelligence in our protocol.</span>  
                 </div>                
             </div>
             <!--second row-->
