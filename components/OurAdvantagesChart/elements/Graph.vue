@@ -7,7 +7,7 @@
         @mouseleave="handleMouseLeave"
     >
             <div
-                class="flex flex-col bg-white/10  backdrop-blur-sm  rounded-[20px] graph"
+                class="flex flex-col bg-white/10  backdrop-blur-sm rounded-[20px] graph"
                 :style="cardStyle"
              >
                 <div class="flex flex-col w-[65.5%] self-end items-center mr-[54px]" >
@@ -80,11 +80,11 @@
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[30px]">
                             <div class="min-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left"></div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px]">Uses a specific Haskell programming language</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[1px]">Academic research, partnerships</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-4px]" >Interoperability</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[9px]">Community-driven</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[5px]">DeFi-focused</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] leading-[16px]">Uses a specific Haskell programming language</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-2px] leading-[16px]">Academic research, partnerships</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px]" >Interoperability</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[15px]">Community-driven</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[3px]">DeFi-focused</div>
                             <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[25px]">Interoperability, cross-chain</div>
                             <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[25px]">High-performance</div>
                         </div>
@@ -99,10 +99,10 @@
                         <div class="w-[71%] flex items-center justify-between pr-[48px]">
                             <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0]">Funded</div>
                             <div class=" text-white max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[27px]">Funded by Binance</div>
-                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-3px]">ICOin 2016-2017</div>
-                            <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-17px]">ICO in 2017</div>
-                            <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-3px]">ICO in 2014</div>
-                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[8px]">ICO in 2017 (BNB)</div>
+                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-3px]">ICO<br>in 2016-2017</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px]">ICO in 2017</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[10px]">ICO in 2014</div>
+                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[15px]">ICO in 2017 (BNB)</div>
                             <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-13px]">ICO in 2017</div>
                             <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[2px]">ICO in 2020</div>
                         </div>
@@ -281,7 +281,7 @@ $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 $hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
 
 .graph_wrap {
-  transform: perspective(800px);
+  transform: perspective(10000px);
   transform-style: preserve-3d;
   cursor: pointer;
 
@@ -297,7 +297,7 @@ $hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
     }
 
     .graph {
-        width: 1120px;
+        width: 1250px;
         height: 994px;
         transition: 1s $returnEasing;
         flex: 0 0 1120px;
