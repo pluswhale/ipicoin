@@ -259,8 +259,8 @@ const cardTransformFourthRightTop = computed(() => {
             <div class="flex flex-row max-w-[1068px] justify-between translate-x-[-65px]">
                 <!--first arrows-->
                 <div class="flex flex-col gap-[33px]">
-                    <img class="translate-y-[40px] translate-x-[257px] absolute w-[180px]" src="../../assets/images/platform/arrow1.svg" alt=""/>
-                    <img class="translate-y-[20px] translate-x-[70px] h-[220px] absolute" src="../../assets/images/platform/arrow2.svg" alt=""/>
+                    <img class="translate-y-[24px] translate-x-[257px] absolute w-[210px]" src="../../assets/images/platform/arrow1.svg" alt=""/>
+                    <img class="translate-y-[11px] translate-x-[70px] h-[230px] absolute" src="../../assets/images/platform/arrow2.svg" alt=""/>
                     <img src="../../assets/images/platform/arrow3.svg" class="translate-y-[250px] translate-x-[70px] h-[480px]  absolute" alt="">
                     <img src="../../assets/images/platform/arrow4.svg" class="left-[180px] bottom-[80px]  absolute" alt="">
                 </div>
@@ -352,7 +352,7 @@ const cardTransformFourthRightTop = computed(() => {
                     <div class="flex w-[965px]">
 
                         <!-- main block wrapper-->
-                        <div class="flex flex-col w-[628px] h-[747px] translate-x-[285px] translate-y-[-5px]">
+                        <div class="flex flex-col w-[628px] h-[747px] translate-x-[315px] translate-y-[-5px] relative">
                             <!--first card -->
                             <div
                                 ref="firstTopCard"
@@ -380,7 +380,7 @@ const cardTransformFourthRightTop = computed(() => {
                                     transform: cardTransformSecondTop,
                                     transition: 'transform 0.25s ease-out'
                                 }"                                 
-                                class=" flex flex-col bg-[#FFFFFF33] items-center justify-center rounded-[20px] w-full h-[87px] mb-[15px] relative blockHover"
+                                class=" flex flex-col bg-[#FFFFFF33] items-center justify-center rounded-[20px] w-full h-[87px] mb-[15px] blockHover"
                                 >
                                 <span class="text-[#EC474E] text-[14px] font-['Quicksand'] mb-[10px] font-[700]">Web3 Protocols</span>
                                 <div class="flex items-center gap-[8px]">
@@ -392,11 +392,12 @@ const cardTransformFourthRightTop = computed(() => {
                                     <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iFund</span>
                                     <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iDAO</span>
                                     
-                                    <img src="../../assets/images/platform/arrow9(1).svg" class="translate-y-[75px] translate-x-[27px] right-0 absolute" alt="">
-                                </div>                            
+                                   
+                                </div>   
+                                
                             </div>
                             <!--second card -->
-
+                                <img src="../../assets/images/platform/arrow9(1).svg" class="translate-y-[44px] translate-x-[27px] right-0 absolute" alt="">
                             <!--third card -->
                             <div
                                 ref="thirdTopCard"
@@ -437,9 +438,10 @@ const cardTransformFourthRightTop = computed(() => {
                                 >
                                    <p class="text-white text-[14px] font-[500] font-['Quicksand'] leading-[20px] w-[100%]">Low level and transpiled contracts</p> 
                                 </div>
+
                                 <div 
                                     class="flex flex-col w-[475px] items-center bg-[#FFFFFF33] rounded-[20px] h-full text-white text-[14px] font-[500] font-['Quicksand'] blockHover "
-                                    ref="fourthRightTopCard"
+                                    ref="fifthTopCard"
                                     :style="{
                                         transform: cardTransformFourthRightTop,
                                         transition: 'transform 0.25s ease-out'
@@ -462,7 +464,7 @@ const cardTransformFourthRightTop = computed(() => {
                                     transform: cardTransformFifthTop,
                                     transition: 'transform 0.25s ease-out'
                                 }"  
-                                class=" flex flex-col mb-[15px] items-center bg-[#FFFFFF33] rounded-[20px] w-full h-[151px] relative blockHover"
+                                class=" flex flex-col mb-[15px] items-center bg-[#FFFFFF33] rounded-[20px] w-full h-[151px] blockHover"
                              >
                                 <span class="text-[#EC474E] text-[14px] font-[700] font-['Quicksand'] mt-[6px] mb-[8px]">iVM</span>
                                 <div class="flex bg-white/20 rounded-[20px] h-[44px] w-[559px] justify-center items-center mb-[5px] px-[20px]">
@@ -479,10 +481,10 @@ const cardTransformFourthRightTop = computed(() => {
                                     <span class=" text-white font-['Quicksand'] font-[500] text-[14px] text-centr">Contract linking and communitation layer</span>
                                 </div>
 
-                                <img src="../../assets/images/platform/arrow8.png" class="translate-y-[132px] translate-x-[-400px]  absolute" alt="">
                             </div>
+
+                            <img src="../../assets/images/platform/arrow8.png" class="translate-y-[-77px] bottom-0 translate-x-[-177px]  absolute" alt="">
                             <!--five card -->
-                            
                         </div>
                         <!-- main block wrapper-->
 
