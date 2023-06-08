@@ -26,13 +26,13 @@ const isMobile = useMediaQuery('(max-width: 480px)');
                     src="~/assets/images/ipi_logo.svg"
 
                 >
-                <nav v-show="!isMobile" class="flex justify-between translate-y-[14px] translate-x-[57px] min-w-[395px] ">
+                <nav v-show="!isMobile" class="flex justify-between  translate-x-[57px] min-w-[395px] ">
                     <ul class="flex gap-[1.85rem]">
-                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[600] font-['Barlow']" to="#platform">Platform</NuxtLink></li>
-                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[600] font-['Barlow']" to="/">Coins</NuxtLink></li>
-                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[600] font-['Barlow']" to="/">Roadmap</NuxtLink></li>
-                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[600] font-['Barlow']" to="/">FAQ</NuxtLink></li>
-                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[600] font-['Barlow']" to="/">Contacts</NuxtLink></li>
+                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow']" to="#platform">Platform</NuxtLink></li>
+                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow']" to="/">Coins</NuxtLink></li>
+                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow']" to="/">Roadmap</NuxtLink></li>
+                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow']" to="/">FAQ</NuxtLink></li>
+                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow']" to="/">Contacts</NuxtLink></li>
                     </ul>
                 </nav>
                 <button 
@@ -51,7 +51,7 @@ const isMobile = useMediaQuery('(max-width: 480px)');
                     }"
                 >
                     <span 
-                        class=" font-[700] uppercase whitespace-nowrap text-white font-['Inter'] mr-[5px]"
+                        class=" font-[500] uppercase whitespace-nowrap text-white font-['Inter'] mr-[5px]"
                         :class="{
                             'text-[10px]': isMobile,
                             'text-[16px]': !isMobile,
