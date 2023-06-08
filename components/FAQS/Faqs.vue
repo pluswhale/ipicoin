@@ -37,7 +37,7 @@
     }"   
   >
     <div class="flex flex-col items-center h-[950px] w-full mt-[136px] max-w-[1360px] mx-auto my-0">
-        <h2 class="text-white uppercase font-[700] text-[40px] font-['Quicksand']">FAQS</h2>
+        <h2 class="text-white uppercase font-[700] text-[40px] font-['Big_Shoulders_Stencil_Text']">FAQS</h2>
         <span class="text-[#97AFD5] text-[16px] font-['Roboto sans-serif'] text-center max-w-[500px] mt-[24px] mb-[46.7px]">Below we’ve provided a FAQ of IPICOIN and few others. If you have any other questions, please get in touch.</span>
 
         <div class="flex w-[1094px] border-b-[4px] border-b-[#749DCA] h-[100px] justify-center mb-[61px]">
