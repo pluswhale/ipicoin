@@ -37,7 +37,7 @@
         class="flex flex-col items-center mt-[50px] justify-center max-w-[1360px] mx-auto my-0"
     >
 
-        <h2 class="text-white uppercase text-[40px] font-[700] font-['Quicksand'] mb-[9px]">Contact Us</h2>
+        <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[9px]">Contact Us</h2>
 
         <div class="max-w-[534px] mb-[38px]">
             <p class="text-[#97AFD5] text-[16px] font-[400] font-['Roboto'] leading-[26px]">We are always open and we welcome and questions you have for our team. If you wish to get in touch, please fill out the form below. Someone from our team will get back to you shortly.</p>
