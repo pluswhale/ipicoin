@@ -1,6 +1,5 @@
 <script setup>
-import { reactive } from 'vue'
-
+import { reactive } from 'vue';
 const state = reactive({ block: [0], count: 1 })
 
 
@@ -25,7 +24,7 @@ const blockQueueInterval = setInterval(() => {
             <!-- main title block-->
 
             <!--first text block-->
-            <div v-if="state.block.length <= 4" class="flex flex-col h-[414px] w-[970px]">
+            <div v-if="state.block.length <= 4" class="flex flex-col h-[414px] w-[570px]">
                 <div v-if="state.block.includes(0) " class="flex items-center">
                     <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] ">I</span>
                     <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">ndependent</span>
@@ -43,7 +42,7 @@ const blockQueueInterval = setInterval(() => {
             <!--first text block-->
 
             <!--second text block-->
-            <div v-if="state.block.length > 4 && state.block.length <= 8 " class="flex flex-col h-[414px] w-[970px]">
+            <div v-if="state.block.length > 4 && state.block.length <= 8 " class="flex flex-col h-[414px] w-[570px]">
                 <div v-if="state.block.includes(4) " class="flex items-center">
                     <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] ">I</span>
                     <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">nnovative</span>
@@ -61,7 +60,7 @@ const blockQueueInterval = setInterval(() => {
             <!--second text block-->
 
             <!--third text block-->
-            <div v-if="state.block.length > 8 && state.block.length <= 12 " class="flex flex-col h-[414px] w-[970px]">
+            <div v-if="state.block.length > 8 && state.block.length <= 12 " class="flex flex-col h-[414px] w-[570px]">
                 <div v-if="state.block.includes(8) " class="flex items-center">
                     <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] ">I</span>
                     <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">ntegrated</span>
@@ -79,7 +78,7 @@ const blockQueueInterval = setInterval(() => {
             <!--third text block-->
 
             <!--third text block-->
-            <div v-if="state.block.length > 12 && state.block.length <= 16 " class="flex flex-col h-[414px] w-[970px]">
+            <div v-if="state.block.length > 12 && state.block.length <= 16 " class="flex flex-col h-[414px] w-[570px]">
                 <div v-if="state.block.includes(12) " class="flex items-center">
                     <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] ">I</span>
                     <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">nclusive</span>
