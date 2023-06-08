@@ -35,7 +35,7 @@
             },
         }"
       
-        class="flex flex-col items-center mt-[100px] h-[630px] max-w-[1400px] mx-auto my-0"
+        class="flex flex-col items-center mt-[100px] h-[740px] max-w-[1400px] mx-auto my-0"
     >
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text']  mb-[50px]">ipi scan</h2>
 
