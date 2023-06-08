@@ -132,13 +132,13 @@ const { elementX: fourthLeftTopCardX,
     elementY: fourthLeftTopCardY,
     isOutside: isOutsideFourthLeftCard,
     elementHeight: fourthLeftTopCardHeight,
-    elementWidth: fourthLeftTopCardWeight } = useMouseInElement(thirdTopCard);
+    elementWidth: fourthLeftTopCardWeight } = useMouseInElement(fourthLeftTopCard);
 
 const { elementX: fourthRightTopCardX,
     elementY: fourthRightTopCardY,
     isOutside: isOutsideFourthRightCard,
     elementHeight: fourthRightTopCardHeight,
-    elementWidth: fourthRightTopCardWeight } = useMouseInElement(thirdTopCard);
+    elementWidth: fourthRightTopCardWeight } = useMouseInElement(fourthRightTopCard);
 
 const { elementX: fifthTopCardX,
     elementY: fifthTopCardY,
@@ -441,16 +441,16 @@ const cardTransformFourthRightTop = computed(() => {
 
                                 <div 
                                     class="flex flex-col w-[475px] items-center bg-[#FFFFFF33] rounded-[20px] h-full text-white text-[14px] font-[500] font-['Quicksand'] blockHover "
-                                    ref="fifthTopCard"
+                                    ref="fourthRightTopCard"
                                     :style="{
                                         transform: cardTransformFourthRightTop,
                                         transition: 'transform 0.25s ease-out'
                                     }" 
                                 >
                                     <div class="flex items-center gap-[15px] mt-[10px]">
-                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[111px] h-[33px] text-[14px] font-[500] font-['Quicksand'] pb-[3px]">Asyncify</span>
-                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[111px] h-[33px] text-[14px] font-[500] font-['Quicksand'] pb-[3px]">Optimizer</span>
-                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[205px] h-[33px] text-[14px] font-[500] font-['Quicksand'] pb-[3px]">iRPC definitions extraction</span>
+                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[111px] h-[33px] text-[14px] font-[500] font-['Quicksand'] pb-[3px] cursor-pointer transition duration-300 hover:scale-[1.03]">Asyncify</span>
+                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[111px] h-[33px] text-[14px] font-[500] font-['Quicksand'] pb-[3px] cursor-pointer transition duration-300 hover:scale-[1.03]">Optimizer</span>
+                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[205px] h-[33px] text-[14px] font-[500] font-['Quicksand'] pb-[3px] cursor-pointer transition duration-300 hover:scale-[1.03]">iRPC definitions extraction</span>
                                     </div> 
                                     <span class="text-[#EC474E] text-[14px] font-[700] font-['Quicksand'] mt-[3px] mb-[3px]">iWASM Transpiler</span>
                                 </div>
@@ -469,9 +469,9 @@ const cardTransformFourthRightTop = computed(() => {
                                 <span class="text-[#EC474E] text-[14px] font-[700] font-['Quicksand'] mt-[6px] mb-[8px]">iVM</span>
                                 <div class="flex bg-white/20 rounded-[20px] h-[44px] w-[559px] justify-center items-center mb-[5px] px-[20px]">
                                     <span class="text-[14px] text-center text-white font-['Quicksand'] font-[500] w-[100px] leading-[15px] my-[10px]">iWASM Transpiler</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[132px] mr-[11px] h-[25px] font-[500] text-[14px]">Gas Metering</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[132px] mr-[11px] h-[25px] font-[500] text-[14px]">SoftFloat</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[154px] h-[25px] font-[500] text-[14px]">SoftFloat</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[132px] mr-[11px] h-[25px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">Gas Metering</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[132px] mr-[11px] h-[25px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">SoftFloat</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[154px] h-[25px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">SoftFloat</span>
                                 </div>
                                 <div class="flex bg-white/20 rounded-[20px] h-[29px] w-[559px] justify-center items-center mb-[3px]">
                                     <span class="text-white font-['Quicksand'] font-[500] text-[14px] text-center">WAVM -Fastest WebAssembly Virtual Machine</span>
@@ -501,12 +501,6 @@ const cardTransformFourthRightTop = computed(() => {
             <div class="flex flex-col translate-y-[-90px] ">
                 <!--bottom arrow-->
                 <div class="flex relative translate-y-[190px]">
-                 <!--    <img class="translate-y-[-76px] translate-x-[80px]" src="~/assets/images/ecosystem/bottom_arrow_pink_down.svg"/>
-                    <img class="translate-y-[-76px] translate-x-[270px]" src="~/assets/images/ecosystem/bottom_arrow_two.svg"/>
-                    <img class="translate-y-[-76px] translate-x-[500px]" src="~/assets/images/ecosystem/bottom_arrow_two.svg"/>
-                    <img class="translate-y-[-76px] translate-x-[200px]" src="~/assets/images/ecosystem/bottom_arrows.svg"/>
-                    <img class="translate-y-[-76px] translate-x-[270px]" src="~/assets/images/ecosystem/bottom_arrow_white_up.svg"/>
-                    <img class="translate-y-[-76px] translate-x-[550px]" src="~/assets/images/ecosystem/bottom_arrow_two.svg"/> -->
                     <img src="../../assets/images/platform/arrow5.png" class="translate-y-[-205px] translate-x-[160px] absolute" alt="">
                     <img src="../../assets/images/platform/arrow6(1).svg" class="translate-y-[-215px] translate-x-[890px] h-[35px]" alt="">
                     <img src="../../assets/images/platform/arrow6(1).svg" class="translate-y-[-215px] translate-x-[450px] h-[35px]" alt="">
