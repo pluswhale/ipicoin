@@ -35,24 +35,18 @@
             },
         }"
       
-        class="flex flex-col items-center mt-[100px] h-[400px] max-w-[1400px] mx-auto my-0"
+        class="flex flex-col items-center mt-[100px] h-[574px] max-w-[1400px] mx-auto my-0"
     >
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Big Shoulders Stencil Text, cursive'] mb-[50px]">ipi scan</h2>
 
 
         <!-- Searc block -->
-        <div class="flex w-full items-center h-[48px] bg-white/10 rounded-[10px] px-[20px] justify-between mb-[60px]" >
+        <div class="flex w-full items-center h-[48px] bg-white/10 rounded-[10px] px-[20px] justify-between mb-[10px]" >
 
             <div class="flex gap-[5px]">
                <img src="../../assets/images/Ipi scan/search.png" alt="" class="mr-[17px]">  
 
-                <p class="font-['Lato'] font-[400] text-[#E0E0E0] text-[14px]">Search by Token</p>
-                <p class="font-['Lato'] font-[400] text-[#E0E0E0] text-[14px]">/</p>
-                <p class="font-['Lato'] font-[400] text-[#E0E0E0] text-[14px]">Account</p>
-                <p class="font-['Lato'] font-[400] text-[#E0E0E0] text-[14px]">/</p>
-                <p class="font-['Lato'] font-[400] text-[#E0E0E0] text-[14px]">Contract</p>
-                <p class="font-['Lato'] font-[400] text-[#E0E0E0] text-[14px]">/</p>
-                <p class="font-['Lato'] font-[400] text-[#E0E0E0] text-[14px]">Block</p>
+               <input type="text"  placeholder="Search by Token / Account / Contract / Block" class="placeholder:text-[#E0E0E0] placeholder:font-['Lato'] placeholder:font-[400] placeholder:text-[14px] outline-none w-[500px] bg-transparent text-[#E0E0E0] font-['Lato'] font-[400] text-[14px]">
             </div>
 
             <div class="flex items-center">
@@ -63,6 +57,41 @@
 
         </div>
          <!-- /Searc block -->
+
+         <div class="flex items-center w-full mb-[60px]"><!-- Trending Searc -->
+            <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] mr-[10px]">Trending Search：</p>
+
+            <div class="flex items-center mr-[20px]">
+                <img src="../../assets/images/Ipi scan/trending/logo-1.png" alt="">
+                <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BNB</p>
+            </div>
+
+            <div class="flex items-center mr-[20px]">
+                <img src="../../assets/images/Ipi scan/trending/logo-2.png" alt="">
+                <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BNB</p>
+            </div>
+
+            <div class="flex items-cente mr-[20px]">
+                <img src="../../assets/images/Ipi scan/trending/logo-3.png" alt="">
+                <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BNB</p>
+            </div>
+
+            <div class="flex items-center mr-[20px]">
+                <img src="../../assets/images/Ipi scan/trending/logo-4.png" alt="">
+                <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BTC</p>
+            </div>
+
+            <div class="flex items-center mr-[20px]">
+                <img src="../../assets/images/Ipi scan/trending/logo-5.png" alt="">
+                <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BTC</p>
+            </div>
+
+            <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] ml-[10px]">More</p>
+
+
+         </div> <!-- /Trending Search -->
+
+
 
          <!-- Index block -->
             <div class="flex w-full items-center justify-between">
@@ -154,19 +183,50 @@
 
                 <div class="flex min-w-[427px] items-end min-h-[175px] bg-white/10 rounded-[10px] px-[20px] "><!--Schedule price-->
 
-                    <div class="flex w-[286px] relative">
+                    <div class="flex flex-col w-[286px]"><!-- shedule -->
 
-                        <span class="flex w-[290px] justify-between">
+                        <div class="flex flex-col absolute w-[177px]  translate-x-[85px] translate-y-[-25px]">
+                            <p class="font-['Inter'] font-[400] text-[#749DCA] text-[14px]">Current price IPI</p>
+                            <div class="flex items-center">
+                                <p class="font-['Inter'] font-[700] text-[#E0E0E0] text-[20px]">$0.325</p> 
+                                <span class="flex items-center bg-[#6FCF97]/10 rounded-[10px] ml-[10px] p-[3px]">
+                                    <p class="font-['Inter'] font-[400] text-[#219653] text-[12px]">+ 8,99%</p>
+                                    <div>
+                                    <img src="../../assets/images/Ipi scan/schedule/arrow top.png" alt="">
+                                    </div>
+                                </span>
+                            </div>
+
+                        </div>
+
+                        <div class=" flex w-[270px]">
+                            <img src="../../assets/images/Ipi scan/schedule/bg.png" alt="" class="relative top-0">  
+                            <img src="../../assets/images/Ipi scan/schedule/white-line.png" alt="" class="absolute w-[176px] translate-y-[-2px]  translate-x-[94px] ">  
+                            <img src="../../assets/images/Ipi scan/schedule/gray-line.png" alt="" class="absolute w-[95px] translate-y-[44px] translate-x-[0px] "> 
+                            <img src="../../assets/images/Ipi scan/schedule/dot.png" alt="" class="absolute translate-y-[49px] translate-x-[86px] "> 
+                        </div>
+
+                        <span class="flex w-[270px] justify-between my-[10px]">
                             <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">1 Apr</p>
-                            <p>10 Apr</p>
-                            <p>20 Apr</p>
-                            <p>30 Apr</p>
-                            <p>1 May</p>
+                            <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">10 Apr</p>
+                            <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">20 Apr</p>
+                            <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">30 Apr</p>
+                            <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">1 May</p>
                         </span>
 
-                       <!--  <img src="../../assets/images/Ipi scan/schedule/bg.png" alt="" class="absolute"> -->
-                       
-                    </div>
+                    </div><!--/shedule -->
+
+                    <div class="flex flex-col w-[126px] translate-y-[-55px]"><!--shedule text -->
+                        <div class="flex items-center justify-between w-full mb-[5px]">
+                            <p class="font-['Inter'] font-[400] text-[#749DCA] text-[12px]">Volume (24h):</p>
+                            <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">$233.8</p>
+                        </div>
+
+                        <div class="flex items-center justify-between w-full">
+                            <p class="font-['Inter'] font-[400] text-[#749DCA] text-[12px]">Market Cap :</p>
+                            <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">$6.20</p>
+                        </div>
+                    </div><!--/shedule text-->
 
                 </div>  
 
