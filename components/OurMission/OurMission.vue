@@ -190,7 +190,7 @@
                                 <span class="flex items-center bg-[#6FCF97]/10 rounded-[10px] ml-[10px] p-[3px]">
                                     <p class="font-['Inter'] font-[400] text-[#219653] text-[12px]">+ 8,99%</p>
                                     <div>
-                                    <img src="~/assets/images/IpiScan/schedule/arrow top.png" alt="">
+                                    <img src="~/assets/images/IpiScan/schedule/arrowtop.png" alt="">
                                     </div>
                                 </span>
                             </div>

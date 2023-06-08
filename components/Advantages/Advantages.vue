@@ -181,10 +181,10 @@ const handleSetVisibleBlock = (block) => {
                 <span class="text-[16px] font-[500] uppercase text-white font-['Barlow']">Buy coin</span>
                 <img class="pt-[0] ml-[15px]" src="~/assets/icons/arrow_right_white.svg"/>
             </button>
-            <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] border-[2px] border-[#EC474E] transition-all rounded-[20px] hover:bg-[#EC474E]">
+            <!-- <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] border-[2px] border-[#EC474E] transition-all rounded-[20px] hover:bg-[#EC474E]">
                 <span class="text-[16px] font-[500] uppercase text-white font-['Barlow']">scanner</span>
                 <img class="pt-[0] ml-[15px]" src="~/assets/icons/arrow_right_white.svg"/>
-            </button>
+            </button> -->
         </div>
     </div>
 </template>
