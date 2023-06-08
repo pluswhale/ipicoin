@@ -44,7 +44,7 @@
         <div class="flex w-full items-center h-[48px] bg-white/10 rounded-[10px] px-[20px] justify-between mb-[20px]" >
 
             <div class="flex gap-[5px]">
-               <img src="../../assets/images/IpiScan/search.png" alt="" class="mr-[17px]">  
+               <img src="../../assets/images/Ipi scan/search.png" alt="" class="mr-[17px]">  
 
                <input type="text"  placeholder="Search by Token / Account / Contract / Block" class="placeholder:text-[#E0E0E0] placeholder:font-['Lato'] placeholder:font-[400] placeholder:text-[14px] outline-none w-[500px] bg-transparent text-[#E0E0E0] font-['Lato'] font-[400] text-[14px]">
             </div>
@@ -52,7 +52,7 @@
             <div class="flex items-center">
                 <p class=" font-['Lato'] font-[400] text-[#E0E0E0] text-[20px] mr-[20px]">|</p>
                 <p class="font-['Lato'] font-[400] text-[#E0E0E0] text-[14px] mr-[7px]">All Filters</p>
-                <img src="../../assets/images/IpiScan/chevron-down.png" alt="" class="mt-[3px] cursor-pointer">
+                <img src="../../assets/images/Ipi scan/chevron-down.png" alt="" class="mt-[3px] cursor-pointer">
             </div>
 
         </div>
@@ -62,12 +62,12 @@
             <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] mr-[10px]">Trending Search：</p>
 
             <div class="flex items-center mr-[20px] gap-[2px]">
-                <img src="../../assets/images/IpiScan/trending/logo-1.png" alt="">
+                <img src="../../assets/images/Ipi scan/trending/logo-1.png" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BNB</p>
             </div>
 
             <div class="flex items-center mr-[20px] gap-[2px]">
-                <img src="../../assets/images/IpiScan/trending/logo-2.png" alt="">
+                <img src="../../assets/images/Ipi scan/trending/logo-2.png" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BNB</p>
             </div>
 
@@ -77,12 +77,12 @@
             </div>
 
             <div class="flex items-center mr-[20px] gap-[2px]">
-                <img src="../../assets/images/IpiScan/trending/logo-4.png" alt="">
+                <img src="../../assets/images/Ipi scan/trending/logo-4.png" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BTC</p>
             </div>
 
             <div class="flex items-center mr-[20px] gap-[2px]">
-                <img src="../../assets/images/IpiScan/trending/logo-5.png" alt="">
+                <img src="../../assets/images/Ipi scan/trending/logo-5.png" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BTC</p>
             </div>
 
@@ -99,7 +99,7 @@
                    <div class="flex w-full justify-between mt-[25px]"> <!--first line total-->
                         <div class="flex items-center w-[420px] justify-between ml-[20px]"><!-- Total 1 -->
                             <div class="flex"> 
-                                <img src="../../assets/images/IpiScan/accountIco-1.png" alt="">   
+                                <img src="../../assets/images/Ipi scan/accountIco-1.png" alt="">   
 
                                 <div class="flex flex-col ml-[18px]">
                                     <p class="font-['Lato'] font-[400] text-[#749DCA] text-[14px]">Total Accounts</p>
@@ -113,13 +113,13 @@
                                     <p class="font-['Lato'] font-[400] text-[#27A17C] text-[14px]">+221,517</p>   
                                 </div>
                             
-                                <img src="../../assets/images/IpiScan/pseudo.png" alt="">
+                                <img src="../../assets/images/Ipi scan/pseudo.png" alt="">
                             </div>
                         </div><!--/ Total 1 -->
 
                         <div class="flex items-center w-[420px] justify-between ml-[20px]"><!-- Total 2 -->
                             <div class="flex"> 
-                                <img src="../../assets/images/IpiScan/accountIco-2.png" alt="">   
+                                <img src="../../assets/images/Ipi scan/accountIco-2.png" alt="">   
 
                                 <div class="flex flex-col ml-[18px]">
                                     <p class="font-['Lato'] font-[400] text-[#749DCA] text-[14px]">TVL</p>
@@ -139,7 +139,7 @@
                    <div class="flex w-full justify-between mt-[20px]"> <!--second line total-->
                         <div class="flex items-center w-[420px] justify-between ml-[20px]"><!-- Total 3 -->
                             <div class="flex"> 
-                                <img src="../../assets/images/IpiScan/accountIco-3.png" alt="">   
+                                <img src="../../assets/images/Ipi scan/accountIco-3.png" alt="">   
 
                                 <div class="flex flex-col ml-[18px]">
                                     <p class="font-['Lato'] font-[400] text-[#749DCA] text-[14px]">Total IPI</p>
@@ -153,13 +153,13 @@
                                     <p class="font-['Lato'] font-[400] text-[#27A17C] text-[14px]">+7,872</p>   
                                 </div>
                             
-                                <img src="../../assets/images/IpiScan/pseudo.png" alt="">
+                                <img src="../../assets/images/Ipi scan/pseudo.png" alt="">
                             </div>
                         </div><!--/ Total 3 -->
 
                         <div class="flex items-center w-[420px] justify-between ml-[20px]"><!-- Total 4 -->
                             <div class="flex"> 
-                                <img src="../../assets/images/IpiScan/accountIco-4.png" alt="">   
+                                <img src="../../assets/images/Ipi scan/accountIco-4.png" alt="">   
 
                                 <div class="flex flex-col ml-[18px]">
                                     <p class="font-['Lato'] font-[400] text-[#749DCA] text-[14px]">Total Transfer Volume</p>
@@ -198,10 +198,10 @@
                         </div>
 
                         <div class=" flex w-[270px]">
-                            <img src="../../assets/images/IpiScan/schedule/bg.png" alt="" class="relative top-0">  
-                            <img src="../../assets/images/IpiScan/schedule/white-line.png" alt="" class="absolute w-[176px] translate-y-[-2px]  translate-x-[94px] ">  
-                            <img src="../../assets/images/IpiScan/schedule/gray-line.png" alt="" class="absolute w-[95px] translate-y-[44px] translate-x-[0px] "> 
-                            <img src="../../assets/images/IpiScan/schedule/dot.png" alt="" class="absolute translate-y-[49px] translate-x-[86px] "> 
+                            <img src="../../assets/images/Ipi scan/schedule/bg.png" alt="" class="relative top-0">  
+                            <img src="../../assets/images/Ipi scan/schedule/white-line.png" alt="" class="absolute w-[176px] translate-y-[-2px]  translate-x-[94px] ">  
+                            <img src="../../assets/images/Ipi scan/schedule/gray-line.png" alt="" class="absolute w-[95px] translate-y-[44px] translate-x-[0px] "> 
+                            <img src="../../assets/images/Ipi scan/schedule/dot.png" alt="" class="absolute translate-y-[49px] translate-x-[86px] "> 
                         </div>
 
                         <span class="flex w-[270px] justify-between my-[10px]">

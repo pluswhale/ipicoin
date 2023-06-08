@@ -14,7 +14,11 @@
                 ease: 'easeIn',
                 },
         }"        
-        class="flex max-w-[1424px] h-[582px] mx-auto my-0"
+        class="flex  h-[582px] mx-auto my-0 justify-between "
+        :class="{
+            'max-w-[1190px]': isThinkLaptop,
+            'max-w-[1424px]': !isThinkLaptop,
+        }"
         >
         <TitleAndAppsDownload/>
         <DiagramBlock/>
@@ -27,6 +31,10 @@
 import TitleAndAppsDownload from './elements/TitleAndAppsDownload/TitleAndAppsDownload.vue'
 import DiagramBlock from './elements/GraphicBlock/GraphicBlock.vue'
 import SwapWallet from './elements/SwapWallet/SwapWallet.vue'
+import { useMediaQuery } from '@vueuse/core';
+
+const isThinkLaptop = useMediaQuery('(max-width: 1600px)');
+
 
 </script>
 
