@@ -197,20 +197,21 @@
 
                         </div>
 
-                        <div class=" flex w-[270px]">
+                        <div class=" flex flex-col w-[270px]">
                             <img src="~/assets/images/IpiScan/schedule/bg.png" alt="" class="relative top-0">  
                             <img src="~/assets/images/IpiScan/schedule/white-line.png" alt="" class="absolute w-[176px] translate-y-[-2px]  translate-x-[94px] ">  
                             <img src="~/assets/images/IpiScan/schedule/gray-line.png" alt="" class="absolute w-[95px] translate-y-[44px] translate-x-[0px] "> 
                             <img src="~/assets/images/IpiScan/schedule/dot.png" alt="" class="absolute translate-y-[49px] translate-x-[86px] ">
-                            <span class="flex w-[270px] justify-between my-[10px]">
-                            <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">1 Apr</p>
-                            <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">10 Apr</p>
-                            <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">20 Apr</p>
-                            <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">30 Apr</p>
-                            <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">1 May</p>
-                        </span>
+                             <span class="flex w-[270px] justify-between my-[10px]">
+                                <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">1 Apr</p>
+                                <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">10 Apr</p>
+                                <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">20 Apr</p>
+                                <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">30 Apr</p>
+                                <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px]">1 May</p>
+                            </span>
+                        </div>
 
-                    </div><!--/shedule -->
+                    </div> <!--/shedule --> 
 
                     <div class="flex flex-col w-[126px] translate-y-[-55px]"><!--shedule text -->
                         <div class="flex items-center justify-between w-full mb-[5px]">
@@ -224,7 +225,7 @@
                         </div>
                     </div><!--/shedule text-->
 
-                </div>  
+               
 
             </div><!--/Schedule price-->
         </div>
