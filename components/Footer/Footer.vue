@@ -1,7 +1,7 @@
 <template>
     <div class="flex items-center justify-center w-[100%] shadow-sm bg-white/5 backdrop-blur-sm h-[102px] ">
         <div class="flex h-[100%] w-[1400px] items-center justify-between">
-            <img src="../../assets/icons/Footer/footer.png" alt="logo">
+            <img src="../../assets/images/ipi_logo_1.svg" alt="logo">
             <div>
                 <ul class="flex items-center justify-between w-[395px]">
                     <a href="/" class="text-white text-[15px] font-['Barlow'] font-[600]">Platform</a>

@@ -23,7 +23,7 @@ const isMobile = useMediaQuery('(max-width: 480px)');
                         'w-[66px]': isMobile,
                     }"
                     class="max-h-11" 
-                    src="~/assets/images/ipi_logo.svg"
+                    src="~/assets/images/ipi_logo_1.svg"
 
                 >
                 <nav v-show="!isMobile" class="flex justify-between  translate-x-[57px] min-w-[395px] ">
