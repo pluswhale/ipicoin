@@ -35,9 +35,9 @@
             },
         }"
       
-        class="flex flex-col items-center mt-[100px] h-[574px] max-w-[1400px] mx-auto my-0"
+        class="flex flex-col items-center mt-[100px] h-[630px] max-w-[1400px] mx-auto my-0"
     >
-        <h2 class="text-white uppercase text-[40px] font-[700] font-['Big Shoulders Stencil Text, cursive'] mb-[50px]">ipi scan</h2>
+        <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text']  mb-[50px]">ipi scan</h2>
 
 
         <!-- Searc block -->
@@ -92,7 +92,7 @@
          </div> <!-- /Trending Search -->
 
          <!-- Index block -->
-            <div class="flex w-full items-center justify-between">
+            <div class="flex w-full items-center justify-between mb-[36px]">
 
                 <div class="flex flex-col min-w-[881px] min-h-[175px] bg-white/10 rounded-[10px]">
 
@@ -230,6 +230,112 @@
 
             </div><!--/Schedule price-->
          <!-- /Index block -->
+
+         <div class="flex flex-col w-full"><!--Recent Blocks-->
+            <p class="font-['Inter'] font-[600] text-[#E0E0E0] text-[20px] mb-[10px]">Recent Blocks</p>
+
+            <div class="flex w-full justify-between"><!-- recend cards -->
+
+                <div class="flex w-[305px] h-[120px] bg-white/10 rounded-[10px] px-[24px] pt-[20px] pb-[24px]"><!-- card 1 -->
+                    <div class="flex flex-col h-full w-[50%] items-start">
+                       <div class="flex flex-col mb-[20px]">
+                            <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[16px]">#50981505</p>
+                            <p class="font-['Lato'] font-[400] text-[#749DCA] text-[12px]">5 secs ago</p>
+                       </div>
+                       <div class="flex items-center">
+                        <p class="font-['Lato'] font-[300] text-[#E0E0E0] text-[12px] mt-[3px] mr-[5px]">Reward</p>
+                        <p class="font-['Lato'] font-[500] text-[#E0E0E0] text-[14px]">176 IPI</p>
+                       </div>
+                    </div>
+
+                    <div class="flex flex-col h-full w-[50%] items-end">
+                        <div class="flex flex-col items-end">
+                            <div class="flex items-center w-[114px] h-[20px] bg-[#BDBDBD]/40 rounded-[5px] mb-[5px]">
+                                <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] ml-[8px]">Intelligence </p>
+                            </div>
+                            <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[12px] mb-[20px]">381 IPI</p>
+
+                            <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[12px]">948.58552  IPI</p>
+                        </div>
+                    </div>
+
+                </div><!-- /card 1 -->
+
+                <div class="flex w-[305px] h-[120px] bg-white/10 rounded-[10px] px-[24px] pt-[20px] pb-[24px]"><!-- card 2 -->
+                    <div class="flex flex-col h-full w-[50%] items-start">
+                       <div class="flex flex-col mb-[20px]">
+                            <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[16px]">#50981504</p>
+                            <p class="font-['Lato'] font-[400] text-[#749DCA] text-[12px]">10 secs ago</p>
+                       </div>
+                       <div class="flex items-center">
+                        <p class="font-['Lato'] font-[300] text-[#E0E0E0] text-[12px] mt-[3px] mr-[5px]">Reward</p>
+                        <p class="font-['Lato'] font-[500] text-[#E0E0E0] text-[14px]">176 IPI</p>
+                       </div>
+                    </div>
+
+                    <div class="flex flex-col h-full w-[50%] items-end">
+                        <div class="flex flex-col items-end">
+                            <div class="flex items-center w-[114px] h-[20px] bg-[#BDBDBD]/40 rounded-[5px] mb-[5px]">
+                                <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] ml-[8px]">Smart Consen </p>
+                            </div>
+                            <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[12px] mb-[20px]">381 IPI</p>
+
+                            <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[12px]">948.58552  IPI</p>
+                        </div>
+                    </div>
+                </div><!-- /card 2 -->
+
+                <div class="flex w-[305px] h-[120px] bg-white/10 rounded-[10px] px-[24px] pt-[20px] pb-[24px]"><!-- card 3 -->
+                    <div class="flex flex-col h-full w-[50%] items-start">
+                       <div class="flex flex-col mb-[20px]">
+                            <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[16px]">#50981505</p>
+                            <p class="font-['Lato'] font-[400] text-[#749DCA] text-[12px]">5 secs ago</p>
+                       </div>
+                       <div class="flex items-center">
+                        <p class="font-['Lato'] font-[300] text-[#E0E0E0] text-[12px] mt-[3px] mr-[5px]">Reward</p>
+                        <p class="font-['Lato'] font-[500] text-[#E0E0E0] text-[14px]">176 IPI</p>
+                       </div>
+                    </div>
+
+                    <div class="flex flex-col h-full w-[50%] items-end">
+                        <div class="flex flex-col items-end">
+                            <div class="flex items-center w-[114px] h-[20px] bg-[#BDBDBD]/40 rounded-[5px] mb-[5px]">
+                                <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] ml-[8px]">Smart Consen </p>
+                            </div>
+                            <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[12px] mb-[20px]">381 IPI</p>
+
+                            <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[12px]">948.58552  IPI</p>
+                        </div>
+                    </div>
+                </div><!-- /card 3 -->
+
+                <div class="flex w-[305px] h-[120px] bg-white/10 rounded-[10px] px-[24px] pt-[20px] pb-[24px]"><!-- card 4 -->
+                    <div class="flex flex-col h-full w-[50%] items-start">
+                       <div class="flex flex-col mb-[20px]">
+                            <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[16px]">#50981505</p>
+                            <p class="font-['Lato'] font-[400] text-[#749DCA] text-[12px]">5 secs ago</p>
+                       </div>
+                       <div class="flex items-center">
+                        <p class="font-['Lato'] font-[300] text-[#E0E0E0] text-[12px] mt-[3px] mr-[5px]">Reward</p>
+                        <p class="font-['Lato'] font-[500] text-[#E0E0E0] text-[14px]">176 IPI</p>
+                       </div>
+                    </div>
+
+                    <div class="flex flex-col h-full w-[50%] items-end">
+                        <div class="flex flex-col items-end">
+                            <div class="flex items-center w-[114px] h-[20px] bg-[#BDBDBD]/40 rounded-[5px] mb-[5px]">
+                                <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] ml-[8px]">Smart Consen </p>
+                            </div>
+                            <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[12px] mb-[20px]">381 IPI</p>
+
+                            <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[12px]">948.58552  IPI</p>
+                        </div>
+                    </div>
+                </div><!-- /card 4 -->
+
+            </div><!-- /recend cards -->
+         
+         </div><!--/Recent Blocks-->
 
         
 
