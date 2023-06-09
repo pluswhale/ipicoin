@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col translate-x-[-50px] relative">
+    <div class="flex flex-col translate-x-[-10px] relative">
         <!-- <img src="~/assets/images/Planet.svg" class="absolute planet"/> -->
         <!--swap card-->
         <div class="h-[349px] px-[50px] ml-[20px] mt-[119px] py-[28px] w-[471px]  bg-white/10 backdrop-blur-sm  rounded-[20px]">
@@ -57,11 +57,11 @@
         <!--link line-->
         <div class="flex items-center justify-center w-full gap-[30px] mt-[50px] ml-[20px]">
             <div class="flex items-center">
-                <span class="font-[600] text-white font-['SF_Pro_Text'] uppercase text-[14.5px] whitespace-nowrap">IPI SCANER</span>
+                <span class="font-[600] text-white font-['Inter'] uppercase text-[14.5px] whitespace-nowrap">IPI SCANER</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
             <div class="flex items-center">
-                <span class="font-[600] text-white font-['SF_Pro_Text'] uppercase text-[14.5px] whitespace-nowrap">IPI WALLET</span>
+                <span class="font-[600] text-white font-['Inter'] uppercase text-[14.5px] whitespace-nowrap">IPI WALLET</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
          <!--    <div class="flex items-center">

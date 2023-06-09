@@ -1,18 +1,20 @@
 <template>
     <div 
-        class="flex flex-col items-center w-full mt-[107px] max-w-[1400px] mx-auto my-0"
+        class="flex flex-col items-center w-full mt-[107px] max-w-[1400px] h-[1680px] mx-auto my-0"
      >
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[15px] translate-x-[-14px]">our advantages</h2>
         <div class="flex w-[789px] border-b-[4px] border-b-[#749DCA] h-[100px] justify-center mb-[61px]">
             <button @click="setActiveButton(1)" :class="state.active_button === 1 ? 'button_active' : 'button_unactive'" >investors Comparison </button>
             <button @click="setActiveButton(2)" :class="state.active_button === 2 ? 'button_active' : 'button_unactive'">developers Comparison  </button>
         </div>
-        <Graph/>
+        <Graph v-if="state.active_button === 1"/>
+        <GraphTwo v-if="state.active_button === 2"/>
     </div>
 </template>
 
 <script setup>
 import Graph from './elements/Graph.vue';
+import GraphTwo from './elements/Graph2/GraphTwo.vue';
 
 const state = reactive({ active_button: 1 })
 
