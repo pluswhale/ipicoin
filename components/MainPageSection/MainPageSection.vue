@@ -14,9 +14,9 @@
                 ease: 'easeIn',
                 },
         }"        
-        class="flex  h-[582px] mx-auto my-0 justify-between "
+        class="flex  h-[582px] mx-auto my-0 justify-between w-[] "
         :class="{
-            'max-w-[1190px]': isThinkLaptop,
+            'max-w-[1400px]': isThinkLaptop,
             'max-w-[1424px]': !isThinkLaptop,
         }"
         >

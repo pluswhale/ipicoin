@@ -136,7 +136,7 @@
                             <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[3px]"></div>
                             <div class=" min-w-[50px] text-white text-left max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] leading-[16px] text-left translate-x-[20px]">Web3.js/<br>
                             ethers.js </div>
-                            <div class=" min-w-[50px] text-white text-left text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] leading-[16px] text-left translate-x-[28px]">Cardano<br>-wallet,<br>cardano<br>-graphql</div>
+                            <div class=" min-w-[50px] text-white text-left text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] leading-[16px] text-left translate-x-[28px]">Cardano-<br>wallet,<br>cardano-<br>graphql</div>
                             <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[40px] leading-[16px]">Tendermint<br> 
                             WebSocket<br>JSON-RPC</div>
                             <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[40px] leading-[16px]">Web3.js/<br>
