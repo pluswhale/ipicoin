@@ -1,7 +1,25 @@
 <template>
     <div class="flex items-center justify-center w-[100%] shadow-sm bg-white/5 backdrop-blur-sm h-[102px] ">
         <div class="flex h-[100%] w-[1400px] items-center justify-between">
-            <img src="../../assets/images/ipi_logo_1.svg" alt="logo">
+            <div class="flex items-center">
+                <img 
+                    :class="{
+                        'h-[20px]': isMobile,
+                        'w-[66px]': isMobile,
+                    }"
+                    src="~/assets/images/ipi_logo_1.svg"
+
+                >
+                <img 
+                    :class="{
+                        'h-[20px]': isMobile,
+                        'w-[66px]': isMobile,
+                    }"
+                    class="max-h-[43px] ml-[11px]" 
+                    src="~/assets/images/ipi_logo.svg"
+
+                >
+            </div>
             <div>
                 <ul class="flex items-center justify-between w-[395px]">
                     <a href="/" class="text-white text-[15px] font-['Barlow'] font-[600]">Platform</a>
