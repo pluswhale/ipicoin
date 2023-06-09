@@ -16,17 +16,27 @@ const isMobile = useMediaQuery('(max-width: 480px)');
             'pr-[16px]': isMobile,
         }"
     >
-            <div class="flex w-[1400px] justify-between">
-                <img 
-                    :class="{
-                        'h-[20px]': isMobile,
-                        'w-[66px]': isMobile,
-                    }"
-                    class="max-h-11" 
-                    src="~/assets/images/ipi_logo_1.svg"
-
-                >
-                <nav v-show="!isMobile" class="flex justify-between  translate-x-[57px] min-w-[395px] ">
+            <div class="flex w-[1400px] justify-between items-center">
+                <div class="flex items-center">
+                    <img 
+                        :class="{
+                            'h-[20px]': isMobile,
+                            'w-[66px]': isMobile,
+                        }"
+                        src="~/assets/images/ipi_logo_1.svg"
+    
+                    >
+                    <img 
+                        :class="{
+                            'h-[20px]': isMobile,
+                            'w-[66px]': isMobile,
+                        }"
+                        class="max-h-[43px] ml-[11px]" 
+                        src="~/assets/images/ipi_logo.svg"
+    
+                    >
+                </div>
+                <nav v-show="!isMobile" class="flex justify-between  translate-x-[-30px] min-w-[395px] ">
                     <ul class="flex gap-[1.85rem]">
                         <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow']" to="#platform">Platform</NuxtLink></li>
                         <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow']" to="/">Coins</NuxtLink></li>
@@ -58,12 +68,15 @@ const isMobile = useMediaQuery('(max-width: 480px)');
 
                         }"
                     >Follow the ipicoin</span>
+
                     <img
                         :class="{
                             'w-[20px]': isMobile
                         }"
                         src="~/assets/icons/arrow-right.svg"
-                     />
+                    />
+
+
                 </button>
                 <img v-show="isMobile" src="~/assets/icons/mobile/burger_menu.svg"/>
             </div>
