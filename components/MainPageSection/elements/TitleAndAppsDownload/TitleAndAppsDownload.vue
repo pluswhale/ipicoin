@@ -99,27 +99,28 @@ const blockQueueInterval = setInterval(() => {
             <!-- download apps block-->
             <div class="flex items-center mt-[77px] gap-[20px] translate-y-[-50px] translate-x-[-5px]">
 
-                <img src="../../../../assets/images/mainpage/test_bg_2.png" alt="">
-                <img src="../../../../assets/images/mainpage/Button_Gplay.png" alt="">
-              <!--   <div class="flex flex-row items-center w-[217px] h-[65px] border-[2px] border-[#EC474E] rounded-[20px]">
+             <!--    <img src="../../../../assets/images/mainpage/test_bg_2.png" alt="">
+                <img src="../../../../assets/images/mainpage/Button_Gplay.png" alt=""> -->
+
+                <div class="flex flex-row items-center justify-center w-[217px] h-[65px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer">
                     <div class="flex pl-[10px] gap-[20px]">
-                        <img src="~/assets/icons/apple_icon.svg"/>
+                        <img src="~/assets/icons/apple_icon.svg" class="translate-y-[-4px] translate-x-[0px]"/>
                         <div class="flex flex-col">
-                            <span class="text-white whitespace-nowrap font-[400] font-['Big_Shoulders_Stencil_Text'] text-[14px] ">Download on the</span>
-                            <span class="text-white whitespace-nowrap font-[500] font-['Big_Shoulders_Stencil_Text'] text-[22px] ">App Store</span>
+                            <span class="text-white whitespace-nowrap font-[400] font-['Lato'] text-[15px] translate-y-[-3px] translate-x-[-9px] IOS_text">Download on the</span>
+                            <span class="text-white whitespace-nowrap font-[600] font-['Lato'] text-[22px] translate-y-[-3px] translate-x-[-11px] IOS_title">App Store</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex flex-row items-center w-[217px] h-[65px] border-[2px] border-[#EC474E] rounded-[20px]">
+                <div class="flex flex-row items-center w-[217px] justify-center h-[65px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer">
                     <div class="flex pl-[10px] gap-[20px]">
-                        <img src="~/assets/icons/playmarket_icon.svg"/>
+                        <img src="~/assets/icons/playmarket_icon.svg" class="translate-y-[0px] translate-x-[3px]"/>
                         <div class="flex flex-col">
-                            <span  class="text-white whitespace-nowrap font-[400] font-['Big_Shoulders_Stencil_Text'] text-[14px] ">Download on the</span>
-                            <span class="text-white whitespace-nowrap font-[500] font-['Big_Shoulders_Stencil_Text'] text-[22px] ">Google Play</span>
+                            <span  class="text-white whitespace-nowrap font-[400] font-['Montserrat'] text-[14px] translate-y-[3px] translate-x-[-9px] uppercase ">Get It On </span>
+                            <span class="text-white whitespace-nowrap font-[600] font-['Montserrat'] text-[23px] translate-y-[-3px] translate-x-[-9px]">Google Play</span>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div> 
             <!-- download apps block-->
         </div>
@@ -128,6 +129,22 @@ const blockQueueInterval = setInterval(() => {
 </template>
 
 <style lang="scss" scoped>
+
+.IOS_title{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 26px;
+}
+
+.IOS_text{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
 
 .first_letter {
     font-family: 'Big Shoulders Stencil Text';

@@ -62,7 +62,7 @@
                     <textarea placeholder="Leave your question or comment here" class=" placeholder:text-white placeholder:font-['Roboto'] placeholder:font-[400]  w-[100%] h-[105px] bg-[#FFFFFF]/10 rounded-[6px] py-[10px] px-[15px] outline-none text-white font-['Roboto'] font-[400] resize-none"></textarea>
             </div>
 
-            <div class="flex items-center text-center rounded-[20px] py-[14px] px-[15px] bg-[#EC474E] w-[211px] cursor-pointer">
+            <div class="flex items-center text-center rounded-[20px]  py-[7npmpx] px-[10px] bg-[#EC474E] w-[211px] cursor-pointer">
                 <button class="text-white uppercase text-[16px] font-['Barlow'] font-[700] leading-[26px] mr-[2px] ml-[20px]">send message</button>
                 <img src="../../assets/icons/Contact/arrow-right.png" alt="">
             </div>

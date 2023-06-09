@@ -46,7 +46,7 @@ const isMobile = useMediaQuery('(max-width: 480px)');
                     </ul>
                 </nav>
                 <button 
-                    class="flex translate-x-[10px] pr-[10px] pl-[10px] items-center justify-center transition-all border-[#EC474E]  font-['Barlow sans-serif'] hover:bg-[#EC474E]"
+                    class="flex translate-x-[10px] pr-[10px] pl-[10px] items-center justify-center transition-all border-[#EC474E]  font-['Barlow sans-serif'] hover:bg-[#EC474E] button_coin"
                     :class="{
                         'rounded-[20px]': !isMobile,
                         'rounded-[8px]': isMobile,
@@ -68,20 +68,27 @@ const isMobile = useMediaQuery('(max-width: 480px)');
 
                         }"
                     >Follow the ipicoin</span>
-
-                    <img
-                        :class="{
-                            'w-[20px]': isMobile
-                        }"
-                        src="~/assets/icons/arrow-right.svg"
-                    />
-
-
+                    <img :class="{'w-[20px]': isMobile}" src="~/assets/icons/arrow-right.svg" class="no_hover_arrow"/>
+                    <img :class="{'w-[20px]': isMobile}" src="~/assets/images/IpiScan/arrow-right.png" class="hover_arrow"/>
                 </button>
                 <img v-show="isMobile" src="~/assets/icons/mobile/burger_menu.svg"/>
             </div>
     </header>
 </template>
 
+<style lang="scss" scoped>
 
+.button_coin:hover{
+    .hover_arrow{
+        display: block;
+    }
+
+    .no_hover_arrow{
+        display: none;
+    }
+}
+.hover_arrow{
+    display: none;
+}
+</style>
 

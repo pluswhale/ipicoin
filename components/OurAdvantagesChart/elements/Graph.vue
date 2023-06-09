@@ -298,7 +298,7 @@ $hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
 
     .graph {
         width: 1300px;
-        height: 994px;
+        height: 940px;
         transition: 1s $returnEasing;
         flex: 0 0 1120px;
         overflow: hidden;
