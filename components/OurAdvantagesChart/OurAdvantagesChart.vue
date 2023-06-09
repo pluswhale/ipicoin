@@ -7,12 +7,14 @@
             <button @click="setActiveButton(1)" :class="state.active_button === 1 ? 'button_active' : 'button_unactive'" >investors Comparison </button>
             <button @click="setActiveButton(2)" :class="state.active_button === 2 ? 'button_active' : 'button_unactive'">developers Comparison  </button>
         </div>
-        <Graph/>
+        <Graph v-if="state.active_button === 1"/>
+        <GraphTwo v-if="state.active_button === 2"/>
     </div>
 </template>
 
 <script setup>
 import Graph from './elements/Graph.vue';
+import GraphTwo from './elements/Graph2/GraphTwo.vue';
 
 const state = reactive({ active_button: 1 })
 
