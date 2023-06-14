@@ -20,6 +20,7 @@ const isMobile = useMediaQuery('(max-width: 480px)');
                 <div class="flex items-center">
                     <img 
                         :class="{
+                            'hidden' : isMobile,
                             'h-[20px]': isMobile,
                             'w-[66px]': isMobile,
                         }"
@@ -28,6 +29,7 @@ const isMobile = useMediaQuery('(max-width: 480px)');
                     >
                     <img 
                         :class="{
+                            'ml-[1px]': isMobile, 
                             'h-[20px]': isMobile,
                             'w-[66px]': isMobile,
                         }"
@@ -45,8 +47,9 @@ const isMobile = useMediaQuery('(max-width: 480px)');
                         <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow']" to="/">Contacts</NuxtLink></li>
                     </ul>
                 </nav>
+
                 <button 
-                    class="flex translate-x-[10px] pr-[10px] pl-[10px] items-center justify-center transition-all border-[#EC474E]  font-['Barlow sans-serif'] hover:bg-[#EC474E] button_coin"
+                    class="flex pr-[10px] pl-[10px] items-center justify-center transition-all border-[#EC474E]  font-['Barlow sans-serif'] hover:bg-[#EC474E] button_coin"
                     :class="{
                         'rounded-[20px]': !isMobile,
                         'rounded-[8px]': isMobile,
@@ -54,23 +57,22 @@ const isMobile = useMediaQuery('(max-width: 480px)');
                         'pr-[10px]': isMobile,
                         'border-[2px]': !isMobile,
                         'border-[1px]': isMobile,
-                         'h-[25px]': isMobile,
-                         'h-44px': !isMobile,
-                         'p-[0]': isMobile,
-
+                        'h-[25px]': isMobile,
+                        'h-44px': !isMobile,
+                        'p-[0]': isMobile,
+                        'translate-x-[10px]': !isMobile,
+                        'translate-x-[-6px]': isMobile,
                     }"
                 >
-                    <span 
-                        class=" font-[500] uppercase whitespace-nowrap text-white font-['Inter'] mr-[5px]"
+                    <span class=" font-[500] uppercase whitespace-nowrap text-white font-['Inter'] mr-[5px]"
                         :class="{
                             'text-[10px]': isMobile,
                             'text-[16px]': !isMobile,
-
-                        }"
-                    >Follow the ipicoin</span>
+                        }">Follow the ipicoin</span>
                     <img :class="{'w-[20px]': isMobile}" src="~/assets/icons/arrow-right.svg" class="no_hover_arrow"/>
                     <img :class="{'w-[20px]': isMobile}" src="~/assets/images/IpiScan/arrow-right.png" class="hover_arrow"/>
                 </button>
+
                 <img v-show="isMobile" src="~/assets/icons/mobile/burger_menu.svg"/>
             </div>
     </header>

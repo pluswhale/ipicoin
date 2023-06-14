@@ -14,10 +14,13 @@
                 ease: 'easeIn',
                 },
         }"        
-        class="flex  h-[582px] mx-auto my-0 justify-between w-[] "
+        class="flex h-[582px] mx-auto my-0 justify-between w-[] "
         :class="{
             'max-w-[1400px]': isThinkLaptop,
             'max-w-[1424px]': !isThinkLaptop,
+            'max-w-[480px]': isMobile,
+            'flex-col': isMobile,
+            'mx-[40%]': isMobile,
         }"
         >
         <TitleAndAppsDownload/>
@@ -34,7 +37,7 @@ import SwapWallet from './elements/SwapWallet/SwapWallet.vue'
 import { useMediaQuery } from '@vueuse/core';
 
 const isThinkLaptop = useMediaQuery('(max-width: 1600px)');
-
+const isMobile = useMediaQuery('(max-width: 480px)');
 
 </script>
 
