@@ -114,7 +114,7 @@ const blockQueueInterval = setInterval(() => {
 
                 <div class="flex flex-row items-center w-[217px] justify-center h-[65px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer">
                     <div class="flex pl-[10px] gap-[20px]">
-                        <img src="~/assets/icons/playmarket_icon.svg" class="translate-y-[0px] translate-x-[3px]"/>
+                        <img src="~/assets/icons/playmarket_icon.svg" class="translate-y-[0px] translate-x-[3npm px]"/>
                         <div class="flex flex-col">
                             <span  class="text-white whitespace-nowrap font-[400] font-['Montserrat'] text-[14px] translate-y-[3px] translate-x-[-9px] uppercase ">Get It On </span>
                             <span class="text-white whitespace-nowrap font-[600] font-['Montserrat'] text-[23px] translate-y-[-3px] translate-x-[-9px]">Google Play</span>

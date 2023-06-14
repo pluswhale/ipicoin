@@ -26,7 +26,7 @@ const isMobile = useMediaQuery('(max-width: 480px)');
                     src="~/assets/images/ipi_logo_1.svg"
 
                 >
-                <nav v-show="!isMobile" class="flex justify-between  translate-x-[57px] min-w-[395px] ">
+                <nav v-show="!isMobile" class="flex justify-between translate-x-[57px] min-w-[395px] ">
                     <ul class="flex gap-[1.85rem]">
                         <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow']" to="#platform">Platform</NuxtLink></li>
                         <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow']" to="/">Coins</NuxtLink></li>
