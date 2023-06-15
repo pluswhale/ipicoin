@@ -1,10 +1,24 @@
+<script setup>
+import Advantages from '~/components/Advantages/Advantages.vue';
+import OurAdvantagesChart from '~/components/OurAdvantagesChart/OurAdvantagesChart.vue'
+import OurAdvantagesChartForMobile from '~/componentsForMobile/OurAdvantagesChartForMobile/OurAdvantagesChartForMobile.vue'
+import Ecosystem from '~/components/Ecosystem/Ecosystem.vue';
+import EcosystemForMobile from '~/componentsForMobile/EcosystemForMobile/EcosystemForMobile.vue';
+
+import 'vue3-marquee/dist/style.css'
+const isMobile = useMediaQuery('(max-width: 480px)');
+
+
+</script>
 <template>
     <div>
         <MainPageSection/>
         <OurMission/>
         <Advantages/>
-        <OurAdvantagesChart/>
-        <Ecosystem/>
+        <OurAdvantagesChart v-if="!isMobile"/>
+        <OurAdvantagesChartForMobile v-if="isMobile"/>
+        <Ecosystem v-if="!isMobile"/>
+        <EcosystemForMobile v-if="isMobile"/>
         <Platform/>
         <Faqs/>
 
@@ -16,14 +30,6 @@
     </div>
 </template>
 
-<script setup>
-import Advantages from '~/components/Advantages/Advantages.vue';
-import OurAdvantagesChart from '~/components/OurAdvantagesChart/OurAdvantagesChart.vue'
-import Ecosystem from '~/components/Ecosystem/Ecosystem.vue';
-import 'vue3-marquee/dist/style.css'
-
-
-</script>
 
 <style lang="scss" scoped>
 
