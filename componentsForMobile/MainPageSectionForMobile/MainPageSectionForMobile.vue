@@ -14,10 +14,9 @@
                 ease: 'easeIn',
                 },
         }"        
-        class="flex h-[582px] max-w-[1424px] mx-auto my-0 justify-between w-[] "
+        class="flex flex-col max-w-[480px] mx-auto my-0 justify-between  "
         >
         <TitleAndAppsDownload/>
-        <DiagramBlock/>
         <SwapWallet/>
     </div>
 </template>
@@ -25,7 +24,6 @@
 <script setup>
 
 import TitleAndAppsDownload from './elements/TitleAndAppsDownload/TitleAndAppsDownload.vue'
-import DiagramBlock from './elements/GraphicBlock/GraphicBlock.vue'
 import SwapWallet from './elements/SwapWallet/SwapWallet.vue'
 
 </script>

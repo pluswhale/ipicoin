@@ -113,18 +113,17 @@
                     <div class="flex">
 
                         <!-- main block wrapper-->
-                        <div class="flex flex-col translate-x-[315px] translate-y-[-5px] relative">
+                        <div class="flex flex-col translate-x-[120px] translate-y-[-5px] relative">
                             <!--first card -->
                             <div
-
-                                class="mb-[15px] flex flex-col bg-[#FFFFFF33]  items-center justify-center rounded-[20px] "
+                                class="mb-[15px] flex flex-col bg-[#FFFFFF33] w-[205px] h-[114px]  items-center justify-center rounded-[20px] "
                             >
-                            <div class="flex flex-col w-[205px] h-[114px]  items-center justify-center rounded-[20px]">
-                                    <span class="text-[#EC474E] text-[700] font-['Quicksand'] mb-[10px] text-[14px] font-[700] mt-[10px]">Web application</span>
-                                    <div class="flex items-center gap-[10px] mb-[12px]">
-                                        <span class="flex items-center justify-center cursor-pointer text-white bg-[#749CC799]/60 rounded-[20px] pl-[16px] pr-[16px] h-[33px] text-[14px] font-[500] transition duration-300 hover:scale-[1.03]
+                            <div class="flex flex-col    items-center justify-center rounded-[20px]">
+                                    <span class="text-[#EC474E] text-[500] font-['Inter'] mb-[10px] text-[12px] font-[500] mt-[10px]">Web application</span>
+                                    <div class="flex flex-col items-center gap-[10px] mb-[12px]">
+                                        <span class="flex items-center justify-center cursor-pointer text-white bg-[#749CC799]/60 rounded-[20px] pl-[16px] w-[182px] pr-[16px] h-[35px] text-[12px] font-['Inter'] font-[500] transition duration-300 hover:scale-[1.03]
                                     ">iView - real-time view</span>
-                                        <span class="flex items-center justify-center cursor-pointer text-white bg-[#749CC799]/60 rounded-[20px] w-[373px] h-[33px] text-[14px] font-[500] transition duration-300 hover:scale-[1.03]">iAPI - frontend application programming interface</span>
+                                        <span class="flex items-center justify-center text-center cursor-pointer text-white bg-[#749CC799]/60 rounded-[20px] w-[182px] h-[35px] text-[12px] font-['Inter'] font-[500] transition duration-300 hover:scale-[1.03]">iAPI - frontend application programming interface</span>
                                     </div>
                                 </div>
                             </div>
@@ -134,15 +133,15 @@
                             <div
                                 class=" flex flex-col bg-[#FFFFFF33] items-center justify-center rounded-[20px] w-[205px]  h-[114px] mb-[15px]"
                                 >
-                                <span class="text-[#EC474E] text-[14px] font-['Quicksand'] mb-[10px] font-[700]">Web3 Protocols</span>
-                                <div class="flex items-center gap-[8px]">
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iSwap</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iPeg</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iNFT</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iLoan</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iGamble</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iFund</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iDAO</span>
+                                <span class="text-[#EC474E] text-[12px] font-['Inter'] mb-[10px] font-[500]">Web3 Protocols</span>
+                                <div class="flex-wrap flex items-center gap-[8px]">
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] w-[63px]  h-[20px] font-[500] font-['Inter'] text-[12px] cursor-pointer transition duration-300 hover:scale-[1.03]">iSwap</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] w-[63px]  h-[20px] font-[500] font-['Inter'] text-[12px] cursor-pointer transition duration-300 hover:scale-[1.03]">iPeg</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] w-[63px]  h-[20px] font-[500] font-['Inter'] text-[12px] cursor-pointer transition duration-300 hover:scale-[1.03]">iNFT</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] w-[63px]  h-[20px] font-[500] font-['Inter'] text-[12px] cursor-pointer transition duration-300 hover:scale-[1.03]">iLoan</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] w-[63px]  h-[20px] font-[500] font-['Inter'] text-[12px] cursor-pointer transition duration-300 hover:scale-[1.03]">iGamble</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] w-[63px]  h-[20px] font-[500] font-['Inter'] text-[12px] cursor-pointer transition duration-300 hover:scale-[1.03]">iFund</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] w-[63px]  h-[20px] font-[500] font-['Inter'] text-[12px] cursor-pointer transition duration-300 hover:scale-[1.03]">iDAO</span>
                                 </div>   
                                 
                             </div>
@@ -150,25 +149,25 @@
                                 <img src="~/assets/images/platform/arrow9(1).svg" class="translate-y-[44px] translate-x-[27px] right-0 absolute" alt="">
                             <!--third card -->
                             <div
-                                class=" flex flex-col w-[205px] h-[273px] items-center bg-[#FFFFFF33] rounded-[20px]   mb-[15px] blockHover"
+                                class=" flex flex-col w-[205px] h-[273px] items-center text-center bg-[#FFFFFF33] rounded-[20px]   mb-[15px]"
                              >
                
                                     <div class="flex flex-col gap-[9px]">
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iOff - offchain prover</span>
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iwait - Triggers platform</span>
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iPrize - prize based defered execution</span>
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iRemote - provable remote chain reader</span>
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iLater - Continuations system</span>
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">iLink - Provable Web Link</span>
+                                        <span class="flex items-center w-[178px] justify-center text-white bg-[#749CC799]/60 rounded-[20px]  h-[25px] font-[500] text-[12px] font-['Inter'] cursor-pointer transition duration-300 hover:scale-[1.03]">iOff - offchain prover</span>
+                                        <span class="flex items-center w-[178px] justify-center text-white bg-[#749CC799]/60 rounded-[20px]  h-[35px] font-[500] text-[12px] font-['Inter'] cursor-pointer transition duration-300 hover:scale-[1.03]">iwait - Triggers platform</span>
+                                        <span class="flex items-center w-[178px] justify-center text-white bg-[#749CC799]/60 rounded-[20px]  h-[25px] font-[500] text-[12px] font-['Inter'] cursor-pointer transition duration-300 hover:scale-[1.03]">iPrize - prize based defered execution</span>
+                                        <span class="flex items-center w-[178px] justify-center text-white bg-[#749CC799]/60 rounded-[20px]  h-[35px] font-[500] text-[12px] font-['Inter'] cursor-pointer transition duration-300 hover:scale-[1.03]">iRemote - provable remote chain reader</span>
+                                        <span class="flex items-center w-[178px] justify-center text-white bg-[#749CC799]/60 rounded-[20px]  h-[35px] font-[500] text-[12px] font-['Inter'] cursor-pointer transition duration-300 hover:scale-[1.03]">iLater - Continuations system</span>
+                                        <span class="flex items-center w-[178px] justify-center text-white bg-[#749CC799]/60 rounded-[20px]  h-[25px] font-[500] text-[12px] font-['Inter'] cursor-pointer transition duration-300 hover:scale-[1.03]">iLink - Provable Web Link</span>
                                     </div>
                                 
-                                <span class="text-[#EC474E] text-[400] font-['Quicksand'] mt-[10px] mb-[9px] font-[700] text-[14px]">iEnv -Basic Smart Contract Building blocks </span>
+                                <span class="text-[#EC474E] text-[400] font-['Inter'] mt-[10px] mb-[9px] font-[500] text-[12px]">iEnv -Basic Smart Contract Building blocks </span>
                             </div>
                             <!--third card -->
 
                             <!--fourth card -->
                             <div
-                                class=" flex gap-[6px] mb-[15px] w-full h-[73px] "
+                                class=" flex gap-[6px] mb-[15px] h-[73px] "
                              >
                                 <div 
                                     class="flex w-[148px] items-center justify-center bg-[#FFFFFF33] rounded-[20px] h-full text-white text-center"
@@ -200,11 +199,11 @@
                                     <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[132px] mr-[11px] h-[25px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">SoftFloat</span>
                                     <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[154px] h-[25px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">SoftFloat</span>
                                 </div>
-                                <div class="flex bg-white/20 rounded-[20px] h-[29px] w-[559px] justify-center items-center mb-[3px]">
+                                <div class="flex bg-white/20 rounded-[20px] h-[29px]  justify-center items-center mb-[3px]">
                                     <span class="text-white font-['Quicksand'] font-[500] text-[14px] text-center">WAVM -Fastest WebAssembly Virtual Machine</span>
                                 </div>
 
-                                <div class="flex bg-white/20  rounded-[20px] h-[28px] w-[559px] justify-center items-center">
+                                <div class="flex bg-white/20  rounded-[20px] h-[28px]  justify-center items-center">
                                     <span class=" text-white font-['Quicksand'] font-[500] text-[14px] text-centr">Contract linking and communitation layer</span>
                                 </div>
 
