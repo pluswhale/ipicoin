@@ -100,21 +100,7 @@ const blockQueueInterval = setInterval(() => {
 
 <style lang="scss" scoped>
 
-.IOS_title{
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 31px;
-    line-height: 26px;
-}
 
-.IOS_text{
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-}
 
 .first_letter {
     font-family: 'Big Shoulders Stencil Text';

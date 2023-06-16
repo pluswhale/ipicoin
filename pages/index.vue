@@ -5,6 +5,8 @@ import OurAdvantagesChartForMobile from '~/componentsForMobile/OurAdvantagesChar
 import EcosystemForMobile from '~/componentsForMobile/EcosystemForMobile/EcosystemForMobile.vue'
 import OurMissionForMobile from '~/componentsForMobile/OurMissionForMobile/OurMissionForMobile.vue';
 import MainPageSectionForMobile from '~/componentsForMobile/MainPageSectionForMobile/MainPageSectionForMobile.vue';
+import AdvantagesForMobile from '~/componentsForMobile/AdvantagesForMobile/AdvantagesForMobile.vue';
+import PlatformForMobile from '~/componentsForMobile/PlatformForMobile/PlatformForMobile.vue'
 
 const { isMobile } = useDevice();
 
@@ -15,12 +17,14 @@ const { isMobile } = useDevice();
         <MainPageSectionForMobile v-if="isMobile" />
         <OurMission v-if="!isMobile"/>
         <OurMissionForMobile v-if="isMobile"/>
-        <Advantages/>
+        <Advantages  v-if="!isMobile"/>
+        <AdvantagesForMobile  v-if="isMobile" />
         <OurAdvantagesChart v-if="!isMobile"/>
         <OurAdvantagesChartForMobile v-if="isMobile"/>
         <Ecosystem v-if="!isMobile"/>
         <EcosystemForMobile v-if="isMobile"/>
-        <Platform/>
+        <Platform v-if="!isMobile"/>
+        <PlatformForMobile v-if="isMobile"/>
         <Faqs/>
 
         <!--help-->

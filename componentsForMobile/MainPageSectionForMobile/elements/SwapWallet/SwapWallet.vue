@@ -72,9 +72,9 @@
             <!--    <img src="../../../../assets/images/mainpage/test_bg_2.png" alt="">
             <img src="../../../../assets/images/mainpage/Button_Gplay.png" alt=""> -->
 
-            <div class="flex flex-row items-center justify-center w-[165px] h-[50px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer">
+            <div class="flex flex-row items-center justify-center w-[165px] h-[50px] border-[1px] border-[#EC474E] rounded-[8px] hover:bg-[#EC474E] cursor-pointer">
                 <div class="flex pl-[10px] gap-[20px]">
-                    <img src="~/assets/icons/apple_icon.svg" class="translate-y-[-4px] translate-x-[0px]"/>
+                    <img src="~/assets/icons/apple_icon.svg" class="h-[26px] w-[32px] translate-y-[0px] translate-x-[0px]"/>
                     <div class="flex flex-col">
                         <span class="text-white whitespace-nowrap font-[400] font-['Lato'] text-[15px] translate-y-[-3px] translate-x-[-9px] IOS_text">Download on the</span>
                         <span class="text-white whitespace-nowrap font-[600] font-['Lato'] text-[22px] translate-y-[-3px] translate-x-[-11px] IOS_title">App Store</span>
@@ -82,9 +82,9 @@
                 </div>
             </div>
 
-            <div class="flex flex-row items-center w-[165px] justify-center h-[50px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer">
+            <div class="flex flex-row items-center w-[165px] justify-center h-[50px] border-[1px] border-[#EC474E] rounded-[8px] hover:bg-[#EC474E] cursor-pointer">
                 <div class="flex pl-[10px] gap-[20px]">
-                    <img src="~/assets/icons/playmarket_icon.svg" class="h-[30px] w-[32px] translate-y-[0px] translate-x-[3px]"/>
+                    <img src="~/assets/icons/playmarket_icon.svg" class="h-[30px] w-[32px] translate-y-[6px] translate-x-[3px]"/>
                     <div class="flex flex-col">
                         <span  class="text-white whitespace-nowrap font-[400] font-['Montserrat'] text-[14px] translate-y-[3px] translate-x-[-9px] uppercase ">Get It On </span>
                         <span class="text-white whitespace-nowrap font-[500] font-['Montserrat'] text-[17px] translate-y-[-3px] translate-x-[-9px]">Google Play</span>
@@ -108,6 +108,22 @@ const handleOpenToDialog = () => {
 </script>
 
 <style lang="scss" scoped>
+
+.IOS_title{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 19px;
+}
+
+.IOS_text{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 15px;
+}
 
 .planet {
     background-blend-mode: color-dodge;

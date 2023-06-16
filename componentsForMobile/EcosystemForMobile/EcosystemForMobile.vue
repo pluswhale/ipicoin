@@ -40,7 +40,7 @@
         }"   
         class="flex flex-col items-center w-full mt-[140px] max-w-[1400px] mx-auto my-0 translate-x-[-10px]" 
     >
-        <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[42px]">ecosystem</h2>
+        <h2 class="text-white uppercase text-[22px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[42px]">ecosystem</h2>
         <div class="flex flex-col max-w-[300px] justify-between">
             <!--top part-->
             <div class="flex flex-row justify-between translate-x-[-65px]">
