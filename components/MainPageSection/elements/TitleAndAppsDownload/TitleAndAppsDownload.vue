@@ -1,10 +1,5 @@
 <script setup>
 import { reactive } from 'vue';
-
-import { useMediaQuery } from '@vueuse/core';
-
-const isMobile = useMediaQuery('(max-width: 480px)');
-
 const state = reactive({ block: [0], count: 1 })
 
 
@@ -25,102 +20,84 @@ const blockQueueInterval = setInterval(() => {
 
 <template>
     <div class="flex flex-wrap ml-[0]">
-        <div class="flex flex-col" :class="{'mt-[72px] ': !isMobile,'mt-[10px]': isMobile, 'max-w-[480px]':isMobile,'mx-[30%]': isMobile, }"><!-- Показать Eгору -->
+        <div class="flex mt-[72px] flex-col">
             <!-- main title block-->
+
             <!--first text block-->
-            <div v-if="state.block.length <= 4" class="flex flex-col" :class="{'w-[570px]':!isMobile ,'max-w-[210px]': isMobile,'h-[414px]':!isMobile ,'h-[188px]': isMobile,}">
-                <div v-if="state.block.includes(0) " class="flex items-center" :class="{'mb-[20px]':isMobile}">
-                    <span class="text-[#EC474E] first_letter" :class="{'text-[88px]':!isMobile,'text-[48px]':isMobile,'font-[600]':!isMobile,'font-[500]':isMobile,
-                    'h-[136px]':!isMobile,'h-[44px]':isMobile,'translate-y-[-15px]':isMobile}">I</span>
-                    <span class="font-[500] text-white leading-[60px] uppercase mt-[12px] typing_without_caret" :class="{'text-[60px]':!isMobile,
-                    'text-[30px]':isMobile,}">ndependent</span>
+            <div v-if="state.block.length <= 4" class="flex flex-col h-[414px] w-[570px]">
+                <div v-if="state.block.includes(0) " class="flex items-center">
+                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] ">I</span>
+                    <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">ndependent</span>
                 </div>
-                <div v-if="state.block.includes(1)" class="flex items-center translate-y-[-41px]" :class="{'mb-[20px]':isMobile}">
-                    <span class="text-[#EC474E] first_letter" :class="{'text-[88px]':!isMobile,'text-[48px]':isMobile,'font-[600]':!isMobile,'font-[500]':isMobile,
-                    'h-[136px]':!isMobile,'h-[44px]':isMobile,'translate-y-[-15px]':isMobile}">P</span>
-                    <span class="font-[500] text-white leading-[60px] uppercase mt-[12px] typing_without_caret" :class="{'text-[60px]':!isMobile,
-                    'text-[30px]':isMobile,}">rotocol</span>
+                <div v-if="state.block.includes(1)" class="flex items-center translate-y-[-41px]">
+                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">P</span>
+                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_without_caret ">rotocol</span>
                 </div>
-                <div v-if="state.block.includes(2)" class="flex items-center translate-y-[-81px]" :class="{'mb-[20px]':isMobile}">
-                    <span class="text-[#EC474E] first_letter" :class="{'text-[88px]':!isMobile,'text-[48px]':isMobile,'font-[600]':!isMobile,'font-[500]':isMobile,
-                    'h-[136px]':!isMobile,'h-[44px]':isMobile,'translate-y-[-15px]':isMobile}">I</span>
-                    <span class="font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret" :class="{'text-[60px]':!isMobile,
-                    'text-[30px]':isMobile,}">nfrastructure</span>
+                <div v-if="state.block.includes(2)" class="flex items-center translate-y-[-81px]">
+                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">I</span>
+                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret">nfrastructure</span>
                 </div>
-                <span v-if="state.block.includes(3)" class="text-[#EC474E] font-[500] font-['Big_Shoulders_Stencil_Text']" :class="{'text-[43px]':!isMobile,'text-[25px]':isMobile,'translate-y-[-100px]':!isMobile,'translate-y-[-110px]':isMobile,}">coin</span>
+                <span v-if="state.block.includes(3)" class="text-[#EC474E] font-[500] font-['Big_Shoulders_Stencil_Text'] text-[43px] translate-y-[-100px]" >coin</span>
             </div>
             <!--first text block-->
 
             <!--second text block-->
-            <div v-if="state.block.length > 4 && state.block.length <= 8 " class="flex flex-col" :class="{'w-[570px]':!isMobile ,'max-w-[210px]': isMobile,'h-[414px]':!isMobile ,'h-[188px]': isMobile,}">
-                <div v-if="state.block.includes(4) " class="flex items-center" :class="{'mb-[20px]':isMobile}">
-                    <span class="text-[#EC474E] first_letter" :class="{'text-[88px]':!isMobile,'text-[48px]':isMobile,'font-[600]':!isMobile,'font-[500]':isMobile,
-                    'h-[136px]':!isMobile,'h-[44px]':isMobile,'translate-y-[-15px]':isMobile}">I</span>
-                    <span class="font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret" :class="{'text-[60px]':!isMobile,
-                    'text-[30px]':isMobile,}">nnovative</span>
+            <div v-if="state.block.length > 4 && state.block.length <= 8 " class="flex flex-col h-[414px] w-[570px]">
+                <div v-if="state.block.includes(4) " class="flex items-center">
+                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] ">I</span>
+                    <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">nnovative</span>
                 </div>
-                <div v-if="state.block.includes(5)" class="flex items-center translate-y-[-41px]" :class="{'mb-[20px]':isMobile}">
-                    <span class="text-[#EC474E] first_letter" :class="{'text-[88px]':!isMobile,'text-[48px]':isMobile,'font-[600]':!isMobile,'font-[500]':isMobile,
-                    'h-[136px]':!isMobile,'h-[44px]':isMobile,'translate-y-[-15px]':isMobile}">P</span>
-                    <span class="font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_without_caret" :class="{'text-[60px]':!isMobile,
-                    'text-[30px]':isMobile,}">ayment</span>
+                <div v-if="state.block.includes(5)" class="flex items-center translate-y-[-41px]">
+                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">P</span>
+                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_without_caret ">ayment</span>
                 </div>
-                <div v-if="state.block.includes(6)" class="flex items-center translate-y-[-81px]" :class="{'mb-[20px]':isMobile}">
-                    <span class="text-[#EC474E] first_letter" :class="{'text-[88px]':!isMobile,'text-[48px]':isMobile,'font-[600]':!isMobile,'font-[500]':isMobile,
-                    'h-[136px]':!isMobile,'h-[44px]':isMobile,'translate-y-[-15px]':isMobile}">I</span>
-                    <span class="font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret" :class="{'text-[60px]':!isMobile,
-                    'text-[30px]':isMobile,}">nfrastructure</span>
+                <div v-if="state.block.includes(6)" class="flex items-center translate-y-[-81px]">
+                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">I</span>
+                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret">nfrastructure</span>
                 </div>
-                <span v-if="state.block.includes(7)" class="text-[#EC474E] font-[500] font-['Big_Shoulders_Stencil_Text']" :class="{'text-[43px]':!isMobile,'text-[25px]':isMobile,'translate-y-[-100px]':!isMobile,'translate-y-[-110px]':isMobile,}">coin</span>
+                <span v-if="state.block.includes(7)" class="text-[#EC474E] font-[500] font-['Big_Shoulders_Stencil_Text'] text-[43px] translate-y-[-100px]" >coin</span>
             </div>
             <!--second text block-->
 
             <!--third text block-->
-            <div v-if="state.block.length > 8 && state.block.length <= 12 " class="flex flex-col" :class="{'w-[570px]':!isMobile ,'max-w-[210px]': isMobile,'h-[414px]':!isMobile ,'h-[188px]': isMobile,}">
-                <div v-if="state.block.includes(8) " class="flex items-center" :class="{'mb-[20px]':isMobile}">
-                    <span class="text-[#EC474E] first_letter" :class="{'text-[88px]':!isMobile,'text-[48px]':isMobile,'font-[600]':!isMobile,'font-[500]':isMobile,
-                    'h-[136px]':!isMobile,'h-[44px]':isMobile,'translate-y-[-15px]':isMobile}">I</span>
-                    <span class="font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret" :class="{'text-[60px]':!isMobile,
-                    'text-[30px]':isMobile,}">ntegrated</span>
+            <div v-if="state.block.length > 8 && state.block.length <= 12 " class="flex flex-col h-[414px] w-[570px]">
+                <div v-if="state.block.includes(8) " class="flex items-center">
+                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] ">I</span>
+                    <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">ntegrated</span>
                 </div>
-                <div v-if="state.block.includes(9)" class="flex items-center translate-y-[-41px]" :class="{'mb-[20px]':isMobile}">
-                    <span class="text-[#EC474E] first_letter" :class="{'text-[88px]':!isMobile,'text-[48px]':isMobile,'font-[600]':!isMobile,'font-[500]':isMobile,
-                    'h-[136px]':!isMobile,'h-[44px]':isMobile,'translate-y-[-15px]':isMobile}">P</span>
-                    <span class="font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_without_caret" :class="{'text-[60px]':!isMobile,
-                    'text-[30px]':isMobile,}">latform</span>
+                <div v-if="state.block.includes(9)" class="flex items-center translate-y-[-41px]">
+                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">P</span>
+                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_without_caret ">latform</span>
                 </div>
-                <div v-if="state.block.includes(10)" class="flex items-center translate-y-[-81px]" :class="{'mb-[20px]':isMobile}">
-                    <span class="text-[#EC474E] first_letter" :class="{'text-[88px]':!isMobile,'text-[48px]':isMobile,'font-[600]':!isMobile,'font-[500]':isMobile,
-                    'h-[136px]':!isMobile,'h-[44px]':isMobile,'translate-y-[-15px]':isMobile}">I</span>
-                    <span class="font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret" :class="{'text-[60px]':!isMobile,
-                    'text-[30px]':isMobile,}">nfrastructure</span>
+                <div v-if="state.block.includes(10)" class="flex items-center translate-y-[-81px]">
+                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">I</span>
+                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret">nfrastructure</span>
                 </div>
-                <span v-if="state.block.includes(11)" class="text-[#EC474E] font-[500] font-['Big_Shoulders_Stencil_Text']" :class="{'text-[43px]':!isMobile,'text-[25px]':isMobile,'translate-y-[-100px]':!isMobile,'translate-y-[-110px]':isMobile,}">coin</span>
+                <span v-if="state.block.includes(11)" class="text-[#EC474E] font-[500] font-['Big_Shoulders_Stencil_Text'] text-[43px] translate-y-[-100px]" >coin</span>
             </div>
             <!--third text block-->
-          
+
             <!--third text block-->
-            <div v-if="state.block.length > 12 && state.block.length <= 16 " class="flex flex-col" :class="{'w-[570px]':!isMobile ,'max-w-[210px]': isMobile,'h-[414px]':!isMobile ,'h-[188px]': isMobile,}">
-                <div v-if="state.block.includes(12) " class="flex items-center" :class="{'mb-[20px]':isMobile}">
-                    <span class="text-[#EC474E] first_letter" :class="{'text-[88px]':!isMobile,'text-[48px]':isMobile,'font-[600]':!isMobile,'font-[500]':isMobile,
-                    'h-[136px]':!isMobile,'h-[44px]':isMobile,'translate-y-[-15px]':isMobile}">I</span>
-                    <span class="font-[500] text-white leading-[60px] uppercase mt-[12px] typing_without_caret" :class="{'text-[60px]':!isMobile,'text-[30px]':isMobile,}">nclusive</span>
+            <div v-if="state.block.length > 12 && state.block.length <= 16 " class="flex flex-col h-[414px] w-[570px]">
+                <div v-if="state.block.includes(12) " class="flex items-center">
+                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] ">I</span>
+                    <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">nclusive</span>
                 </div>
-                <div v-if="state.block.includes(13)" class="flex items-center translate-y-[-41px]" :class="{'mb-[20px]':isMobile}">
-                    <span class="text-[#EC474E] first_letter" :class="{'text-[88px]':!isMobile,'text-[48px]':isMobile,'font-[600]':!isMobile,'font-[500]':isMobile,'h-[136px]':!isMobile,'h-[44px]':isMobile, 'translate-y-[-15px]':isMobile}">P</span>
-                    <span class="font-[500] text-white leading-[60px] uppercase mt-[12px] typing_without_caret" :class="{'text-[60px]':!isMobile,'text-[30px]':isMobile,}">ayment</span>
+                <div v-if="state.block.includes(13)" class="flex items-center translate-y-[-41px]">
+                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">P</span>
+                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_without_caret ">ayment</span>
                 </div>
-                <div v-if="state.block.includes(14)" class="flex items-center translate-y-[-81px]" :class="{'mb-[20px]':isMobile}">
-                    <span class="text-[#EC474E] first_letter"   :class="{'text-[88px]':!isMobile,'text-[48px]':isMobile,'font-[600]':!isMobile,'font-[500]':isMobile,'h-[136px]':!isMobile,'h-[44px]':isMobile,'translate-y-[-15px]':isMobile}">I</span>
-                    <span class="font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret" :class="{'text-[60px]':!isMobile,'text-[30px]':isMobile,}">nfrastructure</span>
+                <div v-if="state.block.includes(14)" class="flex items-center translate-y-[-81px]">
+                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">I</span>
+                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret">nfrastructure</span>
                 </div>
-                <span v-if="state.block.includes(15)" class="text-[#EC474E] font-[500] font-['Big_Shoulders_Stencil_Text'] translate-y-[-100px]" :class="{'text-[43px]':!isMobile,'text-[25px]':isMobile,'translate-y-[-100px]':!isMobile,'translate-y-[-110px]':isMobile,}">coin</span>
+                <span v-if="state.block.includes(15)" class="text-[#EC474E] font-[500] font-['Big_Shoulders_Stencil_Text'] text-[43px] translate-y-[-100px]" >coin</span>
             </div>
             <!--third text block-->
 
 
             <!-- download apps block-->
-            <div class="flex items-center mt-[77px] gap-[20px] translate-y-[-50px] translate-x-[-5px]" :class="{'hidden':isMobile}">
+            <div class="flex items-center mt-[77px] gap-[20px] translate-y-[-50px] translate-x-[-5px]">
 
              <!--    <img src="../../../../assets/images/mainpage/test_bg_2.png" alt="">
                 <img src="../../../../assets/images/mainpage/Button_Gplay.png" alt=""> -->

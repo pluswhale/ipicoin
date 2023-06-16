@@ -1,19 +1,20 @@
 <script setup>
-import Advantages from '~/components/Advantages/Advantages.vue';
-import OurAdvantagesChart from '~/components/OurAdvantagesChart/OurAdvantagesChart.vue'
-import OurAdvantagesChartForMobile from '~/componentsForMobile/OurAdvantagesChartForMobile/OurAdvantagesChartForMobile.vue'
-import Ecosystem from '~/components/Ecosystem/Ecosystem.vue';
-import EcosystemForMobile from '~/componentsForMobile/EcosystemForMobile/EcosystemForMobile.vue';
-
 import 'vue3-marquee/dist/style.css'
-const isMobile = useMediaQuery('(max-width: 480px)');
+
+import OurAdvantagesChartForMobile from '~/componentsForMobile/OurAdvantagesChartForMobile/OurAdvantagesChartForMobile.vue';
+import EcosystemForMobile from '~/componentsForMobile/EcosystemForMobile/EcosystemForMobile.vue'
+import OurMissionForMobile from '~/componentsForMobile/OurMissionForMobile/OurMissionForMobile.vue';
+import MainPageSectionForMobile from '~/componentsForMobile/MainPageSectionForMobile/MainPageSectionForMobile.vue';
+
+const { isMobile } = useDevice();
 
 
 </script>
 <template>
-    <div>
-        <MainPageSection/>
-        <OurMission/>
+        <MainPageSection v-if="!isMobile"/>
+        <MainPageSectionForMobile v-if="isMobile" />
+        <OurMission v-if="!isMobile"/>
+        <OurMissionForMobile v-if="isMobile"/>
         <Advantages/>
         <OurAdvantagesChart v-if="!isMobile"/>
         <OurAdvantagesChartForMobile v-if="isMobile"/>
@@ -26,10 +27,7 @@ const isMobile = useMediaQuery('(max-width: 480px)');
         <Trusted/>
         <ContactUs/>
         <UserCard/>
-
-    </div>
 </template>
-
 
 <style lang="scss" scoped>
 
