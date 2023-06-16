@@ -1,4 +1,6 @@
 <script setup>
+import FooterForMobile from '~/componentsForMobile/FooterForMobile/FooterForMobile.vue';
+const { isMobile } = useDevice();
 </script>
 
 <template>
@@ -9,7 +11,8 @@
         <div class="w-screen main_content">
             <slot/>
         </div>
-        <Footer/>
+        <Footer v-if="!isMobile"/>
+        <FooterForMobile v-if="isMobile"/>
     </div>
 </template>
 
