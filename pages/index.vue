@@ -6,7 +6,10 @@ import EcosystemForMobile from '~/componentsForMobile/EcosystemForMobile/Ecosyst
 import OurMissionForMobile from '~/componentsForMobile/OurMissionForMobile/OurMissionForMobile.vue';
 import MainPageSectionForMobile from '~/componentsForMobile/MainPageSectionForMobile/MainPageSectionForMobile.vue';
 import AdvantagesForMobile from '~/componentsForMobile/AdvantagesForMobile/AdvantagesForMobile.vue';
-import PlatformForMobile from '~/componentsForMobile/PlatformForMobile/PlatformForMobile.vue'
+import PlatformForMobile from '~/componentsForMobile/PlatformForMobile/PlatformForMobile.vue';
+import IncrisingLineForMobile from '~/componentsForMobile/IncrisingTrustForMobile/IncrisingTrustForMobile.vue'
+import ContactUsForMobile from '~/componentsForMobile/ContactUsForMobile/ContactUsForMobile.vue';
+
 
 const { isMobile } = useDevice();
 
@@ -25,11 +28,12 @@ const { isMobile } = useDevice();
         <EcosystemForMobile v-if="isMobile"/>
         <Platform v-if="!isMobile"/>
         <PlatformForMobile v-if="isMobile"/>
-        <Faqs/>
-
+        <IncrisingLineForMobile  v-if="isMobile"/>
+        <Faqs v-if="!isMobile"/>
         <!--help-->
         <Trusted/>
-        <ContactUs/>
+        <ContactUs v-if="!isMobile"/>
+        <ContactUsForMobile v-if="isMobile"/>
         <UserCard/>
 </template>
 
