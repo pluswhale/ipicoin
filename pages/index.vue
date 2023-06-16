@@ -9,6 +9,7 @@ import AdvantagesForMobile from '~/componentsForMobile/AdvantagesForMobile/Advan
 import PlatformForMobile from '~/componentsForMobile/PlatformForMobile/PlatformForMobile.vue';
 import IncrisingLineForMobile from '~/componentsForMobile/IncrisingTrustForMobile/IncrisingTrustForMobile.vue'
 import ContactUsForMobile from '~/componentsForMobile/ContactUsForMobile/ContactUsForMobile.vue';
+import UserCardForMobile from '~/componentsForMobile/UserCardForMobile/UserCardForMobile.vue';
 
 
 const { isMobile } = useDevice();
@@ -34,7 +35,8 @@ const { isMobile } = useDevice();
         <Trusted/>
         <ContactUs v-if="!isMobile"/>
         <ContactUsForMobile v-if="isMobile"/>
-        <UserCard/>
+        <UserCard v-if="!isMobile"/>
+        <UserCardForMobile v-if="isMobile"/>
 </template>
 
 <style lang="scss" scoped>
