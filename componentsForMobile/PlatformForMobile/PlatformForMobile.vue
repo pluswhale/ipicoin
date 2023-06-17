@@ -36,7 +36,7 @@
             },
         }"   
          >
-            <div class="flex flex-col items-center w-full mt-[30px] h-[900px]  max-w-[1400px] mx-auto my-0 relative">
+            <div class="flex flex-col items-center w-full mt-[80px] h-[700px]  max-w-[1400px] mx-auto my-0 relative">
                 <h2 class="text-white uppercase text-[22px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[15px]">platform</h2>
                 <div class="flex w-full border-b-[3px] border-b-[#749DCA] h-[50px]  no-scrollbar justify-center mb-[40px] gap-[10px]">
                     <button @click="setActiveButton(1)" :class="state.active_button === 1 ? 'button_active' : 'button_unactive'" >FOR CRYPTO USERS</button>
