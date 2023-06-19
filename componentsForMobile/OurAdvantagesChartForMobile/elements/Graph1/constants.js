@@ -1,6 +1,6 @@
 import bnb_coin_icon from '~/assets/icons/out_advantages/binance_icon.svg';
 import ada_coin_icon from '~/assets/icons/out_advantages/ada_icon.svg';
-import cosmos_coin_icon from '~/assets/icons/out_advantages/cosmos_icon.svg';
+import cosmos_coin_icon from '~/assets/images/Advantages/logo_cosmos.png';
 import eth_coin_icon from '~/assets/icons/out_advantages/eth_icon.svg';
 import mkp_coin_icon from '~/assets/icons/out_advantages/mkr_icon.svg';
 import dot_coin_icon from '~/assets/icons/out_advantages/dot_icon.svg';

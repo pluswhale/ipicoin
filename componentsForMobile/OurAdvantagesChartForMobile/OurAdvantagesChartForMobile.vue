@@ -1,6 +1,6 @@
 <template>
     <div 
-        class="flex flex-col items-center w-full mt-[107px] max-w-[1400px] h-[1680px] mx-auto my-0"
+        class="flex flex-col items-center w-full mt-[107px] max-w-[1400px] h-[1130px] mx-auto my-0"
      >
         <h2 class="text-white uppercase text-[22px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[15px] translate-x-[-14px]">our advantages</h2>
         <div class="flex w-screen border-b-[1px] gap-[10px] overflow-x-scroll no-scrollbar border-b-[#749DCA] h-[40px] justify-center mb-[61px]">
