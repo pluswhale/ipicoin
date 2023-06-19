@@ -2,45 +2,40 @@
     <div class="flex flex-col translate-x-[-10px] relative">
         <!-- <img src="~/assets/images/Planet.svg" class="absolute planet"/> -->
         <!--swap card-->
-        <div class=" ml-[20px] mt-[119px] bg-white/10 backdrop-blur-sm rounded-[20px]" :class="{'h-[349px]':!isMobile,'h-[254px]':isMobile,
-        'w-[471px]':!isMobile,'w-[343px]':isMobile, 'mt-[119px]':!isMobile,'mt-[75px]':isMobile,'px-[50px]':!isMobile, 'px-[25px]':isMobile,'py-[28px]':!isMobile, 'py-[20px]':isMobile,}">
+        <div class="h-[349px] px-[50px] ml-[20px] mt-[119px] py-[28px] w-[471px]  bg-white/10 backdrop-blur-sm  rounded-[20px]">
             <div class="flex flex-col w-full">
                 <!--header-->
-                <div class="flex justify-center items-center gap-[10px]" :class="{'mb-[22px]':!isMobile, 'mb-[12px]':isMobile}">
-                    <span class="text-[#749DCA] uppercase font-[700] font-['Quicksand']" :class="{'text-[29px]': !isMobile, 'text-[20px]':isMobile, }">swap</span>
-                    <img src="~/assets/icons/swap_header_icon.svg" :class="{'w-[25px]':isMobile, 'h-[28px]':isMobile}"/>
+                <div class="flex justify-center items-center gap-[10px] mb-[22px]">
+                    <span class="text-[29px]  text-[#749DCA] uppercase font-[700] font-['Quicksand']"> swap</span>
+                    <img src="~/assets/icons/swap_header_icon.svg"/>
                 </div>
                 <!--header-->
 
                 <!--inputs-->
                 <div class="flex flex-col">
-                    <div  class="flex items-center justify-between w-full border-[1px] rounded-[8px] mb-[10px]" :class="{'pr-[30px]':!isMobile,
-                    'pr-[17px]':isMobile,'pl-[10px]':!isMobile,'pl-[7px]':isMobile,'py-[5px]':!isMobile,'py-[4px]':isMobile,}">
+                    <div  class="flex items-center justify-between pl-[10px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px] mb-[10px]">
                         <div class="flex items-center">
-                            <span class="text-white font-[500] mr-[10px] mt-[5px] font-['Quicksand']" :class="{'text-[16px]':!isMobile,'text-[12px]':isMobile,}">From</span>
-                            <span class="text-[#749DCA] font-[700] uppercase font-['Quicksand']" :class="{'text-[24px]':!isMobile,'text-[17px]':isMobile,}">ipicoin</span>
+                            <span class="text-white font-[500] text-[16px] mr-[10px] mt-[5px] font-['Quicksand']">From</span>
+                            <span class="text-[#749DCA] font-[700] text-[24px] uppercase font-['Quicksand']">ipicoin</span>
                         </div>
-                       <input type="text" maxlength="10"  placeholder="0" class="outline-none bg-[transparent] text-white font-['Quicksand'] w-[150px] text-right"  :class="{'text-[24px]':!isMobile,'text-[17px]':isMobile, 'font-[700]':!isMobile,'font-[500]':isMobile, 'my-[2px]': isMobile,'translate-y-[0px]':isMobile, 'placeholder:text-[24px]':!isMobile,'placeholder:text-[17px]':isMobile,}">
+                       <input type="text" maxlength="10"  placeholder="0" class="outline-none bg-[transparent] text-white font-[700] text-[24px] font-['Quicksand'] w-[150px] placeholder:text-[24px] text-right">
                     </div>
-                    <div class="flex items-center justify-between w-full border-[1px] rounded-[8px]" :class="{'pr-[30px]':!isMobile,
-                    'pr-[17px]':isMobile,'pl-[10px]':!isMobile,'pl-[7px]':isMobile,'py-[5px]':!isMobile,'py-[4px]':isMobile,}">
+                    <div class="flex items-center justify-between pl-[10px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px]">
                         <div class="flex items-center relative">
-                            <span class="text-white font-[500] mr-[10px] mt-[5px] font-['Quicksand']" :class="{'text-[16px]':!isMobile,'text-[12px]':isMobile,}">To</span>
-                            <span class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] uppercase" :class="{'text-[24px]':!isMobile,'text-[17px]':isMobile,}">usd</span>
-                            <span class="cursor-pointer"><img @click="handleOpenToDialog" src="../../../../assets/icons/chevron-down.png" alt="" :class="{'w-[20px]':isMobile,'h-[20px]':isMobile, 'ml-[15px]':!isMobile,'ml-[5px]':isMobile}"></span>
-                            <div v-if="state.toDialogOpen" class="absolute left-[-10px] top-[40px] bg-white/10 border-[1px] border-[white] backdrop-blur-sm  
-                            rounded-[8px]" :class="{'w-[371px]':!isMobile,'w-[294px]':isMobile,}">
-                                <span class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] uppercase" 
-                                :class="{'text-[24px]':!isMobile,'text-[17px]':isMobile,}">USD</span>
+                            <span class="text-white font-[500] text-[16px] mr-[10px] mt-[5px] font-['Quicksand']">To</span>
+                            <span class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] text-[24px] uppercase">usd</span>
+                            <span class="ml-[15px] cursor-pointer"><img @click="handleOpenToDialog"  src="../../../../assets/icons/chevron-down.png" alt=""></span>
+                            <div v-if="state.toDialogOpen" class="absolute w-[371px] left-[-10px] top-[40px] bg-white/10 border-[1px] border-[white] backdrop-blur-sm  rounded-[8px]">
+                                <span class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] text-[24px] uppercase">USD</span>
                             </div>
                         </div>
-                        <input type="text" maxlength="10" placeholder="0" class="outline-none bg-[transparent] text-white font-['Quicksand'] w-[150px] text-right" :class="{'text-[24px]':!isMobile,'text-[17px]':isMobile, 'font-[700]':!isMobile,'font-[500]':isMobile, 'my-[2px]': isMobile,'translate-y-[0px]':isMobile, 'placeholder:text-[24px]':!isMobile,'placeholder:text-[17px]':isMobile,}" >
+                        <input type="text" maxlength="10" placeholder="0" class="outline-none bg-[transparent] text-white font-[700] text-[24px] font-['Quicksand'] w-[150px] placeholder:text-[24px] text-right">
                     </div>
                 </div> 
                 <!--inputs-->
 
                 <!--button connect-->
-                <button class="rounded-[20px] justify-center items-center bg-[#EC474E] text-white uppercase" :class="{'h-[46px]':!isMobile,'h-[34px]':isMobile,'text-[21px]':!isMobile,'text-[14px]':isMobile,'font-[700px]':!isMobile,'font-[500]':isMobile,'font-[Barlow]':!isMobile,'font-[Inter]':isMobile,'rounded-[20px]':!isMobile, 'rounded-[8px]':isMobile,'mt-[22px]':!isMobile, 'mt-[16px]':isMobile,}">connect wallet</button>
+                <button class="rounded-[20px] h-[46px] justify-center items-center bg-[#EC474E] text-white uppercase mt-[22px] font-['Barlow'] text-[21px] font-[700] leading-[27px]">connect wallet</button>
                 <!--button connect-->
 
                 <!--wallets icon -->
@@ -111,10 +106,6 @@
 </template>
 
 <script setup>
-
-import { useMediaQuery } from '@vueuse/core';
-
-const isMobile = useMediaQuery('(max-width: 480px)');
 
 const state = reactive({ toDialogOpen: false })
 

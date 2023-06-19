@@ -1,8 +1,5 @@
 <script setup>
-import { useMediaQuery } from '@vueuse/core';
-
-const isMobile = useMediaQuery('(max-width: 480px)');
-
+const { isMobile } = useDevice();
 
 </script>
 
