@@ -7,13 +7,14 @@ import dot_coin_icon from '~/assets/icons/out_advantages/dot_icon.svg';
 import sol_coin_icon from '~/assets/icons/out_advantages/sol_icon.svg';
 
 export const dynamicColumnsInTable = {
-    0: ['Available', 'Uses a specific Haskell programming language', 'Funded by Binance', 'Moderate', 'Low', 'Moderate risk', 'Significant', 'Solidity', 'Strong', 'Moderate', 'Low', 'Moderate risk', 'Significant', 'Solidity', 'Strong'],
-    1: ['Available', 'Academic research, partnerships', 'ICOin 2016-2017', 'Moderate', 'Low', 'Low risk', 'High', 'Plutus (Haskell)', 'Strong', 'Moderate', 'Low', 'Moderate risk', 'Significant', 'Solidity', 'Strong'],
-    2: ['Available', 'Interoperability', 'ICO in 2017', 'Moderate', 'Low', 'Low risk', 'Notable', 'Go (Cosmos SDK)', 'Strong', 'Moderate', 'Low', 'Moderate risk', 'Significant', 'Solidity', 'Strong'],
-    3: ['Available', 'Community-driven', 'ICO in 2014', 'Moderate', 'High', 'Low risk', 'Largest', 'Solidity', 'Strong', 'Moderate', 'Low', 'Moderate risk', 'Significant', 'Solidity', 'Strong'],
-    4: ['Available', 'DeFi-focused', 'ICO in 2017 (BNB)', 'Inherits Ethereum', 'Inherits Ethereum', 'Inherits Ethereum', 'Significant', 'Solidity (Ethereum)', 'Strong', 'Moderate', 'Low', 'Moderate risk', 'Significant', 'Solidity', 'Strong'],
-    5: ['Available', 'Interoperability, cross-chain', 'ICO in 2017', 'Moderate', 'Potentially low', 'Low risk', 'Notable', 'Rust, C++, etc.', 'Strong', 'Moderate', 'Low', 'Moderate risk', 'Significant', 'Solidity', 'Strong'],
-    6: ['Available', 'High-performance', 'ICO in 2020', 'Moderate', 'Low', 'Moderate risk', 'Significant', 'Rust', 'Strong', 'Moderate', 'Low', 'Moderate risk', 'Significant', 'Solidity', 'Strong'],
+    0: ['Available', 'Depends on Binance Chain', 'High', 'Moderate', 'Web3.js/ethers.js', 'Growing', 'BNB (170.5M)', 'Required', 'Strong', 'Proof of Staked Authority (PoSA)', 
+    'EVM-compatible', 'Solidity, Vyper', 'Solidity, Vyper', 'High throughput, low fees, active ecosystem', 'Centralization concerns, potential security risks'],
+    1: ['Available', 'Independent, High', 'Low', 'Cardano-wallet,cardano-graphql', 'Fully launched', 'ADA (45B) ', 'Required', 'Strong', 'Ouroboros', 'IELE', 'Plutus (Marlow)', 'Haskell, Plutus, Marlowe', 'Scalability,security, sustainability', 'Scalability challenges, slower development', 'Scalability challenges, slower development'],
+    2: ['Available', 'Interoperability', 'High', 'Moderate', 'Tendermint WebSocket JSON-RPC', 'Mature', 'ATOM (Inflationary)', 'Required', 'Strong', 'Tendermint', '-', '-', '-', 'Interoperability, scalability, flexibility', 'Dependency on hub validators, potential security risks'],
+    3: ['Available', 'Interoperability', 'Moderate', 'Moderate', 'Web3.js/ethers.js  ', 'Most mature', 'ETH (Unlimited)', 'Required', 'Strong', 'Proof of Stake (PoS)', 'EVM-compatible', 'Solidity, Vyper', 'Solidity, Vyper', 'Largest smart contract platform, active ecosystem', 'Scalability challenges, high fees, environmental impact'],
+    4: ['Available', 'Built on Ethereum', 'Inherits Ethereum', 'Inherits Ethereum', 'Inherits Ethereum', 'Mature', 'MKR(Governance token)', 'Required', 'Strong', '-', '-', '-', '-', 'Decentralized autonomous organization (DAO) platform', 'Complexity and learning curve, potential security risks'],
+    5: ['Available', 'Independent', 'High', 'Moderate', 'Polkadot.js', 'Growing', 'DOT (1B)', 'Required', 'Strong', 'Nominated Proof of Stake (NPoS)', 'EVM-compatible', 'Ink, Rust', 'Rust, C++, Substrate', 'Interoperability, scalability, governance', 'Complexity and learning curve, potential security risks'],
+    6: ['Available', 'Independent', 'High', 'Moderate', 'WebSocket JSON-RPC', 'Growing', 'SOL (Inflationary)', 'Required', 'Strong', 'Proof of History (PoH)', 'WebAssembly (Wasm)', 'IRust,C, C++, AssemblyScript', 'IRust,C, C++, AssemblyScript', 'High throughput, low fees, scalability', 'Complexity and learning curve,potential security risks'],
 };
 
 export const generateTextCoinInSwitch = (coin)  => {

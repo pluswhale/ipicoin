@@ -40,7 +40,7 @@
 
                 <!--wallets icon -->
 
-                <div class="flex flex-row w-full items-center justify-between mt-[35px]">
+                <div class="flex flex-row items-center justify-between" :class="{'w-full':!isMobile, 'w-[61px]':isMobile, 'mt-[35]':!isMobile, 'mt-[15px]':isMobile,}">
                     <img src="~/assets/icons/swap_wallet_binance_icon.svg"/>
                     <img src="~/assets/icons/swap_wallet_google_icon.svg"/>
                     <img src="~/assets/icons/swap_wallet_apple_icon.svg"/>
@@ -55,13 +55,13 @@
         <!--swap card-->
 
         <!--link line-->
-        <div class="flex items-center justify-center w-full gap-[30px] mt-[50px] ml-[20px]">
+        <div class="flex items-center justify-center w-full gap-[30px] ml-[20px]" :class="{'mt-[50px]':!isMobile,'mt-[22px]':isMobile,}">
             <div class="flex items-center">
-                <span class="font-[600] text-white font-['Inter'] uppercase text-[14.5px] whitespace-nowrap">IPI SCANER</span>
+                <span class=" text-white font-['Inter'] uppercase text-[14.5px] whitespace-nowrap" :class="{'font-[600]':!isMobile, 'font-[400]':isMobile,}">IPI SCANER</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
             <div class="flex items-center">
-                <span class="font-[600] text-white font-['Inter'] uppercase text-[14.5px] whitespace-nowrap">IPI WALLET</span>
+                <span class=" text-white font-['Inter'] uppercase whitespace-nowrap text-[14.5px]" :class="{'font-[600]':!isMobile, 'font-[400]':isMobile,}">IPI WALLET</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
          <!--    <div class="flex items-center">
@@ -73,6 +73,34 @@
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div> -->
         </div>
+
+        <div class="flex items-center mt-[77px] gap-[20px] translate-y-[-50px] translate-x-[-5px]" :class="{'mt-[77px]':!isMobile,'mt-[60px]':isMobile,'hidden':!isMobile,'block':isMobile,'translate-x-[-5px]':!isMobile, 'translate-x-[22px]':isMobile}">
+            <div class="flex flex-row items-center justify-center border-[2px] border-[#EC474E]  hover:bg-[#EC474E] cursor-pointer"
+            :class="{'w-[217px]':!isMobile, 'w-[163px]':isMobile,'h-[65px]':!isMobile, 'h-[49px]':isMobile, 'rounded-[20px]':!isMobile, 'rounded-[10px]':isMobile}">
+                <div class="flex pl-[10px] gap-[20px]">
+                    <img src="~/assets/icons/apple_icon.svg" class="translate-y-[-4px] translate-x-[0px]" :class="{'w-[30px]':isMobile,}"/>
+                    <div class="flex flex-col">
+                        <span class="text-white whitespace-nowrap font-[400] font-['Lato'] translate-y-[-3px] translate-x-[-9px] IOS_text"
+                        :class="{'text-[14px]':!isMobile, 'text-[12px]':isMobile,}">Download on the</span>
+                        <span class="text-white whitespace-nowrap font-[600] font-['Lato']  translate-y-[-3px] translate-x-[-11px] IOS_title"
+                        :class="{'text-[23px]':!isMobile, 'text-[15px]':isMobile,}">App Store</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-row items-center justify-center border-[2px] border-[#EC474E] hover:bg-[#EC474E] cursor-pointer"
+            :class="{'w-[217px]':!isMobile, 'w-[163px]':isMobile,'h-[65px]':!isMobile, 'h-[49px]':isMobile,'rounded-[20px]':!isMobile, 'rounded-[10px]':isMobile,}">
+                <div class="flex pl-[10px] gap-[20px]">
+                    <img src="~/assets/icons/playmarket_icon.svg" class="translate-y-[0px] translate-x-[3px]" :class="{'w-[30px]':isMobile,}"/>
+                    <div class="flex flex-col">
+                        <span class="text-white whitespace-nowrap font-[400] font-['Montserrat'] translate-y-[3px] translate-x-[-9px] uppercase"
+                        :class="{'text-[14px]':!isMobile, 'text-[10px]':isMobile,}">Get It On </span>
+                        <span class="text-white whitespace-nowrap font-[600] font-['Montserrat'] translate-y-[-3px] translate-x-[-9px]"
+                        :class="{'text-[23px]':!isMobile, 'text-[15px]':isMobile,}">Google Play</span>
+                    </div>
+                </div>
+            </div>
+        </div> 
 
     </div>
 </template>
