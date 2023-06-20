@@ -14,19 +14,34 @@
                 <!--inputs-->
                 <div class="flex flex-col">
                     <div  class="flex items-center justify-between pl-[10px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px] mb-[10px]">
-                        <div class="flex items-center">
+                        <div class="flex items-center relative">
                             <span class="text-white font-[500] text-[16px] mr-[10px] mt-[5px] font-['Quicksand']">From</span>
                             <span class="text-[#749DCA] font-[700] text-[24px] uppercase font-['Quicksand']">ipicoin</span>
+                            <span class="ml-[8px] cursor-pointer"><img @click="handleOpenToDialogIPI"  src="../../../../assets/icons/chevron-down.png" alt=""/></span>
+                            <div v-if="stateIPI.toDialogOpenIPI" class="absolute w-[375px] left-[-13px] top-[46px] bg-[#2D1E42] border-[1px] border-[white] backdrop-blur-sm  
+                            rounded-[8px] z-[2]">
+                                <span class="flex flex-col">
+                                    <div class="flex items-center w-full h-[50px] modalWallet"><p class="text-[#FFFFFF] font-[500] font-['Inter'] translate-x-[55px] text-[24px] uppercase">USD</p></div>
+                                    <div class="flex items-center w-full h-[50px] modalWallet"><p class="text-[#FFFFFF] font-[500] font-['Inter'] translate-x-[55px] text-[24px] uppercase">IPICOIN</p></div>
+                                    <div class="flex items-center w-full h-[50px] modalWallet"><p class="text-[#FFFFFF] font-[500] font-['Inter'] translate-x-[55px] text-[24px] uppercase">EUR</p></div>
+                                </span>
+                            </div>
                         </div>
                        <input type="text" maxlength="10"  placeholder="0" class="outline-none bg-[transparent] text-white font-[700] text-[24px] font-['Quicksand'] w-[150px] placeholder:text-[24px] text-right">
                     </div>
-                    <div class="flex items-center justify-between pl-[10px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px]">
-                        <div class="flex items-center relative">
+                    
+                    <div class="flex items-center justify-between pl-[10px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px] relative z-[1]">
+                        <div class="flex items-center">
                             <span class="text-white font-[500] text-[16px] mr-[10px] mt-[5px] font-['Quicksand']">To</span>
                             <span class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] text-[24px] uppercase">usd</span>
-                            <span class="ml-[15px] cursor-pointer"><img @click="handleOpenToDialog"  src="../../../../assets/icons/chevron-down.png" alt=""></span>
-                            <div v-if="state.toDialogOpen" class="absolute w-[371px] left-[-10px] top-[40px] bg-white/10 border-[1px] border-[white] backdrop-blur-sm  rounded-[8px]">
-                                <span class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] text-[24px] uppercase">USD</span>
+                            <span class="ml-[15px] cursor-pointer"><img @click="handleOpenToDialog" src="../../../../assets/icons/chevron-down.png" alt=""></span>
+                            <div v-if="state.toDialogOpen" class="absolute w-[375px] left-[-3px] top-[53px] bg-[#2D1E42] border-[1px] border-[white] backdrop-blur-sm  
+                            rounded-[8px]">
+                                <span class="flex flex-col">
+                                    <div class="flex items-center w-full h-[50px] modalWallet"><p class="text-[#FFFFFF] font-[500] font-['Inter'] translate-x-[55px] text-[24px] uppercase">USD</p></div>
+                                    <div class="flex items-center w-full h-[50px] modalWallet"><p class="text-[#FFFFFF] font-[500] font-['Inter'] translate-x-[55px] text-[24px] uppercase">IPICOIN</p></div>
+                                    <div class="flex items-center w-full h-[50px] modalWallet"><p class="text-[#FFFFFF] font-[500] font-['Inter'] translate-x-[55px] text-[24px] uppercase">EUR</p></div>
+                                </span>
                             </div>
                         </div>
                         <input type="text" maxlength="10" placeholder="0" class="outline-none bg-[transparent] text-white font-[700] text-[24px] font-['Quicksand'] w-[150px] placeholder:text-[24px] text-right">
@@ -40,7 +55,7 @@
 
                 <!--wallets icon -->
 
-                <div class="flex flex-row items-center justify-between" :class="{'w-full':!isMobile, 'w-[61px]':isMobile, 'mt-[35]':!isMobile, 'mt-[15px]':isMobile,}">
+                <div class="flex flex-row items-center justify-between" :class="{'w-full':!isMobile, 'w-[61px]':isMobile, 'mt-[25px]': !isMobile, 'mt-[15px]': isMobile,}">
                     <img src="~/assets/icons/swap_wallet_binance_icon.svg"/>
                     <img src="~/assets/icons/swap_wallet_google_icon.svg"/>
                     <img src="~/assets/icons/swap_wallet_apple_icon.svg"/>
@@ -55,7 +70,7 @@
         <!--swap card-->
 
         <!--link line-->
-        <div class="flex items-center justify-center w-full gap-[30px] ml-[20px]" :class="{'mt-[50px]':!isMobile,'mt-[22px]':isMobile,}">
+        <div class="flex items-center justify-center w-full gap-[30px] ml-[20px]" :class="{'mt-[30px]':!isMobile,'mt-[22px]':isMobile,}">
             <div class="flex items-center">
                 <span class=" text-white font-['Inter'] uppercase text-[14.5px] whitespace-nowrap" :class="{'font-[600]':!isMobile, 'font-[400]':isMobile,}">IPI SCANER</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
@@ -115,6 +130,12 @@ const handleOpenToDialog = () => {
   state.toDialogOpen = !state.toDialogOpen
 }
 
+const stateIPI = reactive({ toDialogOpenIPI: false })
+
+const handleOpenToDialogIPI = () => {
+    stateIPI.toDialogOpenIPI = !stateIPI.toDialogOpenIPI
+}
+
 </script>
 
 <style lang="scss" scoped>
@@ -132,6 +153,12 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0; 
+}
+
+.modalWallet:hover{
+    background: #749DCA;
+    border-radius: 8px;
+    transition: all .25s;
 }
 
 </style>

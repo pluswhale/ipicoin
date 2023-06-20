@@ -1,6 +1,12 @@
 <script setup>
 const { isMobile } = useDevice();
 
+const stateMenu = reactive({ toDialogOpenIPI: false })
+
+const handleOpenBurger = () => {
+    stateMenu.toOpenBurger = !stateMenu.toOpenBurger
+}
+
 </script>
 
 <template>
@@ -70,7 +76,33 @@ const { isMobile } = useDevice();
                     <img :class="{'w-[20px]': isMobile}" src="~/assets/images/IpiScan/arrow-right.png" class="hover_arrow"/>
                 </button>
 
-                <img v-show="isMobile" src="~/assets/icons/mobile/burger_menu.svg"/>
+                <img v-show="isMobile" @click="handleOpenBurger" src="~/assets/icons/mobile/burger_menu.svg" class="relative z-[6]"/>
+                    <div v-if="stateMenu.toOpenBurger" class="flex flex-col items-center absolute w-full left-[0] top-[0px] bg-[#1C0D30] z-[5]">
+                        <div class="flex flex-col items-center h-[615px]">
+
+                            <div class="flex items-center gap-[15px] mt-[46px] mb-[40px]">
+                                <img src="~/assets/icons/mobile/burger/img_logo1.png" alt="">
+                                <img src="~/assets/icons/mobile/burger/img_logo2.png" alt="" class="mt-[5px]">
+                            </div>
+
+                            <div class="flex flex-col gap-[25px]">
+                                <p class="text-[16px] text-white font-[600] font-['Inter'] uppercase text-center">IPI Scan</p>
+                                <p class="text-[16px] text-white font-[600] font-['Inter'] uppercase text-center">Advantages</p>
+                                <p class="text-[16px] text-white font-[600] font-['Inter'] uppercase text-center">Ecosystem</p>
+                                <p class="text-[16px] text-white font-[600] font-['Inter'] uppercase text-center">platform</p>
+                                <p class="text-[16px] text-white font-[600] font-['Inter'] uppercase text-center">FAQ</p>
+                                <p class="text-[16px] text-white font-[600] font-['Inter'] uppercase text-center">Contacts</p>
+                            </div>
+
+                            <button class="flex justify-center items-center w-[228px] h-[43px] border-[2px] border-[#EC474E] rounded-[20px] mt-[45px]">
+                                <p class="text-[13px] text-white font-[600] font-['Inter'] uppercase text-center mr-[5px]">Follow the iPIcoin</p>
+                                <img src="~/assets/icons/arrow-right.svg">
+                            </button>
+
+
+
+                        </div>
+                    </div>
             </div>
     </header>
 </template>

@@ -14,8 +14,7 @@
                 ease: 'easeIn',
                 },
         }"        
-        class="flex flex-col max-w-[480px] mx-auto my-0 justify-between  "
-        >
+        class="flex flex-col max-w-[480px] mx-auto my-0 justify-between relative z-[-1]">
         <TitleAndAppsDownload/>
         <SwapWallet/>
     </div>
