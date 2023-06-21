@@ -64,7 +64,7 @@
 
             <div class="flex items-cente mr-[20px] gap-[2px]">
                 <img src="~/assets/images/IpiScan/trending/logo-3.png" alt="">
-                <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[8px] uppercase">BNB</p>
+                <p class="font-['Inter'] font-[400] text-[#E0E0E0] translate-y-[4px] text-[8px] uppercase">BNB</p>
             </div>
 
             <div class="flex items-center mr-[20px] gap-[2px]">
@@ -181,12 +181,12 @@
 
                 </div>
 
-                <div class=" flex flex-col w-[270px]">
+                <div class=" flex flex-col w-[223px]">
                     <img  src="~/assets/images/IpiScan/schedule/bg.png" alt="" class="relative  top-0">  
-                    <img src="~/assets/images/IpiScan/schedule/white-line.png" alt="" class="absolute w-[176px] translate-y-[-2px]  translate-x-[94px] ">  
-                    <img src="~/assets/images/IpiScan/schedule/gray-line.png" alt="" class="absolute w-[95px] translate-y-[44px] translate-x-[0px] "> 
-                    <img src="~/assets/images/IpiScan/schedule/dot.png" alt="" class="absolute translate-y-[49px] translate-x-[86px] ">
-                        <span class="flex w-[270px] justify-between my-[10px]">
+                    <img src="~/assets/images/IpiScan/schedule/white-line.png" alt="" class="absolute w-[146px] translate-y-[-1px]  translate-x-[77px] ">  
+                    <img src="~/assets/images/IpiScan/schedule/gray-line.png" alt="" class="absolute w-[80px] translate-y-[35px] translate-x-[-1px] "> 
+                    <img src="~/assets/images/IpiScan/schedule/dot.png" alt="" class="absolute translate-y-[37px] translate-x-[72px] ">
+                        <span class="flex w-[223px] justify-between my-[10px] translate-x-[8px]">
                         <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[7px]">1 Apr</p>
                         <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[7px]">10 Apr</p>
                         <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[7px]">20 Apr</p>
@@ -197,7 +197,7 @@
 
             </div> <!--/shedule --> 
 
-            <div class="flex flex-col w-[126px] translate-y-[-55px]"><!--shedule text -->
+            <div class="flex flex-col w-[126px] translate-y-[-55px] translate-x-[-8px]"><!--shedule text -->
                 <div class="flex items-center justify-between w-full mb-[5px]">
                     <p class="font-['Inter'] font-[400] text-[#749DCA] text-[9px]">Volume (24h):</p>
                     <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[9px]">$233.8</p>
