@@ -13,9 +13,9 @@
                 <!--header-->
 
                 <!--inputs-->
-                <div class="flex flex-col  relative z-[-1]">
+                <div class="flex flex-col  ">
                     <div  class="flex items-center justify-between pl-[10px] py-[5px] pr-[30px] w-full border-[1px] rounded-[8px] mb-[10px]">
-                        <div class="flex items-center relative">
+                        <div class="flex items-center relative" >
                             <span class="text-white font-[500] text-[11px] mr-[10px] mt-[4px] font-['Inter']">From</span>
                             <span class="text-[#749DCA] font-[500] text-[17px] uppercase font-['Inter']">ipicoin</span>
                             <span class="ml-[8px] cursor-pointer"><img class="h-[17px] w-[17px]" @click="handleOpenToDialogIPI"  src="../../../../assets/icons/chevron-down.png" alt=""/></span>
@@ -114,6 +114,8 @@
 <script setup>
 
 const state = reactive({ toDialogOpen: false })
+
+console.log("state open", state.toDialogOpen);
 
 const handleOpenToDialog = () => {
   state.toDialogOpen = !state.toDialogOpen
