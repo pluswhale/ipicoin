@@ -22,15 +22,11 @@ const decrementSwitchBlock = () => {
 </script>
 
 <template>
-    <div 
-        class=" w-[343px]" 
-    >
-            <div
-                class="flex w-full flex-col bg-white/10  backdrop-blur-sm rounded-[20px] graph"
-             >
-                <div class="flex flex-col self-end items-center " >
+    <div  class=" w-[343px]">
+            <div class="flex w-full flex-col bg-white/10  backdrop-blur-sm rounded-[20px] graph">
+                <div class="flex flex-col self-end items-end w-[300px]" >
                     <div class="flex flex-row mt-[27px] justify-between">
-                        <div class="flex flex-col items-center mr-[41px]">
+                        <div class="flex flex-col items-center mr-[38px]">
                             <span class=" text-white text-[12px] font-[700] font-['Inter'] h-[26px] ">IPI</span>
                             <img class="w-[27px] h-[27px] " src="~/assets/icons/out_advantages/ipi_coin.svg"/>
                         </div>
@@ -39,7 +35,7 @@ const decrementSwitchBlock = () => {
                             <img @click="decrementSwitchBlock" class="h-[24px] self-end mr-[14px]"  src="~/assets/icons/mobile/chevron-left.svg"/>                        
                             <div class="flex flex-col items-center">
                                 <span class=" text-white text-[12px] font-[700] font-['Inter'] h-[26px] absolute">{{generateTextCoinInSwitch(switchBlockState)}}</span>
-                                <img class="h-[27px] translate-y-[27px]" :src="generateIconInSwitch(switchBlockState)"/>
+                                <img class=" h-[27px] translate-y-[27px]" :src="generateIconInSwitch(switchBlockState)"/>
                             </div>
                             <img @click="incrementSwitchBlock" class="h-[24px] self-end ml-[14px]" src="~/assets/icons/mobile/chevron-right.svg"/>  
                         </div>

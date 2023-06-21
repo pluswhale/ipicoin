@@ -3,7 +3,7 @@
         class="flex flex-col items-center w-full mt-[107px] max-w-[1400px] h-[1130px] mx-auto my-0"
      >
         <h2 class="text-white uppercase text-[22px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[15px] translate-x-[-14px]">our advantages</h2>
-        <div class="flex w-screen border-b-[1px] gap-[10px] overflow-x-scroll no-scrollbar border-b-[#749DCA] h-[40px] justify-center mb-[61px]">
+        <div class="flex w-screen border-b-[2px] gap-[10px] no-scrollbar border-b-[#749DCA] h-[40px] justify-center mb-[61px] relative">
             <button @click="setActiveButton(1)" :class="state.active_button === 1 ? 'button_active' : 'button_unactive'" >investors Comparison </button>
             <button @click="setActiveButton(2)" :class="state.active_button === 2 ? 'button_active' : 'button_unactive'">developers Comparison  </button>
         </div>
@@ -44,6 +44,7 @@ const setActiveButton = (button) => {
 }
 
 .button_active {
+
     color: #EC474E;
         border-bottom: 2px solid #EC474E;
             font-weight: 700;
@@ -51,7 +52,7 @@ const setActiveButton = (button) => {
 
 .button_unactive {
     color: #749DCA;
-    // border-bottom: 1px solid #749DCA;
+/*     border-bottom: 1px solid #749DCA; */
     font-weight: 500;
 
 }

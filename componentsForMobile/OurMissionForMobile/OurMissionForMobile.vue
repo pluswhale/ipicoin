@@ -53,28 +53,28 @@
             <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[8px] mr-[10px]">Trending Search：</p>
 
             <div class="flex items-center mr-[20px] gap-[2px]">
-                <img src="~/assets/images/IpiScan/trending/logo-1.png" alt="">
+                <img src="~/assets/images/IpiScan/trending/logo-1.svg" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[8px] uppercase">BNB</p>
             </div>
 
             <div class="flex items-center mr-[20px] gap-[2px]">
-                <img src="~/assets/images/IpiScan/trending/logo-2.png" alt="">
+                <img src="~/assets/images/IpiScan/trending/logo-2.svg" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[8px] uppercase">BNB</p>
             </div>
 
             <div class="flex items-cente mr-[20px] gap-[2px]">
-                <img src="~/assets/images/IpiScan/trending/logo-3.png" alt="">
-                <p class="font-['Inter'] font-[400] text-[#E0E0E0] translate-y-[4px] text-[8px] uppercase">BNB</p>
+                <img src="~/assets/images/IpiScan/trending/logo-3.svg" alt="">
+                <p class="font-['Inter'] font-[400] text-[#E0E0E0] translate-y-[0px] text-[8px] uppercase">BNB</p>
             </div>
 
             <div class="flex items-center mr-[20px] gap-[2px]">
-                <img src="~/assets/images/IpiScan/trending/logo-4.png" alt="">
+                <img src="~/assets/images/IpiScan/trending/logo-4.svg" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[8px] uppercase">BTC</p>
             </div>
 
             <div class="flex items-center  gap-[2px]">
-                <img src="~/assets/images/IpiScan/trending/logo-5.png" alt="">
-                <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[8px] uppercase">BTC</p>
+                <img src="~/assets/images/IpiScan/trending/logo-5.svg" alt="">
+                <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[8px] uppercase ml-[2px]">BTC</p>
             </div>
 
 
@@ -83,7 +83,7 @@
          <!-- Index block -->
             <div class="flex w-[343px] items-center justify-between mb-[10px]">
                 <div class="flex w-full h-[239px] flex-col bg-white/10 rounded-[10px]">
-                   <div class="flex flex-col gap-[] w-full justify-between mt-[25px]">
+                   <div class="flex flex-col gap-[10px] w-full justify-between mt-[25px]">
                      <!--first line total-->
                      <!-- Total 1 -->
                         <div class="flex items-center justify-between ml-[20px]">

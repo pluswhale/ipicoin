@@ -44,7 +44,7 @@
                         <p class="font-400 text-[8px] font-['Roboto'] text-white">Ninel Adarman</p>
                         <p class="font-400 text-[8px] font-['Roboto'] text-[#838A91]">20 Mar 2023 at 05:15 PM</p>
                     </div>
-                    <img src="../../assets/icons/CardUser/twit.png" alt="ico" class="absolute top-[20px] right-[20px]">
+                    <img src="../../assets/icons/CardUser/twitter.svg" alt="ico" class="absolute top-[20px] right-[20px]">
                 </div>
                 <p class="font-400 text-[10px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
@@ -60,7 +60,7 @@
                         <p class="font-400 text-[8px] font-['Roboto'] text-white">Ninel Adarman</p>
                         <p class="font-400 text-[8px] font-['Roboto'] text-[#838A91]">20 Mar 2023 at 05:15 PM</p>
                     </div>
-                    <img src="../../assets/icons/CardUser/twit.png" alt="ico" class="absolute top-[20px] right-[20px]">
+                    <img src="../../assets/icons/CardUser/twitter.svg" alt="ico" class="absolute top-[20px] right-[20px]">
                 </div>
                 <p class="font-400 text-[10px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
@@ -76,7 +76,7 @@
                         <p class="font-400 text-[8px] font-['Roboto'] text-white">Ninel Adarman</p>
                         <p class="font-400 text-[8px] font-['Roboto'] text-[#838A91]">20 Mar 2023 at 05:15 PM</p>
                     </div>
-                    <img src="../../assets/icons/CardUser/twit.png" alt="ico" class="absolute top-[20px] right-[20px]">
+                    <img src="../../assets/icons/CardUser/twitter.svg" alt="ico" class="absolute top-[20px] right-[20px]">
                 </div>
                 <p class="font-400 text-[10px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">

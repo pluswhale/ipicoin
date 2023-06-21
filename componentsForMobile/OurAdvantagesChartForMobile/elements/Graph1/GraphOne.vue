@@ -30,7 +30,7 @@ const decrementSwitchBlock = () => {
              >
                 <div class="flex flex-col self-end items-end w-[300px]" >
                     <div class="flex flex-row mt-[27px] justify-between">
-                        <div class="flex flex-col items-center mr-[35px]">
+                        <div class="flex flex-col items-center mr-[38px]">
                             <span class=" text-white text-[12px] font-[700] font-['Inter'] h-[26px] ">IPI</span>
                             <img class="w-[27px] h-[27px] " src="~/assets/icons/out_advantages/ipi_coin.svg"/>
                         </div>
