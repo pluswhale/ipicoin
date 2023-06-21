@@ -11,12 +11,16 @@ const handleOpenBurger = () => {
 
 <template>
     <header 
-        class="flex justify-center items-center shadow-sm bg-white/5 backdrop-blur-sm"
+        class="flex w-screen justify-center items-center shadow-sm bg-white/5 backdrop-blur-sm z-[1000]"
         :class="{
             'h-[43px]': isMobile,
             'h-[93px]': !isMobile,
             'pl-[16px]': isMobile,
             'pr-[16px]': isMobile,
+            'fixed': isMobile,
+            'relative': !isMobile,
+            'top-[0]': isMobile,
+            'left-[0]': isMobile,
         }"
     >
             <div class="flex w-[1400px] justify-between items-center">
@@ -77,7 +81,7 @@ const handleOpenBurger = () => {
                 </button>
 
                 <img v-show="isMobile" @click="handleOpenBurger" src="~/assets/icons/mobile/burger_menu.svg" class="relative z-[6]"/>
-                    <div v-if="stateMenu.toOpenBurger" class="flex flex-col items-center absolute w-full left-[0] top-[0px] bg-[#1C0D30] z-[5]">
+                    <div v-if="stateMenu.toOpenBurger" class="flex flex-col items-center absolute w-full left-[0] top-[0px] h-screen bg-[#1C0D30]">
                         <div class="flex flex-col items-center h-[615px]">
 
                             <div class="flex items-center gap-[15px] mt-[46px] mb-[40px]">

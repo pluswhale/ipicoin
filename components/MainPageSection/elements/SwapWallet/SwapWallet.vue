@@ -17,8 +17,8 @@
                         <div class="flex items-center relative">
                             <span class="text-white font-[500] text-[16px] mr-[10px] mt-[5px] font-['Quicksand']">From</span>
                             <span class="text-[#749DCA] font-[700] text-[24px] uppercase font-['Quicksand']">ipicoin</span>
-                            <span class="ml-[8px] cursor-pointer"><img @click="handleOpenToDialogIPI"  src="../../../../assets/icons/chevron-down.png" alt=""/></span>
-                            <div v-if="stateIPI.toDialogOpenIPI" class="absolute w-[375px] left-[-13px] top-[46px] bg-[#2D1E42] border-[1px] border-[white] backdrop-blur-sm  
+                            <span class="ml-[8px] cursor-pointer"><img @click="handleOpenToDialog('from')"  src="../../../../assets/icons/chevron-down.png" alt=""/></span>
+                            <div v-if="state.fromDialogOpen" class="absolute w-[375px] left-[-13px] top-[46px] bg-[#2D1E42] border-[1px] border-[white] backdrop-blur-sm  
                             rounded-[8px] z-[2]">
                                 <span class="flex flex-col">
                                     <div class="flex items-center w-full h-[50px] modalWallet"><p class="text-[#FFFFFF] font-[500] font-['Inter'] translate-x-[55px] text-[24px] uppercase">USD</p></div>
@@ -34,7 +34,7 @@
                         <div class="flex items-center">
                             <span class="text-white font-[500] text-[16px] mr-[10px] mt-[5px] font-['Quicksand']">To</span>
                             <span class="text-[#749DCA] font-[700] font-['Quicksand'] ml-[20px] text-[24px] uppercase">usd</span>
-                            <span class="ml-[15px] cursor-pointer"><img @click="handleOpenToDialog" src="../../../../assets/icons/chevron-down.png" alt=""></span>
+                            <span class="ml-[15px] cursor-pointer"><img @click="handleOpenToDialog('to')" src="../../../../assets/icons/chevron-down.png" alt=""></span>
                             <div v-if="state.toDialogOpen" class="absolute w-[375px] left-[-3px] top-[53px] bg-[#2D1E42] border-[1px] border-[white] backdrop-blur-sm  
                             rounded-[8px]">
                                 <span class="flex flex-col">
@@ -79,14 +79,6 @@
                 <span class=" text-white font-['Inter'] uppercase whitespace-nowrap text-[14.5px]" :class="{'font-[600]':!isMobile, 'font-[400]':isMobile,}">IPI WALLET</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
             </div>
-         <!--    <div class="flex items-center">
-                <span class="font-[600] text-white font-['SF_Pro_Text'] uppercase text-[14.5px] whitespace-nowrap">ipi scaner</span>
-                <img src="~/assets/icons/arrow-right.svg"/>
-            </div>
-            <div class="flex items-center">
-                <span class="font-[600] text-white uppercase font-['SF_Pro_Text'] text-[14.5px] whitespace-nowrap">ipi scaner</span>
-                <img src="~/assets/icons/arrow-right.svg"/>
-            </div> -->
         </div>
 
         <div class="flex items-center mt-[77px] gap-[20px] translate-y-[-50px] translate-x-[-5px]" :class="{'mt-[77px]':!isMobile,'mt-[60px]':isMobile,'hidden':!isMobile,'block':isMobile,'translate-x-[-5px]':!isMobile, 'translate-x-[22px]':isMobile}">
@@ -122,18 +114,14 @@
 
 <script setup>
 
-const state = reactive({ toDialogOpen: false })
+const state = reactive({ fromDialogOpen: false, toDialogOpen: false  })
 
-console.log("state open", state.toDialogOpen);
-
-const handleOpenToDialog = () => {
-  state.toDialogOpen = !state.toDialogOpen
-}
-
-const stateIPI = reactive({ toDialogOpenIPI: false })
-
-const handleOpenToDialogIPI = () => {
-    stateIPI.toDialogOpenIPI = !stateIPI.toDialogOpenIPI
+const handleOpenToDialog = (typeModal) => {
+    if (typeModal === "from") {
+        state.fromDialogOpen = !state.fromDialogOpen
+    } else if (typeModal === 'to') {
+        state.toDialogOpen = !state.toDialogOpen
+    }
 }
 
 </script>
