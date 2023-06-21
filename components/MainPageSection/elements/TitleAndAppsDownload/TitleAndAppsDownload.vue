@@ -97,30 +97,42 @@ const blockQueueInterval = setInterval(() => {
 
 
             <!-- download apps block-->
-            <div class="flex items-center mt-[77px] gap-[20px] translate-y-[-50px] translate-x-[-5px]">
+            <div class="flex items-center mt-[77px] gap-[15px] translate-y-[-50px] translate-x-[-5px]">
 
              <!--    <img src="../../../../assets/images/mainpage/test_bg_2.png" alt="">
                 <img src="../../../../assets/images/mainpage/Button_Gplay.png" alt=""> -->
 
-                <div class="flex flex-row items-center justify-center w-[217px] h-[65px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer">
+                <div class="flex flex-row items-center justify-center w-[187px] h-[55px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer">
                     <div class="flex pl-[10px] gap-[20px]">
-                        <img src="~/assets/icons/apple_icon.svg" class="translate-y-[-4px] translate-x-[0px]"/>
+                        <img src="~/assets/icons/apple_icon.svg" class="translate-y-[3px] translate-x-[0px] w-[30px] h-[37px]"/>
                         <div class="flex flex-col">
-                            <span class="text-white whitespace-nowrap font-[400] font-['Lato'] text-[15px] translate-y-[-3px] translate-x-[-9px] IOS_text">Download on the</span>
-                            <span class="text-white whitespace-nowrap font-[600] font-['Lato'] text-[22px] translate-y-[-3px] translate-x-[-11px] IOS_title">App Store</span>
+                            <span class="text-white whitespace-nowrap font-[400] font-['Lato'] text-[11px] translate-y-[0px] translate-x-[-9px] IOS_text">Download on the</span>
+                            <span class="text-white whitespace-nowrap font-[500] font-['Lato'] text-[20px] translate-y-[-5px] translate-x-[-11px] IOS_title">App Store</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex flex-row items-center w-[217px] justify-center h-[65px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer">
+                <div class="flex flex-row items-center w-[187px] justify-center h-[55px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer">
                     <div class="flex pl-[10px] gap-[20px]">
-                        <img src="~/assets/icons/playmarket_icon.svg" class="translate-y-[0px] translate-x-[3px]"/>
+                        <img src="~/assets/icons/playmarket_icon.svg" class="translate-y-[3px] translate-x-[3px] w-[33px] h-[37px]"/>
                         <div class="flex flex-col">
-                            <span  class="text-white whitespace-nowrap font-[400] font-['Montserrat'] text-[14px] translate-y-[3px] translate-x-[-9px] uppercase ">Get It On </span>
-                            <span class="text-white whitespace-nowrap font-[600] font-['Montserrat'] text-[23px] translate-y-[-3px] translate-x-[-9px]">Google Play</span>
+                            <span  class="text-white whitespace-nowrap font-[400] font-['Montserrat'] text-[11px] translate-y-[3px] translate-x-[-9px] uppercase ">Get It On </span>
+                            <span class="text-white whitespace-nowrap font-[600] font-['Montserrat'] text-[19px] translate-y-[-3px] translate-x-[-9px]">Google Play</span>
                         </div>
                     </div>
                 </div>
+
+                 <div class="flex flex-row items-center w-[187px] justify-center h-[55px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer">
+                    <div class="flex pl-[10px] gap-[20px]">
+                        <img src="../../../../assets/icons/mainpage/Vector.png" class="translate-y-[5px] translate-x-[3px] w-[42px] h-[36px]"/>
+                        <div class="flex flex-col">
+                            <span  class="text-white whitespace-nowrap font-[400] font-['Montserrat'] text-[11px] translate-y-[3px] translate-x-[-9px] uppercase ">Available as a</span>
+                            <span class="text-white whitespace-nowrap font-[600] font-['Montserrat'] text-[21px] translate-y-[-3px] translate-x-[-9px]">Web App</span>
+                        </div>
+                    </div>
+                </div>
+
+
             </div> 
             <!-- download apps block-->
         </div>
@@ -134,7 +146,7 @@ const blockQueueInterval = setInterval(() => {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 31px;
+    font-size: 22px;
     line-height: 26px;
 }
 
@@ -142,7 +154,7 @@ const blockQueueInterval = setInterval(() => {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 11px;
     line-height: 20px;
 }
 

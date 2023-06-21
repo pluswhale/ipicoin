@@ -4,9 +4,10 @@ const { isMobile } = useDevice();
 </script>
 
 <template>
+    <Header v-if="isMobile"/>
     <div class=" min-h-screen bg-[url('~/assets/images/bg_without_planet.png')] bg-no-repeat bg-cover brightness-100 overflow-hidden">
 
-        <Header/>
+        <Header v-if="!isMobile"/>
         <!--output the page content-->
         <div class="w-screen main_content">
             <slot/>
