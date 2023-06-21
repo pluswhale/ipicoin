@@ -18,8 +18,8 @@
                         <div class="flex items-center relative" >
                             <span class="text-white font-[500] text-[11px] mr-[10px] mt-[4px] font-['Inter']">From</span>
                             <span class="text-[#749DCA] font-[500] text-[17px] uppercase font-['Inter']">ipicoin</span>
-                            <span class="ml-[8px] cursor-pointer"><img class="h-[17px] w-[17px]" @click="handleOpenToDialogIPI"  src="../../../../assets/icons/chevron-down.png" alt=""/></span>
-                            <div v-if="stateIPI.toDialogOpenIPI" class="absolute w-[274px] left-[-13px] top-[35px] bg-[#2D1E42] border-[1px] border-[white] backdrop-blur-sm  
+                            <span class="ml-[8px] cursor-pointer"><img class="h-[17px] w-[17px]" @click="handleOpenToDialog('from')"  src="../../../../assets/icons/chevron-down.png" alt=""/></span>
+                            <div v-if="state.fromDialogOpen" class="absolute w-[274px] left-[-13px] top-[35px] bg-[#2D1E42] border-[1px] border-[white] backdrop-blur-sm  
                             rounded-[8px] z-[2] py-[5px]">
                                 <span class="flex flex-col">
                                     <div class="flex items-center w-full h-[22px] modalWallet"><p class="text-[#FFFFFF] font-[500] font-['Inter'] translate-x-[55px] text-[13px] uppercase">USD</p></div>
@@ -34,7 +34,7 @@
                         <div class="flex items-center relative">
                             <span class="text-white font-[500] text-[11px] mt-[5px] font-['Inter']">To</span>
                             <span class="text-[#749DCA] font-[500] translate-x-[24px] font-['Inter'] text-[17px] uppercase">usd</span>
-                            <span class="ml-[30px] cursor-pointer"><img class="h-[17px] w-[17px]" @click="handleOpenToDialog"  src="../../../../assets/icons/chevron-down.png" alt=""></span>
+                            <span class="ml-[30px] cursor-pointer"><img class="h-[17px] w-[17px]" @click="handleOpenToDialog('to')"  src="../../../../assets/icons/chevron-down.png" alt=""></span>
                             <div v-if="state.toDialogOpen" class="absolute w-[274px] left-[-13px] top-[35px] bg-[#2D1E42] border-[1px] border-[white] backdrop-blur-sm  
                             rounded-[8px] py-[5px]">
                                 <span class="flex flex-col">
@@ -113,18 +113,14 @@
 
 <script setup>
 
-const state = reactive({ toDialogOpen: false })
+const state = reactive({ fromDialogOpen: false, toDialogOpen: false  })
 
-console.log("state open", state.toDialogOpen);
-
-const handleOpenToDialog = () => {
-  state.toDialogOpen = !state.toDialogOpen
-}
-
-const stateIPI = reactive({ toDialogOpenIPI: false })
-
-const handleOpenToDialogIPI = () => {
-    stateIPI.toDialogOpenIPI = !stateIPI.toDialogOpenIPI
+const handleOpenToDialog = (typeModal) => {
+    if (typeModal === "from") {
+        state.fromDialogOpen = !state.fromDialogOpen
+    } else if (typeModal === 'to') {
+        state.toDialogOpen = !state.toDialogOpen
+    }
 }
 
 </script>
