@@ -62,27 +62,27 @@
             <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] mr-[10px]">Trending Search：</p>
 
             <div class="flex items-center mr-[20px] gap-[2px]">
-                <img src="~/assets/images/IpiScan/trending/logo-1.png" alt="">
+                <img src="~/assets/images/IpiScan/trending/logo-1.svg" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BNB</p>
             </div>
 
             <div class="flex items-center mr-[20px] gap-[2px]">
-                <img src="~/assets/images/IpiScan/trending/logo-2.png" alt="">
+                <img src="~/assets/images/IpiScan/trending/logo-2.svg" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BNB</p>
             </div>
 
             <div class="flex items-cente mr-[20px] gap-[2px]">
-                <img src="~/assets/images/IpiScan/trending/logo-3.png" alt="">
+                <img src="~/assets/images/IpiScan/trending/logo-3.svg" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BNB</p>
             </div>
 
             <div class="flex items-center mr-[20px] gap-[2px]">
-                <img src="~/assets/images/IpiScan/trending/logo-4.png" alt="">
+                <img src="~/assets/images/IpiScan/trending/logo-4.svg" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BTC</p>
             </div>
 
             <div class="flex items-center mr-[20px] gap-[2px]">
-                <img src="~/assets/images/IpiScan/trending/logo-5.png" alt="">
+                <img src="~/assets/images/IpiScan/trending/logo-5.svg" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] uppercase">BTC</p>
             </div>
 
