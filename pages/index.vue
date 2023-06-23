@@ -17,25 +17,25 @@ const { isMobile, isTablet } = useDevice();
 
 </script>
 <template>
-        <MainPageSection v-if="!isMobile"/>
+        <MainPageSection v-if="!isMobile && !isTablet"/>
         <MainPageSectionForMobile v-if="isMobile || isTablet" />
-        <OurMission v-if="!isMobile"/>
+        <OurMission v-if="!isMobile && !isTablet"/>
         <OurMissionForMobile v-if="isMobile || isTablet"/>
-        <Advantages  v-if="!isMobile"/>
+        <Advantages  v-if="!isMobile && !isTablet"/>
         <AdvantagesForMobile  v-if="isMobile || isTablet" />
-        <OurAdvantagesChart v-if="!isMobile"/>
+        <OurAdvantagesChart v-if="!isMobile && !isTablet"/>
         <OurAdvantagesChartForMobile v-if="isMobile || isTablet"/>
-        <Ecosystem v-if="!isMobile"/>
+        <Ecosystem v-if="!isMobile && !isTablet"/>
         <EcosystemForMobile v-if="isMobile || isTablet"/>
-        <Platform v-if="!isMobile"/>
+        <Platform v-if="!isMobile && !isTablet"/>
         <PlatformForMobile v-if="isMobile || isTablet"/>
         <IncrisingLineForMobile  v-if="isMobile || isTablet"/>
-        <Faqs v-if="!isMobile"/>
+        <Faqs v-if="!isMobile && !isTablet"/>
         <!--help-->
         <Trusted/>
-        <ContactUs v-if="!isMobile"/>
+        <ContactUs v-if="!isMobile && !isTablet"/>
         <ContactUsForMobile v-if="isMobile || isTablet"/>
-        <UserCard v-if="!isMobile"/>
+        <UserCard v-if="!isMobile && !isTablet"/>
         <UserCardForMobile v-if="isMobile || isTablet"/>
 </template>
 
