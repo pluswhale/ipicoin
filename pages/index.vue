@@ -12,31 +12,31 @@ import ContactUsForMobile from '~/componentsForMobile/ContactUsForMobile/Contact
 import UserCardForMobile from '~/componentsForMobile/UserCardForMobile/UserCardForMobile.vue';
 
 
-const { isMobile } = useDevice();
+const { isMobile, isTablet } = useDevice();
 
 
 </script>
 <template>
         <MainPageSection v-if="!isMobile"/>
-        <MainPageSectionForMobile v-if="isMobile" />
+        <MainPageSectionForMobile v-if="isMobile || isTablet" />
         <OurMission v-if="!isMobile"/>
-        <OurMissionForMobile v-if="isMobile"/>
+        <OurMissionForMobile v-if="isMobile || isTablet"/>
         <Advantages  v-if="!isMobile"/>
-        <AdvantagesForMobile  v-if="isMobile" />
+        <AdvantagesForMobile  v-if="isMobile || isTablet" />
         <OurAdvantagesChart v-if="!isMobile"/>
-        <OurAdvantagesChartForMobile v-if="isMobile"/>
+        <OurAdvantagesChartForMobile v-if="isMobile || isTablet"/>
         <Ecosystem v-if="!isMobile"/>
-        <EcosystemForMobile v-if="isMobile"/>
+        <EcosystemForMobile v-if="isMobile || isTablet"/>
         <Platform v-if="!isMobile"/>
-        <PlatformForMobile v-if="isMobile"/>
-        <IncrisingLineForMobile  v-if="isMobile"/>
+        <PlatformForMobile v-if="isMobile || isTablet"/>
+        <IncrisingLineForMobile  v-if="isMobile || isTablet"/>
         <Faqs v-if="!isMobile"/>
         <!--help-->
         <Trusted/>
         <ContactUs v-if="!isMobile"/>
-        <ContactUsForMobile v-if="isMobile"/>
+        <ContactUsForMobile v-if="isMobile || isTablet"/>
         <UserCard v-if="!isMobile"/>
-        <UserCardForMobile v-if="isMobile"/>
+        <UserCardForMobile v-if="isMobile || isTablet"/>
 </template>
 
 <style lang="scss" scoped>
