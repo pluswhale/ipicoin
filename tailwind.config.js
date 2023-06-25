@@ -10,6 +10,12 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
+    screens: {
+      'mobile': '480px',
+      'tablet': '1420px',
+      'laptop': '1420px',
+      'desktop': '1600px',
+    },
     extend: {
       fontFamily: {
         'quicksand': ['Quicksand sans-serif'],

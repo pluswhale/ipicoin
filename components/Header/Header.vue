@@ -1,6 +1,5 @@
 <script setup>
-const { isMobile, isTablet } = useDevice();
-
+const {  isTablet } = useDevice();
 const stateMenu = reactive({ toDialogOpenIPI: false })
 
 const handleOpenBurger = () => {
@@ -11,41 +10,15 @@ const handleOpenBurger = () => {
 
 <template>
     <header 
-        class="flex w-screen justify-center items-center shadow-sm bg-white/5 backdrop-blur-sm z-[1000]"
-        :class="{
-            'h-[43px]': isMobile || isTablet,
-            'h-[93px]': !isMobile && !isTablet,
-            'pl-[16px]': isMobile || isTablet,
-            'pr-[16px]': isMobile || isTablet,
-            'fixed': isMobile || isTablet,
-            'relative': !isMobile && !isTablet,
-            'top-[0]': isMobile || isTablet,
-            'left-[0]': isMobile || isTablet,
-        }"
+        class="flex w-screen h-[93px] relative justify-center items-center shadow-sm bg-white/5 backdrop-blur-sm z-[1000] 
+        max-[1420px]:fixed max-[1420px]:top-[0] max-[1420px]:left-[0] max-[1420px]:h-[43px] max-[1420px]:pl-[16px] max-[1420px]:pr-[16px] "
     >
             <div class="flex w-[1400px] justify-between items-center">
-                <div class="flex items-center">
-                    <img 
-                        :class="{
-                            'hidden' : isMobile || isTablet,
-                            'h-[20px]': isMobile || isTablet,
-                            'w-[66px]': isMobile || isTablet,
-                        }"
-                        src="~/assets/images/ipi_logo_1.svg"
-    
-                    >
-                    <img 
-                        :class="{
-                            'ml-[1px]': isMobile || isTablet, 
-                            'h-[20px]': isMobile || isTablet,
-                            'w-[66px]': isMobile || isTablet,
-                        }"
-                        class="max-h-[43px] ml-[11px]" 
-                        src="~/assets/images/ipi_logo.svg"
-    
-                    >
+                <div class="flex items-center  max-[1420px]:h-[20px] max-[1420px]:w-[66px]">
+                    <!-- <img  class="max-[1420px]:h-[20px] max-[1420px]:w-[66px]" src="~/assets/images/ipi_logo_1.svg"> -->
+                    <img class="max-h-[43px] ml-[11px] max-[1420px]:ml-[1px] " src="~/assets/images/ipi_logo.svg">
                 </div>
-                <nav v-show="!isMobile || !isTablet" class="flex justify-between  translate-x-[-30px] min-w-[395px] ">
+                <nav class="flex justify-between translate-x-[-30px] min-w-[395px] max-[1420px]:hidden ">
                     <ul class="flex gap-[1.85rem]">
                         <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow']" to="#platform">Platform</NuxtLink></li>
                         <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow']" to="/">Coins</NuxtLink></li>
@@ -56,31 +29,27 @@ const handleOpenBurger = () => {
                 </nav>
 
                 <button 
-                    class="flex pr-[10px] pl-[10px] items-center justify-center transition-all border-[#EC474E]  font-['Barlow sans-serif'] hover:bg-[#EC474E] button_coin"
-                    :class="{
-                        'rounded-[20px]': !isMobile || !isTablet,
-                        'rounded-[8px]': isMobile || isTablet,
-                        'pl-[10px]': isMobile || isTablet,
-                        'pr-[10px]': isMobile || isTablet,
-                        'border-[2px]': !isMobile && !isTablet,
-                        'border-[1px]': isMobile || isTablet,
-                        'h-[25px]': isMobile || isTablet,
-                        'h-44px': !isMobile || !isTablet,
-                        'p-[0]': isMobile || isTablet ,
-                        'translate-x-[10px]': !isMobile && !isTablet,
-                        'translate-x-[-6px]': isMobile || isTablet,
-                    }"
+                    class="flex pr-[10px] pl-[10px] rounded-[20px] border-[2px] 
+                    items-center h-44px translate-x-[10px] justify-center transition-all border-[#EC474E]  
+                    font-['Barlow sans-serif'] hover:bg-[#EC474E]
+                    max-[1420px]:rounded-[8px] 
+                    max-[1420px]:pl-[10px] 
+                    max-[1420px]:pr-[10px] 
+                    max-[1420px]:border-[1px]
+                    max-[1420px]:h-[25px] 
+                    max-[1420px]:p-[0] 
+                    max-[1420px]:translate-x-[-6px]
+                    button_coin
+                    "
                 >
-                    <span class=" font-[500] uppercase whitespace-nowrap text-white font-['Inter'] mr-[5px]"
-                        :class="{
-                            'text-[10px]': isMobile || isTablet,
-                            'text-[16px]': !isMobile && !isTablet,
-                        }">Follow the ipicoin</span>
-                    <img :class="{'w-[20px]': isMobile || isTablet}" src="~/assets/icons/arrow-right.svg" class="no_hover_arrow"/>
-                    <img :class="{'w-[20px]': isMobile || isTablet}" src="~/assets/images/IpiScan/arrow-right.png" class="hover_arrow"/>
+                    <span class=" font-[500] text-[16px] uppercase whitespace-nowrap text-white font-['Inter'] mr-[5px] max-[1420px]:text-[10px]">
+                        Follow the ipicoin
+                    </span>
+                    <img class="no_hover_arrow max-[1420px]:w-[20px]" src="~/assets/icons/arrow-right.svg" />
+                    <img class="hover_arrow max-[1420px]:w-[20px]" src="~/assets/images/IpiScan/arrow-right.png" />
                 </button>
 
-                <img v-show="isMobile || isTablet" @click="handleOpenBurger" src="~/assets/icons/mobile/burger_menu.svg" class="relative z-[6]"/>
+                <img  @click="handleOpenBurger" src="~/assets/icons/mobile/burger_menu.svg" class="relative z-[6] hidden  max-[1420px]:block"/>
                     <div v-if="stateMenu.toOpenBurger" class="flex flex-col items-center absolute w-full left-[0] top-[0px] h-screen bg-[#1C0D30]">
                         <div class="flex flex-col items-center h-[615px]">
 
