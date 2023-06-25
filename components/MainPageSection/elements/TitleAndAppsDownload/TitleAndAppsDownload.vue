@@ -1,4 +1,5 @@
 <script setup>
+import AnimateTitleBlock from './components/AnimatedTitleBlock.vue';
 import { reactive } from 'vue';
 const state = reactive({ block: [0], count: 1 })
 
@@ -19,89 +20,64 @@ const blockQueueInterval = setInterval(() => {
 </script>
 
 <template>
-    <div class="flex flex-wrap ml-[0]">
-        <div class="flex mt-[72px] flex-col">
+    <div class="flex flex-wrap ml-[0] max-[1420px]:mx-auto max-[1420px]">
+        <div class="flex mt-[72px] flex-col max-[1420px]:mt-[15px] max-[1420px]:w-[200px] max-[1420px]:translate-x-[20px]">
             <!-- main title block-->
 
             <!--first text block-->
-            <div v-if="state.block.length <= 4" class="flex flex-col h-[414px] w-[570px]">
-                <div v-if="state.block.includes(0) " class="flex items-center">
-                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] ">I</span>
-                    <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">ndependent</span>
-                </div>
-                <div v-if="state.block.includes(1)" class="flex items-center translate-y-[-41px]">
-                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">P</span>
-                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_without_caret ">rotocol</span>
-                </div>
-                <div v-if="state.block.includes(2)" class="flex items-center translate-y-[-81px]">
-                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">I</span>
-                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret">nfrastructure</span>
-                </div>
-                <span v-if="state.block.includes(3)" class="text-[#EC474E] font-[500] font-['Big_Shoulders_Stencil_Text'] text-[43px] translate-y-[-100px]" >coin</span>
-            </div>
+            <AnimateTitleBlock 
+                :is-all-block-displaying="state.block.length <= 4"
+                :is-first-row-displaying="state.block.includes(0)"
+                :is-second-row-displaying="state.block.includes(1)"
+                :is-third-row-displaying="state.block.includes(2)"
+                :is-fourth-row-displaying="state.block.includes(3)"
+                first-word="ndependent"
+                second-word="rotocol"
+                third-word="nfrastructure"
+            />
             <!--first text block-->
 
             <!--second text block-->
-            <div v-if="state.block.length > 4 && state.block.length <= 8 " class="flex flex-col h-[414px] w-[570px]">
-                <div v-if="state.block.includes(4) " class="flex items-center">
-                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] ">I</span>
-                    <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">nnovative</span>
-                </div>
-                <div v-if="state.block.includes(5)" class="flex items-center translate-y-[-41px]">
-                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">P</span>
-                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_without_caret ">ayment</span>
-                </div>
-                <div v-if="state.block.includes(6)" class="flex items-center translate-y-[-81px]">
-                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">I</span>
-                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret">nfrastructure</span>
-                </div>
-                <span v-if="state.block.includes(7)" class="text-[#EC474E] font-[500] font-['Big_Shoulders_Stencil_Text'] text-[43px] translate-y-[-100px]" >coin</span>
-            </div>
-            <!--second text block-->
+            <AnimateTitleBlock 
+                :is-all-block-displaying="state.block.length > 4 && state.block.length <= 8"
+                :is-first-row-displaying="state.block.includes(4)"
+                :is-second-row-displaying="state.block.includes(5)"
+                :is-third-row-displaying="state.block.includes(6)"
+                :is-fourth-row-displaying="state.block.includes(7)"
+                first-word="nnovative"
+                second-word="ayment"
+                third-word="nfrastructure"
+            />
 
             <!--third text block-->
-            <div v-if="state.block.length > 8 && state.block.length <= 12 " class="flex flex-col h-[414px] w-[570px]">
-                <div v-if="state.block.includes(8) " class="flex items-center">
-                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] ">I</span>
-                    <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">ntegrated</span>
-                </div>
-                <div v-if="state.block.includes(9)" class="flex items-center translate-y-[-41px]">
-                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">P</span>
-                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_without_caret ">latform</span>
-                </div>
-                <div v-if="state.block.includes(10)" class="flex items-center translate-y-[-81px]">
-                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">I</span>
-                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret">nfrastructure</span>
-                </div>
-                <span v-if="state.block.includes(11)" class="text-[#EC474E] font-[500] font-['Big_Shoulders_Stencil_Text'] text-[43px] translate-y-[-100px]" >coin</span>
-            </div>
-            <!--third text block-->
+            <AnimateTitleBlock 
+                :is-all-block-displaying="state.block.length > 8 && state.block.length <= 12"
+                :is-first-row-displaying="state.block.includes(8)"
+                :is-second-row-displaying="state.block.includes(9)"
+                :is-third-row-displaying="state.block.includes(10)"
+                :is-fourth-row-displaying="state.block.includes(11)"
+                first-word="ntegrated"
+                second-word="latform"
+                third-word="nfrastructure"
+            />
 
-            <!--third text block-->
-            <div v-if="state.block.length > 12 && state.block.length <= 16 " class="flex flex-col h-[414px] w-[570px]">
-                <div v-if="state.block.includes(12) " class="flex items-center">
-                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] ">I</span>
-                    <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret ">nclusive</span>
-                </div>
-                <div v-if="state.block.includes(13)" class="flex items-center translate-y-[-41px]">
-                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">P</span>
-                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_without_caret ">ayment</span>
-                </div>
-                <div v-if="state.block.includes(14)" class="flex items-center translate-y-[-81px]">
-                    <span class="text-[#EC474E] text-[88px] font-[600] first_letter ">I</span>
-                    <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret">nfrastructure</span>
-                </div>
-                <span v-if="state.block.includes(15)" class="text-[#EC474E] font-[500] font-['Big_Shoulders_Stencil_Text'] text-[43px] translate-y-[-100px]" >coin</span>
-            </div>
-            <!--third text block-->
-
+            <!--fourth text block-->
+            <AnimateTitleBlock 
+                :is-all-block-displaying="state.block.length > 12 && state.block.length <= 16"
+                :is-first-row-displaying="state.block.includes(12)"
+                :is-second-row-displaying="state.block.includes(13)"
+                :is-third-row-displaying="state.block.includes(14)"
+                :is-fourth-row-displaying="state.block.includes(15)"
+                first-word="nclusive"
+                second-word="ayment"
+                third-word="nfrastructure"
+            />
 
             <!-- download apps block-->
-            <div class="flex items-center mt-[77px] gap-[15px] translate-y-[-50px] translate-x-[-5px]">
-
-             <!--    <img src="../../../../assets/images/mainpage/test_bg_2.png" alt="">
-                <img src="../../../../assets/images/mainpage/Button_Gplay.png" alt=""> -->
-
+            <!-- <DownloadButtonBlock :isVisible="true"/> -->
+                <!-- download apps block-->
+            <div class="flex items-center mt-[77px] gap-[15px] translate-y-[-50px] translate-x-[-5px] max-[1420px]:hidden"
+            >
                 <div class="flex flex-row items-center justify-center w-[187px] h-[55px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer">
                     <div class="flex pl-[10px] gap-[20px]">
                         <img src="~/assets/icons/apple_icon.svg" class="translate-y-[3px] translate-x-[0px] w-[30px] h-[37px]"/>
@@ -122,7 +98,7 @@ const blockQueueInterval = setInterval(() => {
                     </div>
                 </div>
 
-                 <div class="flex flex-row items-center w-[187px] justify-center h-[55px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer">
+                    <div class="flex flex-row items-center w-[187px] justify-center h-[55px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer">
                     <div class="flex pl-[10px] gap-[20px]">
                         <img src="../../../../assets/icons/mainpage/Vector.png" class="translate-y-[5px] translate-x-[3px] w-[42px] h-[36px]"/>
                         <div class="flex flex-col">
@@ -131,9 +107,8 @@ const blockQueueInterval = setInterval(() => {
                         </div>
                     </div>
                 </div>
-
-
             </div> 
+    <!-- download apps block-->
             <!-- download apps block-->
         </div>
     </div>
@@ -141,71 +116,5 @@ const blockQueueInterval = setInterval(() => {
 </template>
 
 <style lang="scss" scoped>
-
-.IOS_title{
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 26px;
-}
-
-.IOS_text{
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 20px;
-}
-
-.first_letter {
-    font-family: 'Big Shoulders Stencil Text';
-}
-
-
-.typing_with_caret,
-.typing_without_caret {
-  display: inline-block;
-  -webkit-animation: type 1s steps(50, end);
-  animation: type 1s steps(50, end);
-  color: #fff;
-  font-family: 'Big Shoulders Stencil Text';
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 3px solid rgb(255, 255, 255); /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-}
-
-.typing_with_caret {
-      animation: 
-    typing 1s steps(30, end),
-    blink-caret 1s step-end infinite;
-}
-.typing_without_caret {
-      animation: 
-    typing 1s steps(30, end),
-    blink-caret_off_end 1s step-end;
-    border-color: transparent;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 50% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(255, 255, 255) }
-}
-
-@keyframes blink-caret_off_end {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(255, 255, 255) }
-  100% {
-    border-color: transparent;
-    border-right: none;
-  }
-}
 
 </style>
