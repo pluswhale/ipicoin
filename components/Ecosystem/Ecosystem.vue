@@ -488,7 +488,6 @@ const cardTransformFourthRightTop = computed(() => {
                             <!--five card -->
                         </div>
                         <!-- main block wrapper-->
-
                         <!--right arrow-->
                         <!--right arrow-->
                     </div>
