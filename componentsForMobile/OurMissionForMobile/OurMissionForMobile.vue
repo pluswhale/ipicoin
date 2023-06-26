@@ -62,7 +62,7 @@
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[8px] uppercase">BNB</p>
             </div>
 
-            <div class="flex items-cente mr-[20px] gap-[2px]">
+            <div class="flex items-center mr-[20px] gap-[2px]">
                 <img src="~/assets/images/IpiScan/trending/logo-3.svg" alt="">
                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] translate-y-[0px] text-[8px] uppercase">BNB</p>
             </div>
