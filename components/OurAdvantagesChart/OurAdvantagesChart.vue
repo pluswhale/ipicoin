@@ -1,15 +1,15 @@
 <template>
-    <div class="flex flex-col items-center w-full mt-[107px] max-w-[1400px] h-[1680px] mx-auto my-0 max-[1420px]:hidden" >
-        <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[15px] translate-x-[-14px]">our advantages</h2>
-        <div class="flex w-[789px] border-b-[4px] border-b-[#749DCA] h-[100px] justify-center mb-[61px]">
+    <div class="flex flex-col items-center w-full mt-[107px] max-w-[1400px] h-[1680px] mx-auto my-0 max-[450px]:hidden" >
+        <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[15px] translate-x-[-14px] max-[1400px]:text-[26px]">our advantages</h2>
+        <div class="flex w-[789px] border-b-[4px] border-b-[#749DCA] h-[100px] justify-center mb-[61px] max-[1400px]:w-[500px] max-[1400px]:h-[80px]">
             <button @click="setActiveButton(1)" :class="state.active_button === 1 ? 'button_active' : 'button_unactive'" >investors Comparison </button>
             <button @click="setActiveButton(2)" :class="state.active_button === 2 ? 'button_active' : 'button_unactive'">developers Comparison  </button>
         </div>
-        <Graph v-if="state.active_button === 1"/>
+        <GraphOne v-if="state.active_button === 1"/>
         <GraphTwo v-if="state.active_button === 2"/>
     </div>
 
-     <div class="hidden flex-col items-center w-full mt-[107px] max-w-[1400px] h-[1130px] mx-auto my-0 max-[1420px]:flex">
+     <div class="hidden flex-col items-center w-full mt-[107px] max-w-[1400px] h-[1130px] mx-auto my-0 max-[450px]:flex">
         <h2 class="text-white uppercase text-[22px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[62px] translate-x-[-14px]">our advantages</h2>
         <div class="flex w-screen border-b-[4px] gap-[10px] no-scrollbar border-b-[#749DCA] h-[40px] justify-center mb-[61px] relative">
             <button @click="setActiveButton(1)" :class="state.active_button === 1 ? 'button_activeMob' : 'button_unactiveMob'" >investors Comparison </button>
@@ -21,8 +21,9 @@
 </template>
 
 <script setup>
-import Graph from './elements/Graph.vue';
-import GraphTwo from './elements/Graph2/GraphTwo.vue';
+
+import GraphOne from './elements/ForDesktop/Graph1/GraphOne.vue';
+import GraphTwo from './elements/ForDesktop/Graph2/GraphTwo.vue';
 
 import GraphOneMob from './elements/ForMobile/Graph1/GraphOne.vue';
 import GraphTwoMob from './elements/ForMobile/Graph2/GraphTwo.vue';
@@ -53,6 +54,13 @@ $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
     width: 315px;
     transition: all .2s;
     cursor: pointer;
+
+    @media (max-width:1400px) {
+        font-size: 14px;
+        width: 250px;
+
+        height: 80px;
+    }
 }
 
 .button_active {
@@ -81,6 +89,13 @@ $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
     transition: all .2s;
     cursor: pointer;
     transform: translateY(-60px);
+
+    @media (max-width:1400px) {
+    font-size: 14px;
+    width: 250px;
+
+    height: 80px;
+    }
 }
 
 .button_activeMob {
