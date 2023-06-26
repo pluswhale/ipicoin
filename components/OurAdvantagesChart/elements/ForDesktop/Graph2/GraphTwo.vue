@@ -7,44 +7,45 @@
         @mouseleave="handleMouseLeave"
     >
             <div
-                class="flex flex-col bg-white/10  backdrop-blur-sm rounded-[20px] graph"
+                class="flex flex-col bg-white/10  backdrop-blur-sm rounded-[20px] graph max-[1400px]:rounded-[25px]"
                 :style="cardStyle"
              >
+                <!--header coins-->
                 <div class="flex flex-col w-[65.5%] self-end items-center mr-[54px]" >
                     <div class="flex flex-row mt-[27px] w-[95.5%] justify-between">
                         <div class="flex flex-col items-center">
-                            <span class=" text-white text-[18px] font-[600] font-['Manrope'] h-[36px]">IPI</span>
-                            <img src="~/assets/icons/out_advantages/ipi_coin.svg"/>
+                            <span class=" text-white text-[18px] font-[600] font-['Manrope']  max-[1400px]:text-[12px]">IPI</span>
+                            <img  class="max-[1400px]:w-[25px] max-[1400px]:h-[25px]"  src="~/assets/icons/out_advantages/ipi_coin.svg"/>
                         </div>
                         <div class="flex flex-col items-center">
-                            <span class=" text-white text-[18px] font-[600] font-['Manrope'] h-[36px]">BNB</span>
-                            <img src="~/assets/icons/out_advantages/binance_icon.svg"/>
+                            <span class=" text-white text-[18px] font-[600] font-['Manrope']  max-[1400px]:text-[12px]">BNB</span>
+                            <img  class="max-[1400px]:w-[25px] max-[1400px]:h-[25px]" src="~/assets/icons/out_advantages/binance_icon.svg"/>
                         </div>
                         <div class="flex flex-col items-center">
-                            <span class=" text-white text-[18px] font-[600] font-['Manrope'] h-[36px]">ADA</span>
-                            <img src="~/assets/icons/out_advantages/ada_icon.svg"/>
+                            <span class=" text-white text-[18px] font-[600] font-['Manrope']  max-[1400px]:text-[12px]">ADA</span>
+                            <img  class="max-[1400px]:w-[25px] max-[1400px]:h-[25px]" src="~/assets/icons/out_advantages/ada_icon.svg"/>
 
                         </div>
                         <div class="flex flex-col items-center">
-                            <span class=" text-white text-[18px] font-[600] font-['Manrope'] h-[36px]">Cosmos</span>
-                            <img src="~/assets/icons/out_advantages/cosmos_icon.svg"/>
+                            <span class=" text-white text-[18px] font-[600] font-['Manrope']  max-[1400px]:text-[12px]">Cosmos</span>
+                            <img  class="max-[1400px]:w-[25px] max-[1400px]:h-[25px]" src="~/assets/icons/out_advantages/cosmos_icon.svg"/>
 
                         </div>
                         <div class="flex flex-col items-center">
-                            <span class=" text-white text-[18px] font-[600] font-['Manrope'] h-[36px]">ETH</span>
-                            <img src="~/assets/icons/out_advantages/eth_icon.svg"/>
+                            <span class=" text-white text-[18px] font-[600] font-['Manrope']  max-[1400px]:text-[12px]">ETH</span>
+                            <img  class="max-[1400px]:w-[25px] max-[1400px]:h-[25px]" src="~/assets/icons/out_advantages/eth_icon.svg"/>
                         </div>
                         <div class="flex flex-col items-center">
-                            <span class=" text-white text-[18px] font-[600] font-['Manrope'] h-[36px]">MKR</span>
-                            <img src="~/assets/icons/out_advantages/mkr_icon.svg"/>
+                            <span class=" text-white text-[18px] font-[600] font-['Manrope']  max-[1400px]:text-[12px]">MKR</span>
+                            <img  class="max-[1400px]:w-[25px] max-[1400px]:h-[25px]" src="~/assets/icons/out_advantages/mkr_icon.svg"/>
                         </div>
                         <div class="flex flex-col items-center">
-                            <span class=" text-white text-[18px] font-[600] font-['Manrope'] h-[36px]">DOT</span>
-                            <img src="~/assets/icons/out_advantages/dot_icon.svg"/>
+                            <span class=" text-white text-[18px] font-[600] font-['Manrope']  max-[1400px]:text-[12px]">DOT</span>
+                            <img  class="max-[1400px]:w-[25px] max-[1400px]:h-[25px]" src="~/assets/icons/out_advantages/dot_icon.svg"/>
                         </div>
                         <div class="flex flex-col items-center">
-                            <span class=" text-white text-[18px] font-[600] font-['Manrope'] h-[36px]">SOL</span>
-                            <img src="~/assets/icons/out_advantages/sol_icon.svg"/>
+                            <span class=" text-white text-[18px] font-[600] font-['Manrope']  max-[1400px]:text-[12px]">SOL</span>
+                            <img  class="max-[1400px]:w-[25px] max-[1400px]:h-[25px]" src="~/assets/icons/out_advantages/sol_icon.svg"/>
                         </div>
 
                     </div>
@@ -57,36 +58,36 @@
 
                     <!--uncolor row-->
                     <div class="flex pl-[40px] h-[84px] ">
-                        <div class="flex w-[29%] text-white items-center text-[16px] font-[400] font-['Barlow']">
+                        <div class="flex w-[29%] text-white items-center text-[16px] font-[400] font-['Barlow'] max-[1400px]:text-[10px]">
                             Customer support
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[48px]">
-                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
-                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
-                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
-                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
-                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
-                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
-                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
-                            <div class=" text-white text-[14px] font-[400] font-['Barlow']">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow'] max-[1400px]:text-[12px] ">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow'] max-[1400px]:text-[12px]">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow'] max-[1400px]:text-[12px]">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow'] max-[1400px]:text-[12px]">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow'] max-[1400px]:text-[12px]">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow'] max-[1400px]:text-[12px]">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow'] max-[1400px]:text-[12px]">Available</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow'] max-[1400px]:text-[12px]">Available</div>
                         </div>
                     </div>
                     <!--uncolor row-->
 
                     <!--color row-->
                     <div class="flex pl-[40px] bg-white/20 h-[84px] pt-[5px] pb-[7px] ">
-                        <div class="flex w-[29%] text-white items-center text-[16px] font-[400] font-['Barlow sans-serif']">
+                        <div class="flex w-[29%] text-white items-center text-[16px] font-[400] font-['Barlow sans-serif'] max-[1400px]:text-[10px]">
                             Dependency
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[30px]">
-                            <div class="min-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left">Independent</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-20px] leading-[16px]">Depends on Binance Chain</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-48px] leading-[16px]">Independent</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-42px]" >Independent</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-34px]">Independent</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-36px]">Built on<br> Ethereum</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-10px]">Independent</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px]">Independent</div>
+                            <div class="min-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left  max-[1400px]:text-[10px]">Independent</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-20px] leading-[16px] max-[1400px]:text-[10px]">Depends on Binance Chain</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-48px] leading-[16px] max-[1400px]:text-[10px]">Independent</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-42px] max-[1400px]:text-[10px]" >Independent</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-34px] max-[1400px]:text-[10px]">Independent</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-36px] max-[1400px]:text-[10px]">Built on<br> Ethereum</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-10px] max-[1400px]:text-[10px]">Independent</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] max-[1400px]:text-[10px]">Independent</div>
                         </div>
                     </div>
                     <!--color row-->
@@ -331,7 +332,6 @@
                 </div>
             </div>
     </div>
-
 </template>
 
 <script setup>
@@ -399,11 +399,13 @@ $hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
     &:hover {
 
         .graph {
-        transition: 0.6s $hoverEasing,
+            transition: 0.6s $hoverEasing,
             box-shadow 2s $hoverEasing;
             box-shadow:
                 rgba(white, 0.2) 0 0 40px 5px,
                 rgba(white, 0.3 ) 0 0 0 1px,
+
+
         }
     }
 
@@ -413,9 +415,22 @@ $hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
         transition: 1s $returnEasing;
         flex: 0 0 1120px;
         overflow: hidden;
- 
+
+        @media (max-width: 1400px) {
+            width: 900px;
+        }
 
     }
+}
+
+.od {
+    transform: translateY(-21px) translateX(-40px);
+    line-height: 13px;
+}
+
+.even {
+    transform: translateY(-22px) translateX(-40px);
+    line-height: 13px;
 }
 
 </style>

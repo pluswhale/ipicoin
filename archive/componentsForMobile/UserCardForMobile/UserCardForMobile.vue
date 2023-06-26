@@ -39,12 +39,12 @@
         <div class="flex w-[343px] gap-[10px] overflow-x-scroll overflow-y-hidden no-scrollbar">
             <div class="flex flex-col min-w-[284px] h-[130px] px-[18px] py-[17px]  bg-[#FFFFFF]/5 rounded-[12px]  relative">
                 <div class="flex items-center">
-                    <img class="h-[17px]" src="../../assets/icons/CardUser/User-5.png" alt="User">
+                    <img class="h-[17px]" src="~/assets/icons/CardUser/User-5.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
                         <p class="font-400 text-[8px] font-['Roboto'] text-white">Ninel Adarman</p>
                         <p class="font-400 text-[8px] font-['Roboto'] text-[#838A91]">20 Mar 2023 at 05:15 PM</p>
                     </div>
-                    <img src="../../assets/icons/CardUser/twitter.svg" alt="ico" class="absolute top-[20px] right-[20px]">
+                    <img src="~/assets/icons/CardUser/twitter.svg" alt="ico" class="absolute top-[20px] right-[20px]">
                 </div>
                 <p class="font-400 text-[10px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
@@ -55,12 +55,12 @@
 
             <div class="flex flex-col min-w-[284px] h-[130px] px-[18px] py-[17px]  bg-[#FFFFFF]/5 rounded-[12px]  relative">
                 <div class="flex items-center mb-[18px]">
-                    <img src="../../assets/icons/CardUser/User-5.png" alt="User">
+                    <img src="~/assets/icons/CardUser/User-5.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
                         <p class="font-400 text-[8px] font-['Roboto'] text-white">Ninel Adarman</p>
                         <p class="font-400 text-[8px] font-['Roboto'] text-[#838A91]">20 Mar 2023 at 05:15 PM</p>
                     </div>
-                    <img src="../../assets/icons/CardUser/twitter.svg" alt="ico" class="absolute top-[20px] right-[20px]">
+                    <img src="~/assets/icons/CardUser/twitter.svg" alt="ico" class="absolute top-[20px] right-[20px]">
                 </div>
                 <p class="font-400 text-[10px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
@@ -71,12 +71,12 @@
 
             <div class="flex flex-col min-w-[284px] h-[130px] px-[18px] py-[17px]  bg-[#FFFFFF]/5 rounded-[12px]  relative">
                 <div class="flex items-center mb-[18px]">
-                    <img src="../../assets/icons/CardUser/User-5.png" alt="User">
+                    <img src="~/assets/icons/CardUser/User-5.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
                         <p class="font-400 text-[8px] font-['Roboto'] text-white">Ninel Adarman</p>
                         <p class="font-400 text-[8px] font-['Roboto'] text-[#838A91]">20 Mar 2023 at 05:15 PM</p>
                     </div>
-                    <img src="../../assets/icons/CardUser/twitter.svg" alt="ico" class="absolute top-[20px] right-[20px]">
+                    <img src="~/assets/icons/CardUser/twitter.svg" alt="ico" class="absolute top-[20px] right-[20px]">
                 </div>
                 <p class="font-400 text-[10px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
                 <div class="flex items-end w-[100%] justify-end mt-[10px]">
@@ -84,7 +84,6 @@
                     <img class="ml-[17px] cursor-pointer" src="../../assets/icons/CardUser/heart.svg" alt="ico">
                 </div>
             </div>
-
         </div>
     </div>
 </template>

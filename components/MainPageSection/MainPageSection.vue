@@ -14,7 +14,9 @@
                 ease: 'easeIn',
                 },
         }"        
-        class="flex h-[582px] max-w-[1424px] mx-auto my-0 justify-between relative z-0"
+        class="flex h-[582px] max-w-[1424px] mx-auto my-0 justify-between relative z-0
+        max-[1420px]:h-auto max-[1420px]:mt-[30px] max-[1420px]:max-w-[480px] max-[1420px]:flex-col
+        "
         >
         <TitleAndAppsDownload/>
         <DiagramBlock/>

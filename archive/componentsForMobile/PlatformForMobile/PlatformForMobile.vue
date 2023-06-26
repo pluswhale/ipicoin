@@ -57,7 +57,6 @@
     import CryptoUserBlockVue from './elements/CryptoUserBlock.vue';
     import InvestorsBlockVue from './elements/InvestorsBlock.vue';
     import ProgrammersBlockVue from './elements/ProgrammersBlock.vue';
-    import IncrisingLine from '~/componentsForMobile/IncrisingTrustForMobile/IncrisingTrustForMobile.vue'
 
     const state = reactive({ active_button: 1 })
     const setActiveButton = (button) => {
