@@ -34,13 +34,11 @@
                 delay: 1000,
             },
         }"    
-        class="flex flex-col items-center max-w-[1360px] mx-auto my-0"
+        class="flex flex-col items-center max-w-[1360px] mx-auto my-0 max-[1420px]:hidden"
      >
     <!--block 1-->
     <div v-if="state.block === 1" class="flex flex-col items-center max-w-[1360px] mx-auto my-0">
         <div class="flex items-center w-[100%] mb-[40px]">
-
-
             <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5  relative">
                 <div class="flex items-center mb-[18px]">
                     <img src="../../assets/icons/CardUser/User-5.png" alt="User">
@@ -464,6 +462,96 @@
         <div @click="setActiveUserSliderBlock(3)" :class="state.block === 3 ? 'active_button' : 'non_active_button'"></div>
         <div @click="setActiveUserSliderBlock(4)" :class="state.block === 4 ? 'active_button' : 'non_active_button'"></div>
     </div>
+    </div>
+
+    <!--mobile adaptive-->
+
+        <div
+        v-motion
+        :initial="{
+            opacity: 0,
+            y: 100,
+            duration: 1000,
+            type: 'keyframes',
+            ease: 'easeIn',
+        }"
+        :enter="{
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1000,
+                type: 'keyframes',
+                ease: 'easeIn',
+            },
+        }"
+        :visible="{
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 1000,
+                type: 'keyframes',
+                ease: 'easeIn',
+
+            },
+        }"
+        :leave="{
+        y: -100,
+            opacity: 0,
+            transition: {
+                delay: 1000,
+            },
+        }"    
+        class="hidden items-center w-full justify-center mb-[83px] max-[1420px]:flex  "
+     >
+        <div class="flex w-[343px] gap-[10px] overflow-x-scroll overflow-y-hidden no-scrollbar">
+            <div class="flex flex-col min-w-[284px] h-[130px] px-[18px] py-[17px]  bg-[#FFFFFF]/5 rounded-[12px]  relative">
+                <div class="flex items-center">
+                    <img class="h-[17px]" src="../../assets/icons/CardUser/User-5.png" alt="User">
+                    <div class="flex flex-col ml-[16px]">
+                        <p class="font-400 text-[8px] font-['Roboto'] text-white">Ninel Adarman</p>
+                        <p class="font-400 text-[8px] font-['Roboto'] text-[#838A91]">20 Mar 2023 at 05:15 PM</p>
+                    </div>
+                    <img src="../../assets/icons/CardUser/twitter.svg" alt="ico" class="absolute top-[20px] right-[20px]">
+                </div>
+                <p class="font-400 text-[10px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
+                <div class="flex items-end w-[100%] justify-end mt-[10px]">
+                    <a href="/" class="font-400 text-[12px] font-['Gilroy-Light'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
+                    <img class="ml-[17px] cursor-pointer" src="../../assets/icons/CardUser/heart.svg" alt="ico">
+                </div>
+            </div>
+
+            <div class="flex flex-col min-w-[284px] h-[130px] px-[18px] py-[17px]  bg-[#FFFFFF]/5 rounded-[12px]  relative">
+                <div class="flex items-center mb-[18px]">
+                    <img src="../../assets/icons/CardUser/User-5.png" alt="User">
+                    <div class="flex flex-col ml-[16px]">
+                        <p class="font-400 text-[8px] font-['Roboto'] text-white">Ninel Adarman</p>
+                        <p class="font-400 text-[8px] font-['Roboto'] text-[#838A91]">20 Mar 2023 at 05:15 PM</p>
+                    </div>
+                    <img src="../../assets/icons/CardUser/twitter.svg" alt="ico" class="absolute top-[20px] right-[20px]">
+                </div>
+                <p class="font-400 text-[10px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
+                <div class="flex items-end w-[100%] justify-end mt-[10px]">
+                    <a href="/" class="font-400 text-[12px] font-['Gilroy-Light'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
+                    <img class="ml-[17px] cursor-pointer" src="../../assets/icons/CardUser/heart.svg" alt="ico">
+                </div>
+            </div>
+
+            <div class="flex flex-col min-w-[284px] h-[130px] px-[18px] py-[17px]  bg-[#FFFFFF]/5 rounded-[12px]  relative">
+                <div class="flex items-center mb-[18px]">
+                    <img src="../../assets/icons/CardUser/User-5.png" alt="User">
+                    <div class="flex flex-col ml-[16px]">
+                        <p class="font-400 text-[8px] font-['Roboto'] text-white">Ninel Adarman</p>
+                        <p class="font-400 text-[8px] font-['Roboto'] text-[#838A91]">20 Mar 2023 at 05:15 PM</p>
+                    </div>
+                    <img src="../../assets/icons/CardUser/twitter.svg" alt="ico" class="absolute top-[20px] right-[20px]">
+                </div>
+                <p class="font-400 text-[10px] font-['Roboto'] text-white">Thanks @ipicoin for your guidelines. I agree with you.<br> @Dun can you implement the way Ipicoin has described ?</p>
+                <div class="flex items-end w-[100%] justify-end mt-[10px]">
+                    <a href="/" class="font-400 text-[12px] font-['Gilroy-Light'] text-[#97AFD5] border-b border-[#97AFD5]">Reply</a>
+                    <img class="ml-[17px] cursor-pointer" src="../../assets/icons/CardUser/heart.svg" alt="ico">
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
