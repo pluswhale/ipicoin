@@ -1,7 +1,5 @@
 <template>
     <div class="flex flex-col  mt-[43px] mx-[auto] ">
-        <!-- <img src="~/assets/images/Planet.svg" class="absolute planet"/> -->
-
         <!--swap card-->
         <div class="h-[314px] px-[37px] py-[28px] w-[343px] translate-x-[3px]  bg-white/10 backdrop-blur-sm  rounded-[20px]">
             <div class="flex flex-col w-full">

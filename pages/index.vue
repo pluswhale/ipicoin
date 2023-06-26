@@ -17,8 +17,8 @@ const { isMobile, isTablet } = useDevice();
 
 </script>
 <template>
-        <MainPageSection v-if="!isMobile && !isTablet"/>
-        <MainPageSectionForMobile v-if="isMobile || isTablet" />
+        <MainPageSection />
+        <!-- <MainPageSectionForMobile v-if="isMobile || isTablet" /> -->
         <OurMission v-if="!isMobile && !isTablet"/>
         <OurMissionForMobile v-if="isMobile || isTablet"/>
         <Advantages  v-if="!isMobile && !isTablet"/>
