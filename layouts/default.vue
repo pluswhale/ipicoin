@@ -11,8 +11,7 @@ const { isMobile, isTablet } = useDevice();
         <div class="w-screen main_content">
             <slot/>
         </div>
-        <Footer v-if="!isMobile && !isTablet"/>
-        <FooterForMobile v-if="isMobile || isTablet"/>
+        <Footer/>
     </div>
 </template>
 

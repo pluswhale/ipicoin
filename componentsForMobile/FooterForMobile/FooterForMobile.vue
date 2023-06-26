@@ -5,7 +5,6 @@
                 <img 
                 class="h-[20px]"
                     src="~/assets/images/ipi_logo_1.svg"
-
                 >
                 <img 
                     class=" h-[15px] ml-[11px]" 
