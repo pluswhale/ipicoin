@@ -84,7 +84,6 @@
                     <img class="ml-[17px] cursor-pointer" src="../../assets/icons/CardUser/heart.svg" alt="ico">
                 </div>
             </div>
-
         </div>
     </div>
 </template>
