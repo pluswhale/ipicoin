@@ -40,7 +40,7 @@
 
 
         <!-- Searc block -->
-        <div class="flex w-full items-center h-[48px] bg-white/10 rounded-[10px] px-[20px] justify-between mb-[20px]" >
+        <div class="flex w-full items-center h-[48px] bg-white/10 rounded-[10px] px-[20px] justify-between mb-[20px] " >
 
             <div class="flex gap-[5px]">
                <img src="~/assets/images/IpiScan/search.png" alt="" class="mr-[17px]">  
@@ -343,11 +343,12 @@
                     <img src="~/assets/images/IpiScan/arrow-right.png" alt="">
                 </button>
             </div>
+    </div>
 
+      <!-- Mobile Version -->
 
-        <!-- Mobile Version -->
-
-        <div class="hidden max-[1420px]:flex">
+    <div class="h-[740px] max-w-[1400px] hidden max-[1420px]:flex max-[1420px]:flex-col max-[1420px]:items-center max-[1420px]:mt-[20px] max-[1420px]:mx-[auto]">
+         <h2 class="text-white uppercase text-[22px] font-[700] font-['Big_Shoulders_Stencil_Text']  mb-[50px]">ipi scan</h2>
         <div class="flex items-center h-[48px] mb-[20px]">
             <div class="flex w-[308px]  bg-white/10 px-[20px] h-[40px] items-center rounded-[10px] mr-[10px]">
                <input type="text"  placeholder="Search by Token / Account / Contract / Block" class="placeholder:text-[#E0E0E0] placeholder:font-['Lato'] placeholder:font-[400] placeholder:text-[10px] outline-none w-[500px] bg-transparent text-[#E0E0E0] font-['Lato'] font-[400] text-[14px]">
@@ -631,7 +632,6 @@
         </div>
         
         <!-- /Mobile Version -->
-    </div>
  </template>
 
 <script setup>

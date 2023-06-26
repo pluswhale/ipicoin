@@ -1,5 +1,5 @@
 <template>
-    <div 
+  <!--   <div 
         class="flex flex-col items-center w-full mt-[107px] max-w-[1400px] h-[1130px] mx-auto my-0"
      >
         <h2 class="text-white uppercase text-[22px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[15px] translate-x-[-14px]">our advantages</h2>
@@ -9,12 +9,12 @@
         </div>
         <GraphOne v-if="state.active_button === 1"/>
         <GraphTwo v-if="state.active_button === 2"/>
-    </div>
+    </div> -->
 </template>
 
 <script setup>
-import GraphOne from './elements/Graph1/GraphOne.vue';
-import GraphTwo from './elements/Graph2/GraphTwo.vue';
+/* import GraphOne from '../../components/OurAdvantagesChart/elements/ForMobile/Graph1';
+import GraphTwo from '../../components/OurAdvantagesChart/elements/ForMobile/Graph2'; */
 
 const state = reactive({ active_button: 1 })
 
