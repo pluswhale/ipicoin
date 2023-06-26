@@ -27,7 +27,6 @@ const { isMobile, isTablet } = useDevice();
         <ContactUs v-if="!isMobile && !isTablet"/>
         <ContactUsForMobile v-if="isMobile || isTablet"/>
         <UserCard />
-        <!-- <UserCardForMobile v-if="isMobile || isTablet"/> -->
 </template>
 
 <style lang="scss" scoped>
