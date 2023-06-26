@@ -35,7 +35,8 @@
             },
         }"
       
-        class="flex flex-col items-center mt-[100px] h-[740px] max-w-[1400px] mx-auto my-0"
+        class="flex flex-col items-center mt-[100px] h-[740px] max-w-[1400px] mx-auto my-0
+        "
     >
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text']  mb-[50px]">ipi scan</h2>
 
@@ -46,7 +47,8 @@
             <div class="flex gap-[5px]">
                <img src="~/assets/images/IpiScan/search.png" alt="" class="mr-[17px]">  
 
-               <input type="text"  placeholder="Search by Token / Account / Contract / Block" class="placeholder:text-[#E0E0E0] placeholder:font-['Lato'] placeholder:font-[400] placeholder:text-[14px] outline-none w-[500px] bg-transparent text-[#E0E0E0] font-['Lato'] font-[400] text-[14px]">
+               <input type="text"  placeholder="Search by Token / Account / Contract / Block" class="placeholder:text-[#E0E0E0] placeholder:font-['Lato'] placeholder:font-[400] placeholder:text-[14px] 
+               outline-none w-[500px] bg-transparent text-[#E0E0E0] font-['Lato'] font-[400] text-[14px]">
             </div>
 
             <div class="flex items-center">
@@ -343,10 +345,18 @@
                     <img src="~/assets/images/IpiScan/arrow-right.png" alt="">
                 </button>
             </div>
-
-
-       
     </div>
+
+
+
+
+
+
+
+
+
+
+    
  </template>
 
 <script setup>
