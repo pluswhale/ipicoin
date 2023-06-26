@@ -484,7 +484,7 @@ const cardTransformFourthRightTop = computed(() => {
 
                             </div>
 
-                            <img src="../../assets/images/platform/arrow8.png" class="translate-y-[-77px] bottom-0 translate-x-[-177px]  absolute" alt="">
+                            <img src="../../assets/images/platform/arrow8.png" class="translate-y-[-77px] bottom-0 translate-x-[-177px]  absolute max-[1200px]:w-[150px] max-[1200px]:translate-x-[-140px]" alt="">
                             <!--five card -->
                         </div>
                         <!-- main block wrapper-->

@@ -1,8 +1,8 @@
 <template>
-    <div class="flex ">
+    <div class="flex max-[910px]:flex-col max-[910px]:items-center">
 
         <!--row of advantages-->
-        <div class="flex flex-col gap-[10px] max-w-[570px] h-[650px] max-[1200px]:max-w-[500px]">
+        <div class="flex flex-col gap-[10px] max-w-[570px] h-[650px] max-[1200px]:max-w-[500px] max-[910px]:gap-[0px]">
             <div class="flex items-center">
                 <img class="mr-[26px]" src="~/assets/icons/arrow-right.svg"/>
                 <span class="text-[#97AFD5] text-[16px] font-[400] font-['Roboto sans-serif'] max-[1200px]:text-[13px] max-[1200px]:text-[white]">New generation cryptocurrency with high potential for growth and utility.
@@ -43,7 +43,7 @@
             </div>
         </div>
         <!--row of advantages-->
-        <img class="flex w-[420px] h-[266px] self-center ml-[83px] translate-y-[-170px] max-[1200px]:w-[352px] max-[1200px]:h-[223px]" src="~/assets/images/platform/right_image.png"/>
+        <img class="flex w-[420px] h-[266px] self-center ml-[83px] translate-y-[-170px] max-[1200px]:w-[352px] max-[1200px]:h-[223px] max-[910px]:w-[515px] max-[910px]:h-[328px] max-[910px]:translate-y-[-360px] max-[910px]:ml-[0]" src="~/assets/images/platform/right_image.png"/>
 
     </div>
 </template>

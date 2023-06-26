@@ -38,12 +38,12 @@
          >
             <div class="flex flex-col items-center w-full mt-[30px] h-[900px]  max-w-[1400px] mx-auto my-0">
                 <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[15px] max-[1200px]:text-[26px]">platform</h2>
-                <div class="flex w-[994px] border-b-[3px] border-b-[#749DCA] h-[100px] justify-center mb-[61px] max-[1200px]:w-[833px] max-[1200px]:h-[80px]">
+                <div class="flex w-[994px] border-b-[3px] border-b-[#749DCA] h-[100px] justify-center mb-[61px] max-[1200px]:w-[833px] max-[1200px]:h-[80px] max-[910px]:w-[553px] max-[910px]:h-[60px] max-[910px]:mb-[20px]">
                     <button @click="setActiveButton(1)" :class="state.active_button === 1 ? 'button_active' : 'button_unactive'" >FOR CRYPTO USERS</button>
                     <button @click="setActiveButton(2)" :class="state.active_button === 2 ? 'button_active' : 'button_unactive'">FOR PROGRAMMERS</button>
                     <button @click="setActiveButton(3)" :class="state.active_button === 3 ? 'button_active' : 'button_unactive'">for investors</button>
                 </div>
-                <div class="">
+                <div >
                     <CryptoUserBlockVue v-if="state.active_button === 1"/>
                     <ProgrammersBlockVue v-else-if="state.active_button === 2"/>               
                     <InvestorsBlockVue v-else-if="state.active_button === 3"/> 
@@ -85,6 +85,12 @@
             width: 250px;
 
             height: 80px;
+        }
+        @media (max-width:910px) {
+            font-size: 11px;
+            width: 150px;
+
+            height: 60px;
         }
     }
 
