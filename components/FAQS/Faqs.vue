@@ -1,6 +1,6 @@
 <template>
 <div 
-    class="w-[100%] relative"
+    class="w-[100%] relative max-[1420px]:hidden"
     v-motion
     :initial="{
         opacity: 0,
