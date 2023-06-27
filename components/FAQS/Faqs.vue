@@ -38,8 +38,8 @@
   >
     <div class="flex flex-col items-center h-[950px] w-full mt-[136px] max-w-[1360px] mx-auto my-0">
         <h2 class="text-white uppercase font-[700] text-[40px] font-['Big_Shoulders_Stencil_Text'] lg:text-[26px]">FAQS</h2>
-        <span class="text-[#97AFD5] text-[16px] font-['Roboto sans-serif'] text-center max-w-[500px] mt-[24px] mb-[46.7px] lg:text-[14px]">Below we’ve provided a FAQ of IPICOIN and few others. If you have any other questions, please get in touch.</span>
-        <div class="flex w-[1094px] border-b-[4px] border-b-[#749DCA] h-[100px] justify-center mb-[61px] lg:w-[892px] lg:h-[80px] md:w-[535px] md:h-[60px] sm:h-[40px] sm:w-screen sm:overflow-x-auto sm:no-scrollbar ">
+        <span class="text-[#97AFD5] text-[16px] font-['Roboto sans-serif'] text-center max-w-[500px] mt-[24px] mb-[38px] lg:text-[14px] lg:mb-[30px]">Below we’ve provided a FAQ of IPICOIN and few others. If you have any other questions, please get in touch.</span>
+        <div class="flex w-[1094px] border-b-[4px] border-b-[#749DCA] h-[100px] justify-center mb-[61px] lg:w-[892px] lg:h-[80px] lg:mb-[40px] md:w-[535px] md:h-[60px] sm:h-[40px] sm:w-screen">
             <button @click="setActiveButton(1)" :class="state.active_button === 1 ? 'button_active' : 'button_unactive'" >General Questions</button>
             <button @click="setActiveButton(2)" :class="state.active_button === 2 ? 'button_active' : 'button_unactive'">Coin Sales</button>
             <button @click="setActiveButton(3)" :class="state.active_button === 3 ? 'button_active' : 'button_unactive'">Development</button>
@@ -92,9 +92,9 @@ import GeneralQuestions from './elements/GeneralQuestions.vue';
     }
 
     @media (max-width:550px) {
-        font-size: 10px;
-        width: 100px;
-        min-width: 100px;
+        font-size: 9px;
+        width: 87px;
+        min-width: 87px;
         height: 40px;
     }
 
