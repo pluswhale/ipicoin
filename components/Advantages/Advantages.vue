@@ -41,15 +41,15 @@ const handleSetVisibleBlock = (block) => {
                 delay: 1000,
             },
         }"
-        class="flex flex-col items-center w-full mt-[130px] max-w-[1456px] mx-auto my-0 sm:max-w-auto xl:max-w-[900px]"   
+        class="flex flex-col items-center w-full mt-[130px] max-w-[1456px] mx-auto my-0 sm:max-w-auto xl:max-w-[900px] md:max-w-[560px]"   
      >
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[77px] translate-y-[2px] translate-x-[-5px]
-        sm:text-[22px] sm:mb-[30px] xl:text-[26px] xl:mb-[40px]">Perhaps the best project in web 3.0</h2>
+        sm:text-[22px] sm:mb-[30px] xl:text-[26px] xl:mb-[40px] md:text-[22px]">Perhaps the best project in web 3.0</h2>
         <div class="flex flex-col flex-wrap w-full gap-[38px] xl:gap-[20px] sm:hidden">
             <!--first row-->
-            <div class="flex flex-row justify-between w-full min-h-[200px] xl:">
+            <div class="flex flex-row justify-between w-full min-h-[200px] md:flex-wrap md:min-h-320px md:h-[320px]">
                 <div @mouseover="handleSetVisibleBlock(1)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center relative min-w-[250px] max-w-[250px]
-                xl:min-w-[150px] xl:max-w-[150px]">
+                xl:min-w-[150px] xl:max-w-[150px] md:min-w-[280px] md:max-w-[280px] md:h-[200px]">
                     <img src="~/assets/icons/advantages/home_icon.svg" class="xl:w-[39px] xl:h-[39px]"/>
                     <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] xl:text-[12px]">Growth Potential</span>
                     <Transition>
@@ -58,11 +58,11 @@ const handleSetVisibleBlock = (block) => {
                         Our mission is to create a next - generation cryptocurrency with high growth potential.
                         </span>  
                     </Transition>
-                 <img src="../../assets/icons/advantages/line_1.png" alt="" class="absolute top-[25px] left-[180px] xl:w-[142px] xl:left-[100px]">
+                 <img src="../../assets/icons/advantages/line_1.png" alt="" class="absolute top-[25px] left-[180px] xl:w-[142px] xl:left-[100px] md:hidden">
                 </div>
 
                 <div @mouseover="handleSetVisibleBlock(2)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center relative max-w-[250px] min-w-[250px]
-                xl:min-w-[150px] xl:max-w-[150px] xl:translate-x-[29px] ">
+                xl:min-w-[150px] xl:max-w-[150px] xl:translate-x-[29px] md:translate-x-[-77px] md:h-[200px]">
                     <img src="~/assets/icons/advantages/drum_icon.svg" class="xl:w-[39px] xl:h-[39px]"/>
                     <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] xl:text-[12px]">Limited Edition Coins</span>
                                         <Transition>
@@ -70,11 +70,11 @@ const handleSetVisibleBlock = (block) => {
                                                 xl:text-[12px] xl:leading-[13px]">we offer a limited edition of 100 million coins and <br> no more.</span>  
                                         </Transition>
                    
-                    <img src="../../assets/icons/advantages/line_2.png" alt="" class="absolute top-[25px] left-[200px] xl:w-[142px] xl:left-[125px]">
+                    <img src="../../assets/icons/advantages/line_2.png" alt="" class="absolute top-[25px] left-[200px] xl:w-[142px] xl:left-[125px] md:hidden">
                 </div>
                 
                 <div @mouseover="handleSetVisibleBlock(3)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center relative max-w-[375px] min-w-[375px]
-                xl:min-w-[257px] xl:max-w-[257px] xl:translate-x-[22px] ">
+                xl:min-w-[257px] xl:max-w-[257px] xl:translate-x-[22px] md:min-w-[280px] md:max-w-[280px] md:translate-x-[-5px] md:h-[200px]">
                     <img src="~/assets/icons/advantages/settings_icon.svg" class="xl:w-[39px] xl:h-[39px]"/>
                     <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] xl:text-[12px]">Developers</span>
                     <Transition>
@@ -85,11 +85,11 @@ const handleSetVisibleBlock = (block) => {
                         </span>  
 
                     </Transition>
-                    <img src="../../assets/icons/advantages/line_3.png" alt="" class="absolute top-[25px] left-[260px] xl:w-[142px] xl:left-[175px]">
+                    <img src="../../assets/icons/advantages/line_3.png" alt="" class="absolute top-[25px] left-[260px] xl:w-[142px] xl:left-[175px] md:hidden">
                 </div>
 
                 <div @mouseover="handleSetVisibleBlock(4)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center max-w-[290px] min-w-[290px]
-                 xl:min-w-[208px] xl:max-w-[208px] xl:translate-x-[-10px]">
+                 xl:min-w-[208px] xl:max-w-[208px] xl:translate-x-[-10px] md:min-w-[280px] md:max-w-[280px] md:h-[200px]">
                     <img src="~/assets/icons/advantages/piramyd_icon.svg" class="xl:w-[39px] xl:h-[39px]"/>
                     <Transition>
                         <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] xl:text-[12px]">Financial indicators</span>
@@ -102,10 +102,10 @@ const handleSetVisibleBlock = (block) => {
             <!--first row-->
 
             <!--second row-->
-            <div class="flex flex-row justify-between min-h-[220px]">
+            <div class="flex flex-row justify-between min-h-[220px] md:hidden">
 
                 <div @mouseover="handleSetVisibleBlock(5)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center max-w-[270px] min-w-[270px] relative
-                 xl:min-w-[183px] xl:max-w-[196px] xl:translate-x-[4px]">
+                 xl:min-w-[183px] xl:max-w-[196px] xl:translate-x-[4px] md:min-w-[280px] md:max-w-[280px]">
                     <img src="~/assets/icons/advantages/quad_icon.svg" class="xl:w-[39px] xl:h-[39px]"/>
                     <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] xl:text-[12px]">Ease of programming</span>
                     <Transition>
@@ -160,12 +160,14 @@ const handleSetVisibleBlock = (block) => {
             </div>
             <!--second row-->
         </div>
-        <div class="flex gap-[64px] mt-[50px] sm:hidden">
-            <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] bg-[#EC474E] transition-all rounded-[20px] hover:bg-transparent hover:border-[2px] hover:border-[#EC474E]">
+        <div class="flex gap-[64px] mt-[50px] sm:hidden md:hidden ">
+            <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] bg-[#EC474E] transition-all 
+            rounded-[20px] hover:bg-transparent hover:border-[2px] hover:border-[#EC474E]">
                 <span class="text-[16px] font-[500] uppercase text-white font-['Barlow]">Wallet</span>
                 <img class="pt-[0] ml-[15px]" src="~/assets/icons/arrow_right_white.svg"/>
             </button>
-            <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] border-[2px] border-[#EC474E] transition-all rounded-[20px] hover:bg-[#EC474E]">
+            <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] border-[2px] border-[#EC474E] transition-all 
+            rounded-[20px] hover:bg-[#EC474E]">
                 <span class="text-[16px] font-[500] uppercase text-white font-['Barlow']">Buy coin</span>
                 <img class="pt-[0] ml-[15px]" src="~/assets/icons/arrow_right_white.svg"/>
             </button>

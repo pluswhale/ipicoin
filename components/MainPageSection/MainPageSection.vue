@@ -16,7 +16,8 @@
         }"        
         class="flex h-[582px] max-w-[1424px] mx-auto my-0 justify-between relative z-0
         sm:h-auto sm:mt-[30px] sm:max-w-[480px] sm:flex-col
-        xl:h-[550px] xl:w-[900px] xl:mt-[100px] xl:justify-between"
+        xl:h-[550px] xl:w-[900px] xl:mt-[100px] xl:justify-between
+        md:h-[500px] md:w-[560px] md:mt-[47px] md:justify-between " 
         >
         <TitleAndAppsDownload/>
         <DiagramBlock/>
