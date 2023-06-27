@@ -1,18 +1,19 @@
 <template>
-    <div v-if="props.isAllBlockDisplaying" class="flex flex-col h-[414px] w-[570px] xl:w-full xl:h-[188px]">
-        <div v-if="props.isFirstRowDisplaying" class="flex items-center xl:mb-[15px]">
-            <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px]  xl:h-fit xl:font-[500]">I</span>
-            <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret xl:text-[30px] ">{{props.firstWord}}</span>
+    <div v-if="props.isAllBlockDisplaying" class="flex flex-col h-[414px] w-[570px] max-[450px]:w-full max-[450px]:h-[188px] max-[1450px]:w-[350px] max-[1450px]:h-[314px]">
+        <div v-if="props.isFirstRowDisplaying" class="flex items-center max-[450px]:mb-[15px] max-[1450px]:mb-[20px]">
+            <span class="text-[#EC474E] text-[88px] font-[600] first_letter h-[136px] max-[450px]:h-fit max-[450px]:font-[500] max-[1450px]:text-[68px] max-[1450px]:h-[100px]">I</span>
+            <span class="text-[60px] font-[500]  text-white leading-[60px] uppercase mt-[12px] typing_without_caret max-[450px]:text-[30px] max-[1450px]:text[54px] ">{{props.firstWord}}</span>
         </div>
-        <div v-if="props.isSecondRowDisplaying" class="flex items-center translate-y-[-41px] xl:mb-[15px]">
-            <span class="text-[#EC474E] text-[88px] font-[600] first_letter xl:h-fit xl:font-[500] ">P</span>
-            <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_without_caret  xl:text-[30px]">{{ props.secondWord }}</span>
+        <div v-if="props.isSecondRowDisplaying" class="flex items-center translate-y-[-41px] max-[450px]:mb-[15px] max-[1450px]:mb-[20px]">
+            <span class="text-[#EC474E] text-[88px] font-[600] first_letter max-[450px]:h-fit max-[450px]:font-[500] max-[1450px]:text-[68px] max-[1450px]:h-[100px]">P</span>
+            <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_without_caret  max-[450px]:text-[30px] max-[1450px]:text[54px]">{{ props.secondWord }}</span>
         </div>
-        <div v-if="props.isThirdRowDisplaying" class="flex items-center translate-y-[-81px] xl:mb-[15px]">
-            <span class="text-[#EC474E] text-[88px] font-[600] first_letter xl:h-fit xl:font-[500] ">I</span>
-            <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret xl:text-[30px]">{{ props.thirdWord }}</span>
+        <div v-if="props.isThirdRowDisplaying" class="flex items-center translate-y-[-81px] max-[450px]:mb-[15px] max-[1450px]:mb-[20px]">
+            <span class="text-[#EC474E] text-[88px] font-[600] first_letter max-[450px]:h-fit max-[450px]:font-[500] max-[1450px]:text-[68px] max-[1450px]:h-[100px]">I</span>
+            <span class="text-[60px] font-[500] text-white leading-[60px] uppercase  mt-[12px] typing_with_caret max-[450px]:text-[30px] max-[1450px]:text[54px]">{{ props.thirdWord }}</span>
         </div>
-        <span v-if="props.isFourthRowDisplaying" class="text-[#EC474E] font-[500] font-['Big_Shoulders_Stencil_Text'] text-[43px] translate-y-[-100px] xl:text-[25px]" >coin</span>
+        <span v-if="props.isFourthRowDisplaying" class="text-[#EC474E] font-[500] font-['Big_Shoulders_Stencil_Text'] text-[43px] translate-y-[-100px] 
+        max-[450px]:text-[25px] max-[1450px]:text-[33px]" >coin</span>
     </div>
 </template>
 
@@ -36,7 +37,11 @@ const props = defineProps(['isAllBlockDisplaying',
 .first_letter {
     font-family: 'Big Shoulders Stencil Text';
 
-    @media (max-width: 1420px) {
+     @media (max-width: 1450px) {
+        font-size: 69px;
+    }
+
+    @media (max-width: 450px) {
         font-size: 50px;
     }
 }
