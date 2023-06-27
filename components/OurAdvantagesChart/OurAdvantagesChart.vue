@@ -68,10 +68,15 @@ $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
     transition: all .2s;
     cursor: pointer;
 
-    @media (max-width:1400px) {
+    @media (max-width:1450px) {
         font-size: 14px;
         width: 250px;
         height: 80px;
+    }
+    @media (max-width:550px) {
+        font-size: 14px;
+        width: 250px;
+        height: 40px;
     }
 }
 
@@ -102,7 +107,7 @@ $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
     cursor: pointer;
     transform: translateY(-60px);
 
-    @media (max-width:1400px) {
+    @media (max-width:1450px) {
     font-size: 14px;
     width: 250px;
     transform: translateY(0);
@@ -110,7 +115,7 @@ $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
     height: 80px;
     }
 
-    @media (max-width:910px) {
+    @media (max-width:920px) {
     font-size: 14px;
     width: 200px;
     transform: translateY(0);
@@ -118,7 +123,7 @@ $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
     height: 80px;
     }
 
-    @media (max-width:600px) {
+    @media (max-width:550px) {
     font-size: 14px;
     width: 250px;
     transform: translateY(0);
