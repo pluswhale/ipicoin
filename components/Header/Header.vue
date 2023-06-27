@@ -11,21 +11,21 @@ const handleOpenBurger = () => {
 <template>
     <header 
         class="flex w-screen h-[93px] relative justify-center items-center shadow-sm bg-white/5 backdrop-blur-sm z-[1000] 
-        max-[450px]:fixed max-[450px]:top-[0] max-[450px]:left-[0] max-[450px]:h-[43px] max-[450px]:pl-[16px] max-[450px]:pr-[16px] 
-        max-[1450px]:fixed max-[1450px]:top-[0] max-[1450px]:left-[0] max-[1450px]:h-[72px] max-[1450px]:"
+        sm:fixed sm:top-[0] sm:left-[0] sm:h-[43px] sm:pl-[16px] sm:pr-[16px] 
+        xl:fixed xl:top-[0] xl:left-[0] xl:h-[72px] xl:"
     >
-            <div class="flex w-[1400px] justify-between items-center max-[1450px]:w-[900px]">
-                <div class="flex items-center max-[450px]:h-[20px] max-[450px]:w-[66px] max-[1450px]:h-[30px] max-[1450px]:w-[100px]">
+            <div class="flex w-[1400px] justify-between items-center xl:w-[900px]">
+                <div class="flex items-center sm:h-[20px] sm:w-[66px] xl:h-[30px] xl:w-[100px]">
                     <!-- <img  class="max-[1420px]:h-[20px] max-[1420px]:w-[66px]" src="~/assets/images/ipi_logo_1.svg"> -->
                     <img class="max-h-[43px] ml-[11px] max-[450]:ml-[1px] " src="~/assets/images/ipi_logo.svg">
                 </div>
-                <nav class="flex justify-between translate-x-[-30px] min-w-[395px] max-[450px]:hidden max-[1450px]:flex max-[1450px]:min-w-[313px] max-[1450px]:translate-x-[15px]">
+                <nav class="flex justify-between translate-x-[-30px] min-w-[395px] sm:hidden xl:flex xl:min-w-[313px] xl:translate-x-[15px]">
                     <ul class="flex gap-[1.85rem]">
-                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] max-[1450px]:text-[12px]" to="#platform">Platform</NuxtLink></li>
-                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] max-[1450px]:text-[12px]" to="/">Coins</NuxtLink></li>
-                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] max-[1450px]:text-[12px]" to="/">Roadmap</NuxtLink></li>
-                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] max-[1450px]:text-[12px]" to="/">FAQ</NuxtLink></li>
-                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] max-[1450px]:text-[12px]" to="/">Contacts</NuxtLink></li>
+                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] xl:text-[12px]" to="#platform">Platform</NuxtLink></li>
+                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] xl:text-[12px]" to="/">Coins</NuxtLink></li>
+                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] xl:text-[12px]" to="/">Roadmap</NuxtLink></li>
+                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] xl:text-[12px]" to="/">FAQ</NuxtLink></li>
+                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] xl:text-[12px]" to="/">Contacts</NuxtLink></li>
                     </ul>
                 </nav>
 
@@ -33,30 +33,30 @@ const handleOpenBurger = () => {
                     class="flex pr-[10px] pl-[10px] rounded-[20px] border-[2px] 
                     items-center h-44px translate-x-[10px] justify-center transition-all border-[#EC474E]  
                     font-['Barlow sans-serif'] hover:bg-[#EC474E]
-                    max-[450px]:rounded-[8px] 
-                    max-[450px]:pl-[10px] 
-                    max-[450px]:pr-[10px] 
-                    max-[450px]:border-[1px]
-                    max-[450px]:h-[25px] 
-                    max-[450px]:p-[0] 
-                    max-[450px]:translate-x-[-6px]
+                    sm:rounded-[8px] 
+                    sm:pl-[10px] 
+                    sm:pr-[10px] 
+                    sm:border-[1px]
+                    sm:h-[25px] 
+                    sm:p-[0] 
+                    sm:translate-x-[-6px]
                     button_coin
 
-                    max-[1450px]:rounded-[14px]
-                    max-[1450px]:pl-[8px]
-                    max-[1450px]:pr-[8px]
-                    max-[1450px]:h-[30px]
-                    max-[1450px]:translate-x-[-6px]
+                    xl:rounded-[14px]
+                    xl:pl-[8px]
+                    xl:pr-[8px]
+                    xl:h-[30px]
+                    xl:translate-x-[-6px]
                     "
                 >
-                    <span class="font-[500] text-[16px] uppercase whitespace-nowrap text-white font-['Inter'] mr-[5px] max-[450px]:text-[10px]  max-[1450px]:text-[10px]">
+                    <span class="font-[500] text-[16px] uppercase whitespace-nowrap text-white font-['Inter'] mr-[5px] sm:text-[10px]  xl:text-[10px]">
                         Follow the ipicoin
                     </span>
-                    <img class="no_hover_arrow max-[450px]:w-[20px]" src="~/assets/icons/arrow-right.svg" />
-                    <img class="hover_arrow max-[450px]:w-[20px]" src="~/assets/images/IpiScan/arrow-right.png" />
+                    <img class="no_hover_arrow sm:w-[20px]" src="~/assets/icons/arrow-right.svg" />
+                    <img class="hover_arrow sm:w-[20px]" src="~/assets/images/IpiScan/arrow-right.png" />
                 </button>
 
-                <img  @click="handleOpenBurger" src="~/assets/icons/mobile/burger_menu.svg" class="relative z-[6] hidden  max-[450px]:block  max-[1450px]:hidden"/>
+                <img  @click="handleOpenBurger" src="~/assets/icons/mobile/burger_menu.svg" class="relative z-[6] hidden  sm:block  xl:hidden"/>
                     <div v-if="stateMenu.toOpenBurger" class="flex flex-col items-center absolute w-full left-[0] top-[0px] h-screen bg-[#1C0D30]">
                         <div class="flex flex-col items-center h-[615px]">
 

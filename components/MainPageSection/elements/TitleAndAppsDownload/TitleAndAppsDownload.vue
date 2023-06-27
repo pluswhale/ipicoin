@@ -20,8 +20,8 @@ const blockQueueInterval = setInterval(() => {
 </script>
 
 <template>
-    <div class="flex flex-wrap ml-[0] max-[450px]:mx-auto max-[450px]">
-        <div class="flex mt-[72px] flex-col max-[450px]:mt-[15px] max-[450px]:w-[200px] max-[450px]:translate-x-[20px]">
+    <div class="flex flex-wrap ml-[0] sm:mx-auto sm">
+        <div class="flex mt-[72px] flex-col sm:mt-[15px] sm:w-[200px] sm:translate-x-[20px]">
             <!-- main title block-->
 
             <!--first text block-->
@@ -76,45 +76,45 @@ const blockQueueInterval = setInterval(() => {
             <!-- download apps block-->
             <!-- <DownloadButtonBlock :isVisible="true"/> -->
                 <!-- download apps block-->
-            <div class="flex items-center mt-[77px] gap-[15px] translate-y-[-50px] translate-x-[0px] max-[450px]:hidden" >
+            <div class="flex items-center mt-[77px] gap-[15px] translate-y-[-50px] translate-x-[0px] sm:hidden" >
                 <div class="flex flex-row items-center justify-center w-[187px] h-[55px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer
-                max-[1450px]:w-[135px] max-[1450px]:h-[47px]">
+                xl:w-[135px] xl:h-[47px]">
                     <div class="flex pl-[10px] gap-[20px]">
-                        <img src="~/assets/icons/apple_icon.svg" class="translate-y-[3px] translate-x-[0px] w-[30px] h-[37px] max-[1450px]:w-[20px] max-[1450px]:h-[25px] 
-                        max-[1450px]:translate-y-[3px]"/>
+                        <img src="~/assets/icons/apple_icon.svg" class="translate-y-[3px] translate-x-[0px] w-[30px] h-[37px] xl:w-[20px] xl:h-[25px] 
+                        xl:translate-y-[3px]"/>
                         <div class="flex flex-col">
-                            <span class="text-white whitespace-nowrap font-[400] font-['Lato'] text-[11px] translate-y-[0px] translate-x-[-9px] max-[1450px]:text-[9px] 
-                            max-[1450px]:translate-y-[2px]">Download on the</span>
-                            <span class="text-white whitespace-nowrap font-[500] font-['Lato'] text-[20px] translate-y-[-5px] translate-x-[-11px] max-[1450px]:text-[16px] 
-                            max-[1450px]:translate-y-[0px]">App Store</span>
+                            <span class="text-white whitespace-nowrap font-[400] font-['Lato'] text-[11px] translate-y-[0px] translate-x-[-9px] xl:text-[9px] 
+                            xl:translate-y-[2px]">Download on the</span>
+                            <span class="text-white whitespace-nowrap font-[500] font-['Lato'] text-[20px] translate-y-[-5px] translate-x-[-11px] xl:text-[16px] 
+                            xl:translate-y-[0px]">App Store</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="flex flex-row items-center w-[187px] justify-center h-[55px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer
-                max-[1450px]:w-[135px] max-[1450px]:h-[47px]">
+                xl:w-[135px] xl:h-[47px]">
                     <div class="flex pl-[10px] gap-[20px]">
-                        <img src="~/assets/icons/playmarket_icon.svg" class="translate-y-[3px] translate-x-[3px] w-[33px] h-[37px] max-[1450px]:w-[20px] max-[1450px]:h-[25px] 
-                        max-[1450px]:translate-y-[5px]"/>
+                        <img src="~/assets/icons/playmarket_icon.svg" class="translate-y-[3px] translate-x-[3px] w-[33px] h-[37px] xl:w-[20px] xl:h-[25px] 
+                        xl:translate-y-[5px]"/>
                         <div class="flex flex-col">
                             <span  class="text-white whitespace-nowrap font-[400] font-['Montserrat'] text-[11px] translate-y-[3px] translate-x-[-9px] uppercase 
-                            max-[1450px]:text-[9px] max-[1450px]:translate-y-[2px]">Get It On </span>
-                            <span class="text-white whitespace-nowrap font-[600] font-['Montserrat'] text-[19px] translate-y-[-3px] translate-x-[-9px] max-[1450px]:text-[14px] 
-                            max-[1450px]:translate-y-[0px] max-[1450px]:translate-x-[-12px]">Google Play</span>
+                            xl:text-[9px] xl:translate-y-[2px]">Get It On </span>
+                            <span class="text-white whitespace-nowrap font-[600] font-['Montserrat'] text-[19px] translate-y-[-3px] translate-x-[-9px] xl:text-[14px] 
+                            xl:translate-y-[0px] xl:translate-x-[-12px]">Google Play</span>
                         </div>
                     </div>
                 </div>
 
                     <div class="flex flex-row items-center w-[187px] justify-center h-[55px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer
-                    max-[1450px]:w-[135px] max-[1450px]:h-[47px]">
+                    xl:w-[135px] xl:h-[47px]">
                     <div class="flex pl-[10px] gap-[20px]">
-                        <img src="../../../../assets/icons/mainpage/Vector.png" class="translate-y-[5px] translate-x-[3px] w-[42px] h-[36px] max-[1450px]:w-[25px] max-[1450px]:h-[25px] 
-                        max-[1450px]:translate-y-[5px]"/>
+                        <img src="../../../../assets/icons/mainpage/Vector.png" class="translate-y-[5px] translate-x-[3px] w-[42px] h-[36px] xl:w-[25px] xl:h-[25px] 
+                        xl:translate-y-[5px]"/>
                         <div class="flex flex-col">
                             <span  class="text-white whitespace-nowrap font-[400] font-['Montserrat'] text-[11px] translate-y-[3px] translate-x-[-9px] uppercase 
-                            max-[1450px]:text-[9px] max-[1450px]:translate-y-[2px]">Available as a</span>
+                            xl:text-[9px] xl:translate-y-[2px]">Available as a</span>
                             <span class="text-white whitespace-nowrap font-[600] font-['Montserrat'] text-[21px] translate-y-[-3px] translate-x-[-9px] 
-                            max-[1450px]:text-[16px] max-[1450px]:translate-y-[1px]">Web App</span>
+                            xl:text-[16px] xl:translate-y-[1px]">Web App</span>
                         </div>
                     </div>
                 </div>

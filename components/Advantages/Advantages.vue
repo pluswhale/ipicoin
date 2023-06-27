@@ -41,62 +41,62 @@ const handleSetVisibleBlock = (block) => {
                 delay: 1000,
             },
         }"
-        class="flex flex-col items-center w-full mt-[130px] max-w-[1456px] mx-auto my-0 max-[450px]:max-w-auto max-[1450px]:max-w-[900px]"   
+        class="flex flex-col items-center w-full mt-[130px] max-w-[1456px] mx-auto my-0 sm:max-w-auto xl:max-w-[900px]"   
      >
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[77px] translate-y-[2px] translate-x-[-5px]
-        max-[450px]:text-[22px] max-[450px]:mb-[30px] max-[1450px]:text-[26px] max-[1450px]:mb-[40px]">Perhaps the best project in web 3.0</h2>
-        <div class="flex flex-col flex-wrap w-full gap-[38px] max-[1450px]:gap-[20px] max-[450px]:hidden">
+        sm:text-[22px] sm:mb-[30px] xl:text-[26px] xl:mb-[40px]">Perhaps the best project in web 3.0</h2>
+        <div class="flex flex-col flex-wrap w-full gap-[38px] xl:gap-[20px] sm:hidden">
             <!--first row-->
-            <div class="flex flex-row justify-between w-full min-h-[200px] max-[1450px]:">
+            <div class="flex flex-row justify-between w-full min-h-[200px] xl:">
                 <div @mouseover="handleSetVisibleBlock(1)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center relative min-w-[250px] max-w-[250px]
-                max-[1450px]:min-w-[150px] max-[1450px]:max-w-[150px]">
-                    <img src="~/assets/icons/advantages/home_icon.svg" class="max-[1450px]:w-[39px] max-[1450px]:h-[39px]"/>
-                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] max-[1450px]:text-[12px]">Growth Potential</span>
+                xl:min-w-[150px] xl:max-w-[150px]">
+                    <img src="~/assets/icons/advantages/home_icon.svg" class="xl:w-[39px] xl:h-[39px]"/>
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] xl:text-[12px]">Growth Potential</span>
                     <Transition>
                         <span v-show="visibleBlockState.block === 1" class="text-[14px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto'] mt-[9px] 
-                        max-[1450px]:text-[12px] max-[1450px]:leading-[13px]">
+                        xl:text-[12px] xl:leading-[13px]">
                         Our mission is to create a next - generation cryptocurrency with high growth potential.
                         </span>  
                     </Transition>
-                 <img src="../../assets/icons/advantages/line_1.png" alt="" class="absolute top-[25px] left-[180px] max-[1450px]:w-[142px] max-[1450px]:left-[100px]">
+                 <img src="../../assets/icons/advantages/line_1.png" alt="" class="absolute top-[25px] left-[180px] xl:w-[142px] xl:left-[100px]">
                 </div>
 
                 <div @mouseover="handleSetVisibleBlock(2)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center relative max-w-[250px] min-w-[250px]
-                max-[1450px]:min-w-[150px] max-[1450px]:max-w-[150px] max-[1450px]:translate-x-[29px] ">
-                    <img src="~/assets/icons/advantages/drum_icon.svg" class="max-[1450px]:w-[39px] max-[1450px]:h-[39px]"/>
-                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] max-[1450px]:text-[12px]">Limited Edition Coins</span>
+                xl:min-w-[150px] xl:max-w-[150px] xl:translate-x-[29px] ">
+                    <img src="~/assets/icons/advantages/drum_icon.svg" class="xl:w-[39px] xl:h-[39px]"/>
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] xl:text-[12px]">Limited Edition Coins</span>
                                         <Transition>
                                                 <span v-show="visibleBlockState.block === 2" class="text-[14px] font-[400] leading-[22px] text-[#749DCA] font-['Roboto'] text-center mt-[9px] 
-                                                max-[1450px]:text-[12px] max-[1450px]:leading-[13px]">we offer a limited edition of 100 million coins and <br> no more.</span>  
+                                                xl:text-[12px] xl:leading-[13px]">we offer a limited edition of 100 million coins and <br> no more.</span>  
                                         </Transition>
                    
-                    <img src="../../assets/icons/advantages/line_2.png" alt="" class="absolute top-[25px] left-[200px] max-[1450px]:w-[142px] max-[1450px]:left-[125px]">
+                    <img src="../../assets/icons/advantages/line_2.png" alt="" class="absolute top-[25px] left-[200px] xl:w-[142px] xl:left-[125px]">
                 </div>
                 
                 <div @mouseover="handleSetVisibleBlock(3)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center relative max-w-[375px] min-w-[375px]
-                max-[1450px]:min-w-[257px] max-[1450px]:max-w-[257px] max-[1450px]:translate-x-[22px] ">
-                    <img src="~/assets/icons/advantages/settings_icon.svg" class="max-[1450px]:w-[39px] max-[1450px]:h-[39px]"/>
-                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] max-[1450px]:text-[12px]">Developers</span>
+                xl:min-w-[257px] xl:max-w-[257px] xl:translate-x-[22px] ">
+                    <img src="~/assets/icons/advantages/settings_icon.svg" class="xl:w-[39px] xl:h-[39px]"/>
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] xl:text-[12px]">Developers</span>
                     <Transition>
                         <span v-show="visibleBlockState.block === 3" class="text-[14px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto']  
-                         mt-[9px] max-[1450px]:text-[12px] max-[1450px]:leading-[13px]">
+                         mt-[9px] xl:text-[12px] xl:leading-[13px]">
                          we provide fast smart contracts with the best virtual machine and consensus. We also provide oracle and Chainlink services, 
                          as well as an easy way to create your own dApps and contracts
                         </span>  
 
                     </Transition>
-                    <img src="../../assets/icons/advantages/line_3.png" alt="" class="absolute top-[25px] left-[260px] max-[1450px]:w-[142px] max-[1450px]:left-[175px]">
+                    <img src="../../assets/icons/advantages/line_3.png" alt="" class="absolute top-[25px] left-[260px] xl:w-[142px] xl:left-[175px]">
                 </div>
 
                 <div @mouseover="handleSetVisibleBlock(4)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center max-w-[290px] min-w-[290px]
-                 max-[1450px]:min-w-[208px] max-[1450px]:max-w-[208px] max-[1450px]:translate-x-[-10px]">
-                    <img src="~/assets/icons/advantages/piramyd_icon.svg" class="max-[1450px]:w-[39px] max-[1450px]:h-[39px]"/>
+                 xl:min-w-[208px] xl:max-w-[208px] xl:translate-x-[-10px]">
+                    <img src="~/assets/icons/advantages/piramyd_icon.svg" class="xl:w-[39px] xl:h-[39px]"/>
                     <Transition>
-                        <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] max-[1450px]:text-[12px]">Financial indicators</span>
+                        <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] xl:text-[12px]">Financial indicators</span>
 
                     </Transition>
                     <span v-show="visibleBlockState.block === 4" class="text-[14px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto']
-                    mt-[9px] max-[1450px]:text-[12px] max-[1450px]:leading-[13px]">we strive to ensure the sustainability <br>and development of the ecosystem <br>for new projects.</span>  
+                    mt-[9px] xl:text-[12px] xl:leading-[13px]">we strive to ensure the sustainability <br>and development of the ecosystem <br>for new projects.</span>  
                 </div>
             </div>
             <!--first row-->
@@ -105,52 +105,52 @@ const handleSetVisibleBlock = (block) => {
             <div class="flex flex-row justify-between min-h-[220px]">
 
                 <div @mouseover="handleSetVisibleBlock(5)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center max-w-[270px] min-w-[270px] relative
-                 max-[1450px]:min-w-[183px] max-[1450px]:max-w-[196px] max-[1450px]:translate-x-[4px]">
-                    <img src="~/assets/icons/advantages/quad_icon.svg" class="max-[1450px]:w-[39px] max-[1450px]:h-[39px]"/>
-                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] max-[1450px]:text-[12px]">Ease of programming</span>
+                 xl:min-w-[183px] xl:max-w-[196px] xl:translate-x-[4px]">
+                    <img src="~/assets/icons/advantages/quad_icon.svg" class="xl:w-[39px] xl:h-[39px]"/>
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] xl:text-[12px]">Ease of programming</span>
                     <Transition>
                         <span v-show="visibleBlockState.block === 5" class="text-[14px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto'] 
-                          mt-[9px] max-[1450px]:text-[12px] max-[1450px]:leading-[13px]">Our blockchain with smart contracts is so easy to program that creating a 
+                          mt-[9px] xl:text-[12px] xl:leading-[13px]">Our blockchain with smart contracts is so easy to program that creating a 
                           backend on our blockchain and off the blockchain will 
                           be easier than using cloud services or any other technology.
                         </span>  
                     </Transition>
-                    <img src="../../assets/icons/advantages/line_1.png" alt="" class="absolute top-[35px] left-[185px] max-[1450px]:w-[142px] max-[1450px]:left-[138px] max-[1450px]:top-[18px]">
+                    <img src="../../assets/icons/advantages/line_1.png" alt="" class="absolute top-[35px] left-[185px] xl:w-[142px] xl:left-[138px] xl:top-[18px]">
                 </div>
 
                 <div @mouseover="handleSetVisibleBlock(6)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center  relative max-w-[250px] min-w-[250px]
-                max-[1450px]:min-w-[145px] max-[1450px]:max-w-[145px] max-[1450px]:translate-x-[1px]">
-                    <img src="~/assets/icons/advantages/lock_icon.svg" class="max-[1450px]:w-[39px] max-[1450px]:h-[39px]"/>
-                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] max-[1450px]:text-[12px]">Speed and security</span>
+                xl:min-w-[145px] xl:max-w-[145px] xl:translate-x-[1px]">
+                    <img src="~/assets/icons/advantages/lock_icon.svg" class="xl:w-[39px] xl:h-[39px]"/>
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] xl:text-[12px]">Speed and security</span>
                     <Transition>
                         <span v-show="visibleBlockState.block === 6" class="text-[14px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto']  
-                         mt-[9px] max-[1450px]:text-[12px] max-[1450px]:leading-[13px]">our system provides speed and security, preventing fraud of participants among themselves, 
+                         mt-[9px] xl:text-[12px] xl:leading-[13px]">our system provides speed and security, preventing fraud of participants among themselves, 
                          especially for gambling projects.
                         </span>  
                     </Transition>
-                    <img src="../../assets/icons/advantages/line_2.png" alt="" class="absolute top-[35px] left-[185px] max-[1450px]:w-[142px] max-[1450px]:left-[115px] max-[1450px]:top-[18px]">
+                    <img src="../../assets/icons/advantages/line_2.png" alt="" class="absolute top-[35px] left-[185px] xl:w-[142px] xl:left-[115px] xl:top-[18px]">
                 </div>
 
                 <div @mouseover="handleSetVisibleBlock(7)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center relative max-w-[280px] min-w-[280px]
-                max-[1450px]:min-w-[169px] max-[1450px]:max-w-[169px] max-[1450px]:translate-x-[2px]">
-                    <img src="~/assets/icons/advantages/qrcode_icon.svg" class="max-[1450px]:w-[39px] max-[1450px]:h-[39px]"/>
-                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] max-[1450px]:text-[12px]">Scanning system</span>
+                xl:min-w-[169px] xl:max-w-[169px] xl:translate-x-[2px]">
+                    <img src="~/assets/icons/advantages/qrcode_icon.svg" class="xl:w-[39px] xl:h-[39px]"/>
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] xl:text-[12px]">Scanning system</span>
                     <Transition>
                         <span v-show="visibleBlockState.block === 7" class="text-[14px] font-[400] leading-[22px] text-[#749DCA] text-center  font-['Roboto'] 
-                         mt-[9px] max-[1450px]:text-[12px] max-[1450px]:leading-[13px]">
+                         mt-[9px] xl:text-[12px] xl:leading-[13px]">
                          We offer a system with our own scanner that anyone can predict and get data for any period of time.
                         </span>  
                     </Transition>
-                    <img src="../../assets/icons/advantages/line_3.png" alt="" class="absolute top-[35px] left-[190px] max-[1450px]:w-[142px] max-[1450px]:left-[124px] max-[1450px]:top-[18px]">
+                    <img src="../../assets/icons/advantages/line_3.png" alt="" class="absolute top-[35px] left-[190px] xl:w-[142px] xl:left-[124px] xl:top-[18px]">
                 </div>
                 
                 <div @mouseover="handleSetVisibleBlock(8)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center max-w-[350px] min-w-[350px]
-                max-[1450px]:min-w-[175px] max-[1450px]:max-w-[175px] max-[1450px]:translate-x-[-23px]">
-                    <img src="~/assets/icons/advantages/code_icon.svg" class="max-[1450px]:w-[39px] max-[1450px]:h-[39px]"/>
-                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] max-[1450px]:text-[11px]">Programming in programming languages</span>
+                xl:min-w-[175px] xl:max-w-[175px] xl:translate-x-[-23px]">
+                    <img src="~/assets/icons/advantages/code_icon.svg" class="xl:w-[39px] xl:h-[39px]"/>
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] xl:text-[11px]">Programming in programming languages</span>
                     <Transition>
                         <span v-show="visibleBlockState.block === 8" class="text-[13px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto'] 
-                          mt-[9px] max-[1450px]:text-[12px] max-[1450px]:leading-[13px]">
+                          mt-[9px] xl:text-[12px] xl:leading-[13px]">
                           We provide the ability to create your own contracts and easy access to our protocol, as well as easy entry into the creation of your 
                           dApps with any commands. We are also exploring the use of artificial intelligence in our protocol.
                         </span>  
@@ -160,7 +160,7 @@ const handleSetVisibleBlock = (block) => {
             </div>
             <!--second row-->
         </div>
-        <div class="flex gap-[64px] mt-[50px] max-[450px]:hidden">
+        <div class="flex gap-[64px] mt-[50px] sm:hidden">
             <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] bg-[#EC474E] transition-all rounded-[20px] hover:bg-transparent hover:border-[2px] hover:border-[#EC474E]">
                 <span class="text-[16px] font-[500] uppercase text-white font-['Barlow]">Wallet</span>
                 <img class="pt-[0] ml-[15px]" src="~/assets/icons/arrow_right_white.svg"/>
@@ -172,7 +172,7 @@ const handleSetVisibleBlock = (block) => {
         </div>
 
         <!--mobile version-->
-        <div class="flex-col hidden flex-wrap w-[343px] gap-[38px] max-[450px]:flex">
+        <div class="flex-col hidden flex-wrap w-[343px] gap-[38px] sm:flex">
                 <div class="flex flex-col items-center justify-center relative w-[343px]">
                     <img src="~/assets/icons/advantages/home_icon.svg"/>
                     <span class="text-[12px] font-[700] text-white mt-[10px] font-['Inter']">Growth Potential</span>

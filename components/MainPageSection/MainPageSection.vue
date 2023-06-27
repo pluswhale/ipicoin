@@ -15,8 +15,8 @@
                 },
         }"        
         class="flex h-[582px] max-w-[1424px] mx-auto my-0 justify-between relative z-0
-        max-[450px]:h-auto max-[450px]:mt-[30px] max-[450px]:max-w-[480px] max-[450px]:flex-col
-        max-[1450px]:h-[550px] max-[1450px]:w-[900px] max-[1450px]:mt-[100px] max-[1450px]:justify-between"
+        sm:h-auto sm:mt-[30px] sm:max-w-[480px] sm:flex-col
+        xl:h-[550px] xl:w-[900px] xl:mt-[100px] xl:justify-between"
         >
         <TitleAndAppsDownload/>
         <DiagramBlock/>
