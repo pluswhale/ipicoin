@@ -511,7 +511,7 @@
                 delay: 1000,
             },
         }"    
-        class="hidden items-center w-full justify-center mb-[83px] max-[960px]:flex  "
+        class="hidden items-center w-full justify-center mb-[83px] max-[960px]:flex"
      >
         <div class="flex gap-[10px] overflow-x-scroll overflow-y-hidden no-scrollbar max-[960px]:w-[550px] max-[550px]:w-[343px]">
             <div class="flex flex-col min-w-[284px] h-[130px] px-[18px] py-[17px]  bg-[#FFFFFF]/5 rounded-[12px]  relative">
