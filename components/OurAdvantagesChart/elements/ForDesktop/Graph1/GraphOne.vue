@@ -61,7 +61,7 @@
                         <div class="flex w-[29%] text-white items-center text-[16px] font-[400] font-['Barlow'] lg:text-[10px]">
                             Customer support
                         </div>
-                        <div class="w-[71%] flex items-center justify-between pr-[48px]">
+                        <div class="w-[71%] flex items-center justify-between pr-[48px] lg:w-[84%]">
                             <div class=" text-white text-[14px] font-[400] font-['Barlow'] lg:text-[12px] ">Available</div>
                             <div class=" text-white text-[14px] font-[400] font-['Barlow'] lg:text-[12px]">Available</div>
                             <div class=" text-white text-[14px] font-[400] font-['Barlow'] lg:text-[12px]">Available</div>
@@ -79,15 +79,15 @@
                         <div class="flex w-[29%] text-white items-center text-[16px] font-[400] font-['Barlow sans-serif'] lg:text-[10px]">
                             Marketing strategy
                         </div>
-                        <div class="w-[71%] flex items-center justify-between pr-[30px]">
+                        <div class="w-[71%] flex items-center justify-between pr-[30px] lg:w-[100%]  lg:pr-[55px]">
                             <div class="min-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left"></div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] leading-[16px] lg:text-[9px] ">Uses a specific Haskell programming language</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-2px] leading-[16px] lg:text-[9px]">Academic research, partnerships</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] lg:text-[9px]" >Interoperability</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[15px] lg:text-[9px]">Community-driven</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[3px] lg:text-[9px]">DeFi-focused</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[25px] lg:text-[9px]">Interoperability, cross-chain</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[25px] lg:text-[9px]">High-performance</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] leading-[16px] lg:text-[9px] lg:max-w-[80px] ">Uses a specific Haskell programming language</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-2px] leading-[16px] lg:text-[9px] lg:max-w-[70px]">Academic research, partnerships</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] lg:text-[9px] lg:max-w-[70px] " >Interoperability</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[15px] lg:text-[9px] lg:max-w-[70px]">Community-driven</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[3px] lg:text-[9px] lg:max-w-[60px] ">DeFi-focused</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[25px] lg:text-[9px] lg:max-w-[80px]">Interoperability, cross-chain</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[25px] lg:text-[9px] lg:max-w-[70px] ">High-performance</div>
                         </div>
                     </div>
                     <!--color row-->
@@ -97,7 +97,7 @@
                         <div class="flex w-[29%] text-white items-center text-[16px] font-[400] font-['Barlow sans-serif'] lg:text-[10px]">
                             Project financing
                         </div>
-                        <div class="w-[71%] flex items-center justify-between pr-[48px]">
+                        <div class="w-[71%] flex items-center justify-between pr-[48px] lg:w-[80%]">
                             <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0] lg:text-[10px]">Funded</div>
                             <div class=" text-white max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[27px] lg:text-[10px] lg:w-[50px]">Funded by Binance</div>
                             <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-3px] lg:text-[10px]">ICO<br>in 2016-2017</div>
@@ -115,7 +115,7 @@
                         <div class="flex w-[29%] text-white items-center text-[16px] font-[400] font-['Barlow sans-serif'] lg:text-[10px]">
                             Vulnerability
                         </div>
-                        <div class="w-[71%] flex items-center justify-between pr-[48px]">
+                        <div class="w-[71%] flex items-center justify-between pr-[48px] lg:w-[80%]">
                             <div class="max-w-[100px] min-w-[50px] text-white text-[14px] font-[500] font-['Barlow sans-serif'] text-left translate-x-[2px] lg:text-[10px]">Low</div>
                             <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[5px] lg:text-[10px]">Moderate</div>
                             <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[12px] lg:text-[10px]">Moderate</div>
@@ -133,7 +133,7 @@
                         <div class="flex w-[29%] items-center text-white text-[16px] font-[400] font-['Barlow sans-serif'] lg:text-[10px]">
                             Gas prices
                         </div>
-                        <div class="w-[71%] flex items-center justify-between pr-[48px]">
+                        <div class="w-[71%] flex items-center justify-between pr-[48px] lg:w-[80%]">
                             <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[3px] lg:text-[10px]">Low</div>
                             <div class=" min-w-[50px] text-white max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[5px] lg:text-[10px]">Low</div>
                             <div class=" min-w-[50px] text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[16px] lg:text-[10px]">Low</div>
@@ -151,7 +151,7 @@
                         <div class="flex w-[29%] text-white items-center text-[16px] font-[400] font-['Barlow sans-serif'] lg:text-[10px]">
                             Network separation
                         </div>
-                        <div class="w-[71%] flex items-center justify-between pr-[48px]">
+                        <div class="w-[71%] flex items-center justify-between pr-[48px] lg:w-[80%]">
                             <div class="max-w-[50px] min-w-[50px] text-white text-[14px] font-[500] font-['Barlow sans-serif'] text-left translate-x-[5px] lg:text-[10px]">Low risk</div>
                             <div class="max-w-[70px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[6px] lg:text-[10px]">Moderate risk</div>
                             <div class="max-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[7px] lg:text-[10px]">Low risk</div>
@@ -169,7 +169,7 @@
                         <div class="flex w-[29%] items-center text-white text-[16px] font-[400] font-['Barlow sans-serif'] lg:text-[10px]">
                             Capitalization
                         </div>
-                        <div class="w-[71%] flex items-center justify-between pr-[48px]">
+                        <div class="w-[71%] flex items-center justify-between pr-[48px] lg:w-[80%]">
                             <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[5px] lg:text-[10px]">High</div>
                             <div class=" min-w-[50px] text-white max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0] lg:text-[10px]">Significant</div>
                             <div class=" min-w-[50px] text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0] lg:text-[10px]">High</div>
@@ -187,7 +187,7 @@
                         <div class="flex w-[29%] text-white items-center text-[16px] font-[400] font-['Barlow sans-serif'] lg:text-[10px]">
                             Programming Languages
                         </div>
-                        <div class="w-[71%] flex items-center justify-between pr-[48px]">
+                        <div class="w-[71%] flex items-center justify-between pr-[48px] lg:w-[80%]">
                             <div class="max-w-[70px] min-w-[50px] text-white text-[14px] font-[500] font-['Barlow sans-serif'] text-left translate-x-[3px] lg:text-[10px]">java-like</div>
                             <div class="max-w-[70px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[2px] lg:text-[10px]">Solidity</div>
                             <div class="max-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[23px] lg:text-[10px]">Plutus (Haskell)</div>
@@ -205,7 +205,7 @@
                         <div class="flex w-[29%] items-center text-white text-[16px] font-[400] font-['Barlow sans-serif'] lg:text-[10px]">
                             Team recognition
                         </div> 
-                        <div class="w-[71%] flex items-center justify-between pr-[48px]">
+                        <div class="w-[71%] flex items-center justify-between pr-[48px] lg:w-[80%]">
                             <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[7px]  lg:text-[10px]">Strong</div>
                             <div class=" min-w-[50px] text-white max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-7px] lg:text-[10px]">Strong</div>
                             <div class=" min-w-[50px] text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-2px] lg:text-[10px]">Strong</div>
