@@ -37,15 +37,15 @@
     }"   
   >
     <div class="flex flex-col items-center h-[950px] w-full mt-[136px] max-w-[1360px] mx-auto my-0">
-        <h2 class="text-white uppercase font-[700] text-[40px] font-['Big_Shoulders_Stencil_Text'] max-[1200px]:text-[26px]">FAQS</h2>
-        <span class="text-[#97AFD5] text-[16px] font-['Roboto sans-serif'] text-center max-w-[500px] mt-[24px] mb-[46.7px] max-[1200px]:text-[14px]">Below we’ve provided a FAQ of IPICOIN and few others. If you have any other questions, please get in touch.</span>
-        <div class="flex w-[1094px] border-b-[4px] border-b-[#749DCA] h-[100px] justify-center mb-[61px] max-[1200px]:w-[892px] max-[1200px]:h-[80px] max-[910px]:w-[535px] max-[910px]:h-[60px] ">
+        <h2 class="text-white uppercase font-[700] text-[40px] font-['Big_Shoulders_Stencil_Text'] lg:text-[26px]">FAQS</h2>
+        <span class="text-[#97AFD5] text-[16px] font-['Roboto sans-serif'] text-center max-w-[500px] mt-[24px] mb-[46.7px] lg:text-[14px]">Below we’ve provided a FAQ of IPICOIN and few others. If you have any other questions, please get in touch.</span>
+        <div class="flex w-[1094px] border-b-[4px] border-b-[#749DCA] h-[100px] justify-center mb-[61px] lg:w-[892px] lg:h-[80px] md:w-[535px] md:h-[60px] sm:h-[40px] sm:w-screen sm:overflow-x-auto sm:no-scrollbar ">
             <button @click="setActiveButton(1)" :class="state.active_button === 1 ? 'button_active' : 'button_unactive'" >General Questions</button>
             <button @click="setActiveButton(2)" :class="state.active_button === 2 ? 'button_active' : 'button_unactive'">Coin Sales</button>
             <button @click="setActiveButton(3)" :class="state.active_button === 3 ? 'button_active' : 'button_unactive'">Development</button>
             <button @click="setActiveButton(4)" :class="state.active_button === 4 ? 'button_active' : 'button_unactive'">Team & Legal</button>
         </div>
-        <div class="flex w-[994px] min-h-[358px] max-[1200px]:w-[892px] max-[910px]:w-[535px]">
+        <div class="flex w-[994px] min-h-[358px] lg:w-[892px] md:w-[535px] sm:w-screen">
             <GeneralQuestions v-if="state.active_button === 1"/>
             <!--TODO: недостающие динамические блоки-->
         </div>
@@ -89,6 +89,13 @@ import GeneralQuestions from './elements/GeneralQuestions.vue';
         font-size: 12px;
         width: 150px;
         height: 60px;
+    }
+
+    @media (max-width:550px) {
+        font-size: 10px;
+        width: 100px;
+        min-width: 100px;
+        height: 40px;
     }
 
 }

@@ -11,10 +11,20 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'mobile': '480px',
-      'tablet': '1420px',
-      'laptop': '1420px',
-      'desktop': '1600px',
+      '2xl': {'max': '1600px'},
+      // => @media (max-width: 1535px) { ... }
+
+      'xl': {'max': '1450px'},
+      // => @media (max-width: 1279px) { ... }
+
+      'lg': {'max': '1220px'},
+      // => @media (max-width: 1023px) { ... }
+
+      'md': {'max': '920px'},
+      // => @media (max-width: 767px) { ... }
+
+      'sm': {'max': '550px'},
+      // => @media (max-width: 639px) { ... }
     },
     extend: {
       fontFamily: {

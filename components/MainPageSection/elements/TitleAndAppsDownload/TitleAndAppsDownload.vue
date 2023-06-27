@@ -20,8 +20,8 @@ const blockQueueInterval = setInterval(() => {
 </script>
 
 <template>
-    <div class="flex flex-wrap ml-[0] max-[1420px]:mx-auto max-[1420px]">
-        <div class="flex mt-[72px] flex-col max-[1420px]:mt-[15px] max-[1420px]:w-[200px] max-[1420px]:translate-x-[20px]">
+    <div class="flex flex-wrap ml-[0] xl:mx-auto xl">
+        <div class="flex mt-[72px] flex-col xl:mt-[15px] xl:w-[200px] xl:translate-x-[20px]">
             <!-- main title block-->
 
             <!--first text block-->
@@ -76,7 +76,7 @@ const blockQueueInterval = setInterval(() => {
             <!-- download apps block-->
             <!-- <DownloadButtonBlock :isVisible="true"/> -->
                 <!-- download apps block-->
-            <div class="flex items-center mt-[77px] gap-[15px] translate-y-[-50px] translate-x-[-5px] max-[1420px]:hidden"
+            <div class="flex items-center mt-[77px] gap-[15px] translate-y-[-50px] translate-x-[-5px] xl:hidden"
             >
                 <div class="flex flex-row items-center justify-center w-[187px] h-[55px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer">
                     <div class="flex pl-[10px] gap-[20px]">

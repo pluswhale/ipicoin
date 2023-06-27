@@ -34,7 +34,7 @@
                 delay: 1000,
             },
         }"    
-        class="flex flex-col items-center max-w-[1360px] mx-auto my-0 max-[450px]:hidden"
+        class="flex flex-col items-center max-w-[1360px] mx-auto my-0 md:hidden"
      >
     <!--block 1-->
     <div v-if="state.block === 1" class="flex flex-col items-center max-w-[1360px] mx-auto my-0">
@@ -71,7 +71,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative max-[1400px]:hidden">
+            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative lg:hidden">
                 <div class="flex items-center mb-[18px]">
                     <img src="../../assets/icons/CardUser/User-4.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
@@ -122,7 +122,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative max-[1400px]:hidden">
+            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative lg:hidden">
                 <div class="flex items-center mb-[18px]">
                     <img src="../../assets/icons/CardUser/User-1.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
@@ -176,7 +176,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative max-[1400px]:hidden">
+            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative lg:hidden">
                 <div class="flex items-center mb-[18px]">
                     <img src="../../assets/icons/CardUser/User-6.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
@@ -227,7 +227,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative max-[1400px]:hidden">
+            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative lg:hidden">
                 <div class="flex items-center mb-[18px]">
                     <img src="../../assets/icons/CardUser/User-3.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
@@ -284,7 +284,7 @@
                 </div>
             </div> 
 
-            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5  relative max-[1400px]:hidden">
+            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5  relative lg:hidden">
                 <div class="flex items-center mb-[18px]">
                     <img src="../../assets/icons/CardUser/User-2.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
@@ -337,7 +337,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative max-[1400px]:hidden">
+            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative lg:hidden">
                 <div class="flex items-center mb-[18px]">
                     <img src="../../assets/icons/CardUser/User-5.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
@@ -394,7 +394,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative max-[1400px]:hidden">
+            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative lg:hidden">
                 <div class="flex items-center mb-[18px]">
                     <img src="../../assets/icons/CardUser/User-3.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
@@ -446,7 +446,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative max-[1400px]:hidden">
+            <div class="flex flex-col w-[453px] px-[18px] py-[17px] min-h-[161px] bg-[#FFFFFF]/5 relative lg:hidden">
                 <div class="flex items-center mb-[18px]">
                     <img src="../../assets/icons/CardUser/User-6.png" alt="User">
                     <div class="flex flex-col ml-[16px]">
@@ -511,9 +511,9 @@
                 delay: 1000,
             },
         }"    
-        class="hidden items-center w-full justify-center mb-[83px] max-[450px]:flex  "
+        class="hidden items-center w-full justify-center mb-[83px] md:flex"
      >
-        <div class="flex w-[343px] gap-[10px] overflow-x-scroll overflow-y-hidden no-scrollbar">
+        <div class="flex gap-[10px] overflow-x-scroll overflow-y-hidden no-scrollbar md:w-[550px] sm:w-[343px]">
             <div class="flex flex-col min-w-[284px] h-[130px] px-[18px] py-[17px]  bg-[#FFFFFF]/5 rounded-[12px]  relative">
                 <div class="flex items-center">
                     <img class="h-[17px]" src="../../assets/icons/CardUser/User-5.png" alt="User">

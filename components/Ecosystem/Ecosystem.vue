@@ -251,17 +251,17 @@ const cardTransformFourthRightTop = computed(() => {
                 delay: 1000,
             },
         }"   
-        class="flex flex-col items-center w-full mt-[140px] max-w-[1400px] mx-auto my-0 translate-x-[-10px] max-[1420px]:mt-[90px] max-[1200px]:max-w-[888px]" 
+        class="flex flex-col items-center w-full mt-[140px] max-w-[1400px] mx-auto my-0 translate-x-[-10px] xl:mt-[90px] lg:max-w-[888px]" 
     >
-        <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[42px] max-[1200px]:text-[26px] max-[450px]:text-[22px]">ecosystem</h2>
+        <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[42px] lg:text-[26px] sm:text-[22px]">ecosystem</h2>
 
         <!-- -------------desktop version--------------- -->
-        <div class="flex flex-col max-w-[1068px] justify-between max-[450px]:hidden max-[1200px]:max-w-[888px] max-[1200px]:w-[888px] ">
+        <div class="flex flex-col max-w-[1068px] justify-between sm:hidden lg:max-w-[888px] lg:w-[888px] ">
             <!--top part-->
-            <div class="flex flex-row max-w-[1068px] justify-between translate-x-[-65px] max-[1200px]:max-w-[888px] max-[1200px]:w-[888px]">
+            <div class="flex flex-row max-w-[1068px] justify-between translate-x-[-65px] lg:max-w-[888px] lg:w-[888px]">
                 <!--first arrows-->
                 <div class="flex flex-col gap-[33px]">
-                    <img class="translate-y-[24px] translate-x-[257px] absolute w-[210px] max-[1200px]:w-[178px] max-[1200px]:h-[185px] max-[1200px]:translate-y-[50px] " src="../../assets/images/platform/arrow1.svg" alt=""/>
+                    <img class="translate-y-[24px] translate-x-[257px] absolute w-[210px] lg:w-[178px] lg:h-[185px] lg:translate-y-[50px] " src="../../assets/images/platform/arrow1.svg" alt=""/>
                     <img class="translate-y-[11px] translate-x-[70px] h-[230px] absolute" src="../../assets/images/platform/arrow2.svg" alt=""/>
                     <img src="../../assets/images/platform/arrow3.svg" class="translate-y-[250px] translate-x-[70px] h-[480px]  absolute" alt="">
                     <img src="../../assets/images/platform/arrow4.svg" class="left-[180px] bottom-[80px]  absolute" alt="">
@@ -269,7 +269,7 @@ const cardTransformFourthRightTop = computed(() => {
                 <!--first arrows-->
 
                 <!--top block-->
-                <div class="flex flex-row max-[1200px]:w-full">
+                <div class="flex flex-row lg:w-full">
                     <!--first left block-->
                     <div class="flex flex-col justify-start translate-x-[100px] relative">
                         <!--first 4 card and arrows-->
@@ -352,10 +352,10 @@ const cardTransformFourthRightTop = computed(() => {
                     <!--first left block-->
 
                     <!--top right block-->
-                    <div class="flex w-[965px] max-[1200px]:w-[535px]">
+                    <div class="flex w-[965px] lg:w-[535px]">
 
                         <!-- main block wrapper-->
-                        <div class="flex flex-col w-[628px] h-[747px] translate-x-[315px] translate-y-[-5px] relative max-[1200px]:w-[535px] max-[1200px]:translate-x-[250px]">
+                        <div class="flex flex-col w-[628px] h-[747px] translate-x-[315px] translate-y-[-5px] relative lg:w-[535px] lg:translate-x-[250px]">
                             <!--first card -->
                             <div
                                 ref="firstTopCard"
@@ -366,11 +366,11 @@ const cardTransformFourthRightTop = computed(() => {
                                 class="mb-[15px] flex flex-col bg-[#FFFFFF33]  items-center justify-center rounded-[20px] blockHover"
                             >
                             <div class="flex flex-col  items-center justify-center rounded-[20px]">
-                                    <span class="text-[#EC474E] text-[700] font-['Quicksand'] mb-[10px] text-[14px] font-[700] mt-[10px] max-[1200px]:text-[12px]">Web application</span>
+                                    <span class="text-[#EC474E] text-[700] font-['Quicksand'] mb-[10px] text-[14px] font-[700] mt-[10px] lg:text-[12px]">Web application</span>
                                     <div class="flex items-center gap-[10px] mb-[12px]">
-                                        <span class="flex items-center justify-center cursor-pointer text-white bg-[#749CC799]/60 rounded-[20px] pl-[16px] pr-[16px] h-[33px] text-[14px] font-[500] font-['Quicksand'] transition duration-300 hover:scale-[1.03] max-[1200px]:w-[152px] max-[1200px]:text-[11px] 
+                                        <span class="flex items-center justify-center cursor-pointer text-white bg-[#749CC799]/60 rounded-[20px] pl-[16px] pr-[16px] h-[33px] text-[14px] font-[500] font-['Quicksand'] transition duration-300 hover:scale-[1.03] lg:w-[152px] lg:text-[11px] 
                                      ">iView - real-time view</span>
-                                        <span class="flex items-center justify-center cursor-pointer text-white bg-[#749CC799]/60 rounded-[20px] w-[373px] h-[33px] text-[14px] font-[500] font-['Quicksand'] transition duration-300 hover:scale-[1.03] max-[1200px]:w-[281px] max-[1200px]:text-[11px]">iAPI - frontend application programming interface</span>
+                                        <span class="flex items-center justify-center cursor-pointer text-white bg-[#749CC799]/60 rounded-[20px] w-[373px] h-[33px] text-[14px] font-[500] font-['Quicksand'] transition duration-300 hover:scale-[1.03] lg:w-[281px] lg:text-[11px]">iAPI - frontend application programming interface</span>
                                     </div>
                                 </div>
                             </div>
@@ -385,15 +385,15 @@ const cardTransformFourthRightTop = computed(() => {
                                 }"                                 
                                 class=" flex flex-col bg-[#FFFFFF33] items-center justify-center rounded-[20px] w-full h-[87px] mb-[15px] blockHover"
                                 >
-                                <span class="text-[#EC474E] text-[14px] font-['Quicksand'] mb-[10px] font-[700] max-[1200px]:text-[12px]">Web3 Protocols</span>
+                                <span class="text-[#EC474E] text-[14px] font-['Quicksand'] mb-[10px] font-[700] lg:text-[12px]">Web3 Protocols</span>
                                 <div class="flex items-center gap-[8px]">
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[60px]  max-[1200px]:text-[11px] ">iSwap</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[60px] max-[1200px]:text-[11px]">iPeg</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[60px] max-[1200px]:text-[11px]">iNFT</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[60px] max-[1200px]:text-[11px]">iLoan</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[60px] max-[1200px]:text-[11px]">iGamble</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[60px] max-[1200px]:text-[11px]">iFund</span>
-                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[60px] max-[1200px]:text-[11px]">iDAO</span>        
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[60px]  lg:text-[11px] ">iSwap</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[60px] lg:text-[11px]">iPeg</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[60px] lg:text-[11px]">iNFT</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[60px] lg:text-[11px]">iLoan</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[60px] lg:text-[11px]">iGamble</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[60px] lg:text-[11px]">iFund</span>
+                                    <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[16px] pl-[16px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[60px] lg:text-[11px]">iDAO</span>        
                                 </div>   
                                 
                             </div>
@@ -408,20 +408,20 @@ const cardTransformFourthRightTop = computed(() => {
                                 }"  
                                 class=" flex flex-col items-center bg-[#FFFFFF33] rounded-[20px] w-full h-[176px] mb-[15px] blockHover"
                              >
-                                <div class="flex flex-row mt-[20px] gap-[36px] max-[1200px]:gap-[24px]">
+                                <div class="flex flex-row mt-[20px] gap-[36px] lg:gap-[24px]">
                                     <div class="flex flex-col gap-[9px]">
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[246px] max-[1200px]:text-[11px] ">iOff - offchain prover</span>
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[246px] max-[1200px]:text-[11px]">iwait - Triggers platform</span>
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[246px] max-[1200px]:text-[11px]">iPrize - prize based defered execution</span>
+                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[246px] lg:text-[11px] ">iOff - offchain prover</span>
+                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[246px] lg:text-[11px]">iwait - Triggers platform</span>
+                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[246px] lg:text-[11px]">iPrize - prize based defered execution</span>
                                     </div>
 
                                     <div class="flex flex-col gap-[9px]">
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[246px] max-[1200px]:text-[11px]">iRemote - provable remote chain reader</span>
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[246px] max-[1200px]:text-[11px]">iLater - Continuations system</span>
-                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[246px] max-[1200px]:text-[11px]">iLink - Provable Web Link</span>
+                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[246px] lg:text-[11px]">iRemote - provable remote chain reader</span>
+                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[246px] lg:text-[11px]">iLater - Continuations system</span>
+                                        <span class="flex items-center w-[289px] justify-center text-white bg-[#749CC799]/60 rounded-[20px] pl-[20px] pr-[20px] h-[33px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[246px] lg:text-[11px]">iLink - Provable Web Link</span>
                                     </div>
                                 </div>
-                                <span class="text-[#EC474E] text-[400] font-['Quicksand'] mt-[10px] mb-[9px] font-[700] text-[14px] max-[1200px]:text-[12px]">iEnv -Basic Smart Contract Building blocks </span>
+                                <span class="text-[#EC474E] text-[400] font-['Quicksand'] mt-[10px] mb-[9px] font-[700] text-[14px] lg:text-[12px]">iEnv -Basic Smart Contract Building blocks </span>
                             </div>
                             <!--third card -->
 
@@ -430,14 +430,14 @@ const cardTransformFourthRightTop = computed(() => {
                                 class=" flex gap-[6px] mb-[15px] w-full h-[73px] "
                              >
                                 <div 
-                                    class="flex w-[148px] items-center justify-center bg-[#FFFFFF33] rounded-[20px] h-full text-white text-center blockHover max-[1200px]:w-[128px] max-[1200px]:h-[62px] "
+                                    class="flex w-[148px] items-center justify-center bg-[#FFFFFF33] rounded-[20px] h-full text-white text-center blockHover lg:w-[128px] lg:h-[62px] "
                                     ref="fourthLeftTopCard"
                                     :style="{
                                         transform: cardTransformFourthLeftTopRight,
                                         transition: 'transform 0.25s ease-out'
                                     }"  
                                 >
-                                   <p class="text-white text-[14px] font-[500] font-['Quicksand'] leading-[20px] w-[100%] max-[1200px]:text-[11px] max-[1200px]:leading-[12px]">Low level and transpiled contracts</p> 
+                                   <p class="text-white text-[14px] font-[500] font-['Quicksand'] leading-[20px] w-[100%] lg:text-[11px] lg:leading-[12px]">Low level and transpiled contracts</p> 
                                 </div>
 
                                 <div 
@@ -449,11 +449,11 @@ const cardTransformFourthRightTop = computed(() => {
                                     }" 
                                 >
                                     <div class="flex items-center gap-[15px] mt-[10px]">
-                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[111px] h-[33px] text-[14px] font-[500] font-['Quicksand'] pb-[3px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[94px] max-[1200px]:text-[11px]">Asyncify</span>
-                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[111px] h-[33px] text-[14px] font-[500] font-['Quicksand'] pb-[3px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[94px] max-[1200px]:text-[11px]">Optimizer</span>
-                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[205px] h-[33px] text-[14px] font-[500] font-['Quicksand'] pb-[3px] cursor-pointer transition duration-300 hover:scale-[1.03] max-[1200px]:w-[170px] max-[1200px]:text-[11px]">iRPC definitions extraction</span>
+                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[111px] h-[33px] text-[14px] font-[500] font-['Quicksand'] pb-[3px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[94px] lg:text-[11px]">Asyncify</span>
+                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[111px] h-[33px] text-[14px] font-[500] font-['Quicksand'] pb-[3px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[94px] lg:text-[11px]">Optimizer</span>
+                                        <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[205px] h-[33px] text-[14px] font-[500] font-['Quicksand'] pb-[3px] cursor-pointer transition duration-300 hover:scale-[1.03] lg:w-[170px] lg:text-[11px]">iRPC definitions extraction</span>
                                     </div> 
-                                    <span class="text-[#EC474E] text-[14px] font-[700] font-['Quicksand'] mt-[3px] mb-[3px] max-[1200px]:text-[12px]">iWASM Transpiler</span>
+                                    <span class="text-[#EC474E] text-[14px] font-[700] font-['Quicksand'] mt-[3px] mb-[3px] lg:text-[12px]">iWASM Transpiler</span>
                                 </div>
                             </div>
                             <!--fourth card -->
@@ -467,24 +467,24 @@ const cardTransformFourthRightTop = computed(() => {
                                 }"  
                                 class=" flex flex-col mb-[15px] items-center bg-[#FFFFFF33] rounded-[20px] w-full h-[151px] blockHover"
                              >
-                                <span class="text-[#EC474E] text-[14px] font-[700] font-['Quicksand'] mt-[6px] mb-[8px] max-[1200px]:text-[12px]">iVM</span>
-                                <div class="flex bg-white/20 rounded-[20px] h-[44px] w-[559px] justify-center items-center mb-[5px] px-[20px] max-[1200px]:w-[476px]">
-                                    <span class="text-[14px] text-center text-white font-['Quicksand'] font-[500] w-[100px] leading-[15px] my-[10px] max-[1200px]:text-[11px]">iWASM Transpiler</span>
+                                <span class="text-[#EC474E] text-[14px] font-[700] font-['Quicksand'] mt-[6px] mb-[8px] lg:text-[12px]">iVM</span>
+                                <div class="flex bg-white/20 rounded-[20px] h-[44px] w-[559px] justify-center items-center mb-[5px] px-[20px] lg:w-[476px]">
+                                    <span class="text-[14px] text-center text-white font-['Quicksand'] font-[500] w-[100px] leading-[15px] my-[10px] lg:text-[11px]">iWASM Transpiler</span>
                                     <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[132px] mr-[11px] h-[25px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">Gas Metering</span>
                                     <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[132px] mr-[11px] h-[25px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">SoftFloat</span>
                                     <span class="flex items-center justify-center text-white bg-[#749CC799]/60 rounded-[20px] w-[154px] h-[25px] font-[500] text-[14px] cursor-pointer transition duration-300 hover:scale-[1.03]">SoftFloat</span>
                                 </div>
-                                <div class="flex bg-white/20 rounded-[20px] h-[29px] w-[559px] justify-center items-center mb-[3px]  max-[1200px]:w-[476px]">
-                                    <span class="text-white font-['Quicksand'] font-[500] text-[14px] text-center max-[1200px]:text-[11px]">WAVM -Fastest WebAssembly Virtual Machine</span>
+                                <div class="flex bg-white/20 rounded-[20px] h-[29px] w-[559px] justify-center items-center mb-[3px]  lg:w-[476px]">
+                                    <span class="text-white font-['Quicksand'] font-[500] text-[14px] text-center lg:text-[11px]">WAVM -Fastest WebAssembly Virtual Machine</span>
                                 </div>
 
-                                <div class="flex bg-white/20  rounded-[20px] h-[28px] w-[559px] justify-center items-center  max-[1200px]:w-[476px]">
-                                    <span class=" text-white font-['Quicksand'] font-[500] text-[14px] text-center max-[1200px]:text-[11px]">Contract linking and communitation layer</span>
+                                <div class="flex bg-white/20  rounded-[20px] h-[28px] w-[559px] justify-center items-center  lg:w-[476px]">
+                                    <span class=" text-white font-['Quicksand'] font-[500] text-[14px] text-center lg:text-[11px]">Contract linking and communitation layer</span>
                                 </div>
 
                             </div>
 
-                            <img src="../../assets/images/platform/arrow8.png" class="translate-y-[-77px] bottom-0 translate-x-[-177px]  absolute max-[1200px]:w-[150px] max-[1200px]:translate-x-[-140px]" alt="">
+                            <img src="../../assets/images/platform/arrow8.png" class="translate-y-[-77px] bottom-0 translate-x-[-177px]  absolute lg:w-[150px] lg:translate-x-[-140px]" alt="">
                             <!--five card -->
                         </div>
                         <!-- main block wrapper-->
@@ -501,21 +501,21 @@ const cardTransformFourthRightTop = computed(() => {
             <div class="flex flex-col translate-y-[-90px] ">
                 <!--bottom arrow-->
                 <div class="flex relative translate-y-[190px]">
-                    <img src="../../assets/images/platform/arrow5.png" class="translate-y-[-205px] translate-x-[160px] absolute max-[1200px]:w-[350px]" alt="">
-                    <img src="../../assets/images/platform/arrow6(1).svg" class="translate-y-[-215px] translate-x-[890px] h-[35px] max-[1200px]:translate-x-[750px]" alt="">
-                    <img src="../../assets/images/platform/arrow6(1).svg" class="translate-y-[-215px] translate-x-[450px] h-[35px] max-[1200px]:translate-x-[374px]" alt="">
-                    <img src="../../assets/images/platform/arrow7(1).svg" class="translate-y-[-215px] translate-x-[620px] max-[1200px]:translate-x-[515px] " alt="">
+                    <img src="../../assets/images/platform/arrow5.png" class="translate-y-[-205px] translate-x-[160px] absolute lg:w-[350px]" alt="">
+                    <img src="../../assets/images/platform/arrow6(1).svg" class="translate-y-[-215px] translate-x-[890px] h-[35px] lg:translate-x-[750px]" alt="">
+                    <img src="../../assets/images/platform/arrow6(1).svg" class="translate-y-[-215px] translate-x-[450px] h-[35px] lg:translate-x-[374px]" alt="">
+                    <img src="../../assets/images/platform/arrow7(1).svg" class="translate-y-[-215px] translate-x-[620px] lg:translate-x-[515px] " alt="">
                 </div>
                 <!--bottom arrow-->
                 
                 <!--bottom block-->
-                <div class="flex bg-[#749CC733]/20 rounded-[20px] h-[60px] translate-x-[30px] translate-y-[-5px] justify-center relative w-[1005px] max-[1200px]:w-[841px]">
+                <div class="flex bg-[#749CC733]/20 rounded-[20px] h-[60px] translate-x-[30px] translate-y-[-5px] justify-center relative w-[1005px] lg:w-[841px]">
                     <div class="flex w-[95%] items-center justify-between gap-[24px] translate-y-[-30px]">
-                        <span class="flex items-center justify-center text-white bg-[#749CC7] rounded-[20px] w-[219px] h-[33px] font-['Quicksand'] font-[500] text-[14px] max-[1200px]:text-[12px]">Accounts</span>
-                        <span class="flex items-center justify-center text-white bg-[#749CC7] rounded-[20px] w-[219px] h-[33px] font-['Quicksand'] font-[500] text-[14px] max-[1200px]:text-[12px]">Assets</span>
-                        <span class="flex items-center justify-center text-white bg-[#749CC7] rounded-[20px] w-[219px] h-[33px] font-['Quicksand'] font-[500] text-[14px] max-[1200px]:text-[12px]">Code</span>
-                        <span class="flex items-center justify-center text-white bg-[#749CC7] rounded-[20px] w-[219px] h-[33px] font-['Quicksand'] font-[500] text-[14px] max-[1200px]:text-[12px]">Key-Vaylue Data</span>
-                        <span class="absolute text-[#EC474E] top-[55px] left-[45.4%] font-['Quicksand'] font-[700] text-[14px] max-[1200px]:text-[12px]">Ledger Storage</span>
+                        <span class="flex items-center justify-center text-white bg-[#749CC7] rounded-[20px] w-[219px] h-[33px] font-['Quicksand'] font-[500] text-[14px] lg:text-[12px]">Accounts</span>
+                        <span class="flex items-center justify-center text-white bg-[#749CC7] rounded-[20px] w-[219px] h-[33px] font-['Quicksand'] font-[500] text-[14px] lg:text-[12px]">Assets</span>
+                        <span class="flex items-center justify-center text-white bg-[#749CC7] rounded-[20px] w-[219px] h-[33px] font-['Quicksand'] font-[500] text-[14px] lg:text-[12px]">Code</span>
+                        <span class="flex items-center justify-center text-white bg-[#749CC7] rounded-[20px] w-[219px] h-[33px] font-['Quicksand'] font-[500] text-[14px] lg:text-[12px]">Key-Vaylue Data</span>
+                        <span class="absolute text-[#EC474E] top-[55px] left-[45.4%] font-['Quicksand'] font-[700] text-[14px] lg:text-[12px]">Ledger Storage</span>
                     </div>
                 </div>
             </div>
@@ -524,7 +524,7 @@ const cardTransformFourthRightTop = computed(() => {
         <!-- -------------desktop version --------------- -->
 
         <!-- -------------mobile version --------------- -->
-        <div class="hidden flex-col w-[310px] relative justify-between max-[450px]:flex ">
+        <div class="hidden flex-col w-[310px] relative justify-between sm:flex ">
             <!--arrows-->            
                 <img class="left-[86px] top-[80px] absolute " src="../../assets/icons/mobile/ecosytem/arrow_top_right_for_mobile.svg" alt=""/>
                 <img class="left-[-10px] top-[10px] h-[167px]  absolute" src="../../assets/images/ecosystem/first_col_arrow_1.svg" alt=""/>

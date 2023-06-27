@@ -41,11 +41,11 @@ const handleSetVisibleBlock = (block) => {
                 delay: 1000,
             },
         }"
-        class="flex flex-col items-center w-full mt-[130px] max-w-[1456px] mx-auto my-0 max-[1420px]:max-w-auto"   
+        class="flex flex-col items-center w-full mt-[130px] max-w-[1456px] mx-auto my-0 xl:max-w-auto"   
      >
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[77px] translate-y-[2px] translate-x-[-5px]
-        max-[1420px]:text-[22px] max-[1420px]:mb-[30px]">Perhaps the best project in web 3.0</h2>
-        <div class="flex flex-col flex-wrap w-full gap-[38px] max-[1420px]:hidden">
+        xl:text-[22px] xl:mb-[30px]">Perhaps the best project in web 3.0</h2>
+        <div class="flex flex-col flex-wrap w-full gap-[38px] xl:hidden">
             <!--first row-->
             <div class="flex flex-row justify-between w-full min-h-[200px]">
                 <div @mouseover="handleSetVisibleBlock(1)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center relative min-w-[250px] max-w-[250px]">
@@ -131,7 +131,7 @@ const handleSetVisibleBlock = (block) => {
             </div>
             <!--second row-->
         </div>
-        <div class="flex gap-[64px] mt-[50px] max-[1420px]:hidden">
+        <div class="flex gap-[64px] mt-[50px] xl:hidden">
             <button class="flex pl-[20px] pb-[10px] w-[211px] pt-[10px] pr-[10px] h-[44px] items-center justify-center font-['Barlow sans-serif'] bg-[#EC474E] transition-all rounded-[20px] hover:bg-transparent hover:border-[2px] hover:border-[#EC474E]">
                 <span class="text-[16px] font-[500] uppercase text-white font-['Barlow]">Wallet</span>
                 <img class="pt-[0] ml-[15px]" src="~/assets/icons/arrow_right_white.svg"/>
@@ -143,7 +143,7 @@ const handleSetVisibleBlock = (block) => {
         </div>
 
         <!--mobile version-->
-        <div class="flex-col hidden flex-wrap w-[343px] gap-[38px] max-[1420px]:flex">
+        <div class="flex-col hidden flex-wrap w-[343px] gap-[38px] xl:flex">
                 <div class="flex flex-col items-center justify-center relative w-[343px]">
                     <img src="~/assets/icons/advantages/home_icon.svg"/>
                     <span class="text-[12px] font-[700] text-white mt-[10px] font-['Inter']">Growth Potential</span>
