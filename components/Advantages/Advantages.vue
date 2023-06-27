@@ -41,29 +41,33 @@ const handleSetVisibleBlock = (block) => {
                 delay: 1000,
             },
         }"
-        class="flex flex-col items-center w-full mt-[130px] max-w-[1456px] mx-auto my-0 max-[450px]:max-w-auto "   
+        class="flex flex-col items-center w-full mt-[130px] max-w-[1456px] mx-auto my-0 max-[450px]:max-w-auto max-[1450px]:max-w-[900px]"   
      >
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[77px] translate-y-[2px] translate-x-[-5px]
-        max-[450px]:text-[22px] max-[450px]:mb-[30px]">Perhaps the best project in web 3.0</h2>
-        <div class="flex flex-col flex-wrap w-full gap-[38px] max-[450px]:hidden">
+        max-[450px]:text-[22px] max-[450px]:mb-[30px] max-[1450px]:text-[26px] max-[1450px]:mb-[40px]">Perhaps the best project in web 3.0</h2>
+        <div class="flex flex-col flex-wrap w-full gap-[38px] max-[1450px]:gap-[20px] max-[450px]:hidden">
             <!--first row-->
-            <div class="flex flex-row justify-between w-full min-h-[200px]">
-                <div @mouseover="handleSetVisibleBlock(1)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center relative min-w-[250px] max-w-[250px]">
-                    <img src="~/assets/icons/advantages/home_icon.svg"/>
-                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow']">Growth Potential</span>
+            <div class="flex flex-row justify-between w-full min-h-[200px] max-[1450px]:">
+                <div @mouseover="handleSetVisibleBlock(1)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center relative min-w-[250px] max-w-[250px]
+                max-[1450px]:min-w-[150px] max-[1450px]:max-w-[150px]">
+                    <img src="~/assets/icons/advantages/home_icon.svg" class="max-[1450px]:w-[39px] max-[1450px]:h-[39px]"/>
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] max-[1450px]:text-[12px]">Growth Potential</span>
                     <Transition>
-                        <span v-show="visibleBlockState.block === 1" class="text-[14px]  font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto']   mt-[9px] ">Our mission is to create a next -
-                    generation cryptocurrency with high
-                    growth potential.</span>  
+                        <span v-show="visibleBlockState.block === 1" class="text-[14px] font-[400] leading-[22px] text-[#749DCA] text-center font-['Roboto'] mt-[9px] 
+                        max-[1450px]:text-[12px] max-[1450px]:leading-[13px]">
+                        Our mission is to create a next - generation cryptocurrency with high growth potential.
+                        </span>  
                     </Transition>
-                 <img src="../../assets/icons/advantages/line_1.png" alt="" class="absolute top-[25px] left-[180px]">
+                 <img src="../../assets/icons/advantages/line_1.png" alt="" class="absolute top-[25px] left-[180px] max-[1450px]:w-[142px] max-[1450px]:left-[100px]">
                 </div>
 
-                <div @mouseover="handleSetVisibleBlock(2)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center relative max-w-[250px] min-w-[250px]">
-                    <img src="~/assets/icons/advantages/drum_icon.svg"/>
-                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow']">Limited Edition Coins</span>
+                <div @mouseover="handleSetVisibleBlock(2)" @mouseleave="handleSetVisibleBlock(0)" class="flex flex-col items-center relative max-w-[250px] min-w-[250px]
+                max-[1450px]:min-w-[150px] max-[1450px]:max-w-[150px]">
+                    <img src="~/assets/icons/advantages/drum_icon.svg" class="max-[1450px]:w-[39px] max-[1450px]:h-[39px]"/>
+                    <span class="text-[16px] font-[600] text-white mt-[10px] font-['Barlow'] max-[1450px]:text-[12px]">Limited Edition Coins</span>
                                         <Transition>
-                                                <span v-show="visibleBlockState.block === 2" class="text-[14px] font-[400] leading-[22px] text-[#749DCA] font-['Roboto'] text-center   mt-[9px]">we offer a limited edition of 100 million coins and no more.</span>  
+                                                <span v-show="visibleBlockState.block === 2" class="text-[14px] font-[400] leading-[22px] text-[#749DCA] font-['Roboto'] text-center mt-[9px]">we offer a limited 
+                                                edition of 100 million coins and no more.</span>  
                                         </Transition>
                    
                     <img src="../../assets/icons/advantages/line_2.png" alt="" class="absolute top-[25px] left-[200px]">
