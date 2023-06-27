@@ -35,7 +35,8 @@
             },
         }"
       
-        class="flex flex-col items-center mt-[100px] h-[740px] max-w-[1400px] mx-auto max-[450px]:max-w-auto max-[450px]:hidden max-[1450px]:w-[900px] max-[1450px]:h-[500px] ">
+        class="flex flex-col items-center mt-[100px] h-[740px] max-w-[1400px] mx-auto max-[450px]:max-w-auto max-[450px]:hidden max-[1450px]:w-[900px] max-[1450px]:h-[500px]
+        max-[1450px]:mt-[40px] ">
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[50px] max-[1450px]:text-[26px]">ipi scan</h2>
 
 
