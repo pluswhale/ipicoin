@@ -4,14 +4,12 @@ import {dynamicColumnsInTable, generateTextCoinInSwitch, generateIconInSwitch} f
 const switchBlockState = ref([0,1,2]);
 
 const incrementSwitchBlock = () => {
-
-    console.log("state", switchBlockState.value);
-
     if (switchBlockState.value[2] === 6) {
         return;
     } else {
-        console.log("im here");
-        switchBlockState.value = [4,5,6]
+        switchBlockState.value[0] = switchBlockState.value[0] + 1;
+        switchBlockState.value[1] = switchBlockState.value[1] + 1;
+        switchBlockState.value[2] = switchBlockState.value[2] + 1;
     }
 };
 
@@ -19,7 +17,9 @@ const decrementSwitchBlock = () => {
     if (switchBlockState.value[0] === 0) {
         return;
     } else {
-        switchBlockState.value = [0,1,2]
+        switchBlockState.value[0] = switchBlockState.value[0] - 1;
+        switchBlockState.value[1] = switchBlockState.value[1] - 1;
+        switchBlockState.value[2] = switchBlockState.value[2] - 1;
     }
 };
     
@@ -30,7 +30,7 @@ const decrementSwitchBlock = () => {
             <div class="flex w-full flex-col bg-white/10  backdrop-blur-sm rounded-[20px] graph">
                 <div class="flex flex-col self-end items-end w-[405px]" >
                     <div class="flex flex-row mt-[27px] w-full justify-between">
-                        <div class="flex flex-col items-center mr-[38px]">
+                        <div class="flex flex-col items-center">
                             <span class=" text-white text-[12px] font-[700] font-['Inter'] h-[26px] ">IPI</span>
                             <img class="w-[27px] h-[27px] " src="~/assets/icons/out_advantages/ipi_coin.svg"/>
                         </div>

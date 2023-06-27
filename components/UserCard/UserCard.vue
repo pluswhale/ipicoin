@@ -34,7 +34,7 @@
                 delay: 1000,
             },
         }"    
-        class="flex flex-col items-center max-w-[1360px] mx-auto my-0 max-[450px]:hidden"
+        class="flex flex-col items-center max-w-[1360px] mx-auto my-0 max-[960px]:hidden"
      >
     <!--block 1-->
     <div v-if="state.block === 1" class="flex flex-col items-center max-w-[1360px] mx-auto my-0">
@@ -511,9 +511,9 @@
                 delay: 1000,
             },
         }"    
-        class="hidden items-center w-full justify-center mb-[83px] max-[450px]:flex  "
+        class="hidden items-center w-full justify-center mb-[83px] max-[960px]:flex  "
      >
-        <div class="flex w-[343px] gap-[10px] overflow-x-scroll overflow-y-hidden no-scrollbar">
+        <div class="flex gap-[10px] overflow-x-scroll overflow-y-hidden no-scrollbar max-[960px]:w-[550px] max-[550px]:w-[343px]">
             <div class="flex flex-col min-w-[284px] h-[130px] px-[18px] py-[17px]  bg-[#FFFFFF]/5 rounded-[12px]  relative">
                 <div class="flex items-center">
                     <img class="h-[17px]" src="../../assets/icons/CardUser/User-5.png" alt="User">
