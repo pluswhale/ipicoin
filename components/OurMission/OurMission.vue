@@ -36,24 +36,24 @@
         }"
       
         class="flex flex-col items-center mt-[100px] h-[740px] max-w-[1400px] mx-auto sm:max-w-auto sm:hidden xl:w-[900px] xl:h-[500px]
-        xl:mt-[40px] ">
-        <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[50px] xl:text-[26px]">ipi scan</h2>
+        xl:mt-[40px] md:w-[560px] md:h-[480px] ">
+        <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[50px] xl:text-[26px] md:text-[22px]">ipi scan</h2>
 
 
         <!-- Searc block -->
-        <div class="flex w-full items-center h-[48px] bg-white/10 rounded-[10px] px-[20px] justify-between mb-[20px] xl:h-[40px] xl:mb-[10px]" >
+        <div class="flex w-full items-center h-[48px] bg-white/10 rounded-[10px] px-[20px] justify-between mb-[20px] xl:h-[40px] xl:mb-[10px] md:h-[40px] md:mb-[5px] md:px-[10px] md:py-[6px]" >
 
             <div class="flex gap-[5px]">
-               <img src="~/assets/images/IpiScan/search.png" alt="" class="mr-[17px]">  
+               <img src="~/assets/images/IpiScan/search.png" alt="" class="mr-[17px] md:mr-[11px] md:w-[16px]">  
 
                <input type="text"  placeholder="Search by Token / Account / Contract / Block" class="placeholder:text-[#E0E0E0] placeholder:font-['Lato'] placeholder:font-[400] placeholder:text-[14px] 
-               outline-none w-[500px] bg-transparent text-[#E0E0E0] font-['Lato'] font-[400] text-[14px] xl:placeholder:text-[12px] xl:text-[12px]">
+               outline-none w-[500px] bg-transparent text-[#E0E0E0] font-['Lato'] font-[400] text-[14px] xl:placeholder:text-[12px] xl:text-[12px] md:placeholder:text-[10px] md:w-[300px]">
             </div>
 
             <div class="flex items-center">
-                <p class=" font-['Lato'] font-[400] text-[#E0E0E0] text-[20px] mr-[20px] xl:text-[18px]">|</p>
-                <p class="font-['Lato'] font-[400] text-[#E0E0E0] text-[14px] mr-[7px] xl:text-[12px]">All Filters</p>
-                <img src="~/assets/images/IpiScan/chevron-down.png" alt="" class="mt-[3px] cursor-pointer">
+                <p class=" font-['Lato'] font-[400] text-[#E0E0E0] text-[20px] mr-[20px] xl:text-[18px] md:text-[15px]">|</p>
+                <p class="font-['Lato'] font-[400] text-[#E0E0E0] text-[14px] mr-[7px] xl:text-[12px] md:text-[10px] md:mr-[5px] md:mt-[3px]">All Filters</p>
+                <img src="~/assets/images/IpiScan/chevron-down.png" alt="" class="mt-[3px] cursor-pointer md:w-[12px]">
             </div>
 
         </div>
@@ -93,12 +93,12 @@
          </div> <!-- /Trending Search -->
 
          <!-- Index block -->
-            <div class="flex w-full items-center justify-between mb-[36px] xl:gap-[15px] xl:mb-[24px]">
+            <div class="flex w-full items-center justify-between mb-[36px] xl:gap-[15px] xl:mb-[24px] md:flex-col md:justify-start md:w-[560px] md:items-baseline">
 
-                <div class="flex flex-col min-w-[881px] min-h-[175px] bg-white/10 rounded-[10px] xl:min-w-[590px] xl:min-h-[117px]">
+                <div class="flex flex-col min-w-[881px] min-h-[175px] bg-white/10 rounded-[10px] xl:min-w-[590px] xl:min-h-[117px] md:min-h-[110px] md:min-w-[560px] md:w-[560px]">
 
-                   <div class="flex w-full justify-between mt-[25px] xl:mt-[16px]"> <!--first line total-->
-                        <div class="flex items-center w-[420px] justify-between ml-[20px] xl:ml-[13px]"><!-- Total 1 -->
+                   <div class="flex w-full justify-between mt-[25px] xl:mt-[16px] md:min-w-[560px]"> <!--first line total-->
+                        <div class="flex items-center w-[420px] justify-between ml-[20px] xl:ml-[13px] "><!-- Total 1 -->
                             <div class="flex"> 
                                 <img src="~/assets/images/IpiScan/accountIco-1.png" class="xl:w-[26px] xl:h-[26px]" alt="" >   
 
@@ -180,9 +180,9 @@
             
                 </div>
 
-                <div class="flex min-w-[427px] items-end min-h-[175px] bg-white/10 rounded-[10px] px-[20px] xl:min-w-[287px] xl:min-h-[117px]"><!--Schedule price-->
+                <div class="flex min-w-[427px] items-end min-h-[175px] bg-white/10 rounded-[10px] px-[20px] xl:min-w-[287px] xl:min-h-[117px] md:min-w-[560px] md:w-[560px]"><!--Schedule price-->
 
-                    <div class="flex flex-col w-[286px] xl:w-[280px]"><!-- shedule -->
+                    <div class="flex flex-col w-[286px] xl:w-[280px] md:translate-x-[50px]"><!-- shedule -->
 
                         <div class="flex flex-col absolute w-[177px] translate-x-[85px] translate-y-[-25px] xl:translate-y-[-7px] xl:translate-x-[39px] ">
                             <p class="font-['Inter'] font-[400] text-[#749DCA] text-[14px] xl:text-[10px]">Current price IPI</p>
@@ -217,15 +217,15 @@
 
                     </div> <!--/shedule --> 
 
-                    <div class="flex flex-col w-[126px] translate-y-[-55px] xl:translate-y-[-30px] xl:translate-x-[-11px]"><!--shedule text -->
+                    <div class="flex flex-col w-[126px] translate-y-[-55px] xl:translate-y-[-30px] xl:translate-x-[-11px] md:w-[136px] md:translate-x-[20px]"><!--shedule text -->
                         <div class="flex items-center justify-between w-full mb-[5px]">
-                            <p class="font-['Inter'] font-[400] text-[#749DCA] text-[12px] xl:text-[9px] xl:w-[60px]">Volume (24h):</p>
-                            <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px] xl:text-[9px]">$233.8</p>
+                            <p class="font-['Inter'] font-[400] text-[#749DCA] text-[12px] xl:text-[9px] xl:w-[60px] md:text-[13px] md:w-[92px]">Volume (24h):</p>
+                            <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px] xl:text-[9px] md:text-[13px]">$233.8</p>
                         </div>
 
                         <div class="flex items-center justify-between w-full">
-                            <p class="font-['Inter'] font-[400] text-[#749DCA] text-[12px] xl:text-[9px]">Market Cap :</p>
-                            <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px] xl:text-[9px]">$6.20</p>
+                            <p class="font-['Inter'] font-[400] text-[#749DCA] text-[12px] xl:text-[9px] md:text-[13px] md:w-[100px]">Market Cap :</p>
+                            <p class="font-['Inter'] font-[400] text-[#FFFFFF] text-[12px] xl:text-[9px] md:text-[13px]">$6.20</p>
                         </div>
                     </div><!--/shedule text-->
 
@@ -236,12 +236,12 @@
          <!-- /Index block -->
 
         <div class="flex flex-col w-full mb-[50px] xl:mb-[39px]"><!--Recent Blocks-->
-            <p class="font-['Inter'] font-[600] text-[#E0E0E0] text-[20px] mb-[10px] xl:mb-[6px] xl:text-[14px]">Recent Blocks</p>
+            <p class="font-['Inter'] font-[600] text-[#E0E0E0] text-[20px] mb-[10px] xl:mb-[6px] xl:text-[14px] md:text-[13px]">Recent Blocks</p>
 
-            <div class="flex w-full justify-between"><!-- recend cards -->
+            <div class="flex w-full justify-between md:justify-center md:gap-[10px]"><!-- recend cards -->
 
                 <div class="flex w-[305px] h-[120px] bg-white/10 rounded-[10px] px-[24px] pt-[20px] pb-[24px] xl:w-[205px] 
-                xl:px-[16px] xl:py-[14px] xl:h-[81px]"><!-- card 1 -->
+                xl:px-[16px] xl:py-[14px] xl:h-[81px] md:w-[205px]"><!-- card 1 -->
                     <div class="flex flex-col h-full w-[50%] items-start">
                        <div class="flex flex-col mb-[20px] xl:mb-[14px]">
                             <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[16px] xl:text-[10px]">#50981505</p>
@@ -317,7 +317,7 @@
                 </div><!-- /card 3 -->
 
                 <div class="flex w-[305px] h-[120px] bg-white/10 rounded-[10px] px-[24px] pt-[20px] pb-[24px] xl:w-[205px] 
-                xl:px-[16px] xl:py-[14px] xl:h-[81px]"><!-- card 4 -->
+                xl:px-[16px] xl:py-[14px] xl:h-[81px] md:hidden"><!-- card 4 -->
                     <div class="flex flex-col h-full w-[50%] items-start">
                        <div class="flex flex-col mb-[20px] xl:mb-[14px]">
                             <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[16px] xl:text-[10px]">#50981505</p>
@@ -345,7 +345,7 @@
          
          </div><!--/Recent Blocks-->
 
-            <div class="flex w-full justify-center items-center">
+            <div class="flex w-full justify-center items-center md:hidden">
                 <button class=" flex items-center justify-center w-[211px] h-[48px] bg-[#EC474E] rounded-[20px] xl:w-[166px] xl:h-[30px]">
                     <p class="font-['Inter'] font-[700] text-[#FFFFFF] text-[16px] uppercase mr-[5px] xl:text-[12px]">scaner</p>
                     <img src="~/assets/images/IpiScan/arrow-right.png" alt="" class="xl:w-[29px]">
@@ -355,7 +355,7 @@
 
       <!-- Mobile Version -->
 
-    <div class="h-[740px] max-w-[1400px] hidden sm:flex sm:flex-col sm:items-center sm:mt-[20px] sm:mx-[auto]">
+    <div class="h-[740px] max-w-[1400px] hidden sm:flex sm:flex-col sm:items-center sm:mt-[80px] sm:mx-[auto]">
          <h2 class="text-white uppercase text-[22px] font-[700] font-['Big_Shoulders_Stencil_Text']  mb-[50px]">ipi scan</h2>
         <div class="flex items-center h-[48px] mb-[20px]">
             <div class="flex w-[308px]  bg-white/10 px-[20px] h-[40px] items-center rounded-[10px] mr-[10px]">
