@@ -20,8 +20,8 @@ const blockQueueInterval = setInterval(() => {
 </script>
 
 <template>
-    <div class="flex flex-wrap ml-[0] sm:mx-auto sm">
-        <div class="flex mt-[72px] flex-col sm:mt-[15px] sm:w-[200px] sm:translate-x-[20px]">
+    <div class="flex flex-wrap ml-[0] sm:w-[200px] ">
+        <div class="flex mt-[72px] flex-col sm:mt-[15px] sm:w-[200px]">
             <!-- main title block-->
 
             <!--first text block-->
