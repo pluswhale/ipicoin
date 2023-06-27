@@ -2,7 +2,7 @@
     <div class="flex max-[910px]:flex-col max-[910px]:items-center">
 
         <!--row of advantages-->
-        <div class="flex flex-col gap-[10px] max-w-[570px] h-[650px] max-[1200px]:max-w-[500px] max-[910px]:gap-[0px]">
+        <div class="flex flex-col gap-[10px] max-w-[570px] h-[650px] max-[1200px]:max-w-[500px] max-[910px]:gap-[0px] max-[550px]:w-fit">
             <div class="flex items-center">
                 <img class="mr-[26px]" src="~/assets/icons/arrow-right.svg"/>
                 <span class="text-[#97AFD5] text-[16px] font-[400] font-['Roboto sans-serif'] max-[1200px]:text-[13px] max-[1200px]:text-[white]">New generation cryptocurrency with high potential for growth and utility.
