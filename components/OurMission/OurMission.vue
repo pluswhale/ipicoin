@@ -35,7 +35,7 @@
             },
         }"
       
-        class="flex flex-col items-center mt-[100px] h-[740px] max-w-[1400px] mx-auto max-[1420px]:max-w-auto max-[1420px]:hidden">
+        class="flex flex-col items-center mt-[100px] h-[740px] max-w-[1400px] mx-auto xl:max-w-auto xl:hidden">
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[50px]">ipi scan</h2>
 
 
@@ -347,7 +347,7 @@
 
       <!-- Mobile Version -->
 
-    <div class="h-[740px] max-w-[1400px] hidden max-[1420px]:flex max-[1420px]:flex-col max-[1420px]:items-center max-[1420px]:mt-[20px] max-[1420px]:mx-[auto]">
+    <div class="h-[740px] max-w-[1400px] hidden xl:flex xl:flex-col xl:items-center xl:mt-[20px] xl:mx-[auto]">
          <h2 class="text-white uppercase text-[22px] font-[700] font-['Big_Shoulders_Stencil_Text']  mb-[50px]">ipi scan</h2>
         <div class="flex items-center h-[48px] mb-[20px]">
             <div class="flex w-[308px]  bg-white/10 px-[20px] h-[40px] items-center rounded-[10px] mr-[10px]">
