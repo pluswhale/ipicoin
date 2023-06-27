@@ -10,7 +10,7 @@
     </div>
 
     <div class="hidden flex-col items-center w-full mt-[107px] h-[1130px] mx-auto my-0 md:flex sm:hidden md:mt-[70px]">
-        <h2 class="text-white uppercase text-[22px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[62px] translate-x-[-14px]">our advantages</h2>
+        <h2 class="text-white uppercase text-[22px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[20px] translate-x-[-14px]">our advantages</h2>
         <div class="flex w-[450px] border-b-[4px] gap-[10px] no-scrollbar border-b-[#749DCA] h-[80px] justify-center mb-[61px] relative">
             <button @click="setActiveButton(1)" :class="state.active_button === 1 ? 'button_activeMob' : 'button_unactiveMob'" >investors Comparison </button>
             <button @click="setActiveButton(2)" :class="state.active_button === 2 ? 'button_activeMob' : 'button_unactiveMob'">developers Comparison  </button>
@@ -20,7 +20,7 @@
     </div>
 
      <div class="hidden flex-col items-center w-full mt-[107px] max-w-[1400px] h-[1130px] mx-auto my-0 sm:flex md:mt-[70px]">
-        <h2 class="text-white uppercase text-[22px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[62px] translate-x-[-14px]">our advantages</h2>
+        <h2 class="text-white uppercase text-[22px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[20px] translate-x-[-14px]">our advantages</h2>
         <div class="flex w-screen border-b-[4px] gap-[10px] no-scrollbar border-b-[#749DCA] h-[40px] justify-center mb-[61px] relative">
             <button @click="setActiveButton(1)" :class="state.active_button === 1 ? 'button_activeMob' : 'button_unactiveMob'" >investors Comparison </button>
             <button @click="setActiveButton(2)" :class="state.active_button === 2 ? 'button_activeMob' : 'button_unactiveMob'">developers Comparison  </button>

@@ -1,8 +1,8 @@
 <template>
-    <div class="flex flex-col translate-x-[-10px] relative sm:mt-[43px] sm:mx-auto xl:translate-x-[0px] md:translate-x-[-166px] md:translate-y-[10px]">
+    <div class="flex flex-col translate-x-[-10px] relative sm:mt-[43px] xl:translate-x-[0px] md:translate-x-[-166px] md:translate-y-[10px] sm:w-[343px] sm:translate-x-[0]">
         <!--swap card-->
         <div class="h-[349px] px-[50px] ml-[20px] mt-[119px] py-[28px] w-[471px] bg-white/10 backdrop-blur-sm  rounded-[20px]
-        sm:h-[314px] sm:px-[37px] sm:w-[343px] sm:translate-x-[160px] sm:mt-[0]
+        sm:h-[314px] sm:px-[37px] sm:w-[343px] sm:mt-[0] sm:ml-[0]
         xl:h-[269px] xl:w-[363px] xl:px-[36px] xl:py-[23px] 
         md:h-[229px] md:w-[309px] md:px-[31px] md:pb-[20px] md:pt-[15px]
         ">
@@ -101,7 +101,7 @@
         <!--swap card-->
 
         <!--link line-->
-        <div class="flex items-center mt-[30px] justify-center w-full gap-[30px] ml-[20px] sm:mt-[22px] xl:mt-[39px] md:hidden">
+        <div class="flex items-center mt-[30px] justify-center w-full gap-[30px] ml-[20px] sm:mt-[22px] xl:mt-[39px] md:hidden sm:flex sm:ml-[0]">
             <div class="flex items-center">
                 <span class=" text-white font-[600] font-['Inter'] uppercase text-[14.5px] whitespace-nowrap sm:font-[400] xl:text-[13] xl:font[500px]">IPI SCANER</span>
                 <img src="~/assets/icons/arrow-right.svg"/>
