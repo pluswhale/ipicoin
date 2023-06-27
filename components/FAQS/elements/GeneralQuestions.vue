@@ -2,7 +2,7 @@
     <div class="flex  flex-col gap-[30px] w-full">
         <div class="flex pt-[20px] pb-[20px] pl-[30px] pr-[30px] flex-col w-full bg-white/5 justify-center rounded-[20px] min-h-[63.4px] relative ">
             <span :class="state.active_button.first ? 'question_active' : 'question_not_active'">What is an IPI Coin?</span>
-            <div class="text-[#97AFD5] text-[16px] font-['Roboto'] mt-[15px] max-w-[780px]" v-if="state.active_button.first">IPI Coin is an alternative to the expensive and unlimited supply ETH network and low-decentralized Smart Chain (Binance)</div>
+            <div class="text-[#97AFD5] text-[16px] font-['Roboto'] mt-[15px] max-w-[780px] max-[550px]:text-[14px]" v-if="state.active_button.first">IPI Coin is an alternative to the expensive and unlimited supply ETH network and low-decentralized Smart Chain (Binance)</div>
             <img v-if="!state.active_button.first" @click="setActiveButton('first')" class="absolute top-[15px] right-[10px] cursor-pointer" src="~/assets/images/faqs/plus_icon.svg"/>
             <img v-if="state.active_button.first" @click="setActiveButton('first')" class="absolute top-[15px] right-[10px] cursor-pointer" src="~/assets/images/faqs/minus_icon.svg"/>
         </div>
@@ -46,11 +46,17 @@ const setActiveButton = (block) => {
 
 <style lang="scss" scoped>
 
+
+
 .question_active {
  font-family: 'Quicksand';
  font-size: 18px;
  font-weight: 500;
  color: #F42F54;
+
+ @media (max-width:550px) {
+    font-size: 14px;
+ }
 
 }
 
@@ -59,6 +65,10 @@ const setActiveButton = (block) => {
  font-size: 18px;
  font-weight: 500;
  color: white;
+
+  @media (max-width:550px) {
+    font-size: 14px;
+ }
 
 }
 
