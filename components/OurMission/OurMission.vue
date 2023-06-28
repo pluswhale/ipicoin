@@ -36,7 +36,7 @@
         }"
       
         class="flex flex-col items-center mt-[100px] h-[740px] max-w-[1400px] mx-auto sm:max-w-auto sm:hidden xl:w-[900px] xl:h-[500px]
-        xl:mt-[40px] md:w-[560px] md:h-[480px] ">
+        xl:mt-[40px] md:w-[560px] md:h-[480px]">
         <h2 class="text-white uppercase text-[40px] font-[700] font-['Big_Shoulders_Stencil_Text'] mb-[50px] xl:text-[26px] md:text-[22px]">ipi scan</h2>
 
 
@@ -255,7 +255,7 @@
 
                     <div class="flex flex-col h-full w-[50%] items-end">
                         <div class="flex flex-col items-end">
-                            <div class="flex items-center w-[114px] h-[20px] bg-[#BDBDBD]/40 rounded-[5px] mb-[5px] xl:w-[60px] xl:h-[11px] xl:mb-[4px]">
+                            <div class="flex items-center w-[114px] h-[20px] bg-[#BDBDBD]/40 rounded-[5px] mb-[5px] xl:w-[60px] xl:h-[11px] xl:mb-[4px] xl:rounded-[3px]">
                                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] ml-[8px] xl:text-[8px] xl:ml-[4px]">Intelligence </p>
                             </div>
                             <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[12px] mb-[20px] xl:text-[8px] xl:mb-[13px]">381 IPI</p>
@@ -281,7 +281,7 @@
 
                     <div class="flex flex-col h-full w-[50%] items-end">
                         <div class="flex flex-col items-end">
-                            <div class="flex items-center w-[114px] h-[20px] bg-[#BDBDBD]/40 rounded-[5px] mb-[5px] xl:w-[60px] xl:h-[11px] xl:mb-[4px]">
+                            <div class="flex items-center w-[114px] h-[20px] bg-[#BDBDBD]/40 rounded-[5px] mb-[5px] xl:w-[60px] xl:h-[11px] xl:mb-[4px] xl:rounded-[3px]">
                                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] ml-[8px] xl:text-[7px] xl:mt-[1px] xl:ml-[4px]">Smart Consen </p>
                             </div>
                             <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[12px] mb-[20px] xl:text-[8px] xl:mb-[13px]">381 IPI</p>
@@ -306,7 +306,7 @@
 
                     <div class="flex flex-col h-full w-[50%] items-end">
                         <div class="flex flex-col items-end">
-                            <div class="flex items-center w-[114px] h-[20px] bg-[#BDBDBD]/40 rounded-[5px] mb-[5px] xl:w-[60px] xl:h-[11px] xl:mb-[4px]">
+                            <div class="flex items-center w-[114px] h-[20px] bg-[#BDBDBD]/40 rounded-[5px] mb-[5px] xl:w-[60px] xl:h-[11px] xl:mb-[4px] xl:rounded-[3px]">
                                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] ml-[8px] xl:text-[7px] xl:mt-[1px] xl:ml-[4px]">Smart Consen </p>
                             </div>
                             <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[12px] mb-[20px] xl:text-[8px] xl:mb-[13px]">381 IPI</p>
@@ -331,7 +331,7 @@
 
                     <div class="flex flex-col h-full w-[50%] items-end">
                         <div class="flex flex-col items-end">
-                            <div class="flex items-center w-[114px] h-[20px] bg-[#BDBDBD]/40 rounded-[5px] mb-[5px] xl:w-[60px] xl:h-[11px] xl:mb-[4px]">
+                            <div class="flex items-center w-[114px] h-[20px] bg-[#BDBDBD]/40 rounded-[5px] mb-[5px] xl:w-[60px] xl:h-[11px] xl:mb-[4px] xl:rounded-[3px]">
                                 <p class="font-['Inter'] font-[400] text-[#E0E0E0] text-[12px] ml-[8px] xl:text-[7px] xl:mt-[1px] xl:ml-[4px]">Smart Consen </p>
                             </div>
                             <p class="font-['Lato'] font-[700] text-[#E0E0E0] text-[12px] mb-[20px] xl:text-[8px] xl:mb-[13px]">381 IPI</p>
@@ -348,18 +348,19 @@
             <div class="flex w-full justify-center items-center md:hidden">
                 <button class=" flex items-center justify-center w-[211px] h-[48px] bg-[#EC474E] rounded-[20px] xl:w-[166px] xl:h-[30px]">
                     <p class="font-['Inter'] font-[700] text-[#FFFFFF] text-[16px] uppercase mr-[5px] xl:text-[12px]">scaner</p>
-                    <img src="~/assets/images/IpiScan/arrow-right.png" alt="" class="xl:w-[29px]">
+                    <img src="~/assets/images/IpiScan/arrow-right.png" alt="" class="xl:w-30px]">
                 </button>
             </div>
     </div>
 
       <!-- Mobile Version -->
 
-    <div class="h-[740px] max-w-[1400px] hidden sm:flex sm:flex-col sm:items-center sm:mt-[80px] sm:mx-[auto]">
+    <div class="h-[740px] max-w-[1400px] hidden sm:flex sm:flex-col sm:items-center sm:mt-[25px] sm:mx-[auto]">
          <h2 class="text-white uppercase text-[22px] font-[700] font-['Big_Shoulders_Stencil_Text']  mb-[50px]">ipi scan</h2>
         <div class="flex items-center h-[48px] mb-[20px]">
             <div class="flex w-[308px]  bg-white/10 px-[20px] h-[40px] items-center rounded-[10px] mr-[10px]">
-               <input type="text"  placeholder="Search by Token / Account / Contract / Block" class="placeholder:text-[#E0E0E0] placeholder:font-['Lato'] placeholder:font-[400] placeholder:text-[10px] outline-none w-[500px] bg-transparent text-[#E0E0E0] font-['Lato'] font-[400] text-[14px]">
+               <input type="text"  placeholder="Search by Token / Account / Contract / Block" class="placeholder:text-[#E0E0E0] placeholder:font-['Lato'] placeholder:font-[400] 
+               placeholder:text-[10px] outline-none w-[500px] bg-transparent text-[#E0E0E0] font-['Lato'] font-[400] text-[14px]">
                <img class="h-[24px] w-[24px]" src="~/assets/icons/mobile/our_mission/search_icon.svg" alt="" >  
             </div>
             <img src="~/assets/icons/mobile/our_mission/filter_icon.svg"/>

@@ -94,7 +94,7 @@ const decrementSwitchBlock = () => {
                             Team recognition
                         </div>
                     </div>
-                    <div class="flex flex-col">
+                    <div class="flex flex-col md:translate-y-[15px]">
                         <div class="flex items-center text-white text-center text-[11px] font-[300] font-['Inter'] mb-[21px] w-[50px] translate-x-[30px]">Available</div>
                         <div class="flex text-white text-center text-[11px] font-[500] font-['Inter'] h-[55px] ">&nbsp;</div>
                         <div class="flex items-center text-white text-center text-[11px] font-[300] font-['Inter'] mb-[0px] w-[50px] translate-x-[30px] h-[55px] mt-[2px]">Funded</div>
@@ -106,7 +106,8 @@ const decrementSwitchBlock = () => {
                         <div class="flex items-center text-white text-center text-[11px] font-[300] font-['Inter'] mb-[0px] w-[50px] translate-x-[35px] h-[55px] mt-[2px]">Strong</div>
                     </div>
                     <div class="flex flex-col">
-                        <div v-for="value in dynamicColumnsInTable?.[switchBlockState[0]]" class="flex items-center text-white text-left text-[11px] font-[300] font-['Inter'] mb-[0px] translate-x-[30px] h-[55px] mt-[2px]">
+                        <div v-for="value in dynamicColumnsInTable?.[switchBlockState[0]]" class="flex items-center text-white text-left text-[11px] font-[300] font-['Inter']
+                         mb-[0px] translate-x-[30px] h-[55px] mt-[2px] md:translate-y-[15px]">
                             <div :class="{
                                 'od': switchBlockState % 2 != 0,
                                 'even': switchBlockState % 2 === 0,
@@ -115,7 +116,8 @@ const decrementSwitchBlock = () => {
                     </div>
 
                     <div class="flex flex-col">
-                        <div v-for="value in dynamicColumnsInTable?.[switchBlockState[1]]" class="flex items-center text-white text-left text-[11px] font-[300] font-['Inter'] mb-[0px] translate-x-[30px] h-[55px] mt-[2px]">
+                        <div v-for="value in dynamicColumnsInTable?.[switchBlockState[1]]" class="flex items-center text-white text-left text-[11px] font-[300] font-['Inter'] 
+                        mb-[0px] translate-x-[30px] h-[55px] mt-[2px] md:translate-y-[15px]">
                             <div :class="{
                                 'od': switchBlockState % 2 != 0,
                                 'even': switchBlockState % 2 === 0,
@@ -124,7 +126,8 @@ const decrementSwitchBlock = () => {
                     </div>
 
                     <div class="flex flex-col">
-                        <div v-for="value in dynamicColumnsInTable?.[switchBlockState[2]]" class="flex items-center text-white text-left text-[11px] font-[300] font-['Inter'] mb-[0px] translate-x-[30px] h-[55px] mt-[2px]">
+                        <div v-for="value in dynamicColumnsInTable?.[switchBlockState[2]]" class="flex items-center text-white text-left text-[11px] font-[300] font-['Inter'] 
+                        mb-[0px] translate-x-[30px] h-[55px] mt-[2px] md:translate-y-[15px]">
                             <div :class="{
                                 'od': switchBlockState % 2 != 0,
                                 'even': switchBlockState % 2 === 0,

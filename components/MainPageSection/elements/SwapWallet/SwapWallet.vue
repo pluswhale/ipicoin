@@ -2,9 +2,9 @@
     <div class="flex flex-col translate-x-[-10px] relative sm:mt-[43px] xl:translate-x-[0px] md:translate-x-[-166px] md:translate-y-[10px] sm:w-[343px] sm:translate-x-[0]">
         <!--swap card-->
         <div class="h-[349px] px-[50px] ml-[20px] mt-[119px] py-[28px] w-[471px] bg-white/10 backdrop-blur-sm  rounded-[20px]
-        sm:h-[314px] sm:px-[37px] sm:w-[343px] sm:mt-[0] sm:ml-[0]
+        sm:h-[256px] sm:px-[37px] sm:w-[343px] sm:mt-[0] sm:ml-[0]
         xl:h-[269px] xl:w-[363px] xl:px-[36px] xl:py-[23px] 
-        md:h-[229px] md:w-[309px] md:px-[31px] md:pb-[20px] md:pt-[15px]
+        md:h-[229px] md:w-[309px] md:px-[31px] md:pb-[20px] md:pt-[15px] md:mb-[0px]
         ">
             <div class="flex flex-col w-full">
                 <!--header-->
@@ -112,7 +112,7 @@
             </div>
         </div>
 
-        <div class="hidden items-center mt-[77px] gap-[15px] translate-y-[-50px] translate-x-[-5px] min-[450px]:flex xl:hidden"
+        <div class="hidden items-center mt-[77px] gap-[15px] translate-y-[-50px] translate-x-[-5px] min-[450px]:flex xl:hidden sm:flex"
             >
                 <div class="flex flex-row items-center justify-center w-[187px] h-[55px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer">
                     <div class="flex pl-[10px] gap-[20px]">
@@ -129,7 +129,7 @@
                         <img src="~/assets/icons/playmarket_icon.svg" class="translate-y-[3px] translate-x-[3px] w-[33px] h-[37px]"/>
                         <div class="flex flex-col">
                             <span  class="text-white whitespace-nowrap font-[400] font-['Montserrat'] text-[11px] translate-y-[3px] translate-x-[-9px] uppercase ">Get It On </span>
-                            <span class="text-white whitespace-nowrap font-[600] font-['Montserrat'] text-[19px] translate-y-[-3px] translate-x-[-9px]">Google Play</span>
+                            <span class="text-white whitespace-nowrap font-[600] font-['Montserrat'] text-[19px] translate-y-[-3px] translate-x-[-9px] sm:text-[16px]">Google Play</span>
                         </div>
                     </div>
                 </div>

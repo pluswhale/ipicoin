@@ -43,7 +43,8 @@
             </div>
         </div>
         <!--row of advantages-->
-        <img class="flex w-[420px] h-[266px] self-center ml-[83px] translate-y-[-170px] lg:w-[352px] lg:h-[223px] md:w-[515px] md:h-[328px] md:translate-y-[-360px] md:ml-[0]" src="~/assets/images/platform/right_image.png"/>
+        <img class="flex w-[420px] h-[266px] self-center ml-[83px] translate-y-[-170px] lg:w-[352px] lg:h-[223px] md:w-[515px] md:h-[328px] md:translate-y-[-360px] md:ml-[0] sm:hidden"
+         src="~/assets/images/platform/right_image.png"/>
 
     </div>
 </template>

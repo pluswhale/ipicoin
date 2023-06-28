@@ -22,9 +22,10 @@ const handleOpenBurger = () => {
                 </div>
                 <nav class="flex justify-between translate-x-[-30px] min-w-[395px] sm:hidden md:hidden xl:flex xl:min-w-[313px] xl:translate-x-[15px]">
                     <ul class="flex gap-[1.85rem]">
+                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] xl:text-[12px]" to="/">IPI Scan</NuxtLink></li>
+                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] xl:text-[12px]" to="/">Advantages</NuxtLink></li>
+                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] xl:text-[12px]" to="/">Ecosystem</NuxtLink></li>
                         <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] xl:text-[12px]" to="#platform">Platform</NuxtLink></li>
-                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] xl:text-[12px]" to="/">Coins</NuxtLink></li>
-                        <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] xl:text-[12px]" to="/">Roadmap</NuxtLink></li>
                         <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] xl:text-[12px]" to="/">FAQ</NuxtLink></li>
                         <li class="list-none"><NuxtLink class=" text-[15px] text-white font-[500] font-['Barlow'] xl:text-[12px]" to="/">Contacts</NuxtLink></li>
                     </ul>
@@ -44,8 +45,8 @@ const handleOpenBurger = () => {
                     button_coin
 
                     xl:rounded-[14px]
-                    xl:pl-[8px]
-                    xl:pr-[8px]
+                    xl:pl-[9px]
+                    xl:pr-[7px]
                     xl:h-[30px]
                     xl:translate-x-[-6px]
 
@@ -60,8 +61,8 @@ const handleOpenBurger = () => {
                     <span class="font-[500] text-[16px] uppercase whitespace-nowrap text-white font-['Inter'] mr-[5px] sm:text-[10px] xl:text-[10px] md:text-[8px]">
                         Follow the ipicoin
                     </span>
-                    <img class="no_hover_arrow sm:w-[20px] md:w-[17px]" src="~/assets/icons/arrow-right.svg"/>
-                    <img class="hover_arrow sm:w-[20px] md-[17px]" src="~/assets/images/IpiScan/arrow-right.png" />
+                    <img class="no_hover_arrow xl:w-[24px] sm:w-[20px] md:w-[17px]" src="~/assets/icons/arrow-right.svg"/>
+                    <img class="hover_arrow xl:w-[24px] sm:w-[20px] md-[17px]" src="~/assets/images/IpiScan/arrow-right.png" />
                 </button>
 
                 <img  @click="handleOpenBurger" src="~/assets/icons/mobile/burger_menu.svg" class="relative z-[6] hidden  sm:block md:block xl:hidden"/>

@@ -98,7 +98,7 @@ const decrementSwitchBlock = () => {
                             Compiler Types
                         </div>
                         <div class="flex text-white text-left items-center text-[11px] font-[300] font-['Inter'] w-[130px] ml-[17px] mb-[21px]">
-                            Programming Languages
+                            <p class="h-[17px] translate-y-[-8px]">Programming<br>Languages</p>
                         </div>
                         <div class="flex bg-white/20 text-white text-center items-center text-[11px] font-[300] font-['Inter'] w-[563px] h-[55px] mb-[21px] pl-[17px]">
                             Pros

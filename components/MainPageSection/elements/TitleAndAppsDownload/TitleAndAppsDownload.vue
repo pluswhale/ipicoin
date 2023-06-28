@@ -89,15 +89,15 @@ const blockQueueInterval = setInterval(() => {
             </div>
 
                 <!-- download apps block-->
-            <div class="flex items-center mt-[77px] gap-[15px] translate-y-[-50px] translate-x-[0px] sm:hidden " >
+            <div class="flex items-center mt-[77px] gap-[15px] translate-y-[-50px] translate-x-[0px] sm:hidden xl:gap-[10px]" >
                 <div class="flex flex-row items-center justify-center w-[187px] h-[55px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer
-                xl:w-[135px] xl:h-[47px] md:w-[125px] md:h-[37px] md:rounded-[10px]">
+                xl:w-[135px] xl:h-[47px] xl:rounded-[10px] md:w-[125px] md:h-[37px] md:rounded-[10px]">
                     <div class="flex pl-[10px] gap-[20px]">
-                        <img src="~/assets/icons/apple_icon.svg" class="translate-y-[3px] translate-x-[0px] w-[30px] h-[37px] xl:w-[20px] xl:h-[25px] 
+                        <img src="~/assets/icons/apple_icon.svg" class="translate-y-[3px] translate-x-[0px] w-[30px] h-[37px] xl:w-[22px] xl:h-[27px] 
                         xl:translate-y-[3px] md:w-[20px] md:h-[26px] md:translate-y-[5px]"/>
                         <div class="flex flex-col">
                             <span class="text-white whitespace-nowrap font-[400] font-['Lato'] text-[11px] translate-y-[0px] translate-x-[-9px] xl:text-[9px] 
-                            xl:translate-y-[2px] md:translate-y-[2px] md:translate-x-[-10px]">Download on the</span>
+                            xl:translate-y-[2px] xl:font-[300] xl:leading-[11px] md:translate-y-[2px] md:translate-x-[-10px]">Download on the</span>
                             <span class="text-white whitespace-nowrap font-[500] font-['Lato'] text-[20px] translate-y-[-5px] translate-x-[-11px] xl:text-[16px] 
                             xl:translate-y-[0px]">App Store</span>
                         </div>
@@ -105,7 +105,7 @@ const blockQueueInterval = setInterval(() => {
                 </div>
 
                 <div class="flex flex-row items-center w-[187px] justify-center h-[55px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer
-                xl:w-[135px] xl:h-[47px] md:w-[125px] md:h-[37px] md:rounded-[10px]">
+                xl:w-[135px] xl:h-[47px] xl:rounded-[10px] md:w-[125px] md:h-[37px] md:rounded-[10px]">
                     <div class="flex pl-[10px] gap-[20px]">
                         <img src="~/assets/icons/playmarket_icon.svg" class="translate-y-[3px] translate-x-[3px] w-[33px] h-[37px] xl:w-[20px] xl:h-[25px] 
                         xl:translate-y-[5px] md:w-[20px] md:h-[26px] md:translate-x-[-2px]"/>
@@ -119,7 +119,7 @@ const blockQueueInterval = setInterval(() => {
                 </div>
 
                     <div class="flex flex-row items-center w-[187px] justify-center h-[55px] border-[2px] border-[#EC474E] rounded-[20px] hover:bg-[#EC474E] cursor-pointer
-                    xl:w-[135px] xl:h-[47px] md:w-[125px] md:h-[37px] md:rounded-[10px]">
+                    xl:w-[135px] xl:h-[47px] xl:rounded-[10px] md:w-[125px] md:h-[37px] md:rounded-[10px]">
                     <div class="flex pl-[10px] gap-[20px]">
                         <img src="../../../../assets/icons/mainpage/Vector.png" class="translate-y-[5px] translate-x-[3px] w-[42px] h-[36px] xl:w-[25px] xl:h-[25px] 
                         xl:translate-y-[5px] md:w-[20px] md:h-[20px] md:translate-x-[-2px] md:translate-y-[8px]"/>
