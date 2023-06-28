@@ -80,14 +80,22 @@
                             Dependency
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[30px] xl:w-[85%]">
-                            <div class="min-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left  xl:text-[10px] xl:w-[70px] xl:min-w-[70px] ">Independent</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-20px] leading-[16px] xl:text-[10px] xl:w-[70px]">Depends on Binance Chain</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-48px] leading-[16px] xl:text-[10px]">Independent</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-42px] xl:text-[10px]" >Independent</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-34px] xl:text-[10px]">Independent</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-36px] xl:text-[10px]">Built on<br> Ethereum</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-10px] xl:text-[10px]">Independent</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]">Independent</div>
+                            <div class="min-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left  xl:text-[10px] xl:w-[70px] xl:min-w-[70px] 
+                            xl:translate-x-[3px]">Independent</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-20px] leading-[16px] xl:text-[10px] xl:w-[70px]
+                            xl:translate-x-[-15px]">Depends on Binance Chain</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-48px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-25px]">Independent</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-42px] xl:text-[10px]
+                            xl:translate-x-[-25px]">Independent</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-34px] xl:text-[10px]
+                            xl:translate-x-[-25px]">Independent</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-36px] xl:text-[10px]
+                            xl:translate-x-[-25px]">Built on<br> Ethereum</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-10px] xl:text-[10px]
+                            xl:translate-x-[-10px]">Independent</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]
+                            xl:translate-x-[-10px]">Independent</div>                        
                         </div>
                     </div>
                     <!--color row-->
@@ -98,14 +106,22 @@
                             Scalability 
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[48px] xl:w-[82%]">
-                            <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[1px] xl:text-[10px]">High</div>
-                            <div class=" text-white max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[6px] xl:text-[10px]">High</div>
-                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[11px] xl:text-[10px]">High</div>
-                            <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[16px] xl:text-[10px]">High</div>
-                            <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[19px] xl:text-[10px]">Moderate</div>
-                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-14px] xl:text-[10px]">Inherits<br>Ethereum </div>
-                            <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-34px] xl:text-[10px]">High</div>
-                            <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-28px] xl:text-[10px]">High</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[1px] xl:text-[10px]
+                            xl:translate-x-[0px]">High</div>
+                            <div class=" text-white max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[6px] xl:text-[10px]
+                            xl:translate-x-[-1px]">High</div>
+                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[11px] xl:text-[10px]
+                            xl:translate-x-[9px]">High</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[16px] xl:text-[10px]
+                            xl:translate-x-[9px]">High</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[19px] xl:text-[10px]
+                            xl:translate-x-[9px]">Moderate</div>
+                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-14px] xl:text-[10px]
+                            xl:translate-x-[-8px]">Inherits<br>Ethereum </div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-34px] xl:text-[10px]
+                            xl:translate-x-[-25px]">High</div>
+                            <div class=" text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-28px] xl:text-[10px]
+                            xl:translate-x-[-25px]">High</div>
                         </div>
                     </div>
                     <!--uncolor row-->
@@ -117,13 +133,20 @@
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[48px] xl:w-[82%]">
                             <div class="max-w-[100px] min-w-[50px] text-white text-[14px] font-[500] font-['Barlow sans-serif'] text-left translate-x-[5px] xl:text-[10px]">Low</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[5px] xl:text-[10px]">Moderate</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]">Low</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[26px] xl:text-[10px]">Moderate</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[22px] xl:text-[10px]">Moderate</div>
-                            <div class="max-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[7px] xl:text-[10px]">Inherits<br>Ethereum</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[5px] xl:text-[10px]">Moderate</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[5px] xl:text-[10px]">Moderate</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[5px] xl:text-[10px]
+                            xl:translate-x-[-16px]">Moderate</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]
+                            xl:translate-x-[-8px]">Low</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[26px] xl:text-[10px]
+                            xl:translate-x-[9px]">Moderate</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[22px] xl:text-[10px]
+                            xl:translate-x-[5px]">Moderate</div>
+                            <div class="max-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[7px] xl:text-[10px]
+                            xl:translate-x-[0px]">Inherits<br>Ethereum</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[5px] xl:text-[10px]
+                            xl:translate-x-[-5px]">Moderate</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[5px] xl:text-[10px]
+                            xl:translate-x-[-5px]">Moderate</div>
                         </div>
                     </div>
                     <!--color row-->
@@ -135,16 +158,20 @@
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[48px] xl:w-[85%]">
                             <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[3px]"></div>
-                            <div class=" min-w-[50px] text-white text-left max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] leading-[16px] text-left translate-x-[20px] xl:text-[10px]">Web3.js/<br>
-                            ethers.js </div>
-                            <div class=" min-w-[50px] text-white text-left text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] leading-[16px] text-left translate-x-[28px] xl:text-[10px]">Cardano-<br>wallet,<br>cardano-<br>graphql</div>
-                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[40px] leading-[16px] xl:text-[10px]">Tendermint<br> 
-                            WebSocket<br>JSON-RPC</div>
-                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[40px] leading-[16px] xl:text-[10px]">Web3.js/<br>
-                            ethers.js </div>
-                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[40px] leading-[16px] xl:text-[10px] xl:w-[50px]">Inherits Ethereum</div>
-                            <div class=" text-white text-[14px] font-[400] max-w-[89px] font-['Barlow sans-serif'] text-left translate-x-[13px] leading-[16px] xl:text-[10px]">Polkadot.js <br> low</div>
-                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[17px] leading-[16px] xl:text-[10px]">WebSocket <br>JSON-RPC</div>
+                            <div class=" min-w-[50px] text-white text-left max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] leading-[16px] text-left translate-x-[20px] xl:text-[10px]
+                            xl:translate-x-[0px]">Web3.js/<br>ethers.js </div>
+                            <div class=" min-w-[50px] text-white text-left text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] leading-[16px] text-left translate-x-[28px] xl:text-[10px]
+                            xl:translate-x-[0px]">Cardano-<br>wallet,<br>cardano-<br>graphql</div>
+                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[40px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[0px]">Tendermint<br>WebSocket<br>JSON-RPC</div>
+                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[40px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[0px]">Web3.js/<br>ethers.js </div>
+                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[40px] leading-[16px] xl:text-[10px] xl:w-[50px]
+                            xl:translate-x-[0px]">Inherits Ethereum</div>
+                            <div class=" text-white text-[14px] font-[400] max-w-[89px] font-['Barlow sans-serif'] text-left translate-x-[13px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[0px]">Polkadot.js <br> low</div>
+                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[17px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[0px]">WebSocket <br>JSON-RPC</div>
                         </div>
                     </div>
                     <!--uncolor row-->
@@ -155,14 +182,22 @@
                             Experience
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[48px]  xl:w-[84%]">
-                            <div class="max-w-[50px] min-w-[50px] text-white text-[14px] font-[500] font-['Barlow sans-serif'] text-left translate-x-[8px] xl:text-[10px]">Mature</div>
-                            <div class="max-w-[70px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[6px] xl:text-[10px]">Growing </div>
-                            <div class="max-w-[105px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[14px] xl:text-[10px] xl:w-[40px]">Fully launched</div>
-                            <div class="max-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-15px] xl:text-[10px]">Mature</div>
-                            <div class="max-w-[90px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]">Most mature</div>
-                            <div class="max-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-27px] xl:text-[10px]">Mature</div>
-                            <div class="max-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-3px] xl:text-[10px]">Growing</div>
-                            <div class="max-w-[70px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[3px] xl:text-[10px]">Growingk</div>
+                            <div class="max-w-[50px] min-w-[50px] text-white text-[14px] font-[500] font-['Barlow sans-serif'] text-left translate-x-[8px] xl:text-[10px]
+                            xl:translate-x-[0px]">Mature</div>
+                            <div class="max-w-[70px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[6px] xl:text-[10px]
+                            xl:translate-x-[-10px]">Growing </div>
+                            <div class="max-w-[105px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[14px] xl:text-[10px] xl:w-[40px]
+                            xl:translate-x-[-6px]">Fully launched</div>
+                            <div class="max-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-15px] xl:text-[10px]
+                            xl:translate-x-[-6px]">Mature</div>
+                            <div class="max-w-[90px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]
+                            xl:translate-x-[0px]">Most mature</div>
+                            <div class="max-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-27px] xl:text-[10px]
+                            xl:translate-x-[-8px]">Mature</div>
+                            <div class="max-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-3px] xl:text-[10px]
+                            xl:translate-x-[-5px]">Growing</div>
+                            <div class="max-w-[70px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[3px] xl:text-[10px]
+                            xl:translate-x-[-5px]">Growingk</div>
                         </div>
                     </div>
                     <!--color row-->
@@ -173,14 +208,22 @@
                             Coin (Supply)
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[48px] xl:w-[84%]">
-                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[8px] xl:text-[10px]">100 М</div>
-                            <div class=" min-w-[100px] text-white max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[30px] xl:text-[10px]">BNB (170.5M)</div>
-                            <div class=" min-w-[100px] text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[6px] xl:text-[10px]">ADA (45B)</div>
-                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-20px] leading-[-16px] xl:text-[10px]">ATOM<br>(Inflationary)</div>
-                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-20px] leading-[16px] xl:text-[10px]">ETH<br>(Unlimited)</div>
-                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-13px] leading-[16px] xl:text-[10px]">MKR<br>(Governance<br>token)</div>
-                            <div class=" text-white text-[14px] font-[400] max-w-[89px] font-['Barlow sans-serif'] text-left translate-x-[-3px] leading-[16px] xl:text-[10px]">DOT (1B)</div>
-                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[23px] leading-[16px] xl:text-[10px]">SOL<br>(Inflationary)</div>
+                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[8px] xl:text-[10px]
+                            xl:translate-x-[0px]">100 М</div>
+                            <div class=" min-w-[100px] text-white max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[30px] xl:text-[10px]
+                            xl:translate-x-[15px]">BNB (170.5M)</div>
+                            <div class=" min-w-[100px] text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[6px] xl:text-[10px]
+                            xl:translate-x-[-17px]">ADA (45B)</div>
+                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-20px] leading-[-16px] xl:text-[10px]
+                            xl:translate-x-[-49px]">ATOM<br>(Inflationary)</div>
+                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-20px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-40px]">ETH<br>(Unlimited)</div>
+                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-13px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-25px]">MKR<br>(Governance<br>token)</div>
+                            <div class=" text-white text-[14px] font-[400] max-w-[89px] font-['Barlow sans-serif'] text-left translate-x-[-3px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-15px]">DOT (1B)</div>
+                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[23px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[10px]">SOL<br>(Inflationary)</div>
                         </div>
                     </div>
                     <!--uncolor row-->
@@ -191,14 +234,22 @@
                             Knowledge of coding
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[48px] xl:w-[84%]">
-                            <div class="max-w-[70px] min-w-[50px] text-white text-[14px] font-[500] font-['Barlow sans-serif'] text-left translate-x-[6px] xl:text-[10px]">Required</div>
-                            <div class="max-w-[70px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[2px] xl:text-[10px]">Required</div>
-                            <div class="max-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[2px] xl:text-[10px]">Required</div>
-                            <div class="max-w-[80px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]">Required</div>
-                            <div class="max-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]">Required</div>
-                            <div class="max-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]">Required</div>
-                            <div class="max-w-[70px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[3px] xl:text-[10px]">Required</div>
-                            <div class="max-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]">Required</div>
+                            <div class="max-w-[70px] min-w-[50px] text-white text-[14px] font-[500] font-['Barlow sans-serif'] text-left translate-x-[6px] xl:text-[10px]
+                            xl:translate-x-[0px]">Required</div>
+                            <div class="max-w-[70px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[2px] xl:text-[10px]
+                            xl:translate-x-[-8px]">Required</div>
+                            <div class="max-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[2px] xl:text-[10px]
+                            xl:translate-x-[-5px]">Required</div>
+                            <div class="max-w-[80px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]
+                            xl:translate-x-[0px]">Required</div>
+                            <div class="max-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]
+                            xl:translate-x-[0px]">Required</div>
+                            <div class="max-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]
+                            xl:translate-x-[0px]">Required</div>
+                            <div class="max-w-[70px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[3px] xl:text-[10px]
+                            xl:translate-x-[0px]">Required</div>
+                            <div class="max-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]
+                            xl:translate-x-[0px]">Required</div>
                         </div>
                     </div>
                     <!--color row-->
@@ -209,14 +260,22 @@
                             Team recognition
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[48px] xl:w-[84%]">
-                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[7px] xl:text-[10px]">Strong</div>
-                            <div class=" min-w-[50px] text-white max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]">Strong</div>
-                            <div class=" min-w-[50px] text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-2px] xl:text-[10px]">Strong</div>
-                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-7px] xl:text-[10px]">Strong</div>
-                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-10px] xl:text-[10px]">Strong</div>
-                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-12px] xl:text-[10px]">Strong</div>
-                            <div class=" text-white text-[14px] font-[400] max-w-[89px] font-['Barlow sans-serif'] text-left translate-x-[-7px] xl:text-[10px]">Strong</div>
-                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]">Strong</div>
+                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[7px] xl:text-[10px]
+                            xl:translate-x-[0px]">Strong</div>
+                            <div class=" min-w-[50px] text-white max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]
+                            xl:translate-x-[0px]">Strong</div>
+                            <div class=" min-w-[50px] text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-2px] xl:text-[10px]
+                            xl:translate-x-[-3px]">Strong</div>
+                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-7px] xl:text-[10px]
+                            xl:translate-x-[-5px]">Strong</div>
+                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-10px] xl:text-[10px]
+                            xl:translate-x-[-7px]">Strong</div>
+                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-12px] xl:text-[10px]
+                            xl:translate-x-[-10px]">Strong</div>
+                            <div class=" text-white text-[14px] font-[400] max-w-[89px] font-['Barlow sans-serif'] text-left translate-x-[-7px] xl:text-[10px]
+                            xl:translate-x-[0px]">Strong</div>
+                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[0px] xl:text-[10px]
+                            xl:translate-x-[8px]">Strong</div>
                         </div>
                     </div>
                     <!--uncolor row-->
@@ -227,14 +286,21 @@
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[30px] xl:w-[84%]">
                             <div class="min-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left"></div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-26px] leading-[16px] xl:text-[10px]">Proof of Staked<br>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-26px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-43px]">Proof of Staked<br>
                             Authority<br>(PoSA)</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-47px] leading-[16px] xl:text-[10px]">Ouroboros</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-42px] leading-[16px] xl:text-[10px]" >Tenderm<br>int</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-26px] leading-[16px] xl:text-[10px]">Proof of <br>Stake (PoS)</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-5px] leading-[16px] xl:text-[10px]">-</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[40px] leading-[16px] xl:text-[10px]">Nominated<br>Proof of Stake<br> (NPoS)</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[22px] leading-[16px] xl:text-[10px]">Proof of History<br>(PoH)</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-47px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-50px]">Ouroboros</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-42px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-40px]" >Tenderm<br>int</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-26px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-25px]">Proof of <br>Stake (PoS)</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-5px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-10px]">-</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[40px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[25px]">Nominated<br>Proof of Stake<br> (NPoS)</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[22px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[10px]">Proof of History<br>(PoH)</div>
                         </div>
                     </div>
                     <!--color row-->
@@ -246,13 +312,20 @@
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[48px] xl:w-[84%]">
                             <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[7px]"></div>
-                            <div class=" min-w-[50px] text-white max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[5px] leading-[16px] xl:text-[10px]">EVM-<br>compatible</div>
-                            <div class=" min-w-[50px] text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-2px] leading-[16px] xl:text-[10px]">IELE</div>
-                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[15px] leading-[16px] xl:text-[10px]">-</div>
-                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[8px] leading-[16px] xl:text-[10px]">EVM-<br>compatible</div>
-                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[14px] leading-[16px] xl:text-[10px]">-</div>
-                            <div class=" text-white text-[14px] font-[400] max-w-[89px] font-['Barlow sans-serif'] text-left translate-x-[45px] leading-[16px] xl:text-[10px]">EVM-<br>compatible</div>
-                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[30px] leading-[16px] xl:text-[10px]">WebAssembly<br>(Wasm)</div>
+                            <div class=" min-w-[50px] text-white max-w-[110px] text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[5px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[px]">EVM-<br>compatible</div>
+                            <div class=" min-w-[50px] text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-2px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[3px]">IELE</div>
+                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[15px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[10px]">-</div>
+                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[8px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[0px]">EVM-<br>compatible</div>
+                            <div class=" text-white text-[14px] max-w-[100px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[14px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[0px]">-</div>
+                            <div class=" text-white text-[14px] font-[400] max-w-[89px] font-['Barlow sans-serif'] text-left translate-x-[45px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[33px]">EVM-<br>compatible</div>
+                            <div class=" min-w-[50px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[30px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[23px]">WebAssembly<br>(Wasm)</div>
                         </div>
                     </div>
                     <!--uncolor row-->
@@ -264,13 +337,20 @@
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[30px] xl:w-[84%]">
                             <div class="min-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[24px] xl:text-[10px]">-</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-43px] leading-[16px] xl:text-[10px]">Solidity, Vyper</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-73px] leading-[16px] xl:text-[10px]">Plutus <br>(Marlow)</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-58px] xl:text-[10px]" >-</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-20px xl:text-[10px]]">Solidity,<br>Vyper</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-1px] xl:text-[10px]">-</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[29px] xl:text-[10px]">Ink, Rust, </div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[20px] xl:text-[10px]">IRust,C, C++,<br>AssemblyScript</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-43px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-53px]">Solidity, Vyper</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-73px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-67px]">Plutus <br>(Marlow)</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-58px] xl:text-[10px]
+                            xl:translate-x-[-48px]">-</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-20px xl:text-[10px]
+                            xl:translate-x-[-20px]">Solidity,<br>Vyper</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-1px] xl:text-[10px]
+                            xl:translate-x-[-7px]">-</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[29px] xl:text-[10px]
+                            xl:translate-x-[20px]">Ink, Rust, </div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[20px] xl:text-[10px]
+                            xl:translate-x-[15px]">IRust,C, C++,<br>AssemblyScript</div>
                         </div>
                     </div>
                     <!--color row-->
@@ -282,13 +362,19 @@
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[30px] xl:w-[84%]">
                             <div class="min-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[24px] xl:text-[10px]">-</div> 
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-43px] leading-[16px] xl:text-[10px]">Solidity, Vyper</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-73px] leading-[16px] xl:text-[10px]">Plutus <br>(Marlow)</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-58px xl:text-[10px]]" >-</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-43px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-53px]">Solidity, Vyper</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-73px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-67px]">Plutus <br>(Marlow)</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-58px xl:text-[10px]]
+                            xl:translate-x-[-51px]">-</div>
                             <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-20px] xl:text-[10px]">Solidity,<br>Vyper</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-1px] xl:text-[10px]">-</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[29px] xl:text-[10px]">Ink, Rust, </div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[20px] xl:text-[10px]">IRust,C, C++,<br>AssemblyScript</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-1px] xl:text-[10px]
+                            xl:translate-x-[-7px]">-</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[29px] xl:text-[10px]
+                            xl:translate-x-[20px]">Ink, Rust, </div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[20px] xl:text-[10px]
+                            xl:translate-x-[15px]">IRust,C, C++,<br>AssemblyScript</div>
                         </div>
                     </div>
                     <!--uncolor row-->
@@ -300,13 +386,19 @@
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[30px] xl:w-[84%]">
                             <div class="min-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[24px] xl:text-[10px]">-</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-43px] leading-[16px] xl:text-[10px]">Solidity, Vyper</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-73px] leading-[16px] xl:text-[10px]">Plutus <br>(Marlow)</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-58px] xl:text-[10px]" >-</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-43px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-53px]">Solidity, Vyper</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-73px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-67px]">Plutus <br>(Marlow)</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-58px] xl:text-[10px]
+                            xl:translate-x-[-51px]">-</div>
                             <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-20px] xl:text-[10px]">Solidity,<br>Vyper</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-1px] xl:text-[10px]">-</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[29px] xl:text-[10px]">Ink, Rust, </div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[20px] xl:text-[10px]">IRust,C, C++,<br>AssemblyScript</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-1px] xl:text-[10px]
+                            xl:translate-x-[-7px]">-</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[29px] xl:text-[10px]
+                            xl:translate-x-[20px]">Ink, Rust, </div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[20px] xl:text-[10px]
+                            xl:translate-x-[15px]">IRust,C, C++,<br>AssemblyScript</div>
                         </div>
                     </div>
                     <!--color row-->
@@ -318,13 +410,19 @@
                         </div>
                         <div class="w-[71%] flex items-center justify-between pr-[30px] xl:w-[84%]">
                             <div class="min-w-[100px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[24px] xl:text-[10px]">-</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-43px] leading-[16px] xl:text-[10px]">Solidity, Vyper</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-73px] leading-[16px] xl:text-[10px]">Plutus <br>(Marlow)</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-58px] xl:text-[10px]" >-</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-43px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-53px]">Solidity, Vyper</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-73px] leading-[16px] xl:text-[10px]
+                            xl:translate-x-[-67px]">Plutus <br>(Marlow)</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-58px] xl:text-[10px]
+                            xl:translate-x-[-51px]">-</div>
                             <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-20px] xl:text-[10px]">Solidity,<br>Vyper</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-1px] xl:text-[10px]">-</div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[29px] xl:text-[10px]">Ink, Rust, </div>
-                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[20px] xl:text-[10px]">IRust,C, C++,<br>AssemblyScript</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[-1px] xl:text-[10px]
+                            xl:translate-x-[-7px]">-</div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[29px] xl:text-[10px]
+                            xl:translate-x-[20px]">Ink, Rust, </div>
+                            <div class="max-w-[110px] text-white text-[14px] font-[400] font-['Barlow sans-serif'] text-left translate-x-[20px] xl:text-[10px]
+                            xl:translate-x-[15px]">IRust,C, C++,<br>AssemblyScript</div>
                         </div>
                     </div>
                     <!--uncolor row-->
