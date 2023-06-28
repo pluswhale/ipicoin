@@ -86,7 +86,7 @@
 
                 <!--wallets icon -->
 
-                <div class="flex flex-row items-center justify-between xl:mt-[20px] md:mt-[15px]">
+                <div class="flex flex-row items-center justify-between mt-[20px] xl:mt-[20px] md:mt-[15px] 2xl:mt-[20px]">
                     <img class="sm:h-[22px] sm:w-[84px] xl:h-[25px] xl:w-[90px] md:w-[77px] md:h-[20px]" src="~/assets/icons/swap_wallet_binance_icon.svg"/>
                     <img class="sm:h-[22px] sm:w-[84px] xl:h-[25px] xl:w-[90px] md:w-[77px] md:h-[20px]" src="~/assets/icons/swap_wallet_google_icon.svg"/>
                     <img class="sm:h-[22px] sm:w-[84px] xl:h-[25px] xl:w-[90px] md:w-[77px] md:h-[20px]" src="~/assets/icons/swap_wallet_apple_icon.svg"/>
